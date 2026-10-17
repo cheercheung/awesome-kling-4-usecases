@@ -1,0 +1,22 @@
+name: Suggest a case
+description: Share a concrete public Kling 4 example
+title: "Case suggestion: "
+body:
+  - type: input
+    id: source
+    attributes:
+      label: Original public source URL
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: What does it demonstrate?
+      description: Include creator, date, workflow or evaluation details, media, and exact public Prompt sources when available
+    validations:
+      required: true
+  - type: textarea
+    id: limits
+    attributes:
+      label: Attribution and evidence limits
+      description: Note reused footage, sponsorship, missing inputs or author-reported numbers

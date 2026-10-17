@@ -1,0 +1,17 @@
+name: Correction or rights request
+description: Correct a fact, attribution, link or media reproduction
+title: "Correction: "
+body:
+  - type: input
+    id: case
+    attributes:
+      label: Case number or affected URL
+    validations:
+      required: true
+  - type: textarea
+    id: request
+    attributes:
+      label: Requested correction
+      description: Explain the issue and provide supporting public evidence; do not include private information or credentials
+    validations:
+      required: true
