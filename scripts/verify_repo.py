@@ -7,13 +7,23 @@ import json
 import re
 import sys
 from pathlib import Path
+from html.parser import HTMLParser
 from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 LOCALES = {'es':('Caso','por'),'pt':('Caso','por'),'ja':('ケース','投稿者'),'ko':('사례','작성자'),'de':('Fall','von'),'fr':('Cas','par'),'tr':('Örnek','yazan'),'zh-TW':('案例','作者'),'zh-CN':('案例','作者'),'ru':('Пример','автор')}
 CASE = re.compile(r'^<a id="case-(\d+)"></a>\n### ([^\n:]+) \1: \[([^\]]+)\]\((https://[^)]+)\) \(([^\n]+) \[@([^\]]+)\]\((https://[^)]+)\)\)',re.M)
 CODES = re.compile(r'^```[^\n]*\n(.*?)\n```$',re.M|re.S)
-IMAGES = re.compile(r'!\[[^\]]*\]\((https://[^)]+)\)')
+class Media(HTMLParser):
+    def __init__(self):super().__init__();self.items=[];self.href=''
+    def handle_starttag(self,tag,attrs):
+        a=dict(attrs)
+        if tag=='a':self.href=a.get('href','')
+        if tag=='img':self.items.append({**a,'link':self.href})
+    def handle_endtag(self,tag):
+        if tag=='a':self.href=''
+def media(body):
+    parser=Media();parser.feed(CODES.sub('',body));return parser.items
 errors=[]
 def expect(condition,message):
     if not condition:errors.append(message)
@@ -38,6 +48,8 @@ def anchors(text):
 def main():
     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--english-only',action='store_true');args=parser.parse_args()
     data=json.loads((ROOT/'data/use-cases.json').read_text())
+    config=json.loads((ROOT/'data/usecase-update-config.json').read_text())
+    presentation=config['presentation'];height=str(presentation['case_image_height'])
     items=data['items']; english=(ROOT/'README.md').read_text(); enblocks=blocks(english)
     expect(len(items)>0,'empty curated dataset')
     expect([c['public_number'] for c in items]==list(range(1,len(items)+1)),'dataset public numbering is not contiguous')
@@ -50,12 +62,14 @@ def main():
         expect((int(n),label,title,source,by,handle,author)==(c['public_number'],'Case',c['title'],c['source_url'],'by',c['author_handle'],c['author_url']),prefix+': English identity differs from dataset')
         takeaway=re.search(r'^\*\*(.+)\*\*$',body,re.M)
         expect(takeaway is not None and takeaway.group(1)==c['takeaway'],prefix+': takeaway differs from dataset')
-        for note in c['body_notes']:expect(note in body,prefix+': source note missing')
-        expect(f'Type: {c["type"]} | Date: {c["date"]}' in body,prefix+': metadata differs from dataset')
-        expect(f'[![{c["title"]}]({c["poster_url"]})]({c["playable_video_url"]})' in body,prefix+': poster/playback pair missing')
+        expect(f'<sub>{c["date"]}</sub>' in body,prefix+': source date differs from dataset')
+        images=media(body)
+        expect(bool(images) and images[0]['link']==c['playable_video_url'],prefix+': poster/playback pair missing')
         expected=[c['poster_url'],*c['r2_media_urls']]
-        observed=IMAGES.findall(body)
+        observed=[x.get('src') for x in images]
         expect(observed==expected,prefix+': media set/order differs from source-derived denominator')
+        expect(all(x.get('height')==height and not x.get('width') for x in images),prefix+': case images must preserve ratio at fixed height')
+        expect(bool(images) and images[0].get('alt')==c['title'],prefix+': poster alt differs from title')
         expect(c['source_media_count']==len(c['source_media_urls'])==len(expected)==c['expected_public_visual_count'],prefix+': source/public media counts differ')
         for url in expected+[c['playable_video_url']]:expect('.r2.dev/' in url,prefix+': non-R2 display/playback URL')
         actual_codes=CODES.findall(body)
@@ -87,9 +101,26 @@ def main():
                 expect(title!=c['title'],prefix+': untranslated title')
                 takeaway=re.search(r'^\*\*(.+)\*\*$',body,re.M)
                 expect(takeaway is not None and takeaway.group(1)!=c['takeaway'],prefix+': untranslated/missing takeaway')
-                expect(IMAGES.findall(body)==[c['poster_url'],*c['r2_media_urls']],prefix+': source-derived media set differs')
-                expect(f'](#case-{n})' in text and f'[{title}](#case-{n})' in text,prefix+': translated Menu title differs')
-                expect(f'Type: {c["type"]} | Date: {c["date"]}' in body,prefix+': metadata differs')
+                images=media(body)
+                expect([x.get('src') for x in images]==[c['poster_url'],*c['r2_media_urls']],prefix+': source-derived media set differs')
+                expect(all(x.get('height')==height and not x.get('width') for x in images),prefix+': fixed-height images differ')
+                expect(bool(images) and images[0]['link']==c['playable_video_url'] and images[0].get('alt')==title,prefix+': poster label/playback differs')
+                expect(f'<sub>{c["date"]}</sub>' in body,prefix+': source date differs')
+    readmes=[ROOT/'README.md'] if args.english_only else sorted(ROOT.glob('README*.md'))
+    categories=list(dict.fromkeys(c['category'] for c in items))
+    for path in readmes:
+        text=path.read_text()
+        expect(not re.search(r'^Type:',text,re.M),f'{path.name}: unwanted type label')
+        expect('https://evolink.ai' not in text,f'{path.name}: unwanted promotion')
+        expect('<a id="quick-start">' not in text,f'{path.name}: unwanted Quick Start')
+        expect('docs/collection-scope.md' not in text and 'data/use-cases.csv' not in text,f'{path.name}: unwanted research/download paragraph')
+        nav=re.findall(r'\]\(#category-([^)]+)\)\s*\|\s*(\d+)',text)
+        expect(nav==[(cat,str(sum(c['category']==cat for c in items))) for cat in categories],f'{path.name}: category navigation/count differs from dataset')
+        for i,cat in enumerate(categories):
+            start=text.find(f'<a id="category-{cat}"></a>')
+            end=text.find(f'<a id="category-{categories[i+1]}"></a>') if i+1<len(categories) else text.find('<a id="acknowledge">')
+            found=[int(x) for x in re.findall(r'<a id="case-(\d+)"></a>',text[start:end])]
+            expect(found==[c['public_number'] for c in items if c['category']==cat],f'{path.name}: case/category grouping differs')
     paths=[p for p in ROOT.rglob('*.md') if not {'.git','.codex'} & set(p.relative_to(ROOT).parts)]
     for path in paths:
         text=path.read_text();relative=path.relative_to(ROOT)

@@ -3,7 +3,7 @@
     "heading_prefix": "Case",
     "anchor_prefix": "case",
     "numbering_order": "document",
-    "menu_policy": "per-case",
+    "menu_policy": "category-menu",
     "category_anchors": [
       "category-workflow",
       "category-ads",
@@ -30,5 +30,13 @@
   "structured_data": {
     "path": "data/use-cases.json",
     "items_key": "items"
+  },
+  "presentation": {
+    "case_image_height": 280,
+    "show_case_notes": false,
+    "show_type_labels": false,
+    "show_quick_start": false,
+    "show_promotion": false,
+    "menu_layout": "category-counts"
   }
 }

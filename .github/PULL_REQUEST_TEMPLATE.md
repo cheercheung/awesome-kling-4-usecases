@@ -14,7 +14,8 @@ Describe the concrete case or correction and link its original source
 
 - [ ] English README and curated JSON, CSV and Markdown index agree
 - [ ] All ten localized READMEs preserve case identity, order, media and source links
-- [ ] Titles, takeaways and notes are translated; Prompt/code blocks are unchanged
+- [ ] Titles and short takeaways are translated; Prompt/code blocks are unchanged
+- [ ] Cases are grouped by category, images are 280px high, and no type/audit/promotion/Quick Start text is reintroduced
 - [ ] No API/Skill installer or unrelated repository release work is added
 
 ## Validation

@@ -197,7 +197,7 @@
       "category_id": "workflow",
       "type": "Tutorial",
       "title": "A mobile chat interface tracks a video task",
-      "takeaway": "Inspect the author's proposed Codex-to-MCP handoff before reproducing it with your own verified tools.",
+      "takeaway": "Explore a mobile chat workflow for creating and tracking video tasks.",
       "body_notes": [
         "The recording shows chat and task status; the author's subscription-credit discussion does not establish a universal API billing rule."
       ],
@@ -331,7 +331,7 @@
       "category_id": "ads",
       "type": "Demo",
       "title": "A multi-person skincare UGC montage",
-      "takeaway": "Use the visible advertising format to plan a controlled UGC experiment with explicit production records.",
+      "takeaway": "Explore multi-person UGC product-video formats.",
       "body_notes": [
         "The author promotes Higgsfield MCP and reports low production costs; no advertising-performance or billing evidence is supplied."
       ],
@@ -1156,7 +1156,7 @@
       "category_id": "story",
       "type": "Demo",
       "title": "A compilation of vehicles, soldiers and close-ups",
-      "takeaway": "Use the montage to shortlist specific tasks for separate controlled tests.",
+      "takeaway": "Explore vehicles, battlefield scenes and character close-ups in one compilation.",
       "body_notes": [
         "The approximately 63-second attachment is a compilation and does not establish a single native generation length."
       ],
@@ -2151,7 +2151,7 @@
       "category_id": "story",
       "type": "Demo",
       "title": "A woman enjoys a courtyard foot bath",
-      "takeaway": "Study ordinary gestures, clothing and a quiet setting instead of complex action.",
+      "takeaway": "Study everyday gestures, clothing and a quiet courtyard setting.",
       "body_notes": [
         "The creator reports a ten-second 1080p run and a credit amount, with uncertainty about promotional pricing."
       ],
@@ -2690,7 +2690,7 @@
       "category_id": "action",
       "type": "Demo",
       "title": "Boxing exchanges with a moving camera",
-      "takeaway": "Inspect punches, defensive body shifts and close-range contact without relying on a single attractive frame.",
+      "takeaway": "Inspect punches, defensive movement and close-range contact.",
       "body_notes": [
         "Two gloved boxers trade blows in a ring as the camera changes distance and angle."
       ],
@@ -3220,7 +3220,7 @@
       "category_id": "action",
       "type": "Demo",
       "title": "Karate fighters interact with a padded floor",
-      "takeaway": "Inspect contact between performers and their surroundings rather than treating motion as isolated poses.",
+      "takeaway": "Inspect contact between fighters and the padded floor.",
       "body_notes": [
         "The creator highlights a foot pressing into a mat during a dojo fight; this is a source observation, not a measured physics benchmark."
       ],
@@ -3893,7 +3893,7 @@
       "category_id": "game",
       "type": "Demo",
       "title": "A flying car climbs a giant night ramp",
-      "takeaway": "Use the clip as a cinematic vehicle-concept reference rather than evidence of a working game.",
+      "takeaway": "Study vehicle motion and camera framing on a giant ramp.",
       "body_notes": [
         "A branded platform showcase follows a car up a steep ramp before a flight-like launch."
       ],
@@ -6053,7 +6053,7 @@
       "category_id": "evaluation",
       "type": "Evaluation",
       "title": "Kling and Seedance share a forest-fight Prompt",
-      "takeaway": "Compare the two displayed outputs while retaining the creator's stated settings and evaluation limits.",
+      "takeaway": "Compare forest-fight choreography and camera cuts across two models.",
       "body_notes": [
         "Both outputs are labeled 720p, with Kling audio used; the creator favors Seedance for cuts, timing and motion adherence in this test."
       ],
@@ -6321,7 +6321,7 @@
       "category_id": "evaluation",
       "type": "Evaluation",
       "title": "A presenter changes during an audio-drift test",
-      "takeaway": "Use the sample as a starting point for your own measured synchronization check.",
+      "takeaway": "Study continuity as the presenter changes appearance.",
       "body_notes": [
         "The creator says the test passes; sampled frames confirm a changing presenter, not the accuracy of speech synchronization."
       ],
@@ -6383,7 +6383,7 @@
       "category_id": "evaluation",
       "type": "Evaluation",
       "title": "Kling and Seedance generate the same flying-car concept",
-      "takeaway": "Compare the two labeled video tracks while retaining the platform's comparison framing.",
+      "takeaway": "Compare Kling and Seedance on the same flying-car scene.",
       "body_notes": [
         "Pollo AI says the same Prompt was used; the actual Prompt and controlled repeated trials are not provided."
       ],

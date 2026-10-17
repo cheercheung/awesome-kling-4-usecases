@@ -2,10 +2,9 @@
 
 # Kling 4 Use Cases
 
-<a href="https://evolink.ai/models?utm_source=github&utm_medium=banner&utm_campaign=awesome-kling-4-usecases&utm_content=es_banner"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/images/en.png" alt="Casos de uso de Kling 4" width="760"></a>
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/images/en.png" alt="Casos de uso de Kling 4" width="760">
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
-[![EvoLink](https://img.shields.io/badge/Explore_video_models-EvoLink-black)](https://evolink.ai/models?utm_source=github&utm_medium=badge&utm_campaign=awesome-kling-4-usecases&utm_content=es_badge)
 
 [![English](https://img.shields.io/badge/English-111111)](README.md) [![Español](https://img.shields.io/badge/Espa%C3%B1ol-ffb703)](README_es.md) [![Português](https://img.shields.io/badge/Portugu%C3%AAs-2a9d8f)](README_pt.md) [![日本語](https://img.shields.io/badge/%E6%97%A5%E6%9C%AC%E8%AA%9E-52b788)](README_ja.md) [![한국어](https://img.shields.io/badge/%ED%95%9C%EA%B5%AD%EC%96%B4-4ea8de)](README_ko.md) [![Deutsch](https://img.shields.io/badge/Deutsch-f4a261)](README_de.md) [![Français](https://img.shields.io/badge/Fran%C3%A7ais-e76f51)](README_fr.md) [![Türkçe](https://img.shields.io/badge/T%C3%BCrk%C3%A7e-d62828)](README_tr.md) [![繁體中文](https://img.shields.io/badge/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-8338ec)](README_zh-TW.md) [![简体中文](https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-ef476f)](README_zh-CN.md) [![Русский](https://img.shields.io/badge/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-577590)](README_ru.md)
 
@@ -15,115 +14,22 @@
 
 **Explora Kling 4 / 4.0 mediante vídeos públicos, procesos de creadores e instrucciones publicadas.** Esta colección ayuda a cineastas, desarrolladores creativos y evaluadores a elegir escenas concretas para estudiar o probar. Cada caso enlaza a la publicación y a la cuenta que la compartió.
 
-Abre un vídeo desde su portada, lee las notas y copia un Prompt solo cuando el autor lo haya publicado. La cuenta puede ser distribuidora; atribuirle la publicación no demuestra autoría original.
-
-[Explora modelos de vídeo en EvoLink](https://evolink.ai/models?utm_source=github&utm_medium=introduction&utm_campaign=awesome-kling-4-usecases&utm_content=es_introduction)
-
 ## 📊 Resumen
 
-**83 casos seleccionados · 11 Prompts públicos en 10 casos · 8 categorías.** Incluyen procesos, publicidad, narrativa, acción, conceptos de juego, animación, mundos y comparaciones. Cada caso tiene fuente, cuenta, aprendizaje práctico, medios, tipo y fecha de origen en UTC.
-
-> [!NOTE]
-> Son ejemplos con fuentes, no llamadas independientes verificadas a la API de Kling ni pruebas controladas. Algunos son fragmentos de una misma película. Un vídeo con aspecto de juego no es un juego ejecutable y la duración de una película montada no es la de una generación nativa. Precios y créditos siguen siendo declaraciones de sus autores.
-
-Descarga los [datos de casos](data/use-cases.json) o el [CSV ordenable](data/use-cases.csv), con interacción capturada, disponibilidad de Prompts y relaciones de fuentes. El [alcance de recogida](docs/collection-scope.md) explica las dos ventanas de búsqueda y su intervalo: es una colección fechada, no un índice exhaustivo en vivo.
-
-<a id="quick-start"></a>
-## ⚡ Primeros pasos
-
-1. [Explora los modelos de vídeo de EvoLink](https://evolink.ai/models?utm_source=github&utm_medium=quick_start&utm_campaign=awesome-kling-4-usecases&utm_content=es_quick_start) y crea una cuenta o inicia sesión
-2. [Crea o recupera una clave API](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=api_key&utm_campaign=awesome-kling-4-usecases&utm_content=es_api_key) para usar modelos compatibles
-3. Comprueba la disponibilidad antes de enviar una tarea. **A fecha de 2026-10-17 no se ha verificado una ruta API ni una Skill instalable de Kling 4 para esta colección.** [Consulta la configuración de Codex CLI](https://evolink.ai/docs/en/cli/codex?utm_source=github&utm_medium=setup_docs&utm_campaign=awesome-kling-4-usecases&utm_content=es_setup_docs) como material general; no es un primer ejemplo verificado de Kling 4
-
-Este repositorio es una biblioteca de investigación e inspiración. No contiene ejemplos API ejecutables ni un instalador del modelo. No sustituyas otra variante de Kling al reproducir un caso.
+**83 casos seleccionados · 11 Prompts públicos en 10 casos · 8 categorías.**
 
 ## 📑 Índice
 
-| Caso | Categoría | Qué examinar | Tipo |
-|---|---|---|---|
-| [Referencias de personajes y entornos de ciencia ficción](#case-1) | Procesos y referencias | Examina la presentación de fichas de personaje y entorno junto a un encargo de vídeo extenso. | Demo |
-| [Del guion de un agente a una secuencia anime](#case-2) | Procesos y referencias | Sigue el proceso de guion, storyboard y Prompt como patrón de planificación para animación breve. | Tutorial |
-| [Referencias para una escena fantástica monumental](#case-3) | Procesos y referencias | Examina la relación entre la ficha del personaje, la del entorno y el encargo de la escena. | Demo |
-| [Un chat móvil sigue una tarea de vídeo](#case-4) | Procesos y referencias | Examina la conexión propuesta entre Codex y MCP antes de reproducirla con herramientas verificadas. | Tutorial |
-| [Anuncio de un SUV Kia por una carretera boscosa](#case-5) | Publicidad e historias de producto | Usa el guion de quince planos para planificar la continuidad de un vehículo en treinta segundos. | Demo |
-| [Montaje UGC de cosméticos con varias personas](#case-6) | Publicidad e historias de producto | Usa el formato publicitario para diseñar un experimento UGC con registros de producción explícitos. | Demo |
-| [Un dragón diminuto carameliza un postre](#case-7) | Publicidad e historias de producto | Estudia narrativa de producto guiada por un personaje y una acción culinaria concreta. | Demo |
-| [Un envase de zumo de naranja protagoniza un anuncio](#case-8) | Publicidad e historias de producto | Estudia visibilidad del envase, imágenes de fruta y transiciones alrededor de un producto. | Demo |
-| [Una chica con auriculares en una habitación pastel](#case-9) | Personajes y narrativa | Observa la apariencia del personaje en primeros planos, movimientos de cuerpo entero y un entorno constante. | Demo |
-| [Un hombre se acerca a una columnata clásica](#case-10) | Personajes y narrativa | Estudia movimientos contenidos y continuidad arquitectónica en la secuencia visible. | Demo |
-| [Primer plano emotivo de una mujer con pelo mojado](#case-11) | Personajes y narrativa | Estudia los cambios faciales sutiles y el encuadre en una interpretación centrada en el diálogo. | Demo |
-| [Una madre y su hija comparten un momento de cine](#case-12) | Personajes y narrativa | Estudia cómo una escena emotiva breve se apoya en una historia personal concreta. | Demo |
-| [Dos presentadores conducen un informativo japonés](#case-13) | Personajes y narrativa | Diseña una evaluación de diálogo, puesta en escena de dos personas y gráficos en pantalla. | Demo |
-| [Un kart diminuto recorre un vestíbulo de oficinas](#case-14) | Personajes y narrativa | Estudia el contraste cómico de escala situando un vehículo inesperado en arquitectura cotidiana. | Demo |
-| [Un paseo de verano desde la mirada del novio](#case-15) | Personajes y narrativa | Copia el encargo detallado para planificar treinta segundos de gestos cotidianos compartidos. | Demo |
-| [Recopilación de vehículos, soldados y primeros planos](#case-16) | Personajes y narrativa | Selecciona tareas concretas del montaje para después realizar pruebas controladas por separado. | Demo |
-| [King Cards mezcla magia y vuelo urbano](#case-17) | Personajes y narrativa | Estudia cómo una película más larga conecta magia escénica, vehículos de papel y un pájaro rojo recurrente. | Demo |
-| [Una mujer rural afronta la tormenta con un tractor](#case-18) | Personajes y narrativa | Estudia cómo personaje, maquinaria y clima transmiten una premisa narrativa breve. | Demo |
-| [Aventura de dinosaurios retro con encargos de plano reutilizables](#case-19) | Personajes y narrativa | Estudia la película junto a los encargos públicos de acción de siete segundos y conducción de ocho. | Demo |
-| [Un repartidor abre un ascensor hacia otros mundos](#case-20) | Personajes y narrativa | Estudia la reacción de un protagonista recurrente cuando una puerta habitual revela entornos cambiantes. | Demo |
-| [Un fontanero tortuga entra en una comedia subterránea](#case-21) | Personajes y narrativa | Separa concepto, diseño, guion, diálogo y sonido mediante las notas de proceso del creador. | Demo |
-| [Una persecución callejera acaba con una sorpresa vehicular](#case-22) | Personajes y narrativa | Estudia el ritmo cómico mediante movimiento, encuadre y cambios en la situación callejera. | Demo |
-| [Una joven heroína descubre un dragón azul](#case-23) | Personajes y narrativa | Estudia la construcción de una secuencia montada con personajes recurrentes a partir de una premisa fantástica. | Demo |
-| [Un vehículo de papel llega a una ciudad floral](#case-24) | Personajes y narrativa | Examina cambios de personaje, vehículo y entorno en un extracto de King Cards. | Demo |
-| [Pasajeros de piedra se vuelven humanos en un carruaje](#case-25) | Personajes y narrativa | Estudia una transformación breve manteniendo las posiciones de los personajes en un vehículo móvil. | Demo |
-| [Un mago llena de cartas un teatro circular](#case-26) | Personajes y narrativa | Examina actuación central, objetos móviles y público como una sola escena. | Demo |
-| [Una mujer disfruta de un baño de pies en un patio](#case-27) | Personajes y narrativa | Estudia gestos cotidianos, ropa y un entorno tranquilo en una escena sencilla. | Demo |
-| [Un halcón articula un corto sobre denuncias sociales](#case-28) | Personajes y narrativa | Estudia cómo un motivo de personaje conecta planos de interfaz telefónica en un mensaje temático. | Demo |
-| [Un gato naranja acecha por una cocina](#case-29) | Personajes y narrativa | Estudia pequeñas acciones del personaje y cambios de distancia de cámara en un interior cotidiano. | Demo |
-| [Dos hombres se encuentran y abrazan en una calle](#case-30) | Personajes y narrativa | Examina acercamiento, contacto físico y posiciones en una interacción social breve. | Demo |
-| [Duelo de espadas sobre nubes a la luz lunar](#case-31) | Acción e interacción física | Examina la acción entre varios personajes, la puesta en escena aérea y la continuidad del vestuario. | Demo |
-| [Combate de taekwondo en un gimnasio](#case-32) | Acción e interacción física | Compara el contacto corporal, las distancias y la posición de la cámara durante el combate. | Demo |
-| [Dos deportivos se persiguen por la ciudad](#case-33) | Acción e interacción física | Estudia la identidad de los vehículos y la dirección del movimiento entre cambios rápidos de cámara. | Demo |
-| [Intercambios de boxeo con cámara móvil](#case-34) | Acción e interacción física | Examina golpes, movimientos defensivos y contacto cercano a lo largo de la secuencia. | Demo |
-| [Una heroína atraviesa una calle entre explosiones](#case-35) | Acción e interacción física | Estudia un personaje recurrente junto a vehículos, humo y grandes efectos de fondo. | Demo |
-| [Una joven se enfrenta a una criatura urbana](#case-36) | Acción e interacción física | Compara la escala humana y la de la criatura durante una confrontación en la ciudad. | Demo |
-| [Un depredador mecánico atraviesa una selva alienígena](#case-37) | Acción e interacción física | Usa el Prompt público para estudiar aceleración, reacciones del entorno y cámara en mano que retrocede. | Demo |
-| [Jinetes intercambian golpes de lanza](#case-38) | Acción e interacción física | Examina la interacción de jinetes, el movimiento de caballos y el contacto de armas en campo abierto. | Demo |
-| [Karatecas interactúan con un suelo acolchado](#case-39) | Acción e interacción física | Examina el contacto entre intérpretes y entorno en lugar de considerar solo poses aisladas. | Demo |
-| [Un empleado de tienda se enfrenta a un luchador](#case-40) | Acción e interacción física | Examina contacto cercano y continuidad en un ejemplo de acción con diálogo japonés. | Demo |
-| [Guerreros acorazados se enfrentan en una plataforma de piedra](#case-41) | Acción e interacción física | Examina la puesta en escena de combate mediante poses dirigidas por fotogramas clave. | Demo |
-| [Un gato corre por un pueblo de noche](#case-42) | Acción e interacción física | Copia el Prompt de plano continuo para explorar movimiento rápido entre interiores y exteriores conectados. | Demo |
-| [Duelo de samuráis en un bosque lluvioso](#case-43) | Acción e interacción física | Examina la estabilidad del vestuario y el contacto de armas en una pelea bajo lluvia intensa. | Demo |
-| [Una mujer de oscuro lucha en un bosque](#case-44) | Acción e interacción física | Examina poses y cámara entre versiones recodificadas de la misma secuencia forestal. | Demo |
-| [Un pájaro rojo de papel enfrenta un pulpo morado](#case-45) | Acción e interacción física | Estudia la interacción de un sujeto volador pequeño con una gran criatura construida. | Demo |
-| [Un jugador de baloncesto realiza un mate volador](#case-46) | Acción e interacción física | Examina trayectoria corporal, posición del balón y contacto con el aro. | Demo |
-| [Concepto de videojuego con una cazarrecompensas](#case-47) | Conceptos de juegos y vehículos | Usa el vídeo como referencia para un tráiler que combine acción y diálogo. | Demo |
-| [Un coche volador sube por una rampa nocturna gigante](#case-48) | Conceptos de juegos y vehículos | Usa el vídeo como referencia cinematográfica de vehículos, sin tomarlo como prueba de un juego funcional. | Demo |
-| [Un deportivo corre por una carretera costera](#case-49) | Conceptos de juegos y vehículos | Examina cámara de persecución, iluminación y elementos superpuestos en un concepto de vídeo de carreras. | Demo |
-| [Un caza cruza un entorno insular](#case-50) | Conceptos de juegos y vehículos | Examina el movimiento de cámara de vuelo y la composición de una interfaz de videojuego. | Demo |
-| [Un personaje planea entre islas flotantes](#case-51) | Conceptos de juegos y vehículos | Estudia transiciones entre espacios cerrados y vistas aéreas amplias en un concepto en tercera persona. | Demo |
-| [Un concepto de carreras de motos sigue al piloto](#case-52) | Conceptos de juegos y vehículos | Examina animación de la moto, distancia de cámara e iluminación de la pista. | Demo |
-| [Tiroteo en un puerto desde primera persona](#case-53) | Conceptos de juegos y vehículos | Copia el encargo táctico cronometrado para definir un objetivo visual de quince segundos. | Demo |
-| [Coches voladores atraviesan una ciudad futura](#case-54) | Conceptos de juegos y vehículos | Examina las transiciones entre conducción, vuelo y puntos urbanos reconocibles. | Demo |
-| [La policía persigue un coche volador por la ciudad](#case-55) | Conceptos de juegos y vehículos | Examina cómo una cámara de persecución combina tráfico terrestre y movimientos de vuelo. | Demo |
-| [Un concepto de conducción costera pasa a vuelo en helicóptero](#case-56) | Conceptos de juegos y vehículos | Examina transiciones entre un vehículo, un personaje a pie y una secuencia aérea. | Demo |
-| [Videoclip ilustrado con pasajes de imagen real](#case-57) | Animación y personajes estilizados | Estudia cómo un videoclip terminado combina estilos y motivos emocionales recurrentes. | Demo |
-| [Una abuela conoce a un diminuto dragón de arcilla](#case-58) | Animación y personajes estilizados | Estudia la interacción y los materiales en una animación breve ambientada en una cocina. | Demo |
-| [Un cocinero anime trabaja en un mercado nocturno](#case-59) | Animación y personajes estilizados | Examina manos, objetos e iluminación en una breve secuencia de cocina estilizada. | Demo |
-| [Luchadores en miniatura en una batalla stop motion](#case-60) | Animación y personajes estilizados | Estudia cómo la escala reducida y el estilo stop motion construyen una secuencia de acción. | Demo |
-| [Una chica duerme sobre una luna creciente luminosa](#case-61) | Animación y personajes estilizados | Examina un motivo decorativo de luz y movimientos suaves del personaje. | Demo |
-| [Peatones participan en un baile colectivo urbano](#case-62) | Animación y personajes estilizados | Examina movimiento de grupos, distribución espacial y cambios de perspectiva en una danza callejera. | Demo |
-| [Espadachines anime luchan bajo nubes de tormenta](#case-63) | Animación y personajes estilizados | Estudia siluetas legibles e interacción de espadas en un combate estilizado. | Demo |
-| [Un conjunto baila en un escenario en blanco y negro](#case-64) | Animación y personajes estilizados | Estudia coreografía e iluminación al eliminar el color de la escena. | Demo |
-| [Una ardilla juega con nieve en el bosque](#case-65) | Animación y personajes estilizados | Estudia movimiento animal expresivo y coherencia de un estilo animado suave. | Demo |
-| [Una figura de rojo cruza un mundo de dulces](#case-66) | Animación y personajes estilizados | Estudia movimiento estilizado de personajes frente a un entorno de formas de repostería. | Demo |
-| [Un gato blanco coronado come curry](#case-67) | Animación y personajes estilizados | Estudia cómo vestuario, comida y expresión sostienen una viñeta de personaje animal. | Demo |
-| [Un viaje por el bosque se convierte en vuelo](#case-68) | Mundos y criaturas | Examina la transición continua desde un bosque cerrado hasta una amplia vista aérea. | Demo |
-| [Figuras sin rostro en un montaje de terror](#case-69) | Mundos y criaturas | Examina la continuidad de las criaturas y las transiciones entre motivos inquietantes. | Demo |
-| [Un asentamiento alienígena esférico cobra vida](#case-70) | Mundos y criaturas | Copia el Prompt público para explorar movimientos ambientales coordinados en una ciudad ficticia. | Demo |
-| [Animales alienígenas gigantes cruzan una laguna](#case-71) | Mundos y criaturas | Copia el Prompt para explorar peso, desplazamiento del agua y movimiento gradual de grúa. | Demo |
-| [Un gran meca despega de una cubierta](#case-72) | Mundos y criaturas | Estudia articulación mecánica, escala y transición desde la postura en tierra hasta el vuelo. | Demo |
-| [Una criatura gigante se acerca a un puente congestionado](#case-73) | Mundos y criaturas | Examina la escala entre criatura, vehículos y personas bajo lluvia intensa. | Demo |
-| [Vehículos de periódico recorren una ciudad de papel](#case-74) | Mundos y criaturas | Examina la coherencia de materiales y la cámara de seguimiento en una ciudad de origami. | Demo |
-| [Un meca pesado camina y dispara en una ladera](#case-75) | Mundos y criaturas | Examina la relación entre movimiento mecánico, contacto con el terreno y un arma sobredimensionada. | Demo |
-| [Figuras góticas recorren una noche lluviosa](#case-76) | Mundos y criaturas | Examina atmósfera, siluetas y motivos visuales recurrentes. | Demo |
-| [Un carruaje de papel entra en un túnel de hongos luminosos](#case-77) | Mundos y criaturas | Examina la transición desde una vista limitada del vehículo hacia un entorno luminoso. | Demo |
-| [Kling y Seedance comparten un Prompt de combate](#case-78) | Comparaciones y evaluación | Compara ambas salidas conservando los ajustes declarados y los límites de la evaluación. | Evaluation |
-| [Dos mujeres conversan en un plano fijo de cafetería](#case-79) | Comparaciones y evaluación | Usa el Prompt de diálogo exacto para probar turnos de habla y sincronización labial de perfil. | Evaluation |
-| [Las variantes Standard y Flash presentan cinco interlocutores](#case-80) | Comparaciones y evaluación | Compara la posición de los personajes y la composición entre las dos salidas mostradas. | Evaluation |
-| [Un luchador con cabeza de tigre prueba el contacto](#case-81) | Comparaciones y evaluación | Examina acciones de contacto y uso de referencias de personaje en la pelea del creador. | Evaluation |
-| [Un presentador cambia durante una prueba de desfase sonoro](#case-82) | Comparaciones y evaluación | Usa la muestra como punto de partida para medir la sincronización por tu cuenta. | Evaluation |
-| [Kling y Seedance generan el mismo concepto de coche volador](#case-83) | Comparaciones y evaluación | Compara las dos pistas etiquetadas conservando el encuadre comparativo de la plataforma. | Evaluation |
+| Categoría | Casos |
+|---|---|
+| [🛠️ Procesos y referencias](#category-workflow) | 4 |
+| [📦 Publicidad e historias de producto](#category-ads) | 4 |
+| [🎬 Personajes y narrativa](#category-story) | 22 |
+| [⚔️ Acción e interacción física](#category-action) | 16 |
+| [🎮 Conceptos de juegos y vehículos](#category-game) | 10 |
+| [🎨 Animación y personajes estilizados](#category-animation) | 11 |
+| [🌍 Mundos y criaturas](#category-world) | 10 |
+| [🔬 Comparaciones y evaluación](#category-evaluation) | 6 |
 
 <a id="category-workflow"></a>
 ## 🛠️ Procesos y referencias
@@ -133,11 +39,11 @@ Este repositorio es una biblioteca de investigación e inspiración. No contiene
 
 **Examina la presentación de fichas de personaje y entorno junto a un encargo de vídeo extenso.**
 
-El vídeo muestra un mundo desértico, referencias y texto de Prompt desplazándose; no se ha transcrito completo.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D11/video-c7f71e602146.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D11/poster-c7f71e602146.jpg" alt="Referencias de personajes y entornos de ciencia ficción" height="280"></a>
+</p>
 
-[![Referencias de personajes y entornos de ciencia ficción](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D11/poster-c7f71e602146.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D11/video-c7f71e602146.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -146,11 +52,11 @@ Type: Demo | Date: 2026-10-16
 
 **Sigue el proceso de guion, storyboard y Prompt como patrón de planificación para animación breve.**
 
-El autor declara escribir con Opus 5.5 y generar con Claude y MCP; la animación no verifica los registros de ejecución.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D15/video-a0d7f303f6cf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D15/poster-a0d7f303f6cf.jpg" alt="Del guion de un agente a una secuencia anime" height="280"></a>
+</p>
 
-[![Del guion de un agente a una secuencia anime](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D15/poster-a0d7f303f6cf.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D15/video-a0d7f303f6cf.mp4)
-
-Type: Tutorial | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -159,24 +65,24 @@ Type: Tutorial | Date: 2026-10-16
 
 **Examina la relación entre la ficha del personaje, la del entorno y el encargo de la escena.**
 
-La presentación combina un espacio abovedado y Prompt desplazándose; su texto completo no está transcrito.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D19/video-225fcfcd6ec2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D19/poster-225fcfcd6ec2.jpg" alt="Referencias para una escena fantástica monumental" height="280"></a>
+</p>
 
-[![Referencias para una escena fantástica monumental](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D19/poster-225fcfcd6ec2.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D19/video-225fcfcd6ec2.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 <a id="case-4"></a>
 ### Caso 4: [Un chat móvil sigue una tarea de vídeo](https://x.com/agi_aibusi/status/2110941943006118201) (por [@agi_aibusi](https://x.com/agi_aibusi))
 
-**Examina la conexión propuesta entre Codex y MCP antes de reproducirla con herramientas verificadas.**
+**Explora un proceso de chat móvil para crear y seguir tareas de vídeo.**
 
-La grabación muestra chat y estado de la tarea; las explicaciones sobre créditos de suscripción no establecen reglas generales de facturación API.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D28/video-fbf3abad9feb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D28/poster-fbf3abad9feb.jpg" alt="Un chat móvil sigue una tarea de vídeo" height="280"></a>
+</p>
 
-[![Un chat móvil sigue una tarea de vídeo](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D28/poster-fbf3abad9feb.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D28/video-fbf3abad9feb.mp4)
-
-Type: Tutorial | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -189,9 +95,9 @@ Type: Tutorial | Date: 2026-10-16
 
 **Usa el guion de quince planos para planificar la continuidad de un vehículo en treinta segundos.**
 
-El Prompt requiere referencias del vehículo que no se incluyen; 4K es una instrucción, no resolución verificada.
-
-[![Anuncio de un SUV Kia por una carretera boscosa](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D26/poster-cf1e54b34518.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D26/video-cf1e54b34518.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D26/video-cf1e54b34518.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D26/poster-cf1e54b34518.jpg" alt="Anuncio de un SUV Kia por una carretera boscosa" height="280"></a>
+</p>
 
 **Prompt** · [Fuente del Prompt público](https://x.com/Diplomeme/status/2110947179057811727)
 
@@ -199,20 +105,20 @@ El Prompt requiere referencias del vehículo que no se incluyen; 4K es una instr
 High-octane, hyper-realistic automotive commercial for the Kia Seltos, shot with the visual intensity of a Christopher Nolan-style cinematic production using actual 70mm IMAX cameras. Fast-paced multi-shot editing with quick, cinematic cuts timed at exactly one shot every 2 seconds across a complete 30-second timeline. The champagne-gold Kia Seltos, matching the exact vehicle design in the provided reference images, charges through a dense forest road surrounded by towering trees and dappled sunlight. High-contrast Nolan-esque color grading with deep shadows, cold teals, warm champagne-gold reflections, and bright highlights. Sunlight pierces through the forest canopy, reflecting across the sculpted bodywork, signature vertical LED daytime running lights, black front grille, muscular wheel arches, and distinctive rear light bar. Rapid sequence of intense cuts:•Shot 1 (0-2s): Ground-level cinematic establishing shot of an empty winding forest road, towering trees casting deep shadows as sunlight breaks through the canopy. The distant engine note of the approaching Kia Seltos builds tension.•Shot 2 (2-4s): Low eye-level tracking shot of the champagne-gold Kia Seltos emerging between the trees, accelerating along the forest road and revealing its bold front grille, distinctive vertical LED lighting signature, and commanding SUV stance.•Shot 3 (4-6s): Tight, detailed close-up of the front fascia, Kia emblem, illuminated LED daytime running lights, glossy black grille elements, and champagne-gold paint reflecting the passing forest.•Shot 4 (6-8s): Dramatic low-angle tracking shot moving alongside the front wheel as the alloy spokes spin rapidly, tires maintain realistic contact with the asphalt, and the SUV’s sculpted bodywork catches streaks of sunlight.•Shot 5 (8-10s): Fast lateral tracking shot revealing the complete side profile, muscular wheel arches, black lower-body cladding, door contours, windows, roofline, and metallic champagne-gold finish as the Kia Seltos sweeps through the forest.•Shot 6 (10-12s): Low-angle handheld-style camera whip-pan from the road surface to the SUV’s front three-quarter profile as it exits a sweeping bend, with realistic suspension movement, controlled body roll, and natural background motion blur.•Shot 7 (12-14s): Extreme close-up of sunlight traveling across the sculpted hood, Kia emblem, sharp body creases, and vertical LED lights, emphasizing precise automotive design and premium paint reflections.•Shot 8 (14-16s): Rear three-quarter tracking shot following the Kia Seltos through the forest, showcasing the distinctive rear light bar, angular vertical taillights, rear spoiler, sculpted tailgate, and authentic model badging.•Shot 9 (16-18s): Dynamic wheel-height tracking shot as the SUV drives across alternating patches of sunlight and shadow, capturing realistic tire rotation, subtle road texture, reflections along the lower doors, and the movement of the suspension over natural road undulations.•Shot 10 (18-20s): High-angle wide shot of the Kia Seltos commanding a sweeping forest road, surrounded by towering trees and atmospheric shafts of sunlight, with the winding asphalt leading the eye toward the moving SUV.•Shot 11 (20-22s): Fast front-facing tracking shot of the Kia Seltos approaching the camera along a straight section of forest road, its LED lights illuminated and grille dominating the frame as the camera smoothly retreats ahead of the vehicle.•Shot 12 (22-24s): Rapid cinematic transition into a close rear tracking angle as the SUV accelerates away through the trees, the rear lighting signature glowing against the darker forest and the road markings sweeping beneath the frame.•Shot 13 (24-26s): Dramatic low-angle front three-quarter hero shot as the Kia Seltos exits the forest bend and enters a naturally illuminated clearing, revealing its full stance, champagne-gold bodywork, alloy wheels, and signature front lighting.•Shot 14 (26-28s): Controlled cinematic orbit around the stationary Kia Seltos at a scenic forest-road pull-off, transitioning from the front three-quarter view toward the side and rear profile while the surrounding trees and golden sunlight create a premium automotive campaign atmosphere.•Shot 15 (28-30s): Hard cut to black with a final sweep of light revealing the KIA emblem followed by the SELTOS model name and the campaign tagline: “OWN EVERY TURN.” End with a powerful, clean, premium automotive advertising finish.Raw automotive documentary-style camera textures, organic lens flares, lifelike vehicle physics, authentic wheel rotation and tire contact, realistic suspension movement, natural road reflections, physically accurate metallic paint reflections, cinematic motion blur, subtle engine vibration, and an immersive forest-road atmosphere. Preserve the exact Kia Seltos identity, champagne-gold exterior color, front grille design, LED lighting signatures, alloy wheels, body proportions, side profile, and rear design from the provided reference images throughout every shot. Maintain consistent vehicle geometry, wheel design, lighting signatures, paint color, and branding across all 15 shots. No vehicle redesign, no morphing, no inconsistent body panels, no incorrect logos, no artificial CGI appearance, no impossible driving maneuvers, no exaggerated visual effects, and no abrupt changes in road geography. Ultra-detailed, 4K resolution, premium global automotive advertising quality.
 ```
 
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 <a id="case-6"></a>
 ### Caso 6: [Montaje UGC de cosméticos con varias personas](https://x.com/ErnestoSOFTWARE/status/2110917624167108665) (por [@ErnestoSOFTWARE](https://x.com/ErnestoSOFTWARE))
 
-**Usa el formato publicitario para diseñar un experimento UGC con registros de producción explícitos.**
+**Explora formatos de vídeo UGC de producto con varias personas.**
 
-El autor promociona Higgsfield MCP y declara bajo coste, pero no aporta resultados publicitarios ni facturas.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D37/video-4ca47c0af310.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D37/poster-4ca47c0af310.jpg" alt="Montaje UGC de cosméticos con varias personas" height="280"></a>
+</p>
 
-[![Montaje UGC de cosméticos con varias personas](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D37/poster-4ca47c0af310.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D37/video-4ca47c0af310.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -221,11 +127,11 @@ Type: Demo | Date: 2026-10-16
 
 **Estudia narrativa de producto guiada por un personaje y una acción culinaria concreta.**
 
-La muestra de plataforma sitúa un dragón junto a una crème brûlée; no demuestra resultados de ventas.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D76/video-6f401168b0fb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D76/poster-6f401168b0fb.jpg" alt="Un dragón diminuto carameliza un postre" height="280"></a>
+</p>
 
-[![Un dragón diminuto carameliza un postre](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D76/poster-6f401168b0fb.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D76/video-6f401168b0fb.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -234,11 +140,11 @@ Type: Demo | Date: 2026-10-16
 
 **Estudia visibilidad del envase, imágenes de fruta y transiciones alrededor de un producto.**
 
-La fuente combina un envase, fruta e imágenes comerciales sin publicar su Prompt.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D85/video-af7aa6745461.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D85/poster-af7aa6745461.jpg" alt="Un envase de zumo de naranja protagoniza un anuncio" height="280"></a>
+</p>
 
-[![Un envase de zumo de naranja protagoniza un anuncio](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D85/poster-af7aa6745461.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D85/video-af7aa6745461.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -251,11 +157,11 @@ Type: Demo | Date: 2026-10-16
 
 **Observa la apariencia del personaje en primeros planos, movimientos de cuerpo entero y un entorno constante.**
 
-Un personaje de pelo verde y auriculares cambia de postura y encuadre en un interior verde claro.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D03/video-3305b566e9a1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D03/poster-3305b566e9a1.jpg" alt="Una chica con auriculares en una habitación pastel" height="280"></a>
+</p>
 
-[![Una chica con auriculares en una habitación pastel](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D03/poster-3305b566e9a1.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D03/video-3305b566e9a1.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -264,11 +170,11 @@ Type: Demo | Date: 2026-10-15
 
 **Estudia movimientos contenidos y continuidad arquitectónica en la secuencia visible.**
 
-Los fotogramas revisados muestran un hombre y una columnata; los elogios generales al CGI no demuestran acciones complejas.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D09/video-e4099969039c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D09/poster-e4099969039c.jpg" alt="Un hombre se acerca a una columnata clásica" height="280"></a>
+</p>
 
-[![Un hombre se acerca a una columnata clásica](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D09/poster-e4099969039c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D09/video-e4099969039c.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -277,11 +183,11 @@ Type: Demo | Date: 2026-10-16
 
 **Estudia los cambios faciales sutiles y el encuadre en una interpretación centrada en el diálogo.**
 
-La secuencia se concentra en el rostro de una mujer con luz verde tenue; no se evaluó independientemente el audio.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D14/video-bd91c5962388.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D14/poster-bd91c5962388.jpg" alt="Primer plano emotivo de una mujer con pelo mojado" height="280"></a>
+</p>
 
-[![Primer plano emotivo de una mujer con pelo mojado](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D14/poster-bd91c5962388.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D14/video-bd91c5962388.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -290,11 +196,11 @@ Type: Demo | Date: 2026-10-15
 
 **Estudia cómo una escena emotiva breve se apoya en una historia personal concreta.**
 
-El autor vincula el vídeo de 16 segundos con un recuerdo e identifica imágenes de Gemini y vídeo de Kling 4.0.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D21/video-59193966fd28.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D21/poster-59193966fd28.jpg" alt="Una madre y su hija comparten un momento de cine" height="280"></a>
+</p>
 
-[![Una madre y su hija comparten un momento de cine](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D21/poster-59193966fd28.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D21/video-59193966fd28.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -303,11 +209,11 @@ Type: Demo | Date: 2026-10-16
 
 **Diseña una evaluación de diálogo, puesta en escena de dos personas y gráficos en pantalla.**
 
-El creador comenta el habla japonesa; la revisión visual confirma el formato informativo, no la pronunciación.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D23/video-6d7a8b12e568.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D23/poster-6d7a8b12e568.jpg" alt="Dos presentadores conducen un informativo japonés" height="280"></a>
+</p>
 
-[![Dos presentadores conducen un informativo japonés](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D23/poster-6d7a8b12e568.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D23/video-6d7a8b12e568.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -316,11 +222,11 @@ Type: Demo | Date: 2026-10-16
 
 **Estudia el contraste cómico de escala situando un vehículo inesperado en arquitectura cotidiana.**
 
-El creador identifica Kling 4 Flash; el vídeo muestra un conductor sentado atravesando un vestíbulo de oficinas.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D27/video-df7aadba33d7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D27/poster-df7aadba33d7.jpg" alt="Un kart diminuto recorre un vestíbulo de oficinas" height="280"></a>
+</p>
 
-[![Un kart diminuto recorre un vestíbulo de oficinas](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D27/poster-df7aadba33d7.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D27/video-df7aadba33d7.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -329,9 +235,9 @@ Type: Demo | Date: 2026-10-16
 
 **Copia el encargo detallado para planificar treinta segundos de gestos cotidianos compartidos.**
 
-El Prompt define apariencia de una mujer, seis momentos cronometrados, comportamiento de cámara doméstica y sonido ambiental.
-
-[![Un paseo de verano desde la mirada del novio](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D34/poster-8bef5187ff5c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D34/video-8bef5187ff5c.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D34/video-8bef5187ff5c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D34/poster-8bef5187ff5c.jpg" alt="Un paseo de verano desde la mirada del novio" height="280"></a>
+</p>
 
 **Prompt** · [Fuente del Prompt público](https://x.com/agi_aibusi/status/2110924176890757483)
 
@@ -430,20 +336,20 @@ Let ordinary pauses remain. Her beauty is something her boyfriend happens to not
 The finished video should feel like a personal memory he would keep because of the way she looked at him that afternoon.
 ```
 
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 <a id="case-16"></a>
 ### Caso 16: [Recopilación de vehículos, soldados y primeros planos](https://x.com/jerrod_lew/status/2110911158156931427) (por [@jerrod_lew](https://x.com/jerrod_lew))
 
-**Selecciona tareas concretas del montaje para después realizar pruebas controladas por separado.**
+**Explora vehículos, escenas de batalla y primeros planos en una recopilación.**
 
-El archivo de unos 63 segundos es una recopilación y no demuestra una única generación nativa de esa duración.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D39/video-7d5e3845dc71.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D39/poster-7d5e3845dc71.jpg" alt="Recopilación de vehículos, soldados y primeros planos" height="280"></a>
+</p>
 
-[![Recopilación de vehículos, soldados y primeros planos](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D39/poster-7d5e3845dc71.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D39/video-7d5e3845dc71.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -452,11 +358,11 @@ Type: Demo | Date: 2026-10-16
 
 **Estudia cómo una película más larga conecta magia escénica, vehículos de papel y un pájaro rojo recurrente.**
 
-El montaje completo reaparece en otras publicaciones; sus extractos son material relacionado, no películas independientes.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D42/video-cd1175d34d80.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D42/poster-cd1175d34d80.jpg" alt="King Cards mezcla magia y vuelo urbano" height="280"></a>
+</p>
 
-[![King Cards mezcla magia y vuelo urbano](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D42/poster-cd1175d34d80.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D42/video-cd1175d34d80.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -465,11 +371,11 @@ Type: Demo | Date: 2026-10-16
 
 **Estudia cómo personaje, maquinaria y clima transmiten una premisa narrativa breve.**
 
-La fuente relaciona la escena con el Día Internacional de las Mujeres Rurales y no publica una receta de generación.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D47/video-6a9f1d8d21de.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D47/poster-6a9f1d8d21de.jpg" alt="Una mujer rural afronta la tormenta con un tractor" height="280"></a>
+</p>
 
-[![Una mujer rural afronta la tormenta con un tractor](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D47/poster-6a9f1d8d21de.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D47/video-6a9f1d8d21de.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -478,19 +384,16 @@ Type: Demo | Date: 2026-10-15
 
 **Estudia la película junto a los encargos públicos de acción de siete segundos y conducción de ocho.**
 
-Las dos tarjetas de Prompt se conservan como transcripciones de imagen; sus miniaturas no son archivos de referencia independientes.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D50/video-9890fdc58895.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D50/poster-9890fdc58895.jpg" alt="Aventura de dinosaurios retro con encargos de plano reutilizables" height="280"></a>
+</p>
 
-[![Aventura de dinosaurios retro con encargos de plano reutilizables](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D50/poster-9890fdc58895.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D50/video-9890fdc58895.mp4)
-
-Imágenes de respuestas del autor: storyboard, referencias y tarjetas de Prompt. Las miniaturas incrustadas no son los archivos originales de referencia.
-
-![Imágenes de respuestas del autor: storyboard, referencias y tarjetas de Prompt. Las miniaturas incrustadas no son los archivos originales de referencia. 1](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806822957273273-0.jpg)
-
-![Imágenes de respuestas del autor: storyboard, referencias y tarjetas de Prompt. Las miniaturas incrustadas no son los archivos originales de referencia. 2](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806822957273273-1.jpg)
-
-![Imágenes de respuestas del autor: storyboard, referencias y tarjetas de Prompt. Las miniaturas incrustadas no son los archivos originales de referencia. 3](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806826350412052-0.jpg)
-
-![Imágenes de respuestas del autor: storyboard, referencias y tarjetas de Prompt. Las miniaturas incrustadas no son los archivos originales de referencia. 4](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806826350412052-1.jpg)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806822957273273-0.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806822957273273-0.jpg" alt="Aventura de dinosaurios retro con encargos de plano reutilizables 1" height="280"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806822957273273-1.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806822957273273-1.jpg" alt="Aventura de dinosaurios retro con encargos de plano reutilizables 2" height="280"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806826350412052-0.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806826350412052-0.jpg" alt="Aventura de dinosaurios retro con encargos de plano reutilizables 3" height="280"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806826350412052-1.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806826350412052-1.jpg" alt="Aventura de dinosaurios retro con encargos de plano reutilizables 4" height="280"></a>
+</p>
 
 **Prompt 1** · [Fuente del Prompt público](https://x.com/techhalla/status/2110806822957273273)
 
@@ -538,7 +441,7 @@ engine starting and revving, tires on gravel.
 + look: 1987 B-movie film stock, practical effects, film grain. No music, only SFX.
 ```
 
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -547,11 +450,11 @@ Type: Demo | Date: 2026-10-15
 
 **Estudia la reacción de un protagonista recurrente cuando una puerta habitual revela entornos cambiantes.**
 
-Un repartidor de uniforme amarillo encuentra escenas contrastantes de hielo, agua y fuego.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D53/video-c385592b815a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D53/poster-c385592b815a.jpg" alt="Un repartidor abre un ascensor hacia otros mundos" height="280"></a>
+</p>
 
-[![Un repartidor abre un ascensor hacia otros mundos](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D53/poster-c385592b815a.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D53/video-c385592b815a.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -560,11 +463,11 @@ Type: Demo | Date: 2026-10-15
 
 **Separa concepto, diseño, guion, diálogo y sonido mediante las notas de proceso del creador.**
 
-El hilo explica el flujo de trabajo y funciones del modelo, pero no publica el Prompt de generación.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D58/video-80ebae3e19ee.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D58/poster-80ebae3e19ee.jpg" alt="Un fontanero tortuga entra en una comedia subterránea" height="280"></a>
+</p>
 
-[![Un fontanero tortuga entra en una comedia subterránea](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D58/poster-80ebae3e19ee.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D58/video-80ebae3e19ee.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -573,11 +476,11 @@ Type: Demo | Date: 2026-10-15
 
 **Estudia el ritmo cómico mediante movimiento, encuadre y cambios en la situación callejera.**
 
-El creador identifica un experimento de texto a vídeo sin revelar el Prompt real.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D59/video-32460fac82cb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D59/poster-32460fac82cb.jpg" alt="Una persecución callejera acaba con una sorpresa vehicular" height="280"></a>
+</p>
 
-[![Una persecución callejera acaba con una sorpresa vehicular](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D59/poster-32460fac82cb.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D59/video-32460fac82cb.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -586,11 +489,11 @@ Type: Demo | Date: 2026-10-15
 
 **Estudia la construcción de una secuencia montada con personajes recurrentes a partir de una premisa fantástica.**
 
-La fuente presenta un corto de unos 95 segundos, no una única generación de esa duración.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D63/video-e7d8328e9da0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D63/poster-e7d8328e9da0.jpg" alt="Una joven heroína descubre un dragón azul" height="280"></a>
+</p>
 
-[![Una joven heroína descubre un dragón azul](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D63/poster-e7d8328e9da0.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D63/video-e7d8328e9da0.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -599,11 +502,11 @@ Type: Demo | Date: 2026-10-15
 
 **Examina cambios de personaje, vehículo y entorno en un extracto de King Cards.**
 
-Es un fragmento compartido de la misma película larga, no otra obra independiente.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D66/video-e0abfdd43b76.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D66/poster-e0abfdd43b76.jpg" alt="Un vehículo de papel llega a una ciudad floral" height="280"></a>
+</p>
 
-[![Un vehículo de papel llega a una ciudad floral](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D66/poster-e0abfdd43b76.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D66/video-e0abfdd43b76.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -612,11 +515,11 @@ Type: Demo | Date: 2026-10-16
 
 **Estudia una transformación breve manteniendo las posiciones de los personajes en un vehículo móvil.**
 
-El extracto se atribuye a King Cards; no se confunde esa procedencia con prueba de autoría original.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D69/video-00ccb9224112.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D69/poster-00ccb9224112.jpg" alt="Pasajeros de piedra se vuelven humanos en un carruaje" height="280"></a>
+</p>
 
-[![Pasajeros de piedra se vuelven humanos en un carruaje](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D69/poster-00ccb9224112.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D69/video-00ccb9224112.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -625,24 +528,24 @@ Type: Demo | Date: 2026-10-16
 
 **Examina actuación central, objetos móviles y público como una sola escena.**
 
-Se consolidaron codificaciones y versiones cortas diferentes de este segmento de King Cards.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D70/video-b5d7e24dfed1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D70/poster-b5d7e24dfed1.jpg" alt="Un mago llena de cartas un teatro circular" height="280"></a>
+</p>
 
-[![Un mago llena de cartas un teatro circular](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D70/poster-b5d7e24dfed1.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D70/video-b5d7e24dfed1.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 <a id="case-27"></a>
 ### Caso 27: [Una mujer disfruta de un baño de pies en un patio](https://x.com/Naonekozamurai/status/2111231708108575006) (por [@Naonekozamurai](https://x.com/Naonekozamurai))
 
-**Estudia gestos cotidianos, ropa y un entorno tranquilo en una escena sencilla.**
+**Estudia gestos cotidianos, ropa y un patio tranquilo.**
 
-El creador declara diez segundos a 1080p y créditos consumidos, con dudas sobre si era una tarifa promocional.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D74/video-c60960ec9979.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D74/poster-c60960ec9979.jpg" alt="Una mujer disfruta de un baño de pies en un patio" height="280"></a>
+</p>
 
-[![Una mujer disfruta de un baño de pies en un patio](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D74/poster-c60960ec9979.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D74/video-c60960ec9979.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -651,11 +554,11 @@ Type: Demo | Date: 2026-10-16
 
 **Estudia cómo un motivo de personaje conecta planos de interfaz telefónica en un mensaje temático.**
 
-El creador atribuye la obra a Kling 4.0; no se evalúan independientemente las acusaciones subyacentes.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D79/video-c65afae88005.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D79/poster-c65afae88005.jpg" alt="Un halcón articula un corto sobre denuncias sociales" height="280"></a>
+</p>
 
-[![Un halcón articula un corto sobre denuncias sociales](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D79/poster-c65afae88005.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D79/video-c65afae88005.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -664,11 +567,11 @@ Type: Demo | Date: 2026-10-16
 
 **Estudia pequeñas acciones del personaje y cambios de distancia de cámara en un interior cotidiano.**
 
-La muestra de Magnific sigue al gato sobre encimeras y termina en primer plano.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D82/video-ff6f8d465033.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D82/poster-ff6f8d465033.jpg" alt="Un gato naranja acecha por una cocina" height="280"></a>
+</p>
 
-[![Un gato naranja acecha por una cocina](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D82/poster-ff6f8d465033.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D82/video-ff6f8d465033.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -677,11 +580,11 @@ Type: Demo | Date: 2026-10-16
 
 **Examina acercamiento, contacto físico y posiciones en una interacción social breve.**
 
-El vídeo es una respuesta del autor dentro de un hilo mayor; se conserva esa relación de conversación.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D83/video-57f8a9708fd1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D83/poster-57f8a9708fd1.jpg" alt="Dos hombres se encuentran y abrazan en una calle" height="280"></a>
+</p>
 
-[![Dos hombres se encuentran y abrazan en una calle](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D83/poster-57f8a9708fd1.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D83/video-57f8a9708fd1.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -694,11 +597,11 @@ Type: Demo | Date: 2026-10-16
 
 **Examina la acción entre varios personajes, la puesta en escena aérea y la continuidad del vestuario.**
 
-Dos espadachines se enfrentan sobre nubes iluminadas por la luna; la cuenta declara que es publicidad.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D01/video-c67c148695e9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D01/poster-c67c148695e9.jpg" alt="Duelo de espadas sobre nubes a la luz lunar" height="280"></a>
+</p>
 
-[![Duelo de espadas sobre nubes a la luz lunar](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D01/poster-c67c148695e9.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D01/video-c67c148695e9.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -707,11 +610,11 @@ Type: Demo | Date: 2026-10-15
 
 **Compara el contacto corporal, las distancias y la posición de la cámara durante el combate.**
 
-El vídeo alterna planos generales del gimnasio y contacto cercano entre dos luchadores uniformados.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D02/video-1ef935905f1c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D02/poster-1ef935905f1c.jpg" alt="Combate de taekwondo en un gimnasio" height="280"></a>
+</p>
 
-[![Combate de taekwondo en un gimnasio](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D02/poster-1ef935905f1c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D02/video-1ef935905f1c.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -720,24 +623,24 @@ Type: Demo | Date: 2026-10-16
 
 **Estudia la identidad de los vehículos y la dirección del movimiento entre cambios rápidos de cámara.**
 
-Un deportivo rojo y otro negro recorren calles urbanas y un puente.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D04/video-61e7dd165825.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D04/poster-61e7dd165825.jpg" alt="Dos deportivos se persiguen por la ciudad" height="280"></a>
+</p>
 
-[![Dos deportivos se persiguen por la ciudad](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D04/poster-61e7dd165825.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D04/video-61e7dd165825.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 <a id="case-34"></a>
 ### Caso 34: [Intercambios de boxeo con cámara móvil](https://x.com/SirGlavan_/status/2110785627251704302) (por [@SirGlavan_](https://x.com/SirGlavan_))
 
-**Examina golpes, movimientos defensivos y contacto cercano a lo largo de la secuencia.**
+**Examina golpes, movimientos defensivos y contacto cercano.**
 
-Dos boxeadores con guantes intercambian golpes mientras cambian la distancia y el ángulo de cámara.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D06/video-0a6d9253b137.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D06/poster-0a6d9253b137.jpg" alt="Intercambios de boxeo con cámara móvil" height="280"></a>
+</p>
 
-[![Intercambios de boxeo con cámara móvil](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D06/poster-0a6d9253b137.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D06/video-0a6d9253b137.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -746,11 +649,11 @@ Type: Demo | Date: 2026-10-15
 
 **Estudia un personaje recurrente junto a vehículos, humo y grandes efectos de fondo.**
 
-Una mujer de negro avanza por una calle destruida; varias cuentas compartieron versiones de esta escena.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D07/video-e910366e89fb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D07/poster-e910366e89fb.jpg" alt="Una heroína atraviesa una calle entre explosiones" height="280"></a>
+</p>
 
-[![Una heroína atraviesa una calle entre explosiones](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D07/poster-e910366e89fb.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D07/video-e910366e89fb.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -759,11 +662,11 @@ Type: Demo | Date: 2026-10-15
 
 **Compara la escala humana y la de la criatura durante una confrontación en la ciudad.**
 
-Una protagonista de pelo claro se enfrenta a un enorme ser con tentáculos entre edificios dañados.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D08/video-699eced69da0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D08/poster-699eced69da0.jpg" alt="Una joven se enfrenta a una criatura urbana" height="280"></a>
+</p>
 
-[![Una joven se enfrenta a una criatura urbana](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D08/poster-699eced69da0.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D08/video-699eced69da0.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -772,9 +675,9 @@ Type: Demo | Date: 2026-10-16
 
 **Usa el Prompt público para estudiar aceleración, reacciones del entorno y cámara en mano que retrocede.**
 
-La criatura combina extremidades metálicas y tejido orgánico; el autor publica la instrucción en una respuesta directa.
-
-[![Un depredador mecánico atraviesa una selva alienígena](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D18/poster-e28f30cd8013.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D18/video-e28f30cd8013.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D18/video-e28f30cd8013.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D18/poster-e28f30cd8013.jpg" alt="Un depredador mecánico atraviesa una selva alienígena" height="280"></a>
+</p>
 
 **Prompt** · [Fuente del Prompt público](https://x.com/Alin_Reaper05/status/2110996674558530007)
 
@@ -782,7 +685,7 @@ La criatura combina extremidades metálicas y tejido orgánico; el autor publica
 A living mechanical predator with a glowing orange central eye moves through dense alien jungle vegetation, using long metallic limbs wrapped in pulsing flesh to pull itself between trees, organic tendrils grabbing branches while hydraulic joints extend and retract, the creature suddenly notices the camera and rapidly charges forward, handheld tracking camera retreats through foliage, branches break naturally, mud splashes, vines react realistically, intense acceleration, realistic weight and momentum, dark cinematic lighting, high-end creature VFX.
 ```
 
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -791,24 +694,24 @@ Type: Demo | Date: 2026-10-16
 
 **Examina la interacción de jinetes, el movimiento de caballos y el contacto de armas en campo abierto.**
 
-Las imágenes muestran combate montado; las menciones a puñetazos del texto no describen literalmente estos fotogramas.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D22/video-98d16e333c2b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D22/poster-98d16e333c2b.jpg" alt="Jinetes intercambian golpes de lanza" height="280"></a>
+</p>
 
-[![Jinetes intercambian golpes de lanza](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D22/poster-98d16e333c2b.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D22/video-98d16e333c2b.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 <a id="case-39"></a>
 ### Caso 39: [Karatecas interactúan con un suelo acolchado](https://x.com/WuxiaRocks/status/2110962012100653419) (por [@WuxiaRocks](https://x.com/WuxiaRocks))
 
-**Examina el contacto entre intérpretes y entorno en lugar de considerar solo poses aisladas.**
+**Examina el contacto entre los luchadores y el suelo acolchado.**
 
-El creador destaca un pie hundiéndose en la colchoneta; es una observación de la fuente, no una medición física.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D24/video-0a576d72f135.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D24/poster-0a576d72f135.jpg" alt="Karatecas interactúan con un suelo acolchado" height="280"></a>
+</p>
 
-[![Karatecas interactúan con un suelo acolchado](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D24/poster-0a576d72f135.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D24/video-0a576d72f135.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -817,11 +720,11 @@ Type: Demo | Date: 2026-10-16
 
 **Examina contacto cercano y continuidad en un ejemplo de acción con diálogo japonés.**
 
-El creador dice haber usado el mismo Prompt en una comparación, pero ese texto está fuera del conjunto recogido.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D46/video-1b049353be78.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D46/poster-1b049353be78.jpg" alt="Un empleado de tienda se enfrenta a un luchador" height="280"></a>
+</p>
 
-[![Un empleado de tienda se enfrenta a un luchador](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D46/poster-1b049353be78.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D46/video-1b049353be78.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -830,11 +733,11 @@ Type: Demo | Date: 2026-10-15
 
 **Examina la puesta en escena de combate mediante poses dirigidas por fotogramas clave.**
 
-El autor declara diez fotogramas clave; se ven figuras con armaduras distintas en una plataforma abierta.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D48/video-b680150c5bc2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D48/poster-b680150c5bc2.jpg" alt="Guerreros acorazados se enfrentan en una plataforma de piedra" height="280"></a>
+</p>
 
-[![Guerreros acorazados se enfrentan en una plataforma de piedra](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D48/poster-b680150c5bc2.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D48/video-b680150c5bc2.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -843,9 +746,9 @@ Type: Demo | Date: 2026-10-15
 
 **Copia el Prompt de plano continuo para explorar movimiento rápido entre interiores y exteriores conectados.**
 
-El autor explica después que eligió veinte segundos para comparar con Flash; no se añade ese parámetro al Prompt original.
-
-[![Un gato corre por un pueblo de noche](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D51/poster-074081e6557c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D51/video-074081e6557c.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D51/video-074081e6557c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D51/poster-074081e6557c.jpg" alt="Un gato corre por un pueblo de noche" height="280"></a>
+</p>
 
 **Prompt** · [Fuente del Prompt público](https://x.com/umesh_ai/status/2110797376827035806)
 
@@ -853,7 +756,7 @@ El autor explica después que eligió veinte segundos para comparar con Flash; n
 An amateur handheld recording in third-person perspective rapidly follows a cat through its nighttime adventures in one continuous shot, with no cuts, no stopping, and no pause. The sequence feels like fast-forward, showing all the curious, mischievous, funny, and chaotic things a cat might do while the town, house, garden, and everything around it are half-asleep.The cat races through about ten places a cat would naturally explore at night, each one flowing into the next in a single continuous chase: a quiet bedroom, a dim hallway, a kitchen, a living room, a backyard garden, a fence line, a garage, a rooftop, a tree, and a sleepy street or alley. The camera is shaky and imperfect, always struggling to keep up as it follows close behind. In every location, the cat causes some kind of chaos. In the bedroom it jumps onto furniture and disturbs sleeping people. In the hallway it sends small objects tumbling. In the kitchen it knocks items off the counter. In the living room it darts across shelves and tips things over. In the garden it rustles plants, digs, or startles birds. On the fence it rattles loose objects. In the garage it weaves through clutter and causes things to wobble or fall. On the rooftop it skids across surfaces and startles other animals. In the tree it shakes branches and scatters leaves. In the street or alley it darts through trash, shadows, and unexpected little messes, always leaving brief chaos behind before sprinting onward.The cat behaves like a restless, curious nighttime troublemaker: climbing, leaping, squeezing through gaps, chasing tiny movements, staring at strange things, swatting objects, knocking things over, and vanishing into corners before bursting back out again. Every scene should contain a clear action, reaction, or small disaster caused by the cat.Everything around it feels sleepy and still, with dark houses, quiet gardens, dim windows, silent rooftops, and empty streets. The contrast is that the cat is pure energy, moving so quickly that the world smears into motion blur and fragmented glimpses of chaos. The overall feeling is funny, lively, mischievous, and cinematic, like a whole secret night of cat behavior compressed into one rapid continuous chase.
 ```
 
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -862,11 +765,11 @@ Type: Demo | Date: 2026-10-15
 
 **Examina la estabilidad del vestuario y el contacto de armas en una pelea bajo lluvia intensa.**
 
-El creador declara quince segundos, 1080p y 202 créditos; son ajustes de la fuente, no un precio API vigente.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D52/video-428a2ca3573f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D52/poster-428a2ca3573f.jpg" alt="Duelo de samuráis en un bosque lluvioso" height="280"></a>
+</p>
 
-[![Duelo de samuráis en un bosque lluvioso](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D52/poster-428a2ca3573f.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D52/video-428a2ca3573f.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -875,11 +778,11 @@ Type: Demo | Date: 2026-10-15
 
 **Examina poses y cámara entre versiones recodificadas de la misma secuencia forestal.**
 
-Varias cuentas reutilizaron cortes breves; se consolidan en un único grupo de material.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D56/video-e86261e950fa.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D56/poster-e86261e950fa.jpg" alt="Una mujer de oscuro lucha en un bosque" height="280"></a>
+</p>
 
-[![Una mujer de oscuro lucha en un bosque](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D56/poster-e86261e950fa.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D56/video-e86261e950fa.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -888,11 +791,11 @@ Type: Demo | Date: 2026-10-15
 
 **Estudia la interacción de un sujeto volador pequeño con una gran criatura construida.**
 
-Otro extracto de King Cards fue compartido repetidamente con mensajes similares sobre el lanzamiento del modelo.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D67/video-d6f35850335e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D67/poster-d6f35850335e.jpg" alt="Un pájaro rojo de papel enfrenta un pulpo morado" height="280"></a>
+</p>
 
-[![Un pájaro rojo de papel enfrenta un pulpo morado](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D67/poster-d6f35850335e.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D67/video-d6f35850335e.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -901,11 +804,11 @@ Type: Demo | Date: 2026-10-16
 
 **Examina trayectoria corporal, posición del balón y contacto con el aro.**
 
-El vídeo deportivo generado es una respuesta del autor, no una actuación física verificada independientemente.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D84/video-d1fcc959cdd5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D84/poster-d1fcc959cdd5.jpg" alt="Un jugador de baloncesto realiza un mate volador" height="280"></a>
+</p>
 
-[![Un jugador de baloncesto realiza un mate volador](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D84/poster-d1fcc959cdd5.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D84/video-d1fcc959cdd5.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -918,24 +821,24 @@ Type: Demo | Date: 2026-10-16
 
 **Usa el vídeo como referencia para un tráiler que combine acción y diálogo.**
 
-La fuente lo llama concepto de estilo AAA; el resultado visible es un vídeo generado, no un juego ejecutable.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D05/video-96e6493c7d87.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D05/poster-96e6493c7d87.jpg" alt="Concepto de videojuego con una cazarrecompensas" height="280"></a>
+</p>
 
-[![Concepto de videojuego con una cazarrecompensas](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D05/poster-96e6493c7d87.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D05/video-96e6493c7d87.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 <a id="case-48"></a>
 ### Caso 48: [Un coche volador sube por una rampa nocturna gigante](https://x.com/higgsfield_ai/status/2110937478492479783) (por [@higgsfield_ai](https://x.com/higgsfield_ai))
 
-**Usa el vídeo como referencia cinematográfica de vehículos, sin tomarlo como prueba de un juego funcional.**
+**Estudia el movimiento del vehículo y el encuadre en una rampa gigante.**
 
-La muestra de plataforma sigue un coche por una rampa muy inclinada hasta un lanzamiento similar a un vuelo.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D29/video-9f0ea0939850.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D29/poster-9f0ea0939850.jpg" alt="Un coche volador sube por una rampa nocturna gigante" height="280"></a>
+</p>
 
-[![Un coche volador sube por una rampa nocturna gigante](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D29/poster-9f0ea0939850.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D29/video-9f0ea0939850.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -944,11 +847,11 @@ Type: Demo | Date: 2026-10-16
 
 **Examina cámara de persecución, iluminación y elementos superpuestos en un concepto de vídeo de carreras.**
 
-La muestra de plataforma presenta una carrera costera al atardecer, sin juego ejecutable.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D31/video-94729ec66a60.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D31/poster-94729ec66a60.jpg" alt="Un deportivo corre por una carretera costera" height="280"></a>
+</p>
 
-[![Un deportivo corre por una carretera costera](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D31/poster-94729ec66a60.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D31/video-94729ec66a60.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -957,11 +860,11 @@ Type: Demo | Date: 2026-10-16
 
 **Examina el movimiento de cámara de vuelo y la composición de una interfaz de videojuego.**
 
-Un avión sobrevuela terreno costero luminoso con encuadres y elementos superpuestos propios de juegos.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D33/video-06b6b22e3e0e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D33/poster-06b6b22e3e0e.jpg" alt="Un caza cruza un entorno insular" height="280"></a>
+</p>
 
-[![Un caza cruza un entorno insular](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D33/poster-06b6b22e3e0e.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D33/video-06b6b22e3e0e.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -970,11 +873,11 @@ Type: Demo | Date: 2026-10-16
 
 **Estudia transiciones entre espacios cerrados y vistas aéreas amplias en un concepto en tercera persona.**
 
-La plataforma muestra una cámara siguiendo al personaje por un entorno estilizado de islas flotantes.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D35/video-41fca9f81d16.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D35/poster-41fca9f81d16.jpg" alt="Un personaje planea entre islas flotantes" height="280"></a>
+</p>
 
-[![Un personaje planea entre islas flotantes](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D35/poster-41fca9f81d16.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D35/video-41fca9f81d16.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -983,11 +886,11 @@ Type: Demo | Date: 2026-10-16
 
 **Examina animación de la moto, distancia de cámara e iluminación de la pista.**
 
-La muestra de plataforma adopta una presentación de videojuego de carreras, no una aplicación interactiva.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D38/video-6fbf86005055.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D38/poster-6fbf86005055.jpg" alt="Un concepto de carreras de motos sigue al piloto" height="280"></a>
+</p>
 
-[![Un concepto de carreras de motos sigue al piloto](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D38/poster-6fbf86005055.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D38/video-6fbf86005055.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -996,9 +899,9 @@ Type: Demo | Date: 2026-10-16
 
 **Copia el encargo táctico cronometrado para definir un objetivo visual de quince segundos.**
 
-La respuesta pide 15 segundos, el texto principal dice 30 y el vídeo dura unos 14,3; se conservan las tres referencias por separado.
-
-[![Tiroteo en un puerto desde primera persona](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D41/poster-d66668c4a4fe.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D41/video-d66668c4a4fe.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D41/video-d66668c4a4fe.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D41/poster-d66668c4a4fe.jpg" alt="Tiroteo en un puerto desde primera persona" height="280"></a>
+</p>
 
 **Prompt** · [Fuente del Prompt público](https://x.com/higgsfield_ai/status/2110906696851955916)
 
@@ -1021,7 +924,7 @@ Style: authentic competitive esports gameplay footage that looks like a real ran
 Audio: competitive shooter sound design, with punchy rifle bursts with echo off the containers, shell casings clinking on concrete and wood, footsteps on concrete and hollow wooden planks, bullet impacts on wood and metal with small water splashes, a smoke grenade hiss, a crisp magazine reload, seagulls, lapping water against the boats, distant harbor horns and a short round-win sting at the end. No dialogue.
 ```
 
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1030,11 +933,11 @@ Type: Demo | Date: 2026-10-16
 
 **Examina las transiciones entre conducción, vuelo y puntos urbanos reconocibles.**
 
-El resultado es un vídeo de transporte futuro; la fuente no proporciona un juego ejecutable.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D72/video-78d337068f01.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D72/poster-78d337068f01.jpg" alt="Coches voladores atraviesan una ciudad futura" height="280"></a>
+</p>
 
-[![Coches voladores atraviesan una ciudad futura](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D72/poster-78d337068f01.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D72/video-78d337068f01.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1043,11 +946,11 @@ Type: Demo | Date: 2026-10-16
 
 **Examina cómo una cámara de persecución combina tráfico terrestre y movimientos de vuelo.**
 
-Higgsfield lo presenta como otro concepto de videojuego con Kling 4.0 en su plataforma.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D73/video-d291f74977e7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D73/poster-d291f74977e7.jpg" alt="La policía persigue un coche volador por la ciudad" height="280"></a>
+</p>
 
-[![La policía persigue un coche volador por la ciudad](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D73/poster-d291f74977e7.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D73/video-d291f74977e7.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1056,11 +959,11 @@ Type: Demo | Date: 2026-10-16
 
 **Examina transiciones entre un vehículo, un personaje a pie y una secuencia aérea.**
 
-Frameo presenta un vídeo de aspecto jugable y un adelanto de integración, no un juego ejecutable.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D87/video-31d433ad4429.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D87/poster-31d433ad4429.jpg" alt="Un concepto de conducción costera pasa a vuelo en helicóptero" height="280"></a>
+</p>
 
-[![Un concepto de conducción costera pasa a vuelo en helicóptero](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D87/poster-31d433ad4429.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D87/video-31d433ad4429.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1073,11 +976,11 @@ Type: Demo | Date: 2026-10-16
 
 **Estudia cómo un videoclip terminado combina estilos y motivos emocionales recurrentes.**
 
-El creador declara producción asistida por MCP; los aproximadamente 136 segundos corresponden a una obra montada, no a una sola generación.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D10/video-32d9ded7f2d0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D10/poster-32d9ded7f2d0.jpg" alt="Videoclip ilustrado con pasajes de imagen real" height="280"></a>
+</p>
 
-[![Videoclip ilustrado con pasajes de imagen real](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D10/poster-32d9ded7f2d0.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D10/video-32d9ded7f2d0.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1086,11 +989,11 @@ Type: Demo | Date: 2026-10-16
 
 **Estudia la interacción y los materiales en una animación breve ambientada en una cocina.**
 
-La escena combina un dragón pequeño, utensilios de cocina y tratamiento visual de arcilla.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D32/video-1098bee49c56.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D32/poster-1098bee49c56.jpg" alt="Una abuela conoce a un diminuto dragón de arcilla" height="280"></a>
+</p>
 
-[![Una abuela conoce a un diminuto dragón de arcilla](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D32/poster-1098bee49c56.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D32/video-1098bee49c56.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1099,11 +1002,11 @@ Type: Demo | Date: 2026-10-16
 
 **Examina manos, objetos e iluminación en una breve secuencia de cocina estilizada.**
 
-La muestra de la plataforma representa un chef ilustrado trabajando en un puesto concurrido.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D36/video-a89dc333a50c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D36/poster-a89dc333a50c.jpg" alt="Un cocinero anime trabaja en un mercado nocturno" height="280"></a>
+</p>
 
-[![Un cocinero anime trabaja en un mercado nocturno](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D36/poster-a89dc333a50c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D36/video-a89dc333a50c.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1112,11 +1015,11 @@ Type: Demo | Date: 2026-10-16
 
 **Estudia cómo la escala reducida y el estilo stop motion construyen una secuencia de acción.**
 
-Un guerrero pequeño se enfrenta a una criatura roja; los tiempos de generación siguen siendo declaraciones de la plataforma.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D40/video-0096a333b2d9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D40/poster-0096a333b2d9.jpg" alt="Luchadores en miniatura en una batalla stop motion" height="280"></a>
+</p>
 
-[![Luchadores en miniatura en una batalla stop motion](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D40/poster-0096a333b2d9.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D40/video-0096a333b2d9.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1125,11 +1028,11 @@ Type: Demo | Date: 2026-10-16
 
 **Examina un motivo decorativo de luz y movimientos suaves del personaje.**
 
-Una imagen de descanso compartida por el creador se convierte en una breve secuencia lunar.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D49/video-cadca8a36e4a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D49/poster-cadca8a36e4a.jpg" alt="Una chica duerme sobre una luna creciente luminosa" height="280"></a>
+</p>
 
-[![Una chica duerme sobre una luna creciente luminosa](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D49/poster-cadca8a36e4a.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D49/video-cadca8a36e4a.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -1138,11 +1041,11 @@ Type: Demo | Date: 2026-10-15
 
 **Examina movimiento de grupos, distribución espacial y cambios de perspectiva en una danza callejera.**
 
-El creador prueba el modelo nuevo con una situación recurrente de baile colectivo.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D54/video-0f0e0bc769b1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D54/poster-0f0e0bc769b1.jpg" alt="Peatones participan en un baile colectivo urbano" height="280"></a>
+</p>
 
-[![Peatones participan en un baile colectivo urbano](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D54/poster-0f0e0bc769b1.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D54/video-0f0e0bc769b1.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -1151,11 +1054,11 @@ Type: Demo | Date: 2026-10-15
 
 **Estudia siluetas legibles e interacción de espadas en un combate estilizado.**
 
-El creador lo describe como prueba inicial con Prompt poco definido, no publicado en el texto principal.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D55/video-28acdf9e07a3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D55/poster-28acdf9e07a3.jpg" alt="Espadachines anime luchan bajo nubes de tormenta" height="280"></a>
+</p>
 
-[![Espadachines anime luchan bajo nubes de tormenta](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D55/poster-28acdf9e07a3.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D55/video-28acdf9e07a3.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -1164,11 +1067,11 @@ Type: Demo | Date: 2026-10-15
 
 **Estudia coreografía e iluminación al eliminar el color de la escena.**
 
-La fuente muestra una actuación monocroma con varios bailarines y formaciones cambiantes.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D57/video-0bf2843739e2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D57/poster-0bf2843739e2.jpg" alt="Un conjunto baila en un escenario en blanco y negro" height="280"></a>
+</p>
 
-[![Un conjunto baila en un escenario en blanco y negro](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D57/poster-0bf2843739e2.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D57/video-0bf2843739e2.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -1177,11 +1080,11 @@ Type: Demo | Date: 2026-10-15
 
 **Estudia movimiento animal expresivo y coherencia de un estilo animado suave.**
 
-El ejemplo sigue una ardilla pequeña interactuando con nieve y objetos del bosque.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D62/video-c2c730ddad9a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D62/poster-c2c730ddad9a.jpg" alt="Una ardilla juega con nieve en el bosque" height="280"></a>
+</p>
 
-[![Una ardilla juega con nieve en el bosque](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D62/poster-c2c730ddad9a.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D62/video-c2c730ddad9a.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -1190,11 +1093,11 @@ Type: Demo | Date: 2026-10-15
 
 **Estudia movimiento estilizado de personajes frente a un entorno de formas de repostería.**
 
-Este extracto visualmente distinto de King Cards sirve para estudiar una escena, no otra película independiente.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D71/video-f533cc90221d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D71/poster-f533cc90221d.jpg" alt="Una figura de rojo cruza un mundo de dulces" height="280"></a>
+</p>
 
-[![Una figura de rojo cruza un mundo de dulces](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D71/poster-f533cc90221d.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D71/video-f533cc90221d.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1203,11 +1106,11 @@ Type: Demo | Date: 2026-10-16
 
 **Estudia cómo vestuario, comida y expresión sostienen una viñeta de personaje animal.**
 
-El creador combina un gato coronado y curry antes de un cierre con título decorativo.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D77/video-0c65da3cad85.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D77/poster-0c65da3cad85.jpg" alt="Un gato blanco coronado come curry" height="280"></a>
+</p>
 
-[![Un gato blanco coronado come curry](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D77/poster-0c65da3cad85.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D77/video-0c65da3cad85.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1220,11 +1123,11 @@ Type: Demo | Date: 2026-10-16
 
 **Examina la transición continua desde un bosque cerrado hasta una amplia vista aérea.**
 
-Un jinete y un dragón pasan del bosque a valles montañosos; las recodificaciones repetidas se agruparon.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D13/video-ea2c6c571381.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D13/poster-ea2c6c571381.jpg" alt="Un viaje por el bosque se convierte en vuelo" height="280"></a>
+</p>
 
-[![Un viaje por el bosque se convierte en vuelo](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D13/poster-ea2c6c571381.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D13/video-ea2c6c571381.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1233,11 +1136,11 @@ Type: Demo | Date: 2026-10-16
 
 **Examina la continuidad de las criaturas y las transiciones entre motivos inquietantes.**
 
-Figuras pálidas, rostros deformados y bosques oscuros acompañan comentarios sobre sonido generado y mezcla posterior.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D16/video-f97b54673926.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D16/poster-f97b54673926.jpg" alt="Figuras sin rostro en un montaje de terror" height="280"></a>
+</p>
 
-[![Figuras sin rostro en un montaje de terror](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D16/poster-f97b54673926.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D16/video-f97b54673926.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1246,9 +1149,9 @@ Type: Demo | Date: 2026-10-16
 
 **Copia el Prompt público para explorar movimientos ambientales coordinados en una ciudad ficticia.**
 
-La respuesta especifica casas mecánicas giratorias, tuberías orgánicas, robots pequeños, agua poco profunda y cámara ascendente.
-
-[![Un asentamiento alienígena esférico cobra vida](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D17/poster-0727879b80e3.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D17/video-0727879b80e3.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D17/video-0727879b80e3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D17/poster-0727879b80e3.jpg" alt="Un asentamiento alienígena esférico cobra vida" height="280"></a>
+</p>
 
 **Prompt** · [Fuente del Prompt público](https://x.com/Alin_Reaper05/status/2110997691274580344)
 
@@ -1256,7 +1159,7 @@ La respuesta especifica casas mecánicas giratorias, tuberías orgánicas, robot
 A colorful alien settlement filled with enormous spherical buildings and bizarre organic machines comes alive at sunrise, round red mechanical houses rotate their giant lens-like windows, pipes expand and contract like breathing organs, small robotic creatures run through shallow water, flying vehicles weave between towers, camera glides smoothly through the town at ground level before rising above the rooftops, puddles reflecting neon lights and clouds, natural vegetation moving in the wind, playful but believable extraterrestrial world, cinematic photorealism.
 ```
 
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1265,9 +1168,9 @@ Type: Demo | Date: 2026-10-16
 
 **Copia el Prompt para explorar peso, desplazamiento del agua y movimiento gradual de grúa.**
 
-Dos animales de cuello largo cruzan agua turquesa entre vegetación roja y cielo amarillo verdoso.
-
-[![Animales alienígenas gigantes cruzan una laguna](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D20/poster-51289a03af36.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D20/video-51289a03af36.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D20/video-51289a03af36.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D20/poster-51289a03af36.jpg" alt="Animales alienígenas gigantes cruzan una laguna" height="280"></a>
+</p>
 
 **Prompt** · [Fuente del Prompt público](https://x.com/Alin_Reaper05/status/2110982744247353611)
 
@@ -1275,7 +1178,7 @@ Dos animales de cuello largo cruzan agua turquesa entre vegetación roja y cielo
 Two enormous long-necked alien animals slowly walk through a shallow turquoise lagoon surrounded by bright red grass and exotic palm forests. Their massive bodies create realistic waves and splashes with every step while smaller creatures flee along the shoreline. The camera begins low near the water and smoothly cranes upward, revealing the gigantic animals against a glowing yellow-green sky and distant mountains. Realistic weight and inertia, detailed skin movement, volumetric mist, natural vegetation motion, cinematic alien wildlife documentary, smooth continuous camera movement, highly coherent anatomy.
 ```
 
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1284,11 +1187,11 @@ Type: Demo | Date: 2026-10-16
 
 **Estudia articulación mecánica, escala y transición desde la postura en tierra hasta el vuelo.**
 
-La muestra enseña un robot grande activándose y elevándose desde una cubierta similar a la de un barco.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D25/video-621b9b81c745.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D25/poster-621b9b81c745.jpg" alt="Un gran meca despega de una cubierta" height="280"></a>
+</p>
 
-[![Un gran meca despega de una cubierta](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D25/poster-621b9b81c745.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D25/video-621b9b81c745.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1297,11 +1200,11 @@ Type: Demo | Date: 2026-10-16
 
 **Examina la escala entre criatura, vehículos y personas bajo lluvia intensa.**
 
-Una publicación posterior reutiliza las mismas imágenes y se conserva como procedencia adicional, no otro caso.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D60/video-cdf43480c9f5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D60/poster-cdf43480c9f5.jpg" alt="Una criatura gigante se acerca a un puente congestionado" height="280"></a>
+</p>
 
-[![Una criatura gigante se acerca a un puente congestionado](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D60/poster-cdf43480c9f5.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D60/video-cdf43480c9f5.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -1310,11 +1213,11 @@ Type: Demo | Date: 2026-10-15
 
 **Examina la coherencia de materiales y la cámara de seguimiento en una ciudad de origami.**
 
-Las imágenes pertenecen a King Cards, no a un proyecto independiente verificado.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D68/video-692aeb10394f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D68/poster-692aeb10394f.jpg" alt="Vehículos de periódico recorren una ciudad de papel" height="280"></a>
+</p>
 
-[![Vehículos de periódico recorren una ciudad de papel](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D68/poster-692aeb10394f.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D68/video-692aeb10394f.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1323,11 +1226,11 @@ Type: Demo | Date: 2026-10-16
 
 **Examina la relación entre movimiento mecánico, contacto con el terreno y un arma sobredimensionada.**
 
-El creador comparte su primer ejemplo de meca, no una simulación con documentación de ingeniería.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D75/video-dd1ae88aa463.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D75/poster-dd1ae88aa463.jpg" alt="Un meca pesado camina y dispara en una ladera" height="280"></a>
+</p>
 
-[![Un meca pesado camina y dispara en una ladera](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D75/poster-dd1ae88aa463.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D75/video-dd1ae88aa463.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1336,11 +1239,11 @@ Type: Demo | Date: 2026-10-16
 
 **Examina atmósfera, siluetas y motivos visuales recurrentes.**
 
-La fuente presenta una pieza estilizada de lluvia nocturna con figuras oscuras y un entorno similar a un castillo.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D78/video-6a014db111fa.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D78/poster-6a014db111fa.jpg" alt="Figuras góticas recorren una noche lluviosa" height="280"></a>
+</p>
 
-[![Figuras góticas recorren una noche lluviosa](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D78/poster-6a014db111fa.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D78/video-6a014db111fa.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1349,11 +1252,11 @@ Type: Demo | Date: 2026-10-16
 
 **Examina la transición desde una vista limitada del vehículo hacia un entorno luminoso.**
 
-Es otro extracto de King Cards, con su relación de procedencia conservada.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D81/video-9d22c4d4055d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D81/poster-9d22c4d4055d.jpg" alt="Un carruaje de papel entra en un túnel de hongos luminosos" height="280"></a>
+</p>
 
-[![Un carruaje de papel entra en un túnel de hongos luminosos](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D81/poster-9d22c4d4055d.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D81/video-9d22c4d4055d.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1364,11 +1267,11 @@ Type: Demo | Date: 2026-10-16
 <a id="case-78"></a>
 ### Caso 78: [Kling y Seedance comparten un Prompt de combate](https://x.com/AibeginnerR8/status/2110935157503041672) (por [@AibeginnerR8](https://x.com/AibeginnerR8))
 
-**Compara ambas salidas conservando los ajustes declarados y los límites de la evaluación.**
+**Compara la coreografía del combate forestal y los cortes de cámara entre dos modelos.**
 
-Ambas aparecen como 720p y usan audio de Kling; el creador prefiere Seedance en cortes, tiempos y seguimiento del movimiento en esta prueba.
-
-[![Kling y Seedance comparten un Prompt de combate](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D30/poster-a0590043e48c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D30/video-a0590043e48c.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D30/video-a0590043e48c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D30/poster-a0590043e48c.jpg" alt="Kling y Seedance comparten un Prompt de combate" height="280"></a>
+</p>
 
 **Prompt** · [Fuente del Prompt público](https://x.com/AibeginnerR8/status/2110935160434610592)
 
@@ -1424,7 +1327,7 @@ Bの低い後方斜めからAを見る。Bは着地の勢いで転がり、片�
 2人の顔、体格、髭、衣服、Bの角兜を維持。髭と衣服は加速に遅れて揺れる。攻撃線から外れた回避、接触による反動、足の支持と蹴りの回収を見せる。マスクカットはSHOT 5→6の1回、それ以外は通常のカット。字幕や画面内文字なし。
 ```
 
-Type: Evaluation | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1433,9 +1336,9 @@ Type: Evaluation | Date: 2026-10-16
 
 **Usa el Prompt de diálogo exacto para probar turnos de habla y sincronización labial de perfil.**
 
-El autor cita un precio para diez segundos y el vídeo dura unos quince; no se validaron independientemente audio ni facturación.
-
-[![Dos mujeres conversan en un plano fijo de cafetería](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D44/poster-293ead53e5df.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D44/video-293ead53e5df.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D44/video-293ead53e5df.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D44/poster-293ead53e5df.jpg" alt="Dos mujeres conversan en un plano fijo de cafetería" height="280"></a>
+</p>
 
 **Prompt** · [Fuente del Prompt público](https://x.com/tanabe_fragm/status/2110887676832543125)
 
@@ -1455,7 +1358,7 @@ The camera does not move or cut. Exactly four lines of dialogue, in natural Toky
 Precise lip sync: lips fully close on ま, ぱ, め, ば sounds; mouth shapes follow each vowel. No extra lines, no ad-libs, no narration. Audio is only the two voices and soft café ambience — no background music. No subtitles, no on-screen text. Single continuous horizontal shot, same framing from start to end.
 ```
 
-Type: Evaluation | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1464,11 +1367,11 @@ Type: Evaluation | Date: 2026-10-16
 
 **Compara la posición de los personajes y la composición entre las dos salidas mostradas.**
 
-La fuente declara veinte segundos y 180 frente a 120 créditos; son cifras del autor y de su cuenta.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D45/video-1007d8f82463.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D45/poster-1007d8f82463.jpg" alt="Las variantes Standard y Flash presentan cinco interlocutores" height="280"></a>
+</p>
 
-[![Las variantes Standard y Flash presentan cinco interlocutores](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D45/poster-1007d8f82463.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D45/video-1007d8f82463.mp4)
-
-Type: Evaluation | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -1477,43 +1380,43 @@ Type: Evaluation | Date: 2026-10-15
 
 **Examina acciones de contacto y uso de referencias de personaje en la pelea del creador.**
 
-El autor prefiere Seedance para el contacto, declara 405 créditos por treinta segundos a 1080p y revela promoción.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D64/video-e99a824137b0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D64/poster-e99a824137b0.jpg" alt="Un luchador con cabeza de tigre prueba el contacto" height="280"></a>
+</p>
 
-[![Un luchador con cabeza de tigre prueba el contacto](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D64/poster-e99a824137b0.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D64/video-e99a824137b0.mp4)
-
-Type: Evaluation | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
 <a id="case-82"></a>
 ### Caso 82: [Un presentador cambia durante una prueba de desfase sonoro](https://x.com/plasm0/status/2110763509307064539) (por [@plasm0](https://x.com/plasm0))
 
-**Usa la muestra como punto de partida para medir la sincronización por tu cuenta.**
+**Estudia la continuidad mientras cambia la apariencia del presentador.**
 
-El creador declara aprobada la prueba; los fotogramas confirman cambios de presentador, no precisión de sincronización del habla.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D65/video-285b037dd41e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D65/poster-285b037dd41e.jpg" alt="Un presentador cambia durante una prueba de desfase sonoro" height="280"></a>
+</p>
 
-[![Un presentador cambia durante una prueba de desfase sonoro](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D65/poster-285b037dd41e.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D65/video-285b037dd41e.mp4)
-
-Type: Evaluation | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
 <a id="case-83"></a>
 ### Caso 83: [Kling y Seedance generan el mismo concepto de coche volador](https://x.com/itsPolloAI/status/2111097887656726915) (por [@itsPolloAI](https://x.com/itsPolloAI))
 
-**Compara las dos pistas etiquetadas conservando el encuadre comparativo de la plataforma.**
+**Compara Kling y Seedance en la misma escena de coche volador.**
 
-Pollo AI declara usar el mismo Prompt, pero no aporta el texto ni ensayos controlados repetidos.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D86/video-f8698ad3f5cb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D86/poster-f8698ad3f5cb.jpg" alt="Kling y Seedance generan el mismo concepto de coche volador" height="280"></a>
+</p>
 
-[![Kling y Seedance generan el mismo concepto de coche volador](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D86/poster-f8698ad3f5cb.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D86/video-f8698ad3f5cb.mp4)
-
-Type: Evaluation | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 ## Repositorios relacionados
 
-No se enlaza un repositorio dedicado de API o Skill de Kling 4 porque no se ha verificado una ruta del modelo actual. Como referencia de otro modelo, consulta la [guía de Seedance 2.5](https://github.com/EvoLinkAI/awesome-seedance-2.5-guide); trata un modelo diferente y no valida estos casos de Kling.
+- [guía de Seedance 2.5](https://github.com/EvoLinkAI/awesome-seedance-2.5-guide)
 
 <a id="acknowledge"></a>
 ## 🙏 Agradecimientos
@@ -1523,5 +1426,3 @@ Gracias a las cuentas que publicaron el material representado en esta colección
 [@_3912657840](https://x.com/_3912657840), [@_lexers](https://x.com/_lexers), [@agi_aibusi](https://x.com/agi_aibusi), [@AI__TSUBAKI](https://x.com/AI__TSUBAKI), [@AibeginnerR8](https://x.com/AibeginnerR8), [@AIWarper](https://x.com/AIWarper), [@AiwithAmeliaa](https://x.com/AiwithAmeliaa), [@Aiwithkami](https://x.com/Aiwithkami), [@AIwithkhan](https://x.com/AIwithkhan), [@AlexM12jx](https://x.com/AlexM12jx), [@alifcoder](https://x.com/alifcoder), [@Alin_Reaper05](https://x.com/Alin_Reaper05), [@Bic_Revelation](https://x.com/Bic_Revelation), [@craftcapitallab](https://x.com/craftcapitallab), [@Dani__oros](https://x.com/Dani__oros), [@Diplomeme](https://x.com/Diplomeme), [@dylannknox](https://x.com/dylannknox), [@ErnestoSOFTWARE](https://x.com/ErnestoSOFTWARE), [@fabulatenebris](https://x.com/fabulatenebris), [@fAIkout](https://x.com/fAIkout), [@fatoomdes](https://x.com/fatoomdes), [@frameo_ai](https://x.com/frameo_ai), [@Gemalpha_88](https://x.com/Gemalpha_88), [@h_ashizawaJP](https://x.com/h_ashizawaJP), [@higgsfield_ai](https://x.com/higgsfield_ai), [@Hope_Ai01](https://x.com/Hope_Ai01), [@iam_mian7](https://x.com/iam_mian7), [@IntLab0000](https://x.com/IntLab0000), [@itsPolloAI](https://x.com/itsPolloAI), [@jerrod_lew](https://x.com/jerrod_lew), [@jji1jj](https://x.com/jji1jj), [@leilamakes](https://x.com/leilamakes), [@lexx_aura](https://x.com/lexx_aura), [@Lianaalane](https://x.com/Lianaalane), [@liluocheng13](https://x.com/liluocheng13), [@Lisa__Rodin](https://x.com/Lisa__Rodin), [@magnific](https://x.com/magnific), [@MelinaVale14](https://x.com/MelinaVale14), [@minuitIA](https://x.com/minuitIA), [@MO_IAI](https://x.com/MO_IAI), [@Naonekozamurai](https://x.com/Naonekozamurai), [@nrqa__](https://x.com/nrqa__), [@NyaiiBubu](https://x.com/NyaiiBubu), [@ojiji2025](https://x.com/ojiji2025), [@onofumi_AI](https://x.com/onofumi_AI), [@OxBairan](https://x.com/OxBairan), [@ozansihay](https://x.com/ozansihay), [@PDyv9gdatT4132](https://x.com/PDyv9gdatT4132), [@plasm0](https://x.com/plasm0), [@PromptSin](https://x.com/PromptSin), [@seisei_ai_1st](https://x.com/seisei_ai_1st), [@SirGlavan_](https://x.com/SirGlavan_), [@sophiaparkerr_](https://x.com/sophiaparkerr_), [@Starjupi](https://x.com/Starjupi), [@Stevemnx3](https://x.com/Stevemnx3), [@tanabe_fragm](https://x.com/tanabe_fragm), [@techhalla](https://x.com/techhalla), [@torotoromoney](https://x.com/torotoromoney), [@tphuang](https://x.com/tphuang), [@umesh_ai](https://x.com/umesh_ai), [@WuxiaRocks](https://x.com/WuxiaRocks), [@YapayZekaSerisi](https://x.com/YapayZekaSerisi), [@z933TfmXkaISSVc](https://x.com/z933TfmXkaISSVc)
 
 Los vídeos, imágenes y Prompts de terceros conservan sus respectivos derechos. El texto editorial y la estructura usan [CC BY 4.0](LICENSE); esto no cambia la licencia de los medios de terceros. Para corregir atribución, propiedad o reproducción, [abre una incidencia](https://github.com/cheercheung/awesome-kling-4-usecases/issues). Consulta la [política de medios](docs/media-policy.md) y la [guía de contribución](CONTRIBUTING.md).
-
-[Explora modelos de vídeo en EvoLink](https://evolink.ai/models?utm_source=github&utm_medium=footer&utm_campaign=awesome-kling-4-usecases&utm_content=es_footer)

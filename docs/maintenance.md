@@ -8,19 +8,21 @@ The initial [collection scope](collection-scope.md) records search windows, gaps
 
 ## Case format
 
-Use a stable `case-N` HTML anchor immediately before the third-level linked case heading, followed by a bold reader-action takeaway, source-grounded notes, a linked R2 poster and optional exact public Prompt blocks. End with the canonical `Type: ... | Date: YYYY-MM-DD` line and a separator. Metadata dates are source UTC dates, not a claimed date of creation of the media.
+Use a stable `case-N` HTML anchor immediately before the third-level linked case heading, followed by a short bold takeaway, a centered linked R2 poster and optional exact public Prompt blocks. End with the source date in a subtle `<sub>` line and a separator.
 
-Types are `Demo`, `Tutorial`, `Evaluation`, `Integration`, `Benchmark` or `Limit`. Missing prompts are omitted. Preserve source text and Prompt hashes; do not infer a prompt from a video. Keep posting-account attribution separate from original authorship, and retain author-reply conversation relationships in structured source records.
+The reader-facing presentation is category-based. The Menu contains one category/count link for each populated section. Case images, including supplementary cards, use `height="280"` without a fixed width. The original owner banner remains a separate cover image.
+
+Do not reintroduce type labels, case audit notes, transcription-status comments, missing-reference disclaimers, download/scope paragraphs, promotional links or Quick Start. These display choices are recorded in `data/usecase-update-config.json`. Structured source notes and internal types remain available in the dataset without being copied into the README. Preserve exact Prompt text and hashes; do not infer a prompt from a video.
 
 ## Update checklist
 
 1. Freeze the collection timestamp and requested search window, preserve raw source evidence privately, and record gaps and API coverage limits
-2. Review every candidate, deduplicate source URLs and media, and resolve category, title, type, date, takeaway, attribution and Prompt boundary before editing
+2. Review every candidate, deduplicate source URLs and media, and resolve category, title, date, short takeaway, attribution and Prompt boundary before editing
 3. Freeze a source-fidelity manifest and expected visual set, including every selected attachment; verify the handoff before changing READMEs
 4. Host original playback and derived posters on R2, preserve source URLs and hashes, and confirm complete bytes and content types
 5. Update English README and structured data first, run the English gate, then update all ten translations without changing Prompt/code blocks
 6. Refresh the CSV and compact index, retaining the same case order and captured engagement timestamps
-7. Run the portable checker, canonical pipeline gates, complete public-link audit and GitHub rendered-media audit; fix findings and rerun affected checks
+7. Run the portable checker, source/media/localization checks and GitHub render review against the owner-selected display profile; do not restore template-default sections merely to satisfy an outdated checker
 8. Commit, push and read back the exact public commit, README, media, About fields and branch before describing an update as published
 
 Never run a new model generation without an approved credit budget. A source video does not prove API availability. A first-publication or later update must explicitly document any owner-approved exception to a required pipeline gate.
@@ -41,6 +43,6 @@ Release operators also run the `model-repo-pipeline` canonical handoff, English,
 
 ## Hosting and links
 
-Case posters link to playable R2 MP4s. Original X media URLs are provenance in structured data, not display fallbacks. Keep all case visuals across languages equal to the frozen expected set. Public EvoLink links use `utm_source=github`, campaign `awesome-kling-4-usecases` and placement/locale attribution. GitHub About homepage is exempt. Source and third-party media links must not receive EvoLink UTM parameters.
+Case posters link to playable R2 MP4s. Original X media URLs are provenance in structured data, not display fallbacks. Keep all case visuals across languages equal to the frozen expected set. No promotional links belong in the current README profile.
 
-Recheck model/API/skill availability before changing Quick Start. Star History must remain absent below ten live GitHub stars; add it only after reading the live count, then keep it as the final README element.
+Star History must remain absent below ten live GitHub stars; add it only after reading the live count, then keep it as the final README element.

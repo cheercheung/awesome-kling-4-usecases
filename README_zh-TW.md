@@ -2,10 +2,9 @@
 
 # Kling 4 Use Cases
 
-<a href="https://evolink.ai/models?utm_source=github&utm_medium=banner&utm_campaign=awesome-kling-4-usecases&utm_content=zh-TW_banner"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/images/en.png" alt="Kling 4 使用案例" width="760"></a>
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/images/en.png" alt="Kling 4 使用案例" width="760">
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
-[![EvoLink](https://img.shields.io/badge/Explore_video_models-EvoLink-black)](https://evolink.ai/models?utm_source=github&utm_medium=badge&utm_campaign=awesome-kling-4-usecases&utm_content=zh-TW_badge)
 
 [![English](https://img.shields.io/badge/English-111111)](README.md) [![Español](https://img.shields.io/badge/Espa%C3%B1ol-ffb703)](README_es.md) [![Português](https://img.shields.io/badge/Portugu%C3%AAs-2a9d8f)](README_pt.md) [![日本語](https://img.shields.io/badge/%E6%97%A5%E6%9C%AC%E8%AA%9E-52b788)](README_ja.md) [![한국어](https://img.shields.io/badge/%ED%95%9C%EA%B5%AD%EC%96%B4-4ea8de)](README_ko.md) [![Deutsch](https://img.shields.io/badge/Deutsch-f4a261)](README_de.md) [![Français](https://img.shields.io/badge/Fran%C3%A7ais-e76f51)](README_fr.md) [![Türkçe](https://img.shields.io/badge/T%C3%BCrk%C3%A7e-d62828)](README_tr.md) [![繁體中文](https://img.shields.io/badge/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-8338ec)](README_zh-TW.md) [![简体中文](https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-ef476f)](README_zh-CN.md) [![Русский](https://img.shields.io/badge/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-577590)](README_ru.md)
 
@@ -15,115 +14,22 @@
 
 **透過公開影片、創作者工作流和已公開提示詞，瞭解 Kling 4 / 4.0 的具體用法** 本倉庫幫助影片創作者、開發者和模型評測者挑選值得觀察或測試的場景，每個案例都連結原帖與發帖賬號
 
-點選影片封面觀看，結合證據說明閱讀；只有作者實際公開了 Prompt 才提供原文供複製，發帖賬號可能是分發方，署名本身不代表原創身份已經確認
-
-[檢視 EvoLink 影片模型](https://evolink.ai/models?utm_source=github&utm_medium=introduction&utm_campaign=awesome-kling-4-usecases&utm_content=zh-TW_introduction)
-
 ## 📊 概覽
 
-**83 個精選案例 · 10 個案例包含 11 組公開 Prompt · 8 個分類** 內容覆蓋工作流、廣告、敘事、動作、遊戲概念、動畫、世界場景與對比，每個案例都有來源、賬號連結、使用要點、媒體、型別及 UTC 來源日期
-
-> [!NOTE]
-> 這些案例有公開來源支援，但並非獨立驗證的 Kling API 呼叫或受控基準測試，部分條目是同一部成片的不同剪段；遊戲式影片不代表可玩的遊戲，剪輯成片時長也不代表原生生成時長，價格與積分仍按作者自述標註
-
-下載[案例資料](data/use-cases.json)或[可排序 CSV](data/use-cases.csv)，其中保留採集時的互動指標、Prompt 狀態與來源關係；[採集範圍](docs/collection-scope.md)說明了兩次檢索的時間視窗及其間隔，本倉庫是固定日期的資料集，並非實時全量索引
-
-<a id="quick-start"></a>
-## ⚡ 快速開始
-
-1. [檢視 EvoLink 影片模型](https://evolink.ai/models?utm_source=github&utm_medium=quick_start&utm_campaign=awesome-kling-4-usecases&utm_content=zh-TW_quick_start)，註冊或登入賬號
-2. 使用已支援模型時，[建立或獲取 API Key](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=api_key&utm_campaign=awesome-kling-4-usecases&utm_content=zh-TW_api_key)
-3. 提交任務前先確認具體模型可用性，**截至 2026-10-17，本資料集尚未驗證 Kling 4 的 API 路由與專用可安裝 Skill**；可透過[閱讀 Codex CLI 設定文件](https://evolink.ai/docs/en/cli/codex?utm_source=github&utm_medium=setup_docs&utm_campaign=awesome-kling-4-usecases&utm_content=zh-TW_setup_docs)瞭解通用設定，該文件不是經驗證的 Kling 4 首次呼叫範例
-
-本倉庫用於研究與創作參考，不提供可執行 API 示例或模型安裝器；復現案例時，不要把其他 Kling 版本直接當成同一模型
+**83 個精選案例 · 10 個案例包含 11 組公開 Prompt · 8 個分類**
 
 ## 📑 目錄
 
-| 案例 | 分類 | 觀察要點 | 型別 |
-|---|---|---|---|
-| [科幻場景中的角色與環境參考](#case-1) | 工作流與參考資料 | 觀察獨立角色表和環境表如何與長篇影片創作要求並列呈現 | Demo |
-| [從 Agent 分鏡到動畫片段](#case-2) | 工作流與參考資料 | 將作者的劇本、分鏡、Prompt 串聯方式用於短動畫的前期規劃 | Tutorial |
-| [宏大奇幻場景的參考圖表](#case-3) | 工作流與參考資料 | 觀察角色表、環境表與長篇場景要求之間的對應關係 | Demo |
-| [手機聊天介面中的影片任務](#case-4) | 工作流與參考資料 | 先觀察作者提出的 Codex 到 MCP 銜接方式，再用自己的已驗證工具復現 | Tutorial |
-| [起亞 SUV 的森林公路廣告](#case-5) | 廣告與產品故事 | 用公開的十五鏡分鏡，規劃三十秒廣告中的車輛連續性 | Demo |
-| [多人物護膚品 UGC 廣告拼貼](#case-6) | 廣告與產品故事 | 參考可見廣告形式，規劃保留完整製作記錄的 UGC 對照實驗 | Demo |
-| [迷你龍給甜點焦糖化](#case-7) | 廣告與產品故事 | 以一個明確的食物動作，觀察角色驅動的產品故事 | Demo |
-| [橙汁紙盒的廣告場景](#case-8) | 廣告與產品故事 | 圍繞單一產品觀察包裝可見度、水果意象與轉場 | Demo |
-| [淺綠房間裡的耳機女孩](#case-9) | 角色與敘事 | 觀察近景、全身動作與同一淺色場景中的角色外觀 | Demo |
-| [走近古典柱廊的男子](#case-10) | 角色與敘事 | 透過可見片段觀察剋制的動作和建築環境連續性 | Demo |
-| [溼發女性的情緒近景](#case-11) | 角色與敘事 | 觀察以對白表演為主的樣片中細微的面部變化和構圖 | Demo |
-| [電影院裡的母女情緒瞬間](#case-12) | 角色與敘事 | 觀察短情緒場景如何依託一個具體的個人故事 | Demo |
-| [兩位主播播報日語新聞](#case-13) | 角色與敘事 | 據此設計針對對白、雙人排程和螢幕圖文的專項測試 | Demo |
-| [辦公大廳裡的迷你卡丁車](#case-14) | 角色與敘事 | 透過把意外的交通工具放進日常建築場景，觀察喜劇性的比例反差 | Demo |
-| [男友視角下的夏日散步](#case-15) | 角色與敘事 | 複製詳細公開要求，以日常互動規劃三十秒連續敘事 | Demo |
-| [車輛、士兵與人物近景合集](#case-16) | 角色與敘事 | 用蒙太奇挑出具體任務，再分別進行受控測試 | Demo |
-| [King Cards 的魔術與城市飛行](#case-17) | 角色與敘事 | 觀察較長短片如何連線舞臺魔術、紙質載具和反覆出現的紅鳥 | Demo |
-| [鄉村女性與暴雨前的拖拉機](#case-18) | 角色與敘事 | 觀察角色、機器和天氣如何傳達簡短的敘事前提 | Demo |
-| [恐龍冒險短片與可複用鏡頭要求](#case-19) | 角色與敘事 | 對照成片與作者公開的七秒動作、八秒駕車要求進行學習 | Demo |
-| [快遞員開啟通向異世界的電梯](#case-20) | 角色與敘事 | 觀察固定主角如何對同一扇門外不斷變化的環境作出反應 | Demo |
-| [地下烏龜水管工的喜劇場景](#case-21) | 角色與敘事 | 用作者的流程說明區分概念、角色設計、指令碼、對白與聲音決策 | Demo |
-| [以車輛意外收尾的街頭追逐](#case-22) | 角色與敘事 | 透過人物動作、構圖和街頭狀況變化觀察喜劇節奏 | Demo |
-| [少女發現藍龍的奇幻短片](#case-23) | 角色與敘事 | 觀察個人奇幻故事如何形成包含固定角色的組合片段 | Demo |
-| [紙質載具駛入花城](#case-24) | 角色與敘事 | 觀察 King Cards 短剪段中的人物、載具與環境變化 | Demo |
-| [紙質車廂裡的石像變成人](#case-25) | 角色與敘事 | 觀察移動載具內的角色位置與短暫形態變化 | Demo |
-| [魔術師與紙牌環繞的劇場](#case-26) | 角色與敘事 | 把中心人物表演、移動道具和周圍觀眾作為同一場景觀察 | Demo |
-| [庭院足浴中的女性日常](#case-27) | 角色與敘事 | 觀察普通手勢、服裝和安靜環境，而非複雜動作 | Demo |
-| [以獵鷹串聯舉報主題短片](#case-28) | 角色與敘事 | 觀察角色意象如何把手機介面鏡頭連線成一個主題表達 | Demo |
-| [廚房裡躡行的橘貓](#case-29) | 角色與敘事 | 觀察日常室內環境中的小動作與鏡頭距離變化 | Demo |
-| [兩名男子在街角相見擁抱](#case-30) | 角色與敘事 | 觀察簡短社互動動中的接近、身體接觸與角色位置 | Demo |
-| [月下雲端雙人劍鬥](#case-31) | 動作與身體互動 | 用這段畫面觀察多人動作、空中排程與服裝輪廓的連續性 | Demo |
-| [跆拳道館內的雙人格鬥](#case-32) | 動作與身體互動 | 對照格鬥過程中的身體接觸、雙方距離與鏡頭位置 | Demo |
-| [兩輛跑車穿越城市追逐](#case-33) | 動作與身體互動 | 觀察快速切換鏡位時車輛身份和運動方向的延續 | Demo |
-| [移動鏡頭下的拳擊交鋒](#case-34) | 動作與身體互動 | 觀察出拳、防守位移與近身接觸，不只看單張好看的畫面 | Demo |
-| [穿越爆炸街道的女戰士](#case-35) | 動作與身體互動 | 觀察固定角色與行駛車輛、煙霧及大規模背景特效的關係 | Demo |
-| [少女與城市巨獸對峙](#case-36) | 動作與身體互動 | 跟隨城市中的衝突場景，比較人物和巨獸的體量關係 | Demo |
-| [穿過外星叢林的機械捕食者](#case-37) | 動作與身體互動 | 用公開 Prompt 觀察加速、環境反應和後退的手持視角 | Demo |
-| [騎手在戰場上持長槍交鋒](#case-38) | 動作與身體互動 | 觀察開闊戰場中的騎手互動、馬匹運動與武器接觸 | Demo |
-| [空手道交手與地墊接觸](#case-39) | 動作與身體互動 | 觀察表演者與周圍環境的接觸，不把動作僅看作孤立姿勢 | Demo |
-| [便利店員工與格鬥者交手](#case-40) | 動作與身體互動 | 觀察帶日語對白的動作樣例中的近身接觸與場景連續性 | Demo |
-| [石臺上的鎧甲奇幻格鬥](#case-41) | 動作與身體互動 | 觀察關鍵幀驅動的風格化戰鬥中的動作排程 | Demo |
-| [貓咪穿越夜間城鎮](#case-42) | 動作與身體互動 | 復製作者的一鏡到底 Prompt，探索相連室內外空間中的快速運動 | Demo |
-| [雨中森林裡的武士對決](#case-43) | 動作與身體互動 | 觀察雨景格鬥中的服裝穩定性與武器接觸 | Demo |
-| [樹林中黑衣女性的動作片段](#case-44) | 動作與身體互動 | 對照同一林間動作場景的不同編碼版本，觀察姿勢與鏡頭運動 | Demo |
-| [紅紙鳥對抗紫色章魚](#case-45) | 動作與身體互動 | 觀察小型飛行主體與大型拼裝生物之間的互動 | Demo |
-| [籃球運動員飛身扣籃](#case-46) | 動作與身體互動 | 觀察身體軌跡、籃球位置與籃筐接觸 | Demo |
-| [賞金獵人風格的遊戲概念](#case-47) | 遊戲與載具概念 | 將片段作為結合人物動作和對白的遊戲預告場景參考 | Demo |
-| [飛車衝上夜間巨型坡道](#case-48) | 遊戲與載具概念 | 將片段用作電影化車輛概念參考，不當作遊戲已經可執行的證據 | Demo |
-| [日落海岸公路上的跑車競速](#case-49) | 遊戲與載具概念 | 觀察競速影片概念中的追逐鏡頭、光線和儀表式疊層 | Demo |
-| [戰鬥機飛越海島環境](#case-50) | 遊戲與載具概念 | 用樣片觀察飛行鏡頭的運動和遊戲介面構圖 | Demo |
-| [角色在浮空島之間滑翔](#case-51) | 遊戲與載具概念 | 觀察第三人稱影片概念從狹窄空間轉入寬闊空景的方式 | Demo |
-| [跟隨騎手的摩托競速概念](#case-52) | 遊戲與載具概念 | 觀察遊戲式影片中的摩托動作、追逐鏡頭距離與賽道照明 | Demo |
-| [第一人稱港口射擊場景](#case-53) | 遊戲與載具概念 | 復製作者按時間分段的戰術射擊要求，定義十五秒視覺目標 | Demo |
-| [未來城市中的飛行汽車](#case-54) | 遊戲與載具概念 | 透過概念畫面觀察街面駕駛、飛行和城市地標之間的轉換 | Demo |
-| [警車追逐穿城飛車](#case-55) | 遊戲與載具概念 | 觀察追逐鏡頭概念如何結合地面車流與騰空動作 | Demo |
-| [海濱駕駛轉入直升機飛行](#case-56) | 遊戲與載具概念 | 觀察跑車、步行人物和空中鏡頭之間的轉換 | Demo |
-| [插畫與實拍風格交織的音樂影片](#case-57) | 動畫與風格化角色 | 觀察完整 MV 如何結合不同風格和反覆出現的情緒意象 | Demo |
-| [廚房裡的奶奶與迷你黏土龍](#case-58) | 動畫與風格化角色 | 觀察緊湊廚房動畫中的角色互動與材質風格 | Demo |
-| [夜市攤位上的動漫廚師](#case-59) | 動畫與風格化角色 | 觀察短篇烹飪動畫中的手部動作、道具與照明 | Demo |
-| [微縮人物的定格風格戰鬥](#case-60) | 動畫與風格化角色 | 觀察微縮比例和定格風格如何塑造短動作片段 | Demo |
-| [發光月牙座椅上的睡眠場景](#case-61) | 動畫與風格化角色 | 用場景觀察裝飾性光線主題與輕微人物動作 | Demo |
-| [城市路口的快閃群舞](#case-62) | 動畫與風格化角色 | 觀察街舞片段中的群體動作、空間排列與視角變化 | Demo |
-| [暴風雲下的動漫劍客對決](#case-63) | 動畫與風格化角色 | 觀察風格化格鬥中清晰的人物輪廓與兵刃互動 | Demo |
-| [黑白舞臺上的多人舞蹈](#case-64) | 動畫與風格化角色 | 在去除色彩的條件下觀察編舞與燈光 | Demo |
-| [森林裡玩雪的松鼠](#case-65) | 動畫與風格化角色 | 觀察富於表情的動物動作與統一的柔和動畫風格 | Demo |
-| [紅衣人物穿過糖果世界](#case-66) | 動畫與風格化角色 | 觀察風格化人物動作與由甜點構成的環境 | Demo |
-| [戴王冠的白貓吃咖哩](#case-67) | 動畫與風格化角色 | 觀察服裝、食物道具與表情如何支撐動物角色短故事 | Demo |
-| [從森林旅程轉入騎龍飛行](#case-68) | 世界場景與生物 | 觀察畫面如何從封閉樹林逐步展開為空中遠景 | Demo |
-| [恐怖蒙太奇中的無麵人形](#case-69) | 世界場景與生物 | 觀察怪物形象的連續性及不同詭異意象之間的轉場 | Demo |
-| [甦醒的球形外星聚落](#case-70) | 世界場景與生物 | 復製作者公開的 Prompt，探索虛構小鎮中多種環境運動的配合 | Demo |
-| [外星巨獸涉過淺水湖](#case-71) | 世界場景與生物 | 復製作者的 Prompt，探索體重、水面反應和緩慢升鏡 | Demo |
-| [巨型機甲從甲板起飛](#case-72) | 世界場景與生物 | 觀察機械關節、體量與從站立轉入飛行的過程 | Demo |
-| [巨獸逼近擁堵的懸索橋](#case-73) | 世界場景與生物 | 觀察暴雨環境中巨獸、車輛和人群之間的比例關係 | Demo |
-| [報紙載具穿越紙質城市](#case-74) | 世界場景與生物 | 觀察摺紙風城市中的環境材質一致性與跟隨鏡頭 | Demo |
-| [山坡上的重型步行機甲](#case-75) | 世界場景與生物 | 觀察機械運動、地面接觸與超大武器之間的關係 | Demo |
-| [哥特人物穿行雨夜](#case-76) | 世界場景與生物 | 觀察氛圍、輪廓和反覆出現的視覺主題 | Demo |
-| [紙質車廂進入發光菌菇隧道](#case-77) | 世界場景與生物 | 觀察畫面如何從受限的車廂視角轉入明亮環境 | Demo |
-| [同一森林格鬥 Prompt 的雙模型對比](#case-78) | 對比與評測 | 比較兩路顯示結果，同時保留作者宣告的設定和評價邊界 | Evaluation |
-| [咖啡館裡的固定雙人對白](#case-79) | 對比與評測 | 用公開對白 Prompt 測試輪流說話與側臉口型同步 | Evaluation |
-| [標準版與 Flash 的五人對白](#case-80) | 對比與評測 | 比較作者展示的兩路結果中的角色位置與場景構圖 | Evaluation |
-| [虎頭人物測試近身動作](#case-81) | 對比與評測 | 用創作者的格鬥片段觀察高接觸動作與角色參考圖的作用 | Evaluation |
-| [音畫漂移測試中的變化主持人](#case-82) | 對比與評測 | 把樣片作為獨立測量同步效果的起點 | Evaluation |
-| [同一飛車概念的雙模型對比](#case-83) | 對比與評測 | 比較兩條帶標籤的影片軌道，同時保留平臺的對比口徑 | Evaluation |
+| 分類 | 案例數 |
+|---|---|
+| [🛠️ 工作流與參考資料](#category-workflow) | 4 |
+| [📦 廣告與產品故事](#category-ads) | 4 |
+| [🎬 角色與敘事](#category-story) | 22 |
+| [⚔️ 動作與身體互動](#category-action) | 16 |
+| [🎮 遊戲與載具概念](#category-game) | 10 |
+| [🎨 動畫與風格化角色](#category-animation) | 11 |
+| [🌍 世界場景與生物](#category-world) | 10 |
+| [🔬 對比與評測](#category-evaluation) | 6 |
 
 <a id="category-workflow"></a>
 ## 🛠️ 工作流與參考資料
@@ -133,11 +39,11 @@
 
 **觀察獨立角色表和環境表如何與長篇影片創作要求並列呈現**
 
-影片展示沙漠世界、參考圖與滾動 Prompt，全文尚未轉錄
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D11/video-c7f71e602146.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D11/poster-c7f71e602146.jpg" alt="科幻場景中的角色與環境參考" height="280"></a>
+</p>
 
-[![科幻場景中的角色與環境參考](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D11/poster-c7f71e602146.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D11/video-c7f71e602146.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -146,11 +52,11 @@ Type: Demo | Date: 2026-10-16
 
 **將作者的劇本、分鏡、Prompt 串聯方式用於短動畫的前期規劃**
 
-作者自述用 Opus 5.5 寫作，再以 Claude 和 MCP 生成，動畫附件無法驗證工具執行日誌
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D15/video-a0d7f303f6cf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D15/poster-a0d7f303f6cf.jpg" alt="從 Agent 分鏡到動畫片段" height="280"></a>
+</p>
 
-[![從 Agent 分鏡到動畫片段](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D15/poster-a0d7f303f6cf.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D15/video-a0d7f303f6cf.mp4)
-
-Type: Tutorial | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -159,24 +65,24 @@ Type: Tutorial | Date: 2026-10-16
 
 **觀察角色表、環境表與長篇場景要求之間的對應關係**
 
-組合展示中可見拱頂環境和滾動 Prompt，但完整文字尚未轉錄
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D19/video-225fcfcd6ec2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D19/poster-225fcfcd6ec2.jpg" alt="宏大奇幻場景的參考圖表" height="280"></a>
+</p>
 
-[![宏大奇幻場景的參考圖表](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D19/poster-225fcfcd6ec2.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D19/video-225fcfcd6ec2.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 <a id="case-4"></a>
 ### 案例 4: [手機聊天介面中的影片任務](https://x.com/agi_aibusi/status/2110941943006118201) (作者 [@agi_aibusi](https://x.com/agi_aibusi))
 
-**先觀察作者提出的 Codex 到 MCP 銜接方式，再用自己的已驗證工具復現**
+**參考透過手機聊天建立和追蹤影片任務的工作流程**
 
-錄屏顯示聊天和任務狀態，作者討論的訂閱積分規則不代表通用 API 計費規則
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D28/video-fbf3abad9feb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D28/poster-fbf3abad9feb.jpg" alt="手機聊天介面中的影片任務" height="280"></a>
+</p>
 
-[![手機聊天介面中的影片任務](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D28/poster-fbf3abad9feb.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D28/video-fbf3abad9feb.mp4)
-
-Type: Tutorial | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -189,9 +95,9 @@ Type: Tutorial | Date: 2026-10-16
 
 **用公開的十五鏡分鏡，規劃三十秒廣告中的車輛連續性**
 
-Prompt 依賴此處未提供的車輛參考圖，其中的 4K 是指令要求，不是經核驗的輸出解析度
-
-[![起亞 SUV 的森林公路廣告](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D26/poster-cf1e54b34518.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D26/video-cf1e54b34518.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D26/video-cf1e54b34518.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D26/poster-cf1e54b34518.jpg" alt="起亞 SUV 的森林公路廣告" height="280"></a>
+</p>
 
 **提示詞** · [公開提示詞來源](https://x.com/Diplomeme/status/2110947179057811727)
 
@@ -199,20 +105,20 @@ Prompt 依賴此處未提供的車輛參考圖，其中的 4K 是指令要求，
 High-octane, hyper-realistic automotive commercial for the Kia Seltos, shot with the visual intensity of a Christopher Nolan-style cinematic production using actual 70mm IMAX cameras. Fast-paced multi-shot editing with quick, cinematic cuts timed at exactly one shot every 2 seconds across a complete 30-second timeline. The champagne-gold Kia Seltos, matching the exact vehicle design in the provided reference images, charges through a dense forest road surrounded by towering trees and dappled sunlight. High-contrast Nolan-esque color grading with deep shadows, cold teals, warm champagne-gold reflections, and bright highlights. Sunlight pierces through the forest canopy, reflecting across the sculpted bodywork, signature vertical LED daytime running lights, black front grille, muscular wheel arches, and distinctive rear light bar. Rapid sequence of intense cuts:•Shot 1 (0-2s): Ground-level cinematic establishing shot of an empty winding forest road, towering trees casting deep shadows as sunlight breaks through the canopy. The distant engine note of the approaching Kia Seltos builds tension.•Shot 2 (2-4s): Low eye-level tracking shot of the champagne-gold Kia Seltos emerging between the trees, accelerating along the forest road and revealing its bold front grille, distinctive vertical LED lighting signature, and commanding SUV stance.•Shot 3 (4-6s): Tight, detailed close-up of the front fascia, Kia emblem, illuminated LED daytime running lights, glossy black grille elements, and champagne-gold paint reflecting the passing forest.•Shot 4 (6-8s): Dramatic low-angle tracking shot moving alongside the front wheel as the alloy spokes spin rapidly, tires maintain realistic contact with the asphalt, and the SUV’s sculpted bodywork catches streaks of sunlight.•Shot 5 (8-10s): Fast lateral tracking shot revealing the complete side profile, muscular wheel arches, black lower-body cladding, door contours, windows, roofline, and metallic champagne-gold finish as the Kia Seltos sweeps through the forest.•Shot 6 (10-12s): Low-angle handheld-style camera whip-pan from the road surface to the SUV’s front three-quarter profile as it exits a sweeping bend, with realistic suspension movement, controlled body roll, and natural background motion blur.•Shot 7 (12-14s): Extreme close-up of sunlight traveling across the sculpted hood, Kia emblem, sharp body creases, and vertical LED lights, emphasizing precise automotive design and premium paint reflections.•Shot 8 (14-16s): Rear three-quarter tracking shot following the Kia Seltos through the forest, showcasing the distinctive rear light bar, angular vertical taillights, rear spoiler, sculpted tailgate, and authentic model badging.•Shot 9 (16-18s): Dynamic wheel-height tracking shot as the SUV drives across alternating patches of sunlight and shadow, capturing realistic tire rotation, subtle road texture, reflections along the lower doors, and the movement of the suspension over natural road undulations.•Shot 10 (18-20s): High-angle wide shot of the Kia Seltos commanding a sweeping forest road, surrounded by towering trees and atmospheric shafts of sunlight, with the winding asphalt leading the eye toward the moving SUV.•Shot 11 (20-22s): Fast front-facing tracking shot of the Kia Seltos approaching the camera along a straight section of forest road, its LED lights illuminated and grille dominating the frame as the camera smoothly retreats ahead of the vehicle.•Shot 12 (22-24s): Rapid cinematic transition into a close rear tracking angle as the SUV accelerates away through the trees, the rear lighting signature glowing against the darker forest and the road markings sweeping beneath the frame.•Shot 13 (24-26s): Dramatic low-angle front three-quarter hero shot as the Kia Seltos exits the forest bend and enters a naturally illuminated clearing, revealing its full stance, champagne-gold bodywork, alloy wheels, and signature front lighting.•Shot 14 (26-28s): Controlled cinematic orbit around the stationary Kia Seltos at a scenic forest-road pull-off, transitioning from the front three-quarter view toward the side and rear profile while the surrounding trees and golden sunlight create a premium automotive campaign atmosphere.•Shot 15 (28-30s): Hard cut to black with a final sweep of light revealing the KIA emblem followed by the SELTOS model name and the campaign tagline: “OWN EVERY TURN.” End with a powerful, clean, premium automotive advertising finish.Raw automotive documentary-style camera textures, organic lens flares, lifelike vehicle physics, authentic wheel rotation and tire contact, realistic suspension movement, natural road reflections, physically accurate metallic paint reflections, cinematic motion blur, subtle engine vibration, and an immersive forest-road atmosphere. Preserve the exact Kia Seltos identity, champagne-gold exterior color, front grille design, LED lighting signatures, alloy wheels, body proportions, side profile, and rear design from the provided reference images throughout every shot. Maintain consistent vehicle geometry, wheel design, lighting signatures, paint color, and branding across all 15 shots. No vehicle redesign, no morphing, no inconsistent body panels, no incorrect logos, no artificial CGI appearance, no impossible driving maneuvers, no exaggerated visual effects, and no abrupt changes in road geography. Ultra-detailed, 4K resolution, premium global automotive advertising quality.
 ```
 
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 <a id="case-6"></a>
 ### 案例 6: [多人物護膚品 UGC 廣告拼貼](https://x.com/ErnestoSOFTWARE/status/2110917624167108665) (作者 [@ErnestoSOFTWARE](https://x.com/ErnestoSOFTWARE))
 
-**參考可見廣告形式，規劃保留完整製作記錄的 UGC 對照實驗**
+**參考多人物 UGC 產品影片的呈現形式**
 
-作者推介 Higgsfield MCP 並自述低成本，但未提供投放表現或賬單證據
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D37/video-4ca47c0af310.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D37/poster-4ca47c0af310.jpg" alt="多人物護膚品 UGC 廣告拼貼" height="280"></a>
+</p>
 
-[![多人物護膚品 UGC 廣告拼貼](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D37/poster-4ca47c0af310.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D37/video-4ca47c0af310.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -221,11 +127,11 @@ Type: Demo | Date: 2026-10-16
 
 **以一個明確的食物動作，觀察角色驅動的產品故事**
 
-平臺自有樣片把微型龍放在焦糖布蕾旁，不能證明銷售表現
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D76/video-6f401168b0fb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D76/poster-6f401168b0fb.jpg" alt="迷你龍給甜點焦糖化" height="280"></a>
+</p>
 
-[![迷你龍給甜點焦糖化](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D76/poster-6f401168b0fb.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D76/video-6f401168b0fb.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -234,11 +140,11 @@ Type: Demo | Date: 2026-10-16
 
 **圍繞單一產品觀察包裝可見度、水果意象與轉場**
 
-來源把橙汁紙盒、水果和零售場景結合起來，沒有公開 Prompt
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D85/video-af7aa6745461.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D85/poster-af7aa6745461.jpg" alt="橙汁紙盒的廣告場景" height="280"></a>
+</p>
 
-[![橙汁紙盒的廣告場景](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D85/poster-af7aa6745461.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D85/video-af7aa6745461.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -251,11 +157,11 @@ Type: Demo | Date: 2026-10-16
 
 **觀察近景、全身動作與同一淺色場景中的角色外觀**
 
-綠髮耳機女孩在淺綠室內改變姿態，鏡頭景別也隨之變化
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D03/video-3305b566e9a1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D03/poster-3305b566e9a1.jpg" alt="淺綠房間裡的耳機女孩" height="280"></a>
+</p>
 
-[![淺綠房間裡的耳機女孩](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D03/poster-3305b566e9a1.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D03/video-3305b566e9a1.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -264,11 +170,11 @@ Type: Demo | Date: 2026-10-15
 
 **透過可見片段觀察剋制的動作和建築環境連續性**
 
-抽樣畫面顯示男子與古典柱廊，不能用原帖寬泛的 CGI 讚美證明覆雜動作能力
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D09/video-e4099969039c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D09/poster-e4099969039c.jpg" alt="走近古典柱廊的男子" height="280"></a>
+</p>
 
-[![走近古典柱廊的男子](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D09/poster-e4099969039c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D09/video-e4099969039c.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -277,11 +183,11 @@ Type: Demo | Date: 2026-10-16
 
 **觀察以對白表演為主的樣片中細微的面部變化和構圖**
 
-畫面集中於綠色暗光中的女性面部，未獨立評分音訊質量
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D14/video-bd91c5962388.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D14/poster-bd91c5962388.jpg" alt="溼發女性的情緒近景" height="280"></a>
+</p>
 
-[![溼發女性的情緒近景](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D14/poster-bd91c5962388.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D14/video-bd91c5962388.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -290,11 +196,11 @@ Type: Demo | Date: 2026-10-15
 
 **觀察短情緒場景如何依託一個具體的個人故事**
 
-作者將 16 秒短片與舊日關係的回憶相連，並註明影象用 Gemini、影片用 Kling 4.0
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D21/video-59193966fd28.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D21/poster-59193966fd28.jpg" alt="電影院裡的母女情緒瞬間" height="280"></a>
+</p>
 
-[![電影院裡的母女情緒瞬間](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D21/poster-59193966fd28.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D21/video-59193966fd28.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -303,11 +209,11 @@ Type: Demo | Date: 2026-10-16
 
 **據此設計針對對白、雙人排程和螢幕圖文的專項測試**
 
-作者討論日語語音，畫面核驗只確認新聞演播室形式，未獨立驗證發音
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D23/video-6d7a8b12e568.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D23/poster-6d7a8b12e568.jpg" alt="兩位主播播報日語新聞" height="280"></a>
+</p>
 
-[![兩位主播播報日語新聞](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D23/poster-6d7a8b12e568.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D23/video-6d7a8b12e568.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -316,11 +222,11 @@ Type: Demo | Date: 2026-10-16
 
 **透過把意外的交通工具放進日常建築場景，觀察喜劇性的比例反差**
 
-作者標註使用 Kling 4 Flash，片段顯示坐著的角色駕車穿過辦公大廳
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D27/video-df7aadba33d7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D27/poster-df7aadba33d7.jpg" alt="辦公大廳裡的迷你卡丁車" height="280"></a>
+</p>
 
-[![辦公大廳裡的迷你卡丁車](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D27/poster-df7aadba33d7.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D27/video-df7aadba33d7.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -329,9 +235,9 @@ Type: Demo | Date: 2026-10-16
 
 **複製詳細公開要求，以日常互動規劃三十秒連續敘事**
 
-Prompt 指定了一位女性的外觀、六個定時片段、家用相機行為與環境聲音
-
-[![男友視角下的夏日散步](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D34/poster-8bef5187ff5c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D34/video-8bef5187ff5c.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D34/video-8bef5187ff5c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D34/poster-8bef5187ff5c.jpg" alt="男友視角下的夏日散步" height="280"></a>
+</p>
 
 **提示詞** · [公開提示詞來源](https://x.com/agi_aibusi/status/2110924176890757483)
 
@@ -430,20 +336,20 @@ Let ordinary pauses remain. Her beauty is something her boyfriend happens to not
 The finished video should feel like a personal memory he would keep because of the way she looked at him that afternoon.
 ```
 
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 <a id="case-16"></a>
 ### 案例 16: [車輛、士兵與人物近景合集](https://x.com/jerrod_lew/status/2110911158156931427) (作者 [@jerrod_lew](https://x.com/jerrod_lew))
 
-**用蒙太奇挑出具體任務，再分別進行受控測試**
+**瀏覽車輛、戰場與人物近景的不同表現**
 
-約 63 秒附件屬於樣片合集，不能據此認定單次原生生成時長
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D39/video-7d5e3845dc71.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D39/poster-7d5e3845dc71.jpg" alt="車輛、士兵與人物近景合集" height="280"></a>
+</p>
 
-[![車輛、士兵與人物近景合集](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D39/poster-7d5e3845dc71.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D39/video-7d5e3845dc71.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -452,11 +358,11 @@ Type: Demo | Date: 2026-10-16
 
 **觀察較長短片如何連線舞臺魔術、紙質載具和反覆出現的紅鳥**
 
-這段整片混剪也出現在後續賬號的帖子中，相關剪段不當作獨立電影計數
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D42/video-cd1175d34d80.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D42/poster-cd1175d34d80.jpg" alt="King Cards 的魔術與城市飛行" height="280"></a>
+</p>
 
-[![King Cards 的魔術與城市飛行](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D42/poster-cd1175d34d80.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D42/video-cd1175d34d80.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -465,11 +371,11 @@ Type: Demo | Date: 2026-10-16
 
 **觀察角色、機器和天氣如何傳達簡短的敘事前提**
 
-來源將場景聯絡到國際農村婦女日，沒有公開生成配方
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D47/video-6a9f1d8d21de.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D47/poster-6a9f1d8d21de.jpg" alt="鄉村女性與暴雨前的拖拉機" height="280"></a>
+</p>
 
-[![鄉村女性與暴雨前的拖拉機](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D47/poster-6a9f1d8d21de.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D47/video-6a9f1d8d21de.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -478,19 +384,16 @@ Type: Demo | Date: 2026-10-15
 
 **對照成片與作者公開的七秒動作、八秒駕車要求進行學習**
 
-兩份 Prompt 卡片都保留為圖片轉錄，內嵌參考縮圖不是獨立輸入原圖
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D50/video-9890fdc58895.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D50/poster-9890fdc58895.jpg" alt="恐龍冒險短片與可複用鏡頭要求" height="280"></a>
+</p>
 
-[![恐龍冒險短片與可複用鏡頭要求](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D50/poster-9890fdc58895.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D50/video-9890fdc58895.mp4)
-
-作者回復圖片：分鏡、參考圖與提示詞卡片，內嵌縮圖不是原始參考檔案
-
-![作者回復圖片：分鏡、參考圖與提示詞卡片，內嵌縮圖不是原始參考檔案 1](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806822957273273-0.jpg)
-
-![作者回復圖片：分鏡、參考圖與提示詞卡片，內嵌縮圖不是原始參考檔案 2](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806822957273273-1.jpg)
-
-![作者回復圖片：分鏡、參考圖與提示詞卡片，內嵌縮圖不是原始參考檔案 3](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806826350412052-0.jpg)
-
-![作者回復圖片：分鏡、參考圖與提示詞卡片，內嵌縮圖不是原始參考檔案 4](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806826350412052-1.jpg)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806822957273273-0.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806822957273273-0.jpg" alt="恐龍冒險短片與可複用鏡頭要求 1" height="280"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806822957273273-1.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806822957273273-1.jpg" alt="恐龍冒險短片與可複用鏡頭要求 2" height="280"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806826350412052-0.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806826350412052-0.jpg" alt="恐龍冒險短片與可複用鏡頭要求 3" height="280"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806826350412052-1.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806826350412052-1.jpg" alt="恐龍冒險短片與可複用鏡頭要求 4" height="280"></a>
+</p>
 
 **提示詞 1** · [公開提示詞來源](https://x.com/techhalla/status/2110806822957273273)
 
@@ -538,7 +441,7 @@ engine starting and revving, tires on gravel.
 + look: 1987 B-movie film stock, practical effects, film grain. No music, only SFX.
 ```
 
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -547,11 +450,11 @@ Type: Demo | Date: 2026-10-15
 
 **觀察固定主角如何對同一扇門外不斷變化的環境作出反應**
 
-黃制服快遞員面對冰、水與火焰等反差場景
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D53/video-c385592b815a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D53/poster-c385592b815a.jpg" alt="快遞員開啟通向異世界的電梯" height="280"></a>
+</p>
 
-[![快遞員開啟通向異世界的電梯](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D53/poster-c385592b815a.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D53/video-c385592b815a.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -560,11 +463,11 @@ Type: Demo | Date: 2026-10-15
 
 **用作者的流程說明區分概念、角色設計、指令碼、對白與聲音決策**
 
-評論鏈解釋了流程和模型功能，但沒有公開實際生成 Prompt
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D58/video-80ebae3e19ee.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D58/poster-80ebae3e19ee.jpg" alt="地下烏龜水管工的喜劇場景" height="280"></a>
+</p>
 
-[![地下烏龜水管工的喜劇場景](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D58/poster-80ebae3e19ee.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D58/video-80ebae3e19ee.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -573,11 +476,11 @@ Type: Demo | Date: 2026-10-15
 
 **透過人物動作、構圖和街頭狀況變化觀察喜劇節奏**
 
-作者標註這是文生影片實驗，但沒有公開實際 Prompt
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D59/video-32460fac82cb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D59/poster-32460fac82cb.jpg" alt="以車輛意外收尾的街頭追逐" height="280"></a>
+</p>
 
-[![以車輛意外收尾的街頭追逐](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D59/poster-32460fac82cb.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D59/video-32460fac82cb.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -586,11 +489,11 @@ Type: Demo | Date: 2026-10-15
 
 **觀察個人奇幻故事如何形成包含固定角色的組合片段**
 
-來源展示約 95 秒短片，不代表一次生成的時長
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D63/video-e7d8328e9da0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D63/poster-e7d8328e9da0.jpg" alt="少女發現藍龍的奇幻短片" height="280"></a>
+</p>
 
-[![少女發現藍龍的奇幻短片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D63/poster-e7d8328e9da0.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D63/video-e7d8328e9da0.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -599,11 +502,11 @@ Type: Demo | Date: 2026-10-15
 
 **觀察 King Cards 短剪段中的人物、載具與環境變化**
 
-這是同一長片中被重複分享的場景，不能算成另一部獨立製作的電影
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D66/video-e0abfdd43b76.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D66/poster-e0abfdd43b76.jpg" alt="紙質載具駛入花城" height="280"></a>
+</p>
 
-[![紙質載具駛入花城](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D66/poster-e0abfdd43b76.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D66/video-e0abfdd43b76.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -612,11 +515,11 @@ Type: Demo | Date: 2026-10-16
 
 **觀察移動載具內的角色位置與短暫形態變化**
 
-片段同樣被歸於 King Cards，來源歸屬與原創作者身份的判斷分別保留
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D69/video-00ccb9224112.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D69/poster-00ccb9224112.jpg" alt="紙質車廂裡的石像變成人" height="280"></a>
+</p>
 
-[![紙質車廂裡的石像變成人](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D69/poster-00ccb9224112.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D69/video-00ccb9224112.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -625,24 +528,24 @@ Type: Demo | Date: 2026-10-16
 
 **把中心人物表演、移動道具和周圍觀眾作為同一場景觀察**
 
-King Cards 此段的不同編碼與短版已合併
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D70/video-b5d7e24dfed1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D70/poster-b5d7e24dfed1.jpg" alt="魔術師與紙牌環繞的劇場" height="280"></a>
+</p>
 
-[![魔術師與紙牌環繞的劇場](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D70/poster-b5d7e24dfed1.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D70/video-b5d7e24dfed1.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 <a id="case-27"></a>
 ### 案例 27: [庭院足浴中的女性日常](https://x.com/Naonekozamurai/status/2111231708108575006) (作者 [@Naonekozamurai](https://x.com/Naonekozamurai))
 
-**觀察普通手勢、服裝和安靜環境，而非複雜動作**
+**觀察日常手勢、服裝與安靜的庭院環境**
 
-作者自述十秒 1080p 的生成及積分數，並對是否為活動價表示不確定
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D74/video-c60960ec9979.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D74/poster-c60960ec9979.jpg" alt="庭院足浴中的女性日常" height="280"></a>
+</p>
 
-[![庭院足浴中的女性日常](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D74/poster-c60960ec9979.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D74/video-c60960ec9979.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -651,11 +554,11 @@ Type: Demo | Date: 2026-10-16
 
 **觀察角色意象如何把手機介面鏡頭連線成一個主題表達**
 
-作者將成片歸於 Kling 4.0，本倉庫不獨立評判片中涉及的指控
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D79/video-c65afae88005.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D79/poster-c65afae88005.jpg" alt="以獵鷹串聯舉報主題短片" height="280"></a>
+</p>
 
-[![以獵鷹串聯舉報主題短片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D79/poster-c65afae88005.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D79/video-c65afae88005.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -664,11 +567,11 @@ Type: Demo | Date: 2026-10-16
 
 **觀察日常室內環境中的小動作與鏡頭距離變化**
 
-Magnific 樣片跟隨貓穿過檯面，最後落到近景
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D82/video-ff6f8d465033.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D82/poster-ff6f8d465033.jpg" alt="廚房裡躡行的橘貓" height="280"></a>
+</p>
 
-[![廚房裡躡行的橘貓](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D82/poster-ff6f8d465033.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D82/video-ff6f8d465033.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -677,11 +580,11 @@ Type: Demo | Date: 2026-10-16
 
 **觀察簡短社互動動中的接近、身體接觸與角色位置**
 
-該媒體來自較長會話中的作者回復，所屬會話關係已經保留
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D83/video-57f8a9708fd1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D83/poster-57f8a9708fd1.jpg" alt="兩名男子在街角相見擁抱" height="280"></a>
+</p>
 
-[![兩名男子在街角相見擁抱](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D83/poster-57f8a9708fd1.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D83/video-57f8a9708fd1.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -694,11 +597,11 @@ Type: Demo | Date: 2026-10-16
 
 **用這段畫面觀察多人動作、空中排程與服裝輪廓的連續性**
 
-兩名劍客在月下雲層交鋒，發帖賬號明確披露了廣告
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D01/video-c67c148695e9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D01/poster-c67c148695e9.jpg" alt="月下雲端雙人劍鬥" height="280"></a>
+</p>
 
-[![月下雲端雙人劍鬥](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D01/poster-c67c148695e9.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D01/video-c67c148695e9.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -707,11 +610,11 @@ Type: Demo | Date: 2026-10-15
 
 **對照格鬥過程中的身體接觸、雙方距離與鏡頭位置**
 
-畫面在訓練館全景與兩名著道服人物的近身動作間切換
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D02/video-1ef935905f1c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D02/poster-1ef935905f1c.jpg" alt="跆拳道館內的雙人格鬥" height="280"></a>
+</p>
 
-[![跆拳道館內的雙人格鬥](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D02/poster-1ef935905f1c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D02/video-1ef935905f1c.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -720,24 +623,24 @@ Type: Demo | Date: 2026-10-16
 
 **觀察快速切換鏡位時車輛身份和運動方向的延續**
 
-紅黑兩輛跑車在城市街道與橋面上競逐
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D04/video-61e7dd165825.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D04/poster-61e7dd165825.jpg" alt="兩輛跑車穿越城市追逐" height="280"></a>
+</p>
 
-[![兩輛跑車穿越城市追逐](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D04/poster-61e7dd165825.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D04/video-61e7dd165825.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 <a id="case-34"></a>
 ### 案例 34: [移動鏡頭下的拳擊交鋒](https://x.com/SirGlavan_/status/2110785627251704302) (作者 [@SirGlavan_](https://x.com/SirGlavan_))
 
-**觀察出拳、防守位移與近身接觸，不只看單張好看的畫面**
+**觀察出拳、防守位移與近身接觸**
 
-兩名戴拳套的拳手在擂臺對打，鏡頭距離和角度不斷變化
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D06/video-0a6d9253b137.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D06/poster-0a6d9253b137.jpg" alt="移動鏡頭下的拳擊交鋒" height="280"></a>
+</p>
 
-[![移動鏡頭下的拳擊交鋒](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D06/poster-0a6d9253b137.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D06/video-0a6d9253b137.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -746,11 +649,11 @@ Type: Demo | Date: 2026-10-15
 
 **觀察固定角色與行駛車輛、煙霧及大規模背景特效的關係**
 
-黑衣女性穿過受損街道，這個場景的多個版本由不同賬號重複分享
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D07/video-e910366e89fb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D07/poster-e910366e89fb.jpg" alt="穿越爆炸街道的女戰士" height="280"></a>
+</p>
 
-[![穿越爆炸街道的女戰士](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D07/poster-e910366e89fb.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D07/video-e910366e89fb.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -759,11 +662,11 @@ Type: Demo | Date: 2026-10-15
 
 **跟隨城市中的衝突場景，比較人物和巨獸的體量關係**
 
-淺發主角在損壞的建築之間面對一隻巨大觸手生物
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D08/video-699eced69da0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D08/poster-699eced69da0.jpg" alt="少女與城市巨獸對峙" height="280"></a>
+</p>
 
-[![少女與城市巨獸對峙](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D08/poster-699eced69da0.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D08/video-699eced69da0.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -772,9 +675,9 @@ Type: Demo | Date: 2026-10-16
 
 **用公開 Prompt 觀察加速、環境反應和後退的手持視角**
 
-生物結合金屬肢體與有機組織，作者在直接回復中公開了生成指令
-
-[![穿過外星叢林的機械捕食者](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D18/poster-e28f30cd8013.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D18/video-e28f30cd8013.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D18/video-e28f30cd8013.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D18/poster-e28f30cd8013.jpg" alt="穿過外星叢林的機械捕食者" height="280"></a>
+</p>
 
 **提示詞** · [公開提示詞來源](https://x.com/Alin_Reaper05/status/2110996674558530007)
 
@@ -782,7 +685,7 @@ Type: Demo | Date: 2026-10-16
 A living mechanical predator with a glowing orange central eye moves through dense alien jungle vegetation, using long metallic limbs wrapped in pulsing flesh to pull itself between trees, organic tendrils grabbing branches while hydraulic joints extend and retract, the creature suddenly notices the camera and rapidly charges forward, handheld tracking camera retreats through foliage, branches break naturally, mud splashes, vines react realistically, intense acceleration, realistic weight and momentum, dark cinematic lighting, high-end creature VFX.
 ```
 
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -791,24 +694,24 @@ Type: Demo | Date: 2026-10-16
 
 **觀察開闊戰場中的騎手互動、馬匹運動與武器接觸**
 
-附件展示的是騎馬戰鬥，不把原帖關於拳擊的描述直接當成這些畫面的事實
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D22/video-98d16e333c2b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D22/poster-98d16e333c2b.jpg" alt="騎手在戰場上持長槍交鋒" height="280"></a>
+</p>
 
-[![騎手在戰場上持長槍交鋒](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D22/poster-98d16e333c2b.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D22/video-98d16e333c2b.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 <a id="case-39"></a>
 ### 案例 39: [空手道交手與地墊接觸](https://x.com/WuxiaRocks/status/2110962012100653419) (作者 [@WuxiaRocks](https://x.com/WuxiaRocks))
 
-**觀察表演者與周圍環境的接觸，不把動作僅看作孤立姿勢**
+**觀察格鬥人物與地墊之間的接觸**
 
-作者特別指出腳壓地墊的細節，這是來源觀察，不是量化物理測試
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D24/video-0a576d72f135.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D24/poster-0a576d72f135.jpg" alt="空手道交手與地墊接觸" height="280"></a>
+</p>
 
-[![空手道交手與地墊接觸](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D24/poster-0a576d72f135.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D24/video-0a576d72f135.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -817,11 +720,11 @@ Type: Demo | Date: 2026-10-16
 
 **觀察帶日語對白的動作樣例中的近身接觸與場景連續性**
 
-作者稱對比時使用相同 Prompt，但該引用 Prompt 不在本次取得的來源集合中
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D46/video-1b049353be78.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D46/poster-1b049353be78.jpg" alt="便利店員工與格鬥者交手" height="280"></a>
+</p>
 
-[![便利店員工與格鬥者交手](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D46/poster-1b049353be78.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D46/video-1b049353be78.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -830,11 +733,11 @@ Type: Demo | Date: 2026-10-15
 
 **觀察關鍵幀驅動的風格化戰鬥中的動作排程**
 
-作者自述使用十個關鍵幀，可見片段為開闊平臺上兩名不同裝甲人物的交手
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D48/video-b680150c5bc2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D48/poster-b680150c5bc2.jpg" alt="石臺上的鎧甲奇幻格鬥" height="280"></a>
+</p>
 
-[![石臺上的鎧甲奇幻格鬥](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D48/poster-b680150c5bc2.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D48/video-b680150c5bc2.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -843,9 +746,9 @@ Type: Demo | Date: 2026-10-15
 
 **復製作者的一鏡到底 Prompt，探索相連室內外空間中的快速運動**
 
-作者後續解釋為與 Flash 比較而選擇二十秒，此引數沒有補進原始 Prompt
-
-[![貓咪穿越夜間城鎮](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D51/poster-074081e6557c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D51/video-074081e6557c.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D51/video-074081e6557c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D51/poster-074081e6557c.jpg" alt="貓咪穿越夜間城鎮" height="280"></a>
+</p>
 
 **提示詞** · [公開提示詞來源](https://x.com/umesh_ai/status/2110797376827035806)
 
@@ -853,7 +756,7 @@ Type: Demo | Date: 2026-10-15
 An amateur handheld recording in third-person perspective rapidly follows a cat through its nighttime adventures in one continuous shot, with no cuts, no stopping, and no pause. The sequence feels like fast-forward, showing all the curious, mischievous, funny, and chaotic things a cat might do while the town, house, garden, and everything around it are half-asleep.The cat races through about ten places a cat would naturally explore at night, each one flowing into the next in a single continuous chase: a quiet bedroom, a dim hallway, a kitchen, a living room, a backyard garden, a fence line, a garage, a rooftop, a tree, and a sleepy street or alley. The camera is shaky and imperfect, always struggling to keep up as it follows close behind. In every location, the cat causes some kind of chaos. In the bedroom it jumps onto furniture and disturbs sleeping people. In the hallway it sends small objects tumbling. In the kitchen it knocks items off the counter. In the living room it darts across shelves and tips things over. In the garden it rustles plants, digs, or startles birds. On the fence it rattles loose objects. In the garage it weaves through clutter and causes things to wobble or fall. On the rooftop it skids across surfaces and startles other animals. In the tree it shakes branches and scatters leaves. In the street or alley it darts through trash, shadows, and unexpected little messes, always leaving brief chaos behind before sprinting onward.The cat behaves like a restless, curious nighttime troublemaker: climbing, leaping, squeezing through gaps, chasing tiny movements, staring at strange things, swatting objects, knocking things over, and vanishing into corners before bursting back out again. Every scene should contain a clear action, reaction, or small disaster caused by the cat.Everything around it feels sleepy and still, with dark houses, quiet gardens, dim windows, silent rooftops, and empty streets. The contrast is that the cat is pure energy, moving so quickly that the world smears into motion blur and fragmented glimpses of chaos. The overall feeling is funny, lively, mischievous, and cinematic, like a whole secret night of cat behavior compressed into one rapid continuous chase.
 ```
 
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -862,11 +765,11 @@ Type: Demo | Date: 2026-10-15
 
 **觀察雨景格鬥中的服裝穩定性與武器接觸**
 
-作者自述十五秒、1080p、202 積分，這些是來源設定，不是當前 API 報價
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D52/video-428a2ca3573f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D52/poster-428a2ca3573f.jpg" alt="雨中森林裡的武士對決" height="280"></a>
+</p>
 
-[![雨中森林裡的武士對決](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D52/poster-428a2ca3573f.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D52/video-428a2ca3573f.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -875,11 +778,11 @@ Type: Demo | Date: 2026-10-15
 
 **對照同一林間動作場景的不同編碼版本，觀察姿勢與鏡頭運動**
 
-多個賬號重複使用這段場景的短剪輯，現已合併為一組素材
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D56/video-e86261e950fa.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D56/poster-e86261e950fa.jpg" alt="樹林中黑衣女性的動作片段" height="280"></a>
+</p>
 
-[![樹林中黑衣女性的動作片段](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D56/poster-e86261e950fa.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D56/video-e86261e950fa.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -888,11 +791,11 @@ Type: Demo | Date: 2026-10-15
 
 **觀察小型飛行主體與大型拼裝生物之間的互動**
 
-該場景也是 King Cards 剪段，多個賬號配合近似模型釋出話術分享
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D67/video-d6f35850335e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D67/poster-d6f35850335e.jpg" alt="紅紙鳥對抗紫色章魚" height="280"></a>
+</p>
 
-[![紅紙鳥對抗紫色章魚](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D67/poster-d6f35850335e.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D67/video-d6f35850335e.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -901,11 +804,11 @@ Type: Demo | Date: 2026-10-16
 
 **觀察身體軌跡、籃球位置與籃筐接觸**
 
-這段生成體育影片來自作者回復，不被當作獨立驗證的真實身體表現
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D84/video-d1fcc959cdd5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D84/poster-d1fcc959cdd5.jpg" alt="籃球運動員飛身扣籃" height="280"></a>
+</p>
 
-[![籃球運動員飛身扣籃](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D84/poster-d1fcc959cdd5.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D84/video-d1fcc959cdd5.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -918,24 +821,24 @@ Type: Demo | Date: 2026-10-16
 
 **將片段作為結合人物動作和對白的遊戲預告場景參考**
 
-作者稱其為 AAA 風格概念，實際可見產物是生成影片，並非可玩的遊戲
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D05/video-96e6493c7d87.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D05/poster-96e6493c7d87.jpg" alt="賞金獵人風格的遊戲概念" height="280"></a>
+</p>
 
-[![賞金獵人風格的遊戲概念](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D05/poster-96e6493c7d87.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D05/video-96e6493c7d87.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 <a id="case-48"></a>
 ### 案例 48: [飛車衝上夜間巨型坡道](https://x.com/higgsfield_ai/status/2110937478492479783) (作者 [@higgsfield_ai](https://x.com/higgsfield_ai))
 
-**將片段用作電影化車輛概念參考，不當作遊戲已經可執行的證據**
+**觀察巨型坡道上的車輛運動與鏡頭構圖**
 
-帶平臺品牌的樣片跟隨汽車爬上陡坡，隨後呈現騰空效果
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D29/video-9f0ea0939850.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D29/poster-9f0ea0939850.jpg" alt="飛車衝上夜間巨型坡道" height="280"></a>
+</p>
 
-[![飛車衝上夜間巨型坡道](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D29/poster-9f0ea0939850.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D29/video-9f0ea0939850.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -944,11 +847,11 @@ Type: Demo | Date: 2026-10-16
 
 **觀察競速影片概念中的追逐鏡頭、光線和儀表式疊層**
 
-平臺樣片呈現日落海岸賽車場景，沒有提供可執行遊戲
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D31/video-94729ec66a60.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D31/poster-94729ec66a60.jpg" alt="日落海岸公路上的跑車競速" height="280"></a>
+</p>
 
-[![日落海岸公路上的跑車競速](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D31/poster-94729ec66a60.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D31/video-94729ec66a60.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -957,11 +860,11 @@ Type: Demo | Date: 2026-10-16
 
 **用樣片觀察飛行鏡頭的運動和遊戲介面構圖**
 
-噴氣戰機掠過明亮海岸，畫面採用遊戲式鏡位與疊層
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D33/video-06b6b22e3e0e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D33/poster-06b6b22e3e0e.jpg" alt="戰鬥機飛越海島環境" height="280"></a>
+</p>
 
-[![戰鬥機飛越海島環境](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D33/poster-06b6b22e3e0e.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D33/video-06b6b22e3e0e.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -970,11 +873,11 @@ Type: Demo | Date: 2026-10-16
 
 **觀察第三人稱影片概念從狹窄空間轉入寬闊空景的方式**
 
-平臺展示角色穿越風格化浮空島環境的跟隨鏡頭
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D35/video-41fca9f81d16.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D35/poster-41fca9f81d16.jpg" alt="角色在浮空島之間滑翔" height="280"></a>
+</p>
 
-[![角色在浮空島之間滑翔](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D35/poster-41fca9f81d16.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D35/video-41fca9f81d16.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -983,11 +886,11 @@ Type: Demo | Date: 2026-10-16
 
 **觀察遊戲式影片中的摩托動作、追逐鏡頭距離與賽道照明**
 
-平臺樣片採用競速遊戲的展示形式，並非互動式應用
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D38/video-6fbf86005055.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D38/poster-6fbf86005055.jpg" alt="跟隨騎手的摩托競速概念" height="280"></a>
+</p>
 
-[![跟隨騎手的摩托競速概念](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D38/poster-6fbf86005055.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D38/video-6fbf86005055.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -996,9 +899,9 @@ Type: Demo | Date: 2026-10-16
 
 **復製作者按時間分段的戰術射擊要求，定義十五秒視覺目標**
 
-回覆寫 15 秒，根帖寫 30 秒，附件約 14.3 秒，這三種來源口徑分別保留
-
-[![第一人稱港口射擊場景](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D41/poster-d66668c4a4fe.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D41/video-d66668c4a4fe.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D41/video-d66668c4a4fe.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D41/poster-d66668c4a4fe.jpg" alt="第一人稱港口射擊場景" height="280"></a>
+</p>
 
 **提示詞** · [公開提示詞來源](https://x.com/higgsfield_ai/status/2110906696851955916)
 
@@ -1021,7 +924,7 @@ Style: authentic competitive esports gameplay footage that looks like a real ran
 Audio: competitive shooter sound design, with punchy rifle bursts with echo off the containers, shell casings clinking on concrete and wood, footsteps on concrete and hollow wooden planks, bullet impacts on wood and metal with small water splashes, a smoke grenade hiss, a crisp magazine reload, seagulls, lapping water against the boats, distant harbor horns and a short round-win sting at the end. No dialogue.
 ```
 
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1030,11 +933,11 @@ Type: Demo | Date: 2026-10-16
 
 **透過概念畫面觀察街面駕駛、飛行和城市地標之間的轉換**
 
-可見產物為未來交通影片，來源未提供可玩的遊戲
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D72/video-78d337068f01.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D72/poster-78d337068f01.jpg" alt="未來城市中的飛行汽車" height="280"></a>
+</p>
 
-[![未來城市中的飛行汽車](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D72/poster-78d337068f01.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D72/video-78d337068f01.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1043,11 +946,11 @@ Type: Demo | Date: 2026-10-16
 
 **觀察追逐鏡頭概念如何結合地面車流與騰空動作**
 
-Higgsfield 將其展示為平臺上的另一個 Kling 4.0 遊戲概念例子
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D73/video-d291f74977e7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D73/poster-d291f74977e7.jpg" alt="警車追逐穿城飛車" height="280"></a>
+</p>
 
-[![警車追逐穿城飛車](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D73/poster-d291f74977e7.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D73/video-d291f74977e7.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1056,11 +959,11 @@ Type: Demo | Date: 2026-10-16
 
 **觀察跑車、步行人物和空中鏡頭之間的轉換**
 
-Frameo 展示的是遊戲式影片概念和接入預告，並非可執行遊戲
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D87/video-31d433ad4429.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D87/poster-31d433ad4429.jpg" alt="海濱駕駛轉入直升機飛行" height="280"></a>
+</p>
 
-[![海濱駕駛轉入直升機飛行](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D87/poster-31d433ad4429.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D87/video-31d433ad4429.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1073,11 +976,11 @@ Type: Demo | Date: 2026-10-16
 
 **觀察完整 MV 如何結合不同風格和反覆出現的情緒意象**
 
-作者自述使用 MCP 輔助製作，約 136 秒的附件是組合成片，不是單次生成時長的證明
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D10/video-32d9ded7f2d0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D10/poster-32d9ded7f2d0.jpg" alt="插畫與實拍風格交織的音樂影片" height="280"></a>
+</p>
 
-[![插畫與實拍風格交織的音樂影片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D10/poster-32d9ded7f2d0.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D10/video-32d9ded7f2d0.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1086,11 +989,11 @@ Type: Demo | Date: 2026-10-16
 
 **觀察緊湊廚房動畫中的角色互動與材質風格**
 
-畫面結合微型龍、烹飪物件和黏土質感的視覺處理
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D32/video-1098bee49c56.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D32/poster-1098bee49c56.jpg" alt="廚房裡的奶奶與迷你黏土龍" height="280"></a>
+</p>
 
-[![廚房裡的奶奶與迷你黏土龍](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D32/poster-1098bee49c56.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D32/video-1098bee49c56.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1099,11 +1002,11 @@ Type: Demo | Date: 2026-10-16
 
 **觀察短篇烹飪動畫中的手部動作、道具與照明**
 
-平臺自有樣片展示一位插畫風格廚師在熱鬧攤位前工作
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D36/video-a89dc333a50c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D36/poster-a89dc333a50c.jpg" alt="夜市攤位上的動漫廚師" height="280"></a>
+</p>
 
-[![夜市攤位上的動漫廚師](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D36/poster-a89dc333a50c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D36/video-a89dc333a50c.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1112,11 +1015,11 @@ Type: Demo | Date: 2026-10-16
 
 **觀察微縮比例和定格風格如何塑造短動作片段**
 
-小武士對抗紅色生物，生成耗時說法仍屬於平臺自述
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D40/video-0096a333b2d9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D40/poster-0096a333b2d9.jpg" alt="微縮人物的定格風格戰鬥" height="280"></a>
+</p>
 
-[![微縮人物的定格風格戰鬥](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D40/poster-0096a333b2d9.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D40/video-0096a333b2d9.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1125,11 +1028,11 @@ Type: Demo | Date: 2026-10-16
 
 **用場景觀察裝飾性光線主題與輕微人物動作**
 
-創作者把睡前人物意象延展為一段月亮主題的短視覺片段
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D49/video-cadca8a36e4a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D49/poster-cadca8a36e4a.jpg" alt="發光月牙座椅上的睡眠場景" height="280"></a>
+</p>
 
-[![發光月牙座椅上的睡眠場景](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D49/poster-cadca8a36e4a.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D49/video-cadca8a36e4a.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -1138,11 +1041,11 @@ Type: Demo | Date: 2026-10-15
 
 **觀察街舞片段中的群體動作、空間排列與視角變化**
 
-作者用經常測試的快閃題材展示新模型效果
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D54/video-0f0e0bc769b1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D54/poster-0f0e0bc769b1.jpg" alt="城市路口的快閃群舞" height="280"></a>
+</p>
 
-[![城市路口的快閃群舞](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D54/poster-0f0e0bc769b1.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D54/video-0f0e0bc769b1.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -1151,11 +1054,11 @@ Type: Demo | Date: 2026-10-15
 
 **觀察風格化格鬥中清晰的人物輪廓與兵刃互動**
 
-作者稱這是用較模糊 Prompt 完成的初次測試，但未在根帖公開該 Prompt
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D55/video-28acdf9e07a3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D55/poster-28acdf9e07a3.jpg" alt="暴風雲下的動漫劍客對決" height="280"></a>
+</p>
 
-[![暴風雲下的動漫劍客對決](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D55/poster-28acdf9e07a3.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D55/video-28acdf9e07a3.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -1164,11 +1067,11 @@ Type: Demo | Date: 2026-10-15
 
 **在去除色彩的條件下觀察編舞與燈光**
 
-來源展示多位舞者與不斷變化的隊形組合
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D57/video-0bf2843739e2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D57/poster-0bf2843739e2.jpg" alt="黑白舞臺上的多人舞蹈" height="280"></a>
+</p>
 
-[![黑白舞臺上的多人舞蹈](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D57/poster-0bf2843739e2.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D57/video-0bf2843739e2.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -1177,11 +1080,11 @@ Type: Demo | Date: 2026-10-15
 
 **觀察富於表情的動物動作與統一的柔和動畫風格**
 
-創作者樣片跟隨小松鼠和積雪、林間物件互動
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D62/video-c2c730ddad9a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D62/poster-c2c730ddad9a.jpg" alt="森林裡玩雪的松鼠" height="280"></a>
+</p>
 
-[![森林裡玩雪的松鼠](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D62/poster-c2c730ddad9a.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D62/video-c2c730ddad9a.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -1190,11 +1093,11 @@ Type: Demo | Date: 2026-10-15
 
 **觀察風格化人物動作與由甜點構成的環境**
 
-這是 King Cards 中視覺不同的場景研究，不是另一部獨立製作的電影
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D71/video-f533cc90221d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D71/poster-f533cc90221d.jpg" alt="紅衣人物穿過糖果世界" height="280"></a>
+</p>
 
-[![紅衣人物穿過糖果世界](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D71/poster-f533cc90221d.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D71/video-f533cc90221d.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1203,11 +1106,11 @@ Type: Demo | Date: 2026-10-16
 
 **觀察服裝、食物道具與表情如何支撐動物角色短故事**
 
-作者把王冠白貓與咖哩結合，片尾使用裝飾性標題
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D77/video-0c65da3cad85.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D77/poster-0c65da3cad85.jpg" alt="戴王冠的白貓吃咖哩" height="280"></a>
+</p>
 
-[![戴王冠的白貓吃咖哩](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D77/poster-0c65da3cad85.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D77/video-0c65da3cad85.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1220,11 +1123,11 @@ Type: Demo | Date: 2026-10-16
 
 **觀察畫面如何從封閉樹林逐步展開為空中遠景**
 
-人物騎龍從森林飛向山谷，同一片段的重複編碼版本已合併
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D13/video-ea2c6c571381.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D13/poster-ea2c6c571381.jpg" alt="從森林旅程轉入騎龍飛行" height="280"></a>
+</p>
 
-[![從森林旅程轉入騎龍飛行](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D13/poster-ea2c6c571381.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D13/video-ea2c6c571381.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1233,11 +1136,11 @@ Type: Demo | Date: 2026-10-16
 
 **觀察怪物形象的連續性及不同詭異意象之間的轉場**
 
-蒼白人形、扭曲面孔和昏暗樹林對應作者關於生成音效與後期混音的討論
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D16/video-f97b54673926.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D16/poster-f97b54673926.jpg" alt="恐怖蒙太奇中的無麵人形" height="280"></a>
+</p>
 
-[![恐怖蒙太奇中的無麵人形](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D16/poster-f97b54673926.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D16/video-f97b54673926.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1246,9 +1149,9 @@ Type: Demo | Date: 2026-10-16
 
 **復製作者公開的 Prompt，探索虛構小鎮中多種環境運動的配合**
 
-回覆指定了旋轉機械房屋、有機管道、小機器人、淺水及上升鏡頭
-
-[![甦醒的球形外星聚落](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D17/poster-0727879b80e3.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D17/video-0727879b80e3.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D17/video-0727879b80e3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D17/poster-0727879b80e3.jpg" alt="甦醒的球形外星聚落" height="280"></a>
+</p>
 
 **提示詞** · [公開提示詞來源](https://x.com/Alin_Reaper05/status/2110997691274580344)
 
@@ -1256,7 +1159,7 @@ Type: Demo | Date: 2026-10-16
 A colorful alien settlement filled with enormous spherical buildings and bizarre organic machines comes alive at sunrise, round red mechanical houses rotate their giant lens-like windows, pipes expand and contract like breathing organs, small robotic creatures run through shallow water, flying vehicles weave between towers, camera glides smoothly through the town at ground level before rising above the rooftops, puddles reflecting neon lights and clouds, natural vegetation moving in the wind, playful but believable extraterrestrial world, cinematic photorealism.
 ```
 
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1265,9 +1168,9 @@ Type: Demo | Date: 2026-10-16
 
 **復製作者的 Prompt，探索體重、水面反應和緩慢升鏡**
 
-兩隻長頸巨獸穿過青綠色水面，周圍是紅色植被與黃綠色天空
-
-[![外星巨獸涉過淺水湖](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D20/poster-51289a03af36.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D20/video-51289a03af36.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D20/video-51289a03af36.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D20/poster-51289a03af36.jpg" alt="外星巨獸涉過淺水湖" height="280"></a>
+</p>
 
 **提示詞** · [公開提示詞來源](https://x.com/Alin_Reaper05/status/2110982744247353611)
 
@@ -1275,7 +1178,7 @@ Type: Demo | Date: 2026-10-16
 Two enormous long-necked alien animals slowly walk through a shallow turquoise lagoon surrounded by bright red grass and exotic palm forests. Their massive bodies create realistic waves and splashes with every step while smaller creatures flee along the shoreline. The camera begins low near the water and smoothly cranes upward, revealing the gigantic animals against a glowing yellow-green sky and distant mountains. Realistic weight and inertia, detailed skin movement, volumetric mist, natural vegetation motion, cinematic alien wildlife documentary, smooth continuous camera movement, highly coherent anatomy.
 ```
 
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1284,11 +1187,11 @@ Type: Demo | Date: 2026-10-16
 
 **觀察機械關節、體量與從站立轉入飛行的過程**
 
-作者釋出的樣片展示大型機器人啟動並從艦船式甲板升起
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D25/video-621b9b81c745.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D25/poster-621b9b81c745.jpg" alt="巨型機甲從甲板起飛" height="280"></a>
+</p>
 
-[![巨型機甲從甲板起飛](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D25/poster-621b9b81c745.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D25/video-621b9b81c745.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1297,11 +1200,11 @@ Type: Demo | Date: 2026-10-16
 
 **觀察暴雨環境中巨獸、車輛和人群之間的比例關係**
 
-後續帖子複用了同一畫面，保留為補充來源而不是新案例
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D60/video-cdf43480c9f5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D60/poster-cdf43480c9f5.jpg" alt="巨獸逼近擁堵的懸索橋" height="280"></a>
+</p>
 
-[![巨獸逼近擁堵的懸索橋](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D60/poster-cdf43480c9f5.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D60/video-cdf43480c9f5.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -1310,11 +1213,11 @@ Type: Demo | Date: 2026-10-15
 
 **觀察摺紙風城市中的環境材質一致性與跟隨鏡頭**
 
-畫面來自被重複分享的 King Cards，並非另一項獨立驗證的製作專案
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D68/video-692aeb10394f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D68/poster-692aeb10394f.jpg" alt="報紙載具穿越紙質城市" height="280"></a>
+</p>
 
-[![報紙載具穿越紙質城市](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D68/poster-692aeb10394f.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D68/video-692aeb10394f.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1323,11 +1226,11 @@ Type: Demo | Date: 2026-10-16
 
 **觀察機械運動、地面接觸與超大武器之間的關係**
 
-創作者分享首次機甲嘗試，並非有工程文件支援的模擬
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D75/video-dd1ae88aa463.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D75/poster-dd1ae88aa463.jpg" alt="山坡上的重型步行機甲" height="280"></a>
+</p>
 
-[![山坡上的重型步行機甲](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D75/poster-dd1ae88aa463.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D75/video-dd1ae88aa463.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1336,11 +1239,11 @@ Type: Demo | Date: 2026-10-16
 
 **觀察氛圍、輪廓和反覆出現的視覺主題**
 
-來源呈現帶昏暗人物與城堡式環境的風格化雨夜作品
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D78/video-6a014db111fa.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D78/poster-6a014db111fa.jpg" alt="哥特人物穿行雨夜" height="280"></a>
+</p>
 
-[![哥特人物穿行雨夜](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D78/poster-6a014db111fa.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D78/video-6a014db111fa.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1349,11 +1252,11 @@ Type: Demo | Date: 2026-10-16
 
 **觀察畫面如何從受限的車廂視角轉入明亮環境**
 
-這是另一個 King Cards 剪段，相關來源關係已經保留
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D81/video-9d22c4d4055d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D81/poster-9d22c4d4055d.jpg" alt="紙質車廂進入發光菌菇隧道" height="280"></a>
+</p>
 
-[![紙質車廂進入發光菌菇隧道](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D81/poster-9d22c4d4055d.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D81/video-9d22c4d4055d.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1364,11 +1267,11 @@ Type: Demo | Date: 2026-10-16
 <a id="case-78"></a>
 ### 案例 78: [同一森林格鬥 Prompt 的雙模型對比](https://x.com/AibeginnerR8/status/2110935157503041672) (作者 [@AibeginnerR8](https://x.com/AibeginnerR8))
 
-**比較兩路顯示結果，同時保留作者宣告的設定和評價邊界**
+**比較兩種模型的森林格鬥動作與鏡頭切換**
 
-兩路都標註 720p，並使用 Kling 音訊；作者在本例中認為 Seedance 更遵循分鏡、時長與動作要求
-
-[![同一森林格鬥 Prompt 的雙模型對比](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D30/poster-a0590043e48c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D30/video-a0590043e48c.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D30/video-a0590043e48c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D30/poster-a0590043e48c.jpg" alt="同一森林格鬥 Prompt 的雙模型對比" height="280"></a>
+</p>
 
 **提示詞** · [公開提示詞來源](https://x.com/AibeginnerR8/status/2110935160434610592)
 
@@ -1424,7 +1327,7 @@ Bの低い後方斜めからAを見る。Bは着地の勢いで転がり、片�
 2人の顔、体格、髭、衣服、Bの角兜を維持。髭と衣服は加速に遅れて揺れる。攻撃線から外れた回避、接触による反動、足の支持と蹴りの回収を見せる。マスクカットはSHOT 5→6の1回、それ以外は通常のカット。字幕や画面内文字なし。
 ```
 
-Type: Evaluation | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1433,9 +1336,9 @@ Type: Evaluation | Date: 2026-10-16
 
 **用公開對白 Prompt 測試輪流說話與側臉口型同步**
 
-作者報價按十秒計算，附件約十五秒，未獨立驗證音訊或計費
-
-[![咖啡館裡的固定雙人對白](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D44/poster-293ead53e5df.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D44/video-293ead53e5df.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D44/video-293ead53e5df.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D44/poster-293ead53e5df.jpg" alt="咖啡館裡的固定雙人對白" height="280"></a>
+</p>
 
 **提示詞** · [公開提示詞來源](https://x.com/tanabe_fragm/status/2110887676832543125)
 
@@ -1455,7 +1358,7 @@ The camera does not move or cut. Exactly four lines of dialogue, in natural Toky
 Precise lip sync: lips fully close on ま, ぱ, め, ば sounds; mouth shapes follow each vowel. No extra lines, no ad-libs, no narration. Audio is only the two voices and soft café ambience — no background music. No subtitles, no on-screen text. Single continuous horizontal shot, same framing from start to end.
 ```
 
-Type: Evaluation | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1464,11 +1367,11 @@ Type: Evaluation | Date: 2026-10-16
 
 **比較作者展示的兩路結果中的角色位置與場景構圖**
 
-來源自述場景長二十秒，分別消耗 180 與 120 積分，這些數值僅代表該作者賬號口徑
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D45/video-1007d8f82463.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D45/poster-1007d8f82463.jpg" alt="標準版與 Flash 的五人對白" height="280"></a>
+</p>
 
-[![標準版與 Flash 的五人對白](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D45/poster-1007d8f82463.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D45/video-1007d8f82463.mp4)
-
-Type: Evaluation | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -1477,43 +1380,43 @@ Type: Evaluation | Date: 2026-10-15
 
 **用創作者的格鬥片段觀察高接觸動作與角色參考圖的作用**
 
-作者仍偏好 Seedance 的身體接觸表現，自述三十秒 1080p 花費 405 積分，並披露推廣
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D64/video-e99a824137b0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D64/poster-e99a824137b0.jpg" alt="虎頭人物測試近身動作" height="280"></a>
+</p>
 
-[![虎頭人物測試近身動作](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D64/poster-e99a824137b0.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D64/video-e99a824137b0.mp4)
-
-Type: Evaluation | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
 <a id="case-82"></a>
 ### 案例 82: [音畫漂移測試中的變化主持人](https://x.com/plasm0/status/2110763509307064539) (作者 [@plasm0](https://x.com/plasm0))
 
-**把樣片作為獨立測量同步效果的起點**
+**觀察主持人外觀變化時的連續性**
 
-作者聲稱測試透過，抽樣畫面只確認主持人發生變化，並未驗證語音同步準確性
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D65/video-285b037dd41e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D65/poster-285b037dd41e.jpg" alt="音畫漂移測試中的變化主持人" height="280"></a>
+</p>
 
-[![音畫漂移測試中的變化主持人](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D65/poster-285b037dd41e.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D65/video-285b037dd41e.mp4)
-
-Type: Evaluation | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
 <a id="case-83"></a>
 ### 案例 83: [同一飛車概念的雙模型對比](https://x.com/itsPolloAI/status/2111097887656726915) (作者 [@itsPolloAI](https://x.com/itsPolloAI))
 
-**比較兩條帶標籤的影片軌道，同時保留平臺的對比口徑**
+**比較 Kling 與 Seedance 對同一飛車場景的呈現**
 
-Pollo AI 稱使用了相同 Prompt，但沒有給出實際 Prompt 或多次受控測試
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D86/video-f8698ad3f5cb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D86/poster-f8698ad3f5cb.jpg" alt="同一飛車概念的雙模型對比" height="280"></a>
+</p>
 
-[![同一飛車概念的雙模型對比](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D86/poster-f8698ad3f5cb.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D86/video-f8698ad3f5cb.mp4)
-
-Type: Evaluation | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 ## 相關倉庫
 
-尚未驗證當前模型的可用路由，因此暫不連結專用 Kling 4 API 或 Skill 倉庫；相鄰模型的資料可參考 [Seedance 2.5 指南](https://github.com/EvoLinkAI/awesome-seedance-2.5-guide)，該指南討論不同模型，不能據此驗證本倉庫的 Kling 案例
+- [Seedance 2.5 指南](https://github.com/EvoLinkAI/awesome-seedance-2.5-guide)
 
 <a id="acknowledge"></a>
 ## 🙏 致謝
@@ -1523,5 +1426,3 @@ Type: Evaluation | Date: 2026-10-16
 [@_3912657840](https://x.com/_3912657840), [@_lexers](https://x.com/_lexers), [@agi_aibusi](https://x.com/agi_aibusi), [@AI__TSUBAKI](https://x.com/AI__TSUBAKI), [@AibeginnerR8](https://x.com/AibeginnerR8), [@AIWarper](https://x.com/AIWarper), [@AiwithAmeliaa](https://x.com/AiwithAmeliaa), [@Aiwithkami](https://x.com/Aiwithkami), [@AIwithkhan](https://x.com/AIwithkhan), [@AlexM12jx](https://x.com/AlexM12jx), [@alifcoder](https://x.com/alifcoder), [@Alin_Reaper05](https://x.com/Alin_Reaper05), [@Bic_Revelation](https://x.com/Bic_Revelation), [@craftcapitallab](https://x.com/craftcapitallab), [@Dani__oros](https://x.com/Dani__oros), [@Diplomeme](https://x.com/Diplomeme), [@dylannknox](https://x.com/dylannknox), [@ErnestoSOFTWARE](https://x.com/ErnestoSOFTWARE), [@fabulatenebris](https://x.com/fabulatenebris), [@fAIkout](https://x.com/fAIkout), [@fatoomdes](https://x.com/fatoomdes), [@frameo_ai](https://x.com/frameo_ai), [@Gemalpha_88](https://x.com/Gemalpha_88), [@h_ashizawaJP](https://x.com/h_ashizawaJP), [@higgsfield_ai](https://x.com/higgsfield_ai), [@Hope_Ai01](https://x.com/Hope_Ai01), [@iam_mian7](https://x.com/iam_mian7), [@IntLab0000](https://x.com/IntLab0000), [@itsPolloAI](https://x.com/itsPolloAI), [@jerrod_lew](https://x.com/jerrod_lew), [@jji1jj](https://x.com/jji1jj), [@leilamakes](https://x.com/leilamakes), [@lexx_aura](https://x.com/lexx_aura), [@Lianaalane](https://x.com/Lianaalane), [@liluocheng13](https://x.com/liluocheng13), [@Lisa__Rodin](https://x.com/Lisa__Rodin), [@magnific](https://x.com/magnific), [@MelinaVale14](https://x.com/MelinaVale14), [@minuitIA](https://x.com/minuitIA), [@MO_IAI](https://x.com/MO_IAI), [@Naonekozamurai](https://x.com/Naonekozamurai), [@nrqa__](https://x.com/nrqa__), [@NyaiiBubu](https://x.com/NyaiiBubu), [@ojiji2025](https://x.com/ojiji2025), [@onofumi_AI](https://x.com/onofumi_AI), [@OxBairan](https://x.com/OxBairan), [@ozansihay](https://x.com/ozansihay), [@PDyv9gdatT4132](https://x.com/PDyv9gdatT4132), [@plasm0](https://x.com/plasm0), [@PromptSin](https://x.com/PromptSin), [@seisei_ai_1st](https://x.com/seisei_ai_1st), [@SirGlavan_](https://x.com/SirGlavan_), [@sophiaparkerr_](https://x.com/sophiaparkerr_), [@Starjupi](https://x.com/Starjupi), [@Stevemnx3](https://x.com/Stevemnx3), [@tanabe_fragm](https://x.com/tanabe_fragm), [@techhalla](https://x.com/techhalla), [@torotoromoney](https://x.com/torotoromoney), [@tphuang](https://x.com/tphuang), [@umesh_ai](https://x.com/umesh_ai), [@WuxiaRocks](https://x.com/WuxiaRocks), [@YapayZekaSerisi](https://x.com/YapayZekaSerisi), [@z933TfmXkaISSVc](https://x.com/z933TfmXkaISSVc)
 
 第三方影片、圖片和提示詞仍受各自權利約束，倉庫編輯文字與結構採用 [CC BY 4.0](LICENSE)，這不代表重新授權第三方素材；如需更正署名、權屬或轉載，請[提交 Issue](https://github.com/cheercheung/awesome-kling-4-usecases/issues)，並參閱[媒體政策](docs/media-policy.md)與[貢獻說明](CONTRIBUTING.md)
-
-[檢視 EvoLink 影片模型](https://evolink.ai/models?utm_source=github&utm_medium=footer&utm_campaign=awesome-kling-4-usecases&utm_content=zh-TW_footer)

@@ -2,10 +2,9 @@
 
 # Kling 4 Use Cases
 
-<a href="https://evolink.ai/models?utm_source=github&utm_medium=banner&utm_campaign=awesome-kling-4-usecases&utm_content=ja_banner"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/images/en.png" alt="Kling 4 活用ケース" width="760"></a>
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/images/en.png" alt="Kling 4 活用ケース" width="760">
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
-[![EvoLink](https://img.shields.io/badge/Explore_video_models-EvoLink-black)](https://evolink.ai/models?utm_source=github&utm_medium=badge&utm_campaign=awesome-kling-4-usecases&utm_content=ja_badge)
 
 [![English](https://img.shields.io/badge/English-111111)](README.md) [![Español](https://img.shields.io/badge/Espa%C3%B1ol-ffb703)](README_es.md) [![Português](https://img.shields.io/badge/Portugu%C3%AAs-2a9d8f)](README_pt.md) [![日本語](https://img.shields.io/badge/%E6%97%A5%E6%9C%AC%E8%AA%9E-52b788)](README_ja.md) [![한국어](https://img.shields.io/badge/%ED%95%9C%EA%B5%AD%EC%96%B4-4ea8de)](README_ko.md) [![Deutsch](https://img.shields.io/badge/Deutsch-f4a261)](README_de.md) [![Français](https://img.shields.io/badge/Fran%C3%A7ais-e76f51)](README_fr.md) [![Türkçe](https://img.shields.io/badge/T%C3%BCrk%C3%A7e-d62828)](README_tr.md) [![繁體中文](https://img.shields.io/badge/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-8338ec)](README_zh-TW.md) [![简体中文](https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-ef476f)](README_zh-CN.md) [![Русский](https://img.shields.io/badge/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-577590)](README_ru.md)
 
@@ -15,115 +14,22 @@
 
 **公開動画、作者の制作手順、公開された Prompt を通じて Kling 4 / 4.0 を調べる資料集です。** 映像制作者、クリエイティブ開発者、モデル評価者が具体的な観察・試験対象を選べるようにまとめています。各ケースは元投稿と投稿アカウントにリンクします。
 
-表紙画像をクリックして動画を見て、根拠の説明を読んでください。作者が実際に公開した場合だけ Prompt をコピーできます。投稿者は配信者の場合もあり、ここでの署名は原作者の確認を意味しません。
-
-[EvoLink の動画モデルを見る](https://evolink.ai/models?utm_source=github&utm_medium=introduction&utm_campaign=awesome-kling-4-usecases&utm_content=ja_introduction)
-
 ## 📊 概要
 
-**83ケース・10ケースに11組の公開 Prompt・8分類。** 制作手順、広告、物語、動作、ゲーム風コンセプト、アニメ、世界、比較を扱います。各ケースには出典、アカウント、活用の着眼点、媒体、種類、UTC の出典日付があります。
-
-> [!NOTE]
-> 出典に基づく例であり、独立検証した Kling API 呼び出しや統制された評価ではありません。同じ作品の別の抜粋も含みます。ゲーム風動画は遊べるゲームではなく、編集映画の長さはネイティブ生成時間ではありません。価格とポイントは作者の説明として扱います。
-
-[ケースデータ](data/use-cases.json)または[並べ替え可能な CSV](data/use-cases.csv)には収集時の反応数、Prompt の有無、出典関係が含まれます。[収集範囲](docs/collection-scope.md)で二つの検索期間と間の空白を確認できます。固定日時の資料集であり、網羅的なリアルタイム索引ではありません。
-
-<a id="quick-start"></a>
-## ⚡ はじめ方
-
-1. [EvoLink の動画モデルを見る](https://evolink.ai/models?utm_source=github&utm_medium=quick_start&utm_campaign=awesome-kling-4-usecases&utm_content=ja_quick_start)でアカウント作成またはログイン
-2. 対応モデルを使う際は[API キーを作成・取得](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=api_key&utm_campaign=awesome-kling-4-usecases&utm_content=ja_api_key)
-3. タスク送信前にモデルの可用性を確認する **2026-10-17 時点で、本資料集は Kling 4 の API 経路と専用のインストール可能な Skill を検証していない** [Codex CLI 設定ガイドを読む](https://evolink.ai/docs/en/cli/codex?utm_source=github&utm_medium=setup_docs&utm_campaign=awesome-kling-4-usecases&utm_content=ja_setup_docs)で一般的な設定を確認できますが、Kling 4 の検証済み初回呼び出し例ではありません
-
-このリポジトリは調査と創作の参考資料です。実行可能な API 例やモデルインストーラーは含みません。ケースを再現する際、別の Kling バリアントで置き換えないでください。
+**83ケース・10ケースに11組の公開 Prompt・8分類。**
 
 ## 📑 目次
 
-| ケース | 分類 | 観察の着眼点 | 種類 |
-|---|---|---|---|
-| [SF映像の人物と環境の参照シート](#case-1) | 制作手順と参照資料 | 人物表と環境表が長い映像指示とどう併記されるか確認する | Demo |
-| [エージェントの絵コンテからアニメ映像へ](#case-2) | 制作手順と参照資料 | 脚本、絵コンテ、Prompt をつなぐ作者の手順を短編アニメの計画に生かす | Tutorial |
-| [壮大な幻想場面と参照シート](#case-3) | 制作手順と参照資料 | 人物表、環境表、長い場面指示の対応を確認する | Demo |
-| [動画タスクを追うスマートフォンのチャット](#case-4) | 制作手順と参照資料 | 作者が提案する Codex から MCP への接続を確認し、検証済みの自分のツールで再現する | Tutorial |
-| [森林道路を走る起亜SUVの広告](#case-5) | 広告と商品物語 | 公開された15カットの指示で30秒広告の車両連続性を計画する | Demo |
-| [複数人物によるスキンケアUGC広告](#case-6) | 広告と商品物語 | 見える広告形式を参考に、制作記録を残す UGC 実験を計画する | Demo |
-| [小さなドラゴンがデザートをキャラメリゼ](#case-7) | 広告と商品物語 | 一つの具体的な調理動作を通じて、人物主導の商品物語を調べる | Demo |
-| [オレンジジュースの紙パックの広告映像](#case-8) | 広告と商品物語 | 単一商品を中心に包装の見え方、果物のモチーフ、場面転換を確認する | Demo |
-| [淡い緑の部屋にいるヘッドホン姿の少女](#case-9) | 人物と物語 | 接写、全身の動き、同じ背景の間で人物の外観を確認する | Demo |
-| [古典的な列柱廊へ近づく男性](#case-10) | 人物と物語 | 見える範囲で控えめな動きと建築背景の連続性を確認する | Demo |
-| [濡れた髪の女性を捉える感情的な接写](#case-11) | 人物と物語 | 会話中心の演技で微細な表情変化と画面構成を調べる | Demo |
-| [映画館で時間を共有する母と子](#case-12) | 人物と物語 | 短い感情表現を具体的な個人の物語に結びつける方法を調べる | Demo |
-| [二人の司会者による日本語ニュース](#case-13) | 人物と物語 | 会話、二人の配置、画面内の文字図形に絞った評価を設計する | Demo |
-| [オフィスのロビーを走る小さなカート](#case-14) | 人物と物語 | 日常建築に意外な乗り物を置き、喜劇的な大きさの対比を調べる | Demo |
-| [恋人の視点で見る夏の散歩](#case-15) | 人物と物語 | 詳しい公開指示をコピーし、日常のしぐさで30秒の流れを計画する | Demo |
-| [車両や兵士と人物接写の映像集](#case-16) | 人物と物語 | モンタージュから具体的な課題を選び、個別の条件付き試験につなげる | Demo |
-| [King Cardsの魔術と都市飛行](#case-17) | 人物と物語 | 長めの作品が舞台魔術、紙の乗り物、繰り返し登場する赤い鳥をどうつなぐか調べる | Demo |
-| [トラクターとともに嵐に向き合う農村の女性](#case-18) | 人物と物語 | 人物、機械、天候が短い物語の前提を伝える方法を確認する | Demo |
-| [恐竜冒険映画と再利用できるショット指示](#case-19) | 人物と物語 | 完成作品と、作者が公開した7秒のアクションおよび8秒の運転指示を見比べる | Demo |
-| [異世界につながるエレベーターを開く配達員](#case-20) | 人物と物語 | 同じ主人公が、見慣れた扉の先で変わる環境にどう反応するか確認する | Demo |
-| [地下の亀の配管工を描くコメディ](#case-21) | 人物と物語 | 作者の制作説明から概念、人物設計、脚本、会話、音声の判断を分けて理解する | Demo |
-| [車の意外な展開で終わる街頭の追跡](#case-22) | 人物と物語 | 人物の動き、構図、街路状況の変化で喜劇の間を調べる | Demo |
-| [青いドラゴンを見つける若いヒロイン](#case-23) | 人物と物語 | 個人的な幻想物語が同じ登場人物を含む編集映像になる過程を調べる | Demo |
-| [紙の乗り物で花の街へ向かう旅](#case-24) | 人物と物語 | King Cards の短い抜粋で人物、乗り物、背景の変化を調べる | Demo |
-| [紙の馬車で石の乗客が人間に変わる](#case-25) | 人物と物語 | 動く乗り物の中で位置を追いながら短い変身を確認する | Demo |
-| [円形劇場をカードで満たす魔術師](#case-26) | 人物と物語 | 中心の演技、動く小道具、周囲の観客を同じ場面として確認する | Demo |
-| [中庭で足湯を楽しむ女性](#case-27) | 人物と物語 | 複雑なアクションではなく日常のしぐさ、衣服、静かな背景を調べる | Demo |
-| [鷹を軸にした通報テーマの短編](#case-28) | 人物と物語 | キャラクターのモチーフがスマートフォン画面を主題に結びつける方法を調べる | Demo |
-| [台所を忍び歩く茶トラ猫](#case-29) | 人物と物語 | 身近な室内で小さな動作とカメラ距離の変化を調べる | Demo |
-| [街で出会い抱き合う二人の男性](#case-30) | 人物と物語 | 短い交流の中で接近、身体接触、人物位置を確認する | Demo |
-| [月夜の雲上で繰り広げる剣の決闘](#case-31) | 動作と身体接触 | 複数人物の動き、空中での配置、衣装の輪郭の連続性を確認する | Demo |
-| [道場でのテコンドーの組手](#case-32) | 動作と身体接触 | 身体接触、間合いの変化、カメラ位置を比較する | Demo |
-| [市街地を追走する二台のスポーツカー](#case-33) | 動作と身体接触 | 素早いカメラ切り替えの中で車両の同一性と進行方向を確認する | Demo |
-| [動くカメラで捉えるボクシング](#case-34) | 動作と身体接触 | 一枚の見栄えだけでなく、パンチ、防御の移動、接近時の接触を調べる | Demo |
-| [爆発する街路を進む女性戦士](#case-35) | 動作と身体接触 | 同じ人物と車両、煙、大規模な背景効果の関係を確認する | Demo |
-| [都市の怪物と対峙する少女](#case-36) | 動作と身体接触 | 市街地での対決を追いながら人物と怪物の大きさを比べる | Demo |
-| [異星の密林を突進する機械の捕食者](#case-37) | 動作と身体接触 | 公開 Prompt で加速、環境の反応、後退する手持ち視点を調べる | Demo |
-| [槍を交える騎馬の戦士](#case-38) | 動作と身体接触 | 開けた戦場で騎手の相互作用、馬の動き、武器接触を確認する | Demo |
-| [床のマットと接触する空手の組手](#case-39) | 動作と身体接触 | 孤立したポーズではなく演者と周囲の接触を調べる | Demo |
-| [コンビニ店員と格闘者の対決](#case-40) | 動作と身体接触 | 日本語会話のあるアクションで近接接触と場面の連続性を調べる | Demo |
-| [石の台上で戦う鎧の幻想戦士](#case-41) | 動作と身体接触 | キーフレームに基づくポーズを使った戦闘の配置を調べる | Demo |
-| [夜の町を駆け抜ける猫](#case-42) | 動作と身体接触 | 一続きのショットを求める Prompt で、つながった屋内外の高速移動を試す | Demo |
-| [雨の森で戦う侍](#case-43) | 動作と身体接触 | 雨の激しい戦闘で衣装の安定性と武器の接触を調べる | Demo |
-| [森で戦う黒い服の女性](#case-44) | 動作と身体接触 | 同じ森林アクションの再エンコード版を比べ、姿勢とカメラ移動を確認する | Demo |
-| [紫のタコと対峙する赤い紙の鳥](#case-45) | 動作と身体接触 | 小さな飛行主体と大きな組み立て生物の相互作用を調べる | Demo |
-| [空中でダンクするバスケットボール選手](#case-46) | 動作と身体接触 | 身体の軌道、ボール位置、リングとの接触を調べる | Demo |
-| [賞金稼ぎを描くゲーム風コンセプト](#case-47) | ゲームと乗り物のコンセプト | 人物の動作と会話を組み合わせたゲーム予告の参考として使う | Demo |
-| [夜の巨大な斜面を登る空飛ぶ車](#case-48) | ゲームと乗り物のコンセプト | 動くゲームの証拠ではなく、映画的な乗り物コンセプトの参考にする | Demo |
-| [夕暮れの海岸道路を走るスポーツカー](#case-49) | ゲームと乗り物のコンセプト | 追走カメラ、照明、計器風の表示をレース映像の参考として調べる | Demo |
-| [島の景観を飛ぶ戦闘機](#case-50) | ゲームと乗り物のコンセプト | 飛行カメラの動きとゲーム風インターフェースの構成を調べる | Demo |
-| [浮遊島の間を滑空する人物](#case-51) | ゲームと乗り物のコンセプト | 三人称視点の映像で狭い場所から広い空景へ移る方法を調べる | Demo |
-| [ライダーを追うバイクレースのコンセプト](#case-52) | ゲームと乗り物のコンセプト | バイクの動き、追走距離、コースの照明を調べる | Demo |
-| [港湾を舞台にした一人称射撃映像](#case-53) | ゲームと乗り物のコンセプト | 作者の時間指定付き戦術射撃指示をコピーし、15秒の映像目標を定める | Demo |
-| [未来都市を飛ぶ自動車](#case-54) | ゲームと乗り物のコンセプト | 路上走行、飛行、都市の目印の間の移行を確認する | Demo |
-| [都市の空飛ぶ車を追う警察](#case-55) | ゲームと乗り物のコンセプト | 追走カメラが地上交通と飛行のような動きをどう結ぶか調べる | Demo |
-| [海岸のドライブからヘリコプター飛行へ](#case-56) | ゲームと乗り物のコンセプト | 車両、歩く人物、空中映像の間の切り替えを調べる | Demo |
-| [イラストと実写風映像を組み合わせた音楽動画](#case-57) | アニメと様式化した人物 | 完成した MV が異なる画風と繰り返す感情的モチーフをどう結ぶか調べる | Demo |
-| [台所で出会うおばあさんと小さな粘土ドラゴン](#case-58) | アニメと様式化した人物 | 短い台所アニメの人物間交流と素材表現を確認する | Demo |
-| [夜市で料理するアニメのシェフ](#case-59) | アニメと様式化した人物 | 短い料理アニメで手の動き、道具、照明を確認する | Demo |
-| [ミニチュア戦士のストップモーション戦闘](#case-60) | アニメと様式化した人物 | 小さなスケールとコマ撮り風表現が短いアクションに与える効果を調べる | Demo |
-| [光る三日月の上で眠る少女](#case-61) | アニメと様式化した人物 | 装飾的な光のモチーフと穏やかな人物の動きを確認する | Demo |
-| [交差点のフラッシュモブに加わる歩行者](#case-62) | アニメと様式化した人物 | 街頭ダンスの集団動作、空間配置、視点変化を確認する | Demo |
-| [雷雲の下で戦うアニメの剣士](#case-63) | アニメと様式化した人物 | 明瞭な人物の輪郭と刃の相互作用を調べる | Demo |
-| [白黒の舞台で踊る集団](#case-64) | アニメと様式化した人物 | 色を除いた条件で振り付けと照明を調べる | Demo |
-| [森の雪で遊ぶリス](#case-65) | アニメと様式化した人物 | 表情豊かな動物の動きと柔らかいアニメ様式の一貫性を調べる | Demo |
-| [お菓子の世界を歩く赤い衣の人物](#case-66) | アニメと様式化した人物 | 菓子の形で構成された環境と様式化した人物の動きを調べる | Demo |
-| [王冠を着けた白猫がカレーを食べる](#case-67) | アニメと様式化した人物 | 衣装、食べ物、表情が動物キャラクターの短い物語をどう支えるか調べる | Demo |
-| [森林の旅からドラゴンの飛行へ](#case-68) | 世界と生物 | 閉じた森林から広い空中景観へ続く映像の展開を確認する | Demo |
-| [顔のない人影を描くホラーモンタージュ](#case-69) | 世界と生物 | 怪物の一貫性と不気味なモチーフ間の切り替えを確認する | Demo |
-| [動き出す球形の異星人集落](#case-70) | 世界と生物 | 作者の公開 Prompt をコピーし、架空の町で連動する環境の動きを試す | Demo |
-| [浅い湖を渡る巨大な異星生物](#case-71) | 世界と生物 | 作者の Prompt を使って重さ、水の押し出し、緩やかなクレーン移動を試す | Demo |
-| [甲板から飛び立つ大型メカ](#case-72) | 世界と生物 | 機械の関節、スケール、立位から飛行への変化を調べる | Demo |
-| [混雑した吊り橋へ近づく巨大生物](#case-73) | 世界と生物 | 豪雨の中で巨大生物、車、人々の大きさの関係を確認する | Demo |
-| [紙の街を進む新聞紙の乗り物](#case-74) | 世界と生物 | 折り紙風の都市で素材の統一性と追従カメラを確認する | Demo |
-| [丘で歩行し砲撃する重装メカ](#case-75) | 世界と生物 | 機械の動き、地面との接触、大型武器との関係を確認する | Demo |
-| [雨夜を進むゴシックな人影](#case-76) | 世界と生物 | 雰囲気、輪郭、反復する視覚的モチーフを確認する | Demo |
-| [光るキノコのトンネルに入る紙の馬車](#case-77) | 世界と生物 | 限られた車内視点から明るい環境へ移る過程を確認する | Demo |
-| [森林格闘の同じPromptをKlingとSeedanceで比較](#case-78) | 比較と評価 | 表示された二つの結果を、作者の設定と評価範囲を保って比較する | Evaluation |
-| [固定カメラのカフェで会話する二人の女性](#case-79) | 比較と評価 | 公開された正確な会話 Prompt で発話交替と横顔の口の同期を試す | Evaluation |
-| [StandardとFlashによる五人の会話](#case-80) | 比較と評価 | 作者が示す二つの出力で人物配置と場面構成を比較する | Evaluation |
-| [虎の頭を持つ戦士による近接動作テスト](#case-81) | 比較と評価 | 作者の格闘映像から接触の多い動きと人物参照の使い方を確認する | Evaluation |
-| [音声ずれテスト中に変化する司会者](#case-82) | 比較と評価 | 自分で同期精度を測定するための出発点として使う | Evaluation |
-| [同じ飛行車コンセプトをKlingとSeedanceで比較](#case-83) | 比較と評価 | プラットフォームの比較条件を保ち、ラベル付きの二映像を見比べる | Evaluation |
+| 分類 | 件数 |
+|---|---|
+| [🛠️ 制作手順と参照資料](#category-workflow) | 4 |
+| [📦 広告と商品物語](#category-ads) | 4 |
+| [🎬 人物と物語](#category-story) | 22 |
+| [⚔️ 動作と身体接触](#category-action) | 16 |
+| [🎮 ゲームと乗り物のコンセプト](#category-game) | 10 |
+| [🎨 アニメと様式化した人物](#category-animation) | 11 |
+| [🌍 世界と生物](#category-world) | 10 |
+| [🔬 比較と評価](#category-evaluation) | 6 |
 
 <a id="category-workflow"></a>
 ## 🛠️ 制作手順と参照資料
@@ -133,11 +39,11 @@
 
 **人物表と環境表が長い映像指示とどう併記されるか確認する**
 
-砂漠世界、参照画像、スクロールする Prompt が見えるが、全文は書き起こしていない
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D11/video-c7f71e602146.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D11/poster-c7f71e602146.jpg" alt="SF映像の人物と環境の参照シート" height="280"></a>
+</p>
 
-[![SF映像の人物と環境の参照シート](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D11/poster-c7f71e602146.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D11/video-c7f71e602146.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -146,11 +52,11 @@ Type: Demo | Date: 2026-10-16
 
 **脚本、絵コンテ、Prompt をつなぐ作者の手順を短編アニメの計画に生かす**
 
-作者は執筆に Opus 5.5、生成に Claude と MCP を使ったと述べるが、動画から実行ログは確認できない
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D15/video-a0d7f303f6cf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D15/poster-a0d7f303f6cf.jpg" alt="エージェントの絵コンテからアニメ映像へ" height="280"></a>
+</p>
 
-[![エージェントの絵コンテからアニメ映像へ](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D15/poster-a0d7f303f6cf.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D15/video-a0d7f303f6cf.mp4)
-
-Type: Tutorial | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -159,24 +65,24 @@ Type: Tutorial | Date: 2026-10-16
 
 **人物表、環境表、長い場面指示の対応を確認する**
 
-アーチ天井の空間とスクロールする Prompt を組み合わせた表示で、全文は未転記
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D19/video-225fcfcd6ec2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D19/poster-225fcfcd6ec2.jpg" alt="壮大な幻想場面と参照シート" height="280"></a>
+</p>
 
-[![壮大な幻想場面と参照シート](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D19/poster-225fcfcd6ec2.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D19/video-225fcfcd6ec2.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 <a id="case-4"></a>
 ### ケース 4: [動画タスクを追うスマートフォンのチャット](https://x.com/agi_aibusi/status/2110941943006118201) (投稿者 [@agi_aibusi](https://x.com/agi_aibusi))
 
-**作者が提案する Codex から MCP への接続を確認し、検証済みの自分のツールで再現する**
+**スマートフォンのチャットで動画タスクを作成・追跡する手順を参考にする**
 
-録画は会話とタスク状態を示すが、サブスクリプションのポイント説明は一般的な API 課金規則を証明しない
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D28/video-fbf3abad9feb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D28/poster-fbf3abad9feb.jpg" alt="動画タスクを追うスマートフォンのチャット" height="280"></a>
+</p>
 
-[![動画タスクを追うスマートフォンのチャット](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D28/poster-fbf3abad9feb.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D28/video-fbf3abad9feb.mp4)
-
-Type: Tutorial | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -189,9 +95,9 @@ Type: Tutorial | Date: 2026-10-16
 
 **公開された15カットの指示で30秒広告の車両連続性を計画する**
 
-Prompt は未提供の車両参照画像を必要とし、4K の記載は指示であって出力解像度の確認結果ではない
-
-[![森林道路を走る起亜SUVの広告](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D26/poster-cf1e54b34518.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D26/video-cf1e54b34518.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D26/video-cf1e54b34518.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D26/poster-cf1e54b34518.jpg" alt="森林道路を走る起亜SUVの広告" height="280"></a>
+</p>
 
 **プロンプト** · [公開 Prompt の出典](https://x.com/Diplomeme/status/2110947179057811727)
 
@@ -199,20 +105,20 @@ Prompt は未提供の車両参照画像を必要とし、4K の記載は指示�
 High-octane, hyper-realistic automotive commercial for the Kia Seltos, shot with the visual intensity of a Christopher Nolan-style cinematic production using actual 70mm IMAX cameras. Fast-paced multi-shot editing with quick, cinematic cuts timed at exactly one shot every 2 seconds across a complete 30-second timeline. The champagne-gold Kia Seltos, matching the exact vehicle design in the provided reference images, charges through a dense forest road surrounded by towering trees and dappled sunlight. High-contrast Nolan-esque color grading with deep shadows, cold teals, warm champagne-gold reflections, and bright highlights. Sunlight pierces through the forest canopy, reflecting across the sculpted bodywork, signature vertical LED daytime running lights, black front grille, muscular wheel arches, and distinctive rear light bar. Rapid sequence of intense cuts:•Shot 1 (0-2s): Ground-level cinematic establishing shot of an empty winding forest road, towering trees casting deep shadows as sunlight breaks through the canopy. The distant engine note of the approaching Kia Seltos builds tension.•Shot 2 (2-4s): Low eye-level tracking shot of the champagne-gold Kia Seltos emerging between the trees, accelerating along the forest road and revealing its bold front grille, distinctive vertical LED lighting signature, and commanding SUV stance.•Shot 3 (4-6s): Tight, detailed close-up of the front fascia, Kia emblem, illuminated LED daytime running lights, glossy black grille elements, and champagne-gold paint reflecting the passing forest.•Shot 4 (6-8s): Dramatic low-angle tracking shot moving alongside the front wheel as the alloy spokes spin rapidly, tires maintain realistic contact with the asphalt, and the SUV’s sculpted bodywork catches streaks of sunlight.•Shot 5 (8-10s): Fast lateral tracking shot revealing the complete side profile, muscular wheel arches, black lower-body cladding, door contours, windows, roofline, and metallic champagne-gold finish as the Kia Seltos sweeps through the forest.•Shot 6 (10-12s): Low-angle handheld-style camera whip-pan from the road surface to the SUV’s front three-quarter profile as it exits a sweeping bend, with realistic suspension movement, controlled body roll, and natural background motion blur.•Shot 7 (12-14s): Extreme close-up of sunlight traveling across the sculpted hood, Kia emblem, sharp body creases, and vertical LED lights, emphasizing precise automotive design and premium paint reflections.•Shot 8 (14-16s): Rear three-quarter tracking shot following the Kia Seltos through the forest, showcasing the distinctive rear light bar, angular vertical taillights, rear spoiler, sculpted tailgate, and authentic model badging.•Shot 9 (16-18s): Dynamic wheel-height tracking shot as the SUV drives across alternating patches of sunlight and shadow, capturing realistic tire rotation, subtle road texture, reflections along the lower doors, and the movement of the suspension over natural road undulations.•Shot 10 (18-20s): High-angle wide shot of the Kia Seltos commanding a sweeping forest road, surrounded by towering trees and atmospheric shafts of sunlight, with the winding asphalt leading the eye toward the moving SUV.•Shot 11 (20-22s): Fast front-facing tracking shot of the Kia Seltos approaching the camera along a straight section of forest road, its LED lights illuminated and grille dominating the frame as the camera smoothly retreats ahead of the vehicle.•Shot 12 (22-24s): Rapid cinematic transition into a close rear tracking angle as the SUV accelerates away through the trees, the rear lighting signature glowing against the darker forest and the road markings sweeping beneath the frame.•Shot 13 (24-26s): Dramatic low-angle front three-quarter hero shot as the Kia Seltos exits the forest bend and enters a naturally illuminated clearing, revealing its full stance, champagne-gold bodywork, alloy wheels, and signature front lighting.•Shot 14 (26-28s): Controlled cinematic orbit around the stationary Kia Seltos at a scenic forest-road pull-off, transitioning from the front three-quarter view toward the side and rear profile while the surrounding trees and golden sunlight create a premium automotive campaign atmosphere.•Shot 15 (28-30s): Hard cut to black with a final sweep of light revealing the KIA emblem followed by the SELTOS model name and the campaign tagline: “OWN EVERY TURN.” End with a powerful, clean, premium automotive advertising finish.Raw automotive documentary-style camera textures, organic lens flares, lifelike vehicle physics, authentic wheel rotation and tire contact, realistic suspension movement, natural road reflections, physically accurate metallic paint reflections, cinematic motion blur, subtle engine vibration, and an immersive forest-road atmosphere. Preserve the exact Kia Seltos identity, champagne-gold exterior color, front grille design, LED lighting signatures, alloy wheels, body proportions, side profile, and rear design from the provided reference images throughout every shot. Maintain consistent vehicle geometry, wheel design, lighting signatures, paint color, and branding across all 15 shots. No vehicle redesign, no morphing, no inconsistent body panels, no incorrect logos, no artificial CGI appearance, no impossible driving maneuvers, no exaggerated visual effects, and no abrupt changes in road geography. Ultra-detailed, 4K resolution, premium global automotive advertising quality.
 ```
 
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 <a id="case-6"></a>
 ### ケース 6: [複数人物によるスキンケアUGC広告](https://x.com/ErnestoSOFTWARE/status/2110917624167108665) (投稿者 [@ErnestoSOFTWARE](https://x.com/ErnestoSOFTWARE))
 
-**見える広告形式を参考に、制作記録を残す UGC 実験を計画する**
+**複数人物を使った UGC 商品動画の形式を参考にする**
 
-作者は Higgsfield MCP を宣伝し低コストを述べるが、広告成果や請求の証拠はない
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D37/video-4ca47c0af310.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D37/poster-4ca47c0af310.jpg" alt="複数人物によるスキンケアUGC広告" height="280"></a>
+</p>
 
-[![複数人物によるスキンケアUGC広告](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D37/poster-4ca47c0af310.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D37/video-4ca47c0af310.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -221,11 +127,11 @@ Type: Demo | Date: 2026-10-16
 
 **一つの具体的な調理動作を通じて、人物主導の商品物語を調べる**
 
-プラットフォームの作例は小型ドラゴンとクレームブリュレを並べるが、売上効果は示さない
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D76/video-6f401168b0fb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D76/poster-6f401168b0fb.jpg" alt="小さなドラゴンがデザートをキャラメリゼ" height="280"></a>
+</p>
 
-[![小さなドラゴンがデザートをキャラメリゼ](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D76/poster-6f401168b0fb.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D76/video-6f401168b0fb.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -234,11 +140,11 @@ Type: Demo | Date: 2026-10-16
 
 **単一商品を中心に包装の見え方、果物のモチーフ、場面転換を確認する**
 
-紙パック、果物、小売店風の映像を組み合わせるが、Prompt は公開していない
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D85/video-af7aa6745461.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D85/poster-af7aa6745461.jpg" alt="オレンジジュースの紙パックの広告映像" height="280"></a>
+</p>
 
-[![オレンジジュースの紙パックの広告映像](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D85/poster-af7aa6745461.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D85/video-af7aa6745461.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -251,11 +157,11 @@ Type: Demo | Date: 2026-10-16
 
 **接写、全身の動き、同じ背景の間で人物の外観を確認する**
 
-緑髪でヘッドホンを着けた人物が淡い緑の室内で姿勢を変え、画角も変化する
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D03/video-3305b566e9a1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D03/poster-3305b566e9a1.jpg" alt="淡い緑の部屋にいるヘッドホン姿の少女" height="280"></a>
+</p>
 
-[![淡い緑の部屋にいるヘッドホン姿の少女](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D03/poster-3305b566e9a1.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D03/video-3305b566e9a1.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -264,11 +170,11 @@ Type: Demo | Date: 2026-10-15
 
 **見える範囲で控えめな動きと建築背景の連続性を確認する**
 
-確認画像は男性と列柱廊を示すもので、投稿の包括的な CGI 賛辞から複雑な動作能力は証明できない
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D09/video-e4099969039c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D09/poster-e4099969039c.jpg" alt="古典的な列柱廊へ近づく男性" height="280"></a>
+</p>
 
-[![古典的な列柱廊へ近づく男性](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D09/poster-e4099969039c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D09/video-e4099969039c.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -277,11 +183,11 @@ Type: Demo | Date: 2026-10-16
 
 **会話中心の演技で微細な表情変化と画面構成を調べる**
 
-暗い緑の照明下で女性の顔を中心に映し、音声品質は独立採点していない
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D14/video-bd91c5962388.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D14/poster-bd91c5962388.jpg" alt="濡れた髪の女性を捉える感情的な接写" height="280"></a>
+</p>
 
-[![濡れた髪の女性を捉える感情的な接写](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D14/poster-bd91c5962388.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D14/video-bd91c5962388.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -290,11 +196,11 @@ Type: Demo | Date: 2026-10-15
 
 **短い感情表現を具体的な個人の物語に結びつける方法を調べる**
 
-作者は16秒の映像を過去の関係の記憶と結び、画像は Gemini、動画は Kling 4.0 と記している
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D21/video-59193966fd28.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D21/poster-59193966fd28.jpg" alt="映画館で時間を共有する母と子" height="280"></a>
+</p>
 
-[![映画館で時間を共有する母と子](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D21/poster-59193966fd28.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D21/video-59193966fd28.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -303,11 +209,11 @@ Type: Demo | Date: 2026-10-16
 
 **会話、二人の配置、画面内の文字図形に絞った評価を設計する**
 
-作者は日本語音声に言及するが、映像確認はニュース形式までで発音は独立検証していない
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D23/video-6d7a8b12e568.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D23/poster-6d7a8b12e568.jpg" alt="二人の司会者による日本語ニュース" height="280"></a>
+</p>
 
-[![二人の司会者による日本語ニュース](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D23/poster-6d7a8b12e568.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D23/video-6d7a8b12e568.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -316,11 +222,11 @@ Type: Demo | Date: 2026-10-16
 
 **日常建築に意外な乗り物を置き、喜劇的な大きさの対比を調べる**
 
-作者は Kling 4 Flash と記載し、座った運転者がオフィス風ロビーを走る
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D27/video-df7aadba33d7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D27/poster-df7aadba33d7.jpg" alt="オフィスのロビーを走る小さなカート" height="280"></a>
+</p>
 
-[![オフィスのロビーを走る小さなカート](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D27/poster-df7aadba33d7.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D27/video-df7aadba33d7.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -329,9 +235,9 @@ Type: Demo | Date: 2026-10-16
 
 **詳しい公開指示をコピーし、日常のしぐさで30秒の流れを計画する**
 
-Prompt は女性の外観、六つの時間指定場面、一般向けカメラの挙動、環境音を定義する
-
-[![恋人の視点で見る夏の散歩](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D34/poster-8bef5187ff5c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D34/video-8bef5187ff5c.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D34/video-8bef5187ff5c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D34/poster-8bef5187ff5c.jpg" alt="恋人の視点で見る夏の散歩" height="280"></a>
+</p>
 
 **プロンプト** · [公開 Prompt の出典](https://x.com/agi_aibusi/status/2110924176890757483)
 
@@ -430,20 +336,20 @@ Let ordinary pauses remain. Her beauty is something her boyfriend happens to not
 The finished video should feel like a personal memory he would keep because of the way she looked at him that afternoon.
 ```
 
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 <a id="case-16"></a>
 ### ケース 16: [車両や兵士と人物接写の映像集](https://x.com/jerrod_lew/status/2110911158156931427) (投稿者 [@jerrod_lew](https://x.com/jerrod_lew))
 
-**モンタージュから具体的な課題を選び、個別の条件付き試験につなげる**
+**車両、戦場、人物の接写を一つの映像集で確認する**
 
-約63秒の添付は映像集であり、一回のネイティブ生成の長さを示さない
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D39/video-7d5e3845dc71.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D39/poster-7d5e3845dc71.jpg" alt="車両や兵士と人物接写の映像集" height="280"></a>
+</p>
 
-[![車両や兵士と人物接写の映像集](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D39/poster-7d5e3845dc71.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D39/video-7d5e3845dc71.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -452,11 +358,11 @@ Type: Demo | Date: 2026-10-16
 
 **長めの作品が舞台魔術、紙の乗り物、繰り返し登場する赤い鳥をどうつなぐか調べる**
 
-全編モンタージュは後続投稿でも使われ、各抜粋は別映画ではなく関連素材として扱う
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D42/video-cd1175d34d80.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D42/poster-cd1175d34d80.jpg" alt="King Cardsの魔術と都市飛行" height="280"></a>
+</p>
 
-[![King Cardsの魔術と都市飛行](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D42/poster-cd1175d34d80.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D42/video-cd1175d34d80.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -465,11 +371,11 @@ Type: Demo | Date: 2026-10-16
 
 **人物、機械、天候が短い物語の前提を伝える方法を確認する**
 
-出典は国際農山漁村女性デーと関連づけるが、生成手順は公開していない
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D47/video-6a9f1d8d21de.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D47/poster-6a9f1d8d21de.jpg" alt="トラクターとともに嵐に向き合う農村の女性" height="280"></a>
+</p>
 
-[![トラクターとともに嵐に向き合う農村の女性](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D47/poster-6a9f1d8d21de.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D47/video-6a9f1d8d21de.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -478,19 +384,16 @@ Type: Demo | Date: 2026-10-15
 
 **完成作品と、作者が公開した7秒のアクションおよび8秒の運転指示を見比べる**
 
-二枚の Prompt カードを画像から転記し、埋め込み参照サムネイルは独立した原画像とは区別する
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D50/video-9890fdc58895.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D50/poster-9890fdc58895.jpg" alt="恐竜冒険映画と再利用できるショット指示" height="280"></a>
+</p>
 
-[![恐竜冒険映画と再利用できるショット指示](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D50/poster-9890fdc58895.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D50/video-9890fdc58895.mp4)
-
-作者返信の絵コンテ・参照画像・Prompt カードです。埋め込みサムネイルは元の参照ファイルではありません。
-
-![作者返信の絵コンテ・参照画像・Prompt カードです。埋め込みサムネイルは元の参照ファイルではありません。 1](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806822957273273-0.jpg)
-
-![作者返信の絵コンテ・参照画像・Prompt カードです。埋め込みサムネイルは元の参照ファイルではありません。 2](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806822957273273-1.jpg)
-
-![作者返信の絵コンテ・参照画像・Prompt カードです。埋め込みサムネイルは元の参照ファイルではありません。 3](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806826350412052-0.jpg)
-
-![作者返信の絵コンテ・参照画像・Prompt カードです。埋め込みサムネイルは元の参照ファイルではありません。 4](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806826350412052-1.jpg)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806822957273273-0.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806822957273273-0.jpg" alt="恐竜冒険映画と再利用できるショット指示 1" height="280"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806822957273273-1.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806822957273273-1.jpg" alt="恐竜冒険映画と再利用できるショット指示 2" height="280"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806826350412052-0.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806826350412052-0.jpg" alt="恐竜冒険映画と再利用できるショット指示 3" height="280"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806826350412052-1.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806826350412052-1.jpg" alt="恐竜冒険映画と再利用できるショット指示 4" height="280"></a>
+</p>
 
 **プロンプト 1** · [公開 Prompt の出典](https://x.com/techhalla/status/2110806822957273273)
 
@@ -538,7 +441,7 @@ engine starting and revving, tires on gravel.
 + look: 1987 B-movie film stock, practical effects, film grain. No music, only SFX.
 ```
 
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -547,11 +450,11 @@ Type: Demo | Date: 2026-10-15
 
 **同じ主人公が、見慣れた扉の先で変わる環境にどう反応するか確認する**
 
-黄色い制服の配達員が氷、水、炎のような対照的な場面に遭遇する
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D53/video-c385592b815a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D53/poster-c385592b815a.jpg" alt="異世界につながるエレベーターを開く配達員" height="280"></a>
+</p>
 
-[![異世界につながるエレベーターを開く配達員](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D53/poster-c385592b815a.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D53/video-c385592b815a.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -560,11 +463,11 @@ Type: Demo | Date: 2026-10-15
 
 **作者の制作説明から概念、人物設計、脚本、会話、音声の判断を分けて理解する**
 
-スレッドは手順とモデル機能を説明するが、実際の生成 Prompt は公開していない
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D58/video-80ebae3e19ee.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D58/poster-80ebae3e19ee.jpg" alt="地下の亀の配管工を描くコメディ" height="280"></a>
+</p>
 
-[![地下の亀の配管工を描くコメディ](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D58/poster-80ebae3e19ee.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D58/video-80ebae3e19ee.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -573,11 +476,11 @@ Type: Demo | Date: 2026-10-15
 
 **人物の動き、構図、街路状況の変化で喜劇の間を調べる**
 
-作者はテキストから動画への実験と記すが、実際の Prompt は非公開
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D59/video-32460fac82cb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D59/poster-32460fac82cb.jpg" alt="車の意外な展開で終わる街頭の追跡" height="280"></a>
+</p>
 
-[![車の意外な展開で終わる街頭の追跡](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D59/poster-32460fac82cb.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D59/video-32460fac82cb.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -586,11 +489,11 @@ Type: Demo | Date: 2026-10-15
 
 **個人的な幻想物語が同じ登場人物を含む編集映像になる過程を調べる**
 
-約95秒の短編映画であり、一度の生成の長さを意味しない
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D63/video-e7d8328e9da0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D63/poster-e7d8328e9da0.jpg" alt="青いドラゴンを見つける若いヒロイン" height="280"></a>
+</p>
 
-[![青いドラゴンを見つける若いヒロイン](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D63/poster-e7d8328e9da0.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D63/video-e7d8328e9da0.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -599,11 +502,11 @@ Type: Demo | Date: 2026-10-15
 
 **King Cards の短い抜粋で人物、乗り物、背景の変化を調べる**
 
-同じ長編作品から共有された場面であり、別の独立制作映画ではない
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D66/video-e0abfdd43b76.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D66/poster-e0abfdd43b76.jpg" alt="紙の乗り物で花の街へ向かう旅" height="280"></a>
+</p>
 
-[![紙の乗り物で花の街へ向かう旅](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D66/poster-e0abfdd43b76.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D66/video-e0abfdd43b76.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -612,11 +515,11 @@ Type: Demo | Date: 2026-10-16
 
 **動く乗り物の中で位置を追いながら短い変身を確認する**
 
-King Cards に帰属する抜粋として扱い、出典の帰属と原作者の確認を分ける
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D69/video-00ccb9224112.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D69/poster-00ccb9224112.jpg" alt="紙の馬車で石の乗客が人間に変わる" height="280"></a>
+</p>
 
-[![紙の馬車で石の乗客が人間に変わる](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D69/poster-00ccb9224112.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D69/video-00ccb9224112.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -625,24 +528,24 @@ Type: Demo | Date: 2026-10-16
 
 **中心の演技、動く小道具、周囲の観客を同じ場面として確認する**
 
-King Cards のこの部分にある異なるエンコードと短縮版を統合している
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D70/video-b5d7e24dfed1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D70/poster-b5d7e24dfed1.jpg" alt="円形劇場をカードで満たす魔術師" height="280"></a>
+</p>
 
-[![円形劇場をカードで満たす魔術師](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D70/poster-b5d7e24dfed1.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D70/video-b5d7e24dfed1.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 <a id="case-27"></a>
 ### ケース 27: [中庭で足湯を楽しむ女性](https://x.com/Naonekozamurai/status/2111231708108575006) (投稿者 [@Naonekozamurai](https://x.com/Naonekozamurai))
 
-**複雑なアクションではなく日常のしぐさ、衣服、静かな背景を調べる**
+**日常のしぐさ、衣服、静かな中庭を確認する**
 
-作者は10秒1080pとポイント量を述べるが、キャンペーン価格かは不確かとしている
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D74/video-c60960ec9979.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D74/poster-c60960ec9979.jpg" alt="中庭で足湯を楽しむ女性" height="280"></a>
+</p>
 
-[![中庭で足湯を楽しむ女性](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D74/poster-c60960ec9979.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D74/video-c60960ec9979.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -651,11 +554,11 @@ Type: Demo | Date: 2026-10-16
 
 **キャラクターのモチーフがスマートフォン画面を主題に結びつける方法を調べる**
 
-作者は完成作品を Kling 4.0 によるものとするが、映像内の告発内容を本資料は独立評価しない
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D79/video-c65afae88005.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D79/poster-c65afae88005.jpg" alt="鷹を軸にした通報テーマの短編" height="280"></a>
+</p>
 
-[![鷹を軸にした通報テーマの短編](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D79/poster-c65afae88005.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D79/video-c65afae88005.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -664,11 +567,11 @@ Type: Demo | Date: 2026-10-16
 
 **身近な室内で小さな動作とカメラ距離の変化を調べる**
 
-Magnific の作例が猫の調理台移動を追い、最後は接写になる
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D82/video-ff6f8d465033.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D82/poster-ff6f8d465033.jpg" alt="台所を忍び歩く茶トラ猫" height="280"></a>
+</p>
 
-[![台所を忍び歩く茶トラ猫](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D82/poster-ff6f8d465033.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D82/video-ff6f8d465033.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -677,11 +580,11 @@ Type: Demo | Date: 2026-10-16
 
 **短い交流の中で接近、身体接触、人物位置を確認する**
 
-大きなスレッド内の作者返信に付いた映像で、その会話関係を保持している
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D83/video-57f8a9708fd1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D83/poster-57f8a9708fd1.jpg" alt="街で出会い抱き合う二人の男性" height="280"></a>
+</p>
 
-[![街で出会い抱き合う二人の男性](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D83/poster-57f8a9708fd1.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D83/video-57f8a9708fd1.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -694,11 +597,11 @@ Type: Demo | Date: 2026-10-16
 
 **複数人物の動き、空中での配置、衣装の輪郭の連続性を確認する**
 
-二人の剣士が月明かりの雲上で戦う映像で、投稿アカウントは広告であると明示している
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D01/video-c67c148695e9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D01/poster-c67c148695e9.jpg" alt="月夜の雲上で繰り広げる剣の決闘" height="280"></a>
+</p>
 
-[![月夜の雲上で繰り広げる剣の決闘](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D01/poster-c67c148695e9.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D01/video-c67c148695e9.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -707,11 +610,11 @@ Type: Demo | Date: 2026-10-15
 
 **身体接触、間合いの変化、カメラ位置を比較する**
 
-道場の広い画面と、道着姿の二人が接近する画面が切り替わる
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D02/video-1ef935905f1c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D02/poster-1ef935905f1c.jpg" alt="道場でのテコンドーの組手" height="280"></a>
+</p>
 
-[![道場でのテコンドーの組手](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D02/poster-1ef935905f1c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D02/video-1ef935905f1c.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -720,24 +623,24 @@ Type: Demo | Date: 2026-10-16
 
 **素早いカメラ切り替えの中で車両の同一性と進行方向を確認する**
 
-赤と黒のスポーツカーが市街地と橋を走り抜ける
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D04/video-61e7dd165825.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D04/poster-61e7dd165825.jpg" alt="市街地を追走する二台のスポーツカー" height="280"></a>
+</p>
 
-[![市街地を追走する二台のスポーツカー](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D04/poster-61e7dd165825.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D04/video-61e7dd165825.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 <a id="case-34"></a>
 ### ケース 34: [動くカメラで捉えるボクシング](https://x.com/SirGlavan_/status/2110785627251704302) (投稿者 [@SirGlavan_](https://x.com/SirGlavan_))
 
-**一枚の見栄えだけでなく、パンチ、防御の移動、接近時の接触を調べる**
+**パンチ、防御の移動、近接時の接触を確認する**
 
-グローブを着けた二人がリングで打ち合い、カメラの距離と角度が変化する
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D06/video-0a6d9253b137.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D06/poster-0a6d9253b137.jpg" alt="動くカメラで捉えるボクシング" height="280"></a>
+</p>
 
-[![動くカメラで捉えるボクシング](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D06/poster-0a6d9253b137.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D06/video-0a6d9253b137.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -746,11 +649,11 @@ Type: Demo | Date: 2026-10-15
 
 **同じ人物と車両、煙、大規模な背景効果の関係を確認する**
 
-黒い服の女性が壊れた街を進む場面で、複数アカウントが異なる版を共有している
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D07/video-e910366e89fb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D07/poster-e910366e89fb.jpg" alt="爆発する街路を進む女性戦士" height="280"></a>
+</p>
 
-[![爆発する街路を進む女性戦士](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D07/poster-e910366e89fb.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D07/video-e910366e89fb.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -759,11 +662,11 @@ Type: Demo | Date: 2026-10-15
 
 **市街地での対決を追いながら人物と怪物の大きさを比べる**
 
-明るい髪の主人公が損壊した建物の間で巨大な触手生物と向き合う
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D08/video-699eced69da0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D08/poster-699eced69da0.jpg" alt="都市の怪物と対峙する少女" height="280"></a>
+</p>
 
-[![都市の怪物と対峙する少女](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D08/poster-699eced69da0.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D08/video-699eced69da0.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -772,9 +675,9 @@ Type: Demo | Date: 2026-10-16
 
 **公開 Prompt で加速、環境の反応、後退する手持ち視点を調べる**
 
-金属の手足と有機組織を組み合わせた生物で、作者が直接の返信に生成指示を公開している
-
-[![異星の密林を突進する機械の捕食者](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D18/poster-e28f30cd8013.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D18/video-e28f30cd8013.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D18/video-e28f30cd8013.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D18/poster-e28f30cd8013.jpg" alt="異星の密林を突進する機械の捕食者" height="280"></a>
+</p>
 
 **プロンプト** · [公開 Prompt の出典](https://x.com/Alin_Reaper05/status/2110996674558530007)
 
@@ -782,7 +685,7 @@ Type: Demo | Date: 2026-10-16
 A living mechanical predator with a glowing orange central eye moves through dense alien jungle vegetation, using long metallic limbs wrapped in pulsing flesh to pull itself between trees, organic tendrils grabbing branches while hydraulic joints extend and retract, the creature suddenly notices the camera and rapidly charges forward, handheld tracking camera retreats through foliage, branches break naturally, mud splashes, vines react realistically, intense acceleration, realistic weight and momentum, dark cinematic lighting, high-end creature VFX.
 ```
 
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -791,24 +694,24 @@ Type: Demo | Date: 2026-10-16
 
 **開けた戦場で騎手の相互作用、馬の動き、武器接触を確認する**
 
-添付映像は騎馬戦であり、投稿のパンチに関する説明をそのまま画面の事実にはしない
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D22/video-98d16e333c2b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D22/poster-98d16e333c2b.jpg" alt="槍を交える騎馬の戦士" height="280"></a>
+</p>
 
-[![槍を交える騎馬の戦士](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D22/poster-98d16e333c2b.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D22/video-98d16e333c2b.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 <a id="case-39"></a>
 ### ケース 39: [床のマットと接触する空手の組手](https://x.com/WuxiaRocks/status/2110962012100653419) (投稿者 [@WuxiaRocks](https://x.com/WuxiaRocks))
 
-**孤立したポーズではなく演者と周囲の接触を調べる**
+**格闘する人物とマットの接触を確認する**
 
-作者が足によるマットの沈みを指摘しているが、これは出典の観察であり定量的な物理評価ではない
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D24/video-0a576d72f135.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D24/poster-0a576d72f135.jpg" alt="床のマットと接触する空手の組手" height="280"></a>
+</p>
 
-[![床のマットと接触する空手の組手](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D24/poster-0a576d72f135.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D24/video-0a576d72f135.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -817,11 +720,11 @@ Type: Demo | Date: 2026-10-16
 
 **日本語会話のあるアクションで近接接触と場面の連続性を調べる**
 
-作者は比較に同じ Prompt を使ったとするが、参照された指示は今回の収集範囲外
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D46/video-1b049353be78.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D46/poster-1b049353be78.jpg" alt="コンビニ店員と格闘者の対決" height="280"></a>
+</p>
 
-[![コンビニ店員と格闘者の対決](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D46/poster-1b049353be78.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D46/video-1b049353be78.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -830,11 +733,11 @@ Type: Demo | Date: 2026-10-15
 
 **キーフレームに基づくポーズを使った戦闘の配置を調べる**
 
-作者は10枚のキーフレームを使ったとし、開けた台上で異なる鎧の人物が戦う
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D48/video-b680150c5bc2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D48/poster-b680150c5bc2.jpg" alt="石の台上で戦う鎧の幻想戦士" height="280"></a>
+</p>
 
-[![石の台上で戦う鎧の幻想戦士](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D48/poster-b680150c5bc2.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D48/video-b680150c5bc2.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -843,9 +746,9 @@ Type: Demo | Date: 2026-10-15
 
 **一続きのショットを求める Prompt で、つながった屋内外の高速移動を試す**
 
-作者は後に Flash との比較で20秒を選んだと述べるが、その条件は元の Prompt に追加していない
-
-[![夜の町を駆け抜ける猫](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D51/poster-074081e6557c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D51/video-074081e6557c.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D51/video-074081e6557c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D51/poster-074081e6557c.jpg" alt="夜の町を駆け抜ける猫" height="280"></a>
+</p>
 
 **プロンプト** · [公開 Prompt の出典](https://x.com/umesh_ai/status/2110797376827035806)
 
@@ -853,7 +756,7 @@ Type: Demo | Date: 2026-10-15
 An amateur handheld recording in third-person perspective rapidly follows a cat through its nighttime adventures in one continuous shot, with no cuts, no stopping, and no pause. The sequence feels like fast-forward, showing all the curious, mischievous, funny, and chaotic things a cat might do while the town, house, garden, and everything around it are half-asleep.The cat races through about ten places a cat would naturally explore at night, each one flowing into the next in a single continuous chase: a quiet bedroom, a dim hallway, a kitchen, a living room, a backyard garden, a fence line, a garage, a rooftop, a tree, and a sleepy street or alley. The camera is shaky and imperfect, always struggling to keep up as it follows close behind. In every location, the cat causes some kind of chaos. In the bedroom it jumps onto furniture and disturbs sleeping people. In the hallway it sends small objects tumbling. In the kitchen it knocks items off the counter. In the living room it darts across shelves and tips things over. In the garden it rustles plants, digs, or startles birds. On the fence it rattles loose objects. In the garage it weaves through clutter and causes things to wobble or fall. On the rooftop it skids across surfaces and startles other animals. In the tree it shakes branches and scatters leaves. In the street or alley it darts through trash, shadows, and unexpected little messes, always leaving brief chaos behind before sprinting onward.The cat behaves like a restless, curious nighttime troublemaker: climbing, leaping, squeezing through gaps, chasing tiny movements, staring at strange things, swatting objects, knocking things over, and vanishing into corners before bursting back out again. Every scene should contain a clear action, reaction, or small disaster caused by the cat.Everything around it feels sleepy and still, with dark houses, quiet gardens, dim windows, silent rooftops, and empty streets. The contrast is that the cat is pure energy, moving so quickly that the world smears into motion blur and fragmented glimpses of chaos. The overall feeling is funny, lively, mischievous, and cinematic, like a whole secret night of cat behavior compressed into one rapid continuous chase.
 ```
 
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -862,11 +765,11 @@ Type: Demo | Date: 2026-10-15
 
 **雨の激しい戦闘で衣装の安定性と武器の接触を調べる**
 
-作者の15秒、1080p、202ポイントという設定は出典の説明であり、現在の API 価格ではない
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D52/video-428a2ca3573f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D52/poster-428a2ca3573f.jpg" alt="雨の森で戦う侍" height="280"></a>
+</p>
 
-[![雨の森で戦う侍](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D52/poster-428a2ca3573f.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D52/video-428a2ca3573f.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -875,11 +778,11 @@ Type: Demo | Date: 2026-10-15
 
 **同じ森林アクションの再エンコード版を比べ、姿勢とカメラ移動を確認する**
 
-複数アカウントが短い抜粋を再利用しており、一つの素材グループに統合している
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D56/video-e86261e950fa.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D56/poster-e86261e950fa.jpg" alt="森で戦う黒い服の女性" height="280"></a>
+</p>
 
-[![森で戦う黒い服の女性](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D56/poster-e86261e950fa.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D56/video-e86261e950fa.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -888,11 +791,11 @@ Type: Demo | Date: 2026-10-15
 
 **小さな飛行主体と大きな組み立て生物の相互作用を調べる**
 
-King Cards の別の抜粋であり、似たモデル公開告知とともに繰り返し共有されている
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D67/video-d6f35850335e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D67/poster-d6f35850335e.jpg" alt="紫のタコと対峙する赤い紙の鳥" height="280"></a>
+</p>
 
-[![紫のタコと対峙する赤い紙の鳥](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D67/poster-d6f35850335e.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D67/video-d6f35850335e.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -901,11 +804,11 @@ Type: Demo | Date: 2026-10-16
 
 **身体の軌道、ボール位置、リングとの接触を調べる**
 
-作者返信に付いた生成スポーツ動画であり、独立検証された実際の身体能力の証拠ではない
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D84/video-d1fcc959cdd5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D84/poster-d1fcc959cdd5.jpg" alt="空中でダンクするバスケットボール選手" height="280"></a>
+</p>
 
-[![空中でダンクするバスケットボール選手](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D84/poster-d1fcc959cdd5.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D84/video-d1fcc959cdd5.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -918,24 +821,24 @@ Type: Demo | Date: 2026-10-16
 
 **人物の動作と会話を組み合わせたゲーム予告の参考として使う**
 
-投稿は AAA 風と説明するが、確認できる成果物は生成動画であり、遊べるゲームではない
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D05/video-96e6493c7d87.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D05/poster-96e6493c7d87.jpg" alt="賞金稼ぎを描くゲーム風コンセプト" height="280"></a>
+</p>
 
-[![賞金稼ぎを描くゲーム風コンセプト](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D05/poster-96e6493c7d87.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D05/video-96e6493c7d87.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 <a id="case-48"></a>
 ### ケース 48: [夜の巨大な斜面を登る空飛ぶ車](https://x.com/higgsfield_ai/status/2110937478492479783) (投稿者 [@higgsfield_ai](https://x.com/higgsfield_ai))
 
-**動くゲームの証拠ではなく、映画的な乗り物コンセプトの参考にする**
+**巨大な斜面での車の動きとカメラ構図を確認する**
 
-プラットフォームのブランド付き映像が、急斜面を登って飛び出す車を追う
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D29/video-9f0ea0939850.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D29/poster-9f0ea0939850.jpg" alt="夜の巨大な斜面を登る空飛ぶ車" height="280"></a>
+</p>
 
-[![夜の巨大な斜面を登る空飛ぶ車](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D29/poster-9f0ea0939850.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D29/video-9f0ea0939850.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -944,11 +847,11 @@ Type: Demo | Date: 2026-10-16
 
 **追走カメラ、照明、計器風の表示をレース映像の参考として調べる**
 
-プラットフォームの見本は夕暮れの海岸レースで、実行可能なゲームは提供されていない
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D31/video-94729ec66a60.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D31/poster-94729ec66a60.jpg" alt="夕暮れの海岸道路を走るスポーツカー" height="280"></a>
+</p>
 
-[![夕暮れの海岸道路を走るスポーツカー](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D31/poster-94729ec66a60.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D31/video-94729ec66a60.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -957,11 +860,11 @@ Type: Demo | Date: 2026-10-16
 
 **飛行カメラの動きとゲーム風インターフェースの構成を調べる**
 
-明るい海岸を飛ぶジェット機に、ゲーム風の画角と表示が付いている
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D33/video-06b6b22e3e0e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D33/poster-06b6b22e3e0e.jpg" alt="島の景観を飛ぶ戦闘機" height="280"></a>
+</p>
 
-[![島の景観を飛ぶ戦闘機](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D33/poster-06b6b22e3e0e.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D33/video-06b6b22e3e0e.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -970,11 +873,11 @@ Type: Demo | Date: 2026-10-16
 
 **三人称視点の映像で狭い場所から広い空景へ移る方法を調べる**
 
-プラットフォームは様式化した浮遊島を移動する人物の追従映像を示す
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D35/video-41fca9f81d16.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D35/poster-41fca9f81d16.jpg" alt="浮遊島の間を滑空する人物" height="280"></a>
+</p>
 
-[![浮遊島の間を滑空する人物](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D35/poster-41fca9f81d16.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D35/video-41fca9f81d16.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -983,11 +886,11 @@ Type: Demo | Date: 2026-10-16
 
 **バイクの動き、追走距離、コースの照明を調べる**
 
-プラットフォーム映像はレースゲーム風の提示であり、対話型アプリではない
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D38/video-6fbf86005055.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D38/poster-6fbf86005055.jpg" alt="ライダーを追うバイクレースのコンセプト" height="280"></a>
+</p>
 
-[![ライダーを追うバイクレースのコンセプト](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D38/poster-6fbf86005055.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D38/video-6fbf86005055.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -996,9 +899,9 @@ Type: Demo | Date: 2026-10-16
 
 **作者の時間指定付き戦術射撃指示をコピーし、15秒の映像目標を定める**
 
-返信は15秒、根の投稿は30秒、添付は約14.3秒であり、それぞれ別の情報として保持する
-
-[![港湾を舞台にした一人称射撃映像](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D41/poster-d66668c4a4fe.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D41/video-d66668c4a4fe.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D41/video-d66668c4a4fe.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D41/poster-d66668c4a4fe.jpg" alt="港湾を舞台にした一人称射撃映像" height="280"></a>
+</p>
 
 **プロンプト** · [公開 Prompt の出典](https://x.com/higgsfield_ai/status/2110906696851955916)
 
@@ -1021,7 +924,7 @@ Style: authentic competitive esports gameplay footage that looks like a real ran
 Audio: competitive shooter sound design, with punchy rifle bursts with echo off the containers, shell casings clinking on concrete and wood, footsteps on concrete and hollow wooden planks, bullet impacts on wood and metal with small water splashes, a smoke grenade hiss, a crisp magazine reload, seagulls, lapping water against the boats, distant harbor horns and a short round-win sting at the end. No dialogue.
 ```
 
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1030,11 +933,11 @@ Type: Demo | Date: 2026-10-16
 
 **路上走行、飛行、都市の目印の間の移行を確認する**
 
-見える成果物は未来交通の動画であり、遊べるゲームは提供されていない
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D72/video-78d337068f01.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D72/poster-78d337068f01.jpg" alt="未来都市を飛ぶ自動車" height="280"></a>
+</p>
 
-[![未来都市を飛ぶ自動車](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D72/poster-78d337068f01.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D72/video-78d337068f01.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1043,11 +946,11 @@ Type: Demo | Date: 2026-10-16
 
 **追走カメラが地上交通と飛行のような動きをどう結ぶか調べる**
 
-Higgsfield が同社プラットフォームの別の Kling 4.0 ゲームコンセプトとして示す
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D73/video-d291f74977e7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D73/poster-d291f74977e7.jpg" alt="都市の空飛ぶ車を追う警察" height="280"></a>
+</p>
 
-[![都市の空飛ぶ車を追う警察](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D73/poster-d291f74977e7.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D73/video-d291f74977e7.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1056,11 +959,11 @@ Type: Demo | Date: 2026-10-16
 
 **車両、歩く人物、空中映像の間の切り替えを調べる**
 
-Frameo のゲーム風動画コンセプトと連携予告であり、実行可能なゲームではない
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D87/video-31d433ad4429.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D87/poster-31d433ad4429.jpg" alt="海岸のドライブからヘリコプター飛行へ" height="280"></a>
+</p>
 
-[![海岸のドライブからヘリコプター飛行へ](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D87/poster-31d433ad4429.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D87/video-31d433ad4429.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1073,11 +976,11 @@ Type: Demo | Date: 2026-10-16
 
 **完成した MV が異なる画風と繰り返す感情的モチーフをどう結ぶか調べる**
 
-作者は MCP 支援で制作したと述べるが、約136秒の添付は編集作品であり、単一生成の長さを示さない
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D10/video-32d9ded7f2d0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D10/poster-32d9ded7f2d0.jpg" alt="イラストと実写風映像を組み合わせた音楽動画" height="280"></a>
+</p>
 
-[![イラストと実写風映像を組み合わせた音楽動画](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D10/poster-32d9ded7f2d0.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D10/video-32d9ded7f2d0.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1086,11 +989,11 @@ Type: Demo | Date: 2026-10-16
 
 **短い台所アニメの人物間交流と素材表現を確認する**
 
-小さなドラゴン、調理道具、粘土風の描画を組み合わせた場面
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D32/video-1098bee49c56.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D32/poster-1098bee49c56.jpg" alt="台所で出会うおばあさんと小さな粘土ドラゴン" height="280"></a>
+</p>
 
-[![台所で出会うおばあさんと小さな粘土ドラゴン](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D32/poster-1098bee49c56.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D32/video-1098bee49c56.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1099,11 +1002,11 @@ Type: Demo | Date: 2026-10-16
 
 **短い料理アニメで手の動き、道具、照明を確認する**
 
-プラットフォーム自身の見本で、描画風の料理人が賑やかな屋台で働く
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D36/video-a89dc333a50c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D36/poster-a89dc333a50c.jpg" alt="夜市で料理するアニメのシェフ" height="280"></a>
+</p>
 
-[![夜市で料理するアニメのシェフ](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D36/poster-a89dc333a50c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D36/video-a89dc333a50c.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1112,11 +1015,11 @@ Type: Demo | Date: 2026-10-16
 
 **小さなスケールとコマ撮り風表現が短いアクションに与える効果を調べる**
 
-小さな戦士が赤い生物と戦い、生成時間の主張はプラットフォーム側の説明にとどまる
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D40/video-0096a333b2d9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D40/poster-0096a333b2d9.jpg" alt="ミニチュア戦士のストップモーション戦闘" height="280"></a>
+</p>
 
-[![ミニチュア戦士のストップモーション戦闘](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D40/poster-0096a333b2d9.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D40/video-0096a333b2d9.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1125,11 +1028,11 @@ Type: Demo | Date: 2026-10-16
 
 **装飾的な光のモチーフと穏やかな人物の動きを確認する**
 
-作者が投稿した就寝イメージを、月を題材にした短い映像へ展開している
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D49/video-cadca8a36e4a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D49/poster-cadca8a36e4a.jpg" alt="光る三日月の上で眠る少女" height="280"></a>
+</p>
 
-[![光る三日月の上で眠る少女](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D49/poster-cadca8a36e4a.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D49/video-cadca8a36e4a.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -1138,11 +1041,11 @@ Type: Demo | Date: 2026-10-15
 
 **街頭ダンスの集団動作、空間配置、視点変化を確認する**
 
-作者は繰り返し使うフラッシュモブ設定で新モデルを試している
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D54/video-0f0e0bc769b1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D54/poster-0f0e0bc769b1.jpg" alt="交差点のフラッシュモブに加わる歩行者" height="280"></a>
+</p>
 
-[![交差点のフラッシュモブに加わる歩行者](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D54/poster-0f0e0bc769b1.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D54/video-0f0e0bc769b1.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -1151,11 +1054,11 @@ Type: Demo | Date: 2026-10-15
 
 **明瞭な人物の輪郭と刃の相互作用を調べる**
 
-作者は大まかな Prompt による初期試験と説明するが、根の投稿に指示本文はない
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D55/video-28acdf9e07a3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D55/poster-28acdf9e07a3.jpg" alt="雷雲の下で戦うアニメの剣士" height="280"></a>
+</p>
 
-[![雷雲の下で戦うアニメの剣士](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D55/poster-28acdf9e07a3.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D55/video-28acdf9e07a3.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -1164,11 +1067,11 @@ Type: Demo | Date: 2026-10-15
 
 **色を除いた条件で振り付けと照明を調べる**
 
-複数のダンサーと変化する隊形を白黒で映す演目
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D57/video-0bf2843739e2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D57/poster-0bf2843739e2.jpg" alt="白黒の舞台で踊る集団" height="280"></a>
+</p>
 
-[![白黒の舞台で踊る集団](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D57/poster-0bf2843739e2.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D57/video-0bf2843739e2.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -1177,11 +1080,11 @@ Type: Demo | Date: 2026-10-15
 
 **表情豊かな動物の動きと柔らかいアニメ様式の一貫性を調べる**
 
-小さなリスが雪や森の物と触れ合う作者の作例
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D62/video-c2c730ddad9a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D62/poster-c2c730ddad9a.jpg" alt="森の雪で遊ぶリス" height="280"></a>
+</p>
 
-[![森の雪で遊ぶリス](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D62/poster-c2c730ddad9a.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D62/video-c2c730ddad9a.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -1190,11 +1093,11 @@ Type: Demo | Date: 2026-10-15
 
 **菓子の形で構成された環境と様式化した人物の動きを調べる**
 
-見た目の異なる King Cards の場面研究であり、別の独立映画ではない
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D71/video-f533cc90221d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D71/poster-f533cc90221d.jpg" alt="お菓子の世界を歩く赤い衣の人物" height="280"></a>
+</p>
 
-[![お菓子の世界を歩く赤い衣の人物](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D71/poster-f533cc90221d.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D71/video-f533cc90221d.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1203,11 +1106,11 @@ Type: Demo | Date: 2026-10-16
 
 **衣装、食べ物、表情が動物キャラクターの短い物語をどう支えるか調べる**
 
-王冠の猫とカレーを組み合わせ、装飾的なタイトルで終わる作例
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D77/video-0c65da3cad85.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D77/poster-0c65da3cad85.jpg" alt="王冠を着けた白猫がカレーを食べる" height="280"></a>
+</p>
 
-[![王冠を着けた白猫がカレーを食べる](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D77/poster-0c65da3cad85.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D77/video-0c65da3cad85.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1220,11 +1123,11 @@ Type: Demo | Date: 2026-10-16
 
 **閉じた森林から広い空中景観へ続く映像の展開を確認する**
 
-乗り手とドラゴンが森林から山間の谷へ移動し、重複する再エンコード版は統合済み
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D13/video-ea2c6c571381.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D13/poster-ea2c6c571381.jpg" alt="森林の旅からドラゴンの飛行へ" height="280"></a>
+</p>
 
-[![森林の旅からドラゴンの飛行へ](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D13/poster-ea2c6c571381.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D13/video-ea2c6c571381.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1233,11 +1136,11 @@ Type: Demo | Date: 2026-10-16
 
 **怪物の一貫性と不気味なモチーフ間の切り替えを確認する**
 
-白い人影、歪んだ顔、暗い森林とともに、生成音と別工程の音声ミックスが説明される
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D16/video-f97b54673926.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D16/poster-f97b54673926.jpg" alt="顔のない人影を描くホラーモンタージュ" height="280"></a>
+</p>
 
-[![顔のない人影を描くホラーモンタージュ](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D16/poster-f97b54673926.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D16/video-f97b54673926.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1246,9 +1149,9 @@ Type: Demo | Date: 2026-10-16
 
 **作者の公開 Prompt をコピーし、架空の町で連動する環境の動きを試す**
 
-返信は回転する機械住宅、有機的な配管、小型ロボット、浅い水、上昇するカメラを指定する
-
-[![動き出す球形の異星人集落](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D17/poster-0727879b80e3.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D17/video-0727879b80e3.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D17/video-0727879b80e3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D17/poster-0727879b80e3.jpg" alt="動き出す球形の異星人集落" height="280"></a>
+</p>
 
 **プロンプト** · [公開 Prompt の出典](https://x.com/Alin_Reaper05/status/2110997691274580344)
 
@@ -1256,7 +1159,7 @@ Type: Demo | Date: 2026-10-16
 A colorful alien settlement filled with enormous spherical buildings and bizarre organic machines comes alive at sunrise, round red mechanical houses rotate their giant lens-like windows, pipes expand and contract like breathing organs, small robotic creatures run through shallow water, flying vehicles weave between towers, camera glides smoothly through the town at ground level before rising above the rooftops, puddles reflecting neon lights and clouds, natural vegetation moving in the wind, playful but believable extraterrestrial world, cinematic photorealism.
 ```
 
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1265,9 +1168,9 @@ Type: Demo | Date: 2026-10-16
 
 **作者の Prompt を使って重さ、水の押し出し、緩やかなクレーン移動を試す**
 
-二頭の長い首の動物が、赤い植生と黄緑の空に囲まれた青緑の水を渡る
-
-[![浅い湖を渡る巨大な異星生物](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D20/poster-51289a03af36.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D20/video-51289a03af36.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D20/video-51289a03af36.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D20/poster-51289a03af36.jpg" alt="浅い湖を渡る巨大な異星生物" height="280"></a>
+</p>
 
 **プロンプト** · [公開 Prompt の出典](https://x.com/Alin_Reaper05/status/2110982744247353611)
 
@@ -1275,7 +1178,7 @@ Type: Demo | Date: 2026-10-16
 Two enormous long-necked alien animals slowly walk through a shallow turquoise lagoon surrounded by bright red grass and exotic palm forests. Their massive bodies create realistic waves and splashes with every step while smaller creatures flee along the shoreline. The camera begins low near the water and smoothly cranes upward, revealing the gigantic animals against a glowing yellow-green sky and distant mountains. Realistic weight and inertia, detailed skin movement, volumetric mist, natural vegetation motion, cinematic alien wildlife documentary, smooth continuous camera movement, highly coherent anatomy.
 ```
 
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1284,11 +1187,11 @@ Type: Demo | Date: 2026-10-16
 
 **機械の関節、スケール、立位から飛行への変化を調べる**
 
-大型ロボットが作動し、船のような甲板から浮き上がる映像
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D25/video-621b9b81c745.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D25/poster-621b9b81c745.jpg" alt="甲板から飛び立つ大型メカ" height="280"></a>
+</p>
 
-[![甲板から飛び立つ大型メカ](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D25/poster-621b9b81c745.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D25/video-621b9b81c745.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1297,11 +1200,11 @@ Type: Demo | Date: 2026-10-16
 
 **豪雨の中で巨大生物、車、人々の大きさの関係を確認する**
 
-後続投稿は同じ映像を再利用しており、追加出典として保持し、新規ケースにはしない
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D60/video-cdf43480c9f5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D60/poster-cdf43480c9f5.jpg" alt="混雑した吊り橋へ近づく巨大生物" height="280"></a>
+</p>
 
-[![混雑した吊り橋へ近づく巨大生物](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D60/poster-cdf43480c9f5.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D60/video-cdf43480c9f5.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -1310,11 +1213,11 @@ Type: Demo | Date: 2026-10-15
 
 **折り紙風の都市で素材の統一性と追従カメラを確認する**
 
-共有された King Cards の映像であり、独立検証された別作品ではない
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D68/video-692aeb10394f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D68/poster-692aeb10394f.jpg" alt="紙の街を進む新聞紙の乗り物" height="280"></a>
+</p>
 
-[![紙の街を進む新聞紙の乗り物](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D68/poster-692aeb10394f.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D68/video-692aeb10394f.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1323,11 +1226,11 @@ Type: Demo | Date: 2026-10-16
 
 **機械の動き、地面との接触、大型武器との関係を確認する**
 
-作者の初めてのメカ作例であり、工学文書に基づくシミュレーションではない
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D75/video-dd1ae88aa463.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D75/poster-dd1ae88aa463.jpg" alt="丘で歩行し砲撃する重装メカ" height="280"></a>
+</p>
 
-[![丘で歩行し砲撃する重装メカ](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D75/poster-dd1ae88aa463.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D75/video-dd1ae88aa463.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1336,11 +1239,11 @@ Type: Demo | Date: 2026-10-16
 
 **雰囲気、輪郭、反復する視覚的モチーフを確認する**
 
-暗い人物と城のような背景を使った、様式化した雨夜の作品
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D78/video-6a014db111fa.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D78/poster-6a014db111fa.jpg" alt="雨夜を進むゴシックな人影" height="280"></a>
+</p>
 
-[![雨夜を進むゴシックな人影](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D78/poster-6a014db111fa.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D78/video-6a014db111fa.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1349,11 +1252,11 @@ Type: Demo | Date: 2026-10-16
 
 **限られた車内視点から明るい環境へ移る過程を確認する**
 
-King Cards のさらに別の抜粋で、関連する出典の文脈を保持している
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D81/video-9d22c4d4055d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D81/poster-9d22c4d4055d.jpg" alt="光るキノコのトンネルに入る紙の馬車" height="280"></a>
+</p>
 
-[![光るキノコのトンネルに入る紙の馬車](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D81/poster-9d22c4d4055d.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D81/video-9d22c4d4055d.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1364,11 +1267,11 @@ Type: Demo | Date: 2026-10-16
 <a id="case-78"></a>
 ### ケース 78: [森林格闘の同じPromptをKlingとSeedanceで比較](https://x.com/AibeginnerR8/status/2110935157503041672) (投稿者 [@AibeginnerR8](https://x.com/AibeginnerR8))
 
-**表示された二つの結果を、作者の設定と評価範囲を保って比較する**
+**二つのモデルで森林格闘の振り付けとカットを比較する**
 
-両方720pと表示され、音声は Kling を使用する。作者は、この試行ではカット、タイミング、動作追従で Seedance を好む
-
-[![森林格闘の同じPromptをKlingとSeedanceで比較](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D30/poster-a0590043e48c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D30/video-a0590043e48c.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D30/video-a0590043e48c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D30/poster-a0590043e48c.jpg" alt="森林格闘の同じPromptをKlingとSeedanceで比較" height="280"></a>
+</p>
 
 **プロンプト** · [公開 Prompt の出典](https://x.com/AibeginnerR8/status/2110935160434610592)
 
@@ -1424,7 +1327,7 @@ Bの低い後方斜めからAを見る。Bは着地の勢いで転がり、片�
 2人の顔、体格、髭、衣服、Bの角兜を維持。髭と衣服は加速に遅れて揺れる。攻撃線から外れた回避、接触による反動、足の支持と蹴りの回収を見せる。マスクカットはSHOT 5→6の1回、それ以外は通常のカット。字幕や画面内文字なし。
 ```
 
-Type: Evaluation | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1433,9 +1336,9 @@ Type: Evaluation | Date: 2026-10-16
 
 **公開された正確な会話 Prompt で発話交替と横顔の口の同期を試す**
 
-作者の価格は10秒に対するものだが添付は約15秒で、音声と課金の独立検証はない
-
-[![固定カメラのカフェで会話する二人の女性](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D44/poster-293ead53e5df.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D44/video-293ead53e5df.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D44/video-293ead53e5df.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D44/poster-293ead53e5df.jpg" alt="固定カメラのカフェで会話する二人の女性" height="280"></a>
+</p>
 
 **プロンプト** · [公開 Prompt の出典](https://x.com/tanabe_fragm/status/2110887676832543125)
 
@@ -1455,7 +1358,7 @@ The camera does not move or cut. Exactly four lines of dialogue, in natural Toky
 Precise lip sync: lips fully close on ま, ぱ, め, ば sounds; mouth shapes follow each vowel. No extra lines, no ad-libs, no narration. Audio is only the two voices and soft café ambience — no background music. No subtitles, no on-screen text. Single continuous horizontal shot, same framing from start to end.
 ```
 
-Type: Evaluation | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1464,11 +1367,11 @@ Type: Evaluation | Date: 2026-10-16
 
 **作者が示す二つの出力で人物配置と場面構成を比較する**
 
-出典は20秒、180対120ポイントと述べるが、作者およびアカウント固有の数値である
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D45/video-1007d8f82463.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D45/poster-1007d8f82463.jpg" alt="StandardとFlashによる五人の会話" height="280"></a>
+</p>
 
-[![StandardとFlashによる五人の会話](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D45/poster-1007d8f82463.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D45/video-1007d8f82463.mp4)
-
-Type: Evaluation | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -1477,43 +1380,43 @@ Type: Evaluation | Date: 2026-10-15
 
 **作者の格闘映像から接触の多い動きと人物参照の使い方を確認する**
 
-作者は接触で Seedance を好み、30秒1080pで405ポイントと述べ、宣伝も明示している
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D64/video-e99a824137b0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D64/poster-e99a824137b0.jpg" alt="虎の頭を持つ戦士による近接動作テスト" height="280"></a>
+</p>
 
-[![虎の頭を持つ戦士による近接動作テスト](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D64/poster-e99a824137b0.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D64/video-e99a824137b0.mp4)
-
-Type: Evaluation | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
 <a id="case-82"></a>
 ### ケース 82: [音声ずれテスト中に変化する司会者](https://x.com/plasm0/status/2110763509307064539) (投稿者 [@plasm0](https://x.com/plasm0))
 
-**自分で同期精度を測定するための出発点として使う**
+**司会者の外観が変わる際の連続性を確認する**
 
-作者は合格と述べるが、確認画像が示すのは司会者の変化であり、発話同期の正確さではない
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D65/video-285b037dd41e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D65/poster-285b037dd41e.jpg" alt="音声ずれテスト中に変化する司会者" height="280"></a>
+</p>
 
-[![音声ずれテスト中に変化する司会者](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D65/poster-285b037dd41e.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D65/video-285b037dd41e.mp4)
-
-Type: Evaluation | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
 <a id="case-83"></a>
 ### ケース 83: [同じ飛行車コンセプトをKlingとSeedanceで比較](https://x.com/itsPolloAI/status/2111097887656726915) (投稿者 [@itsPolloAI](https://x.com/itsPolloAI))
 
-**プラットフォームの比較条件を保ち、ラベル付きの二映像を見比べる**
+**同じ飛行車の場面を Kling と Seedance で比較する**
 
-Pollo AI は同じ Prompt と述べるが、本文や反復した統制試験は提供しない
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D86/video-f8698ad3f5cb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D86/poster-f8698ad3f5cb.jpg" alt="同じ飛行車コンセプトをKlingとSeedanceで比較" height="280"></a>
+</p>
 
-[![同じ飛行車コンセプトをKlingとSeedanceで比較](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D86/poster-f8698ad3f5cb.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D86/video-f8698ad3f5cb.mp4)
-
-Type: Evaluation | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 ## 関連リポジトリ
 
-現行モデルの経路が未検証のため、Kling 4 専用 API や Skill のリポジトリはリンクしていません。近隣モデルの資料は [Seedance 2.5 ガイド](https://github.com/EvoLinkAI/awesome-seedance-2.5-guide)を参照できますが、別モデルの説明であり、本資料の Kling ケースを検証するものではありません。
+- [Seedance 2.5 ガイド](https://github.com/EvoLinkAI/awesome-seedance-2.5-guide)
 
 <a id="acknowledge"></a>
 ## 🙏 謝辞
@@ -1523,5 +1426,3 @@ Type: Evaluation | Date: 2026-10-16
 [@_3912657840](https://x.com/_3912657840), [@_lexers](https://x.com/_lexers), [@agi_aibusi](https://x.com/agi_aibusi), [@AI__TSUBAKI](https://x.com/AI__TSUBAKI), [@AibeginnerR8](https://x.com/AibeginnerR8), [@AIWarper](https://x.com/AIWarper), [@AiwithAmeliaa](https://x.com/AiwithAmeliaa), [@Aiwithkami](https://x.com/Aiwithkami), [@AIwithkhan](https://x.com/AIwithkhan), [@AlexM12jx](https://x.com/AlexM12jx), [@alifcoder](https://x.com/alifcoder), [@Alin_Reaper05](https://x.com/Alin_Reaper05), [@Bic_Revelation](https://x.com/Bic_Revelation), [@craftcapitallab](https://x.com/craftcapitallab), [@Dani__oros](https://x.com/Dani__oros), [@Diplomeme](https://x.com/Diplomeme), [@dylannknox](https://x.com/dylannknox), [@ErnestoSOFTWARE](https://x.com/ErnestoSOFTWARE), [@fabulatenebris](https://x.com/fabulatenebris), [@fAIkout](https://x.com/fAIkout), [@fatoomdes](https://x.com/fatoomdes), [@frameo_ai](https://x.com/frameo_ai), [@Gemalpha_88](https://x.com/Gemalpha_88), [@h_ashizawaJP](https://x.com/h_ashizawaJP), [@higgsfield_ai](https://x.com/higgsfield_ai), [@Hope_Ai01](https://x.com/Hope_Ai01), [@iam_mian7](https://x.com/iam_mian7), [@IntLab0000](https://x.com/IntLab0000), [@itsPolloAI](https://x.com/itsPolloAI), [@jerrod_lew](https://x.com/jerrod_lew), [@jji1jj](https://x.com/jji1jj), [@leilamakes](https://x.com/leilamakes), [@lexx_aura](https://x.com/lexx_aura), [@Lianaalane](https://x.com/Lianaalane), [@liluocheng13](https://x.com/liluocheng13), [@Lisa__Rodin](https://x.com/Lisa__Rodin), [@magnific](https://x.com/magnific), [@MelinaVale14](https://x.com/MelinaVale14), [@minuitIA](https://x.com/minuitIA), [@MO_IAI](https://x.com/MO_IAI), [@Naonekozamurai](https://x.com/Naonekozamurai), [@nrqa__](https://x.com/nrqa__), [@NyaiiBubu](https://x.com/NyaiiBubu), [@ojiji2025](https://x.com/ojiji2025), [@onofumi_AI](https://x.com/onofumi_AI), [@OxBairan](https://x.com/OxBairan), [@ozansihay](https://x.com/ozansihay), [@PDyv9gdatT4132](https://x.com/PDyv9gdatT4132), [@plasm0](https://x.com/plasm0), [@PromptSin](https://x.com/PromptSin), [@seisei_ai_1st](https://x.com/seisei_ai_1st), [@SirGlavan_](https://x.com/SirGlavan_), [@sophiaparkerr_](https://x.com/sophiaparkerr_), [@Starjupi](https://x.com/Starjupi), [@Stevemnx3](https://x.com/Stevemnx3), [@tanabe_fragm](https://x.com/tanabe_fragm), [@techhalla](https://x.com/techhalla), [@torotoromoney](https://x.com/torotoromoney), [@tphuang](https://x.com/tphuang), [@umesh_ai](https://x.com/umesh_ai), [@WuxiaRocks](https://x.com/WuxiaRocks), [@YapayZekaSerisi](https://x.com/YapayZekaSerisi), [@z933TfmXkaISSVc](https://x.com/z933TfmXkaISSVc)
 
 第三者の動画、画像、Prompt は各権利者の権利に従います。編集文章と構造は [CC BY 4.0](LICENSE) で提供しますが、第三者素材を再許諾するものではありません。署名、権利、転載の訂正は [Issue](https://github.com/cheercheung/awesome-kling-4-usecases/issues) で連絡できます。[媒体方針](docs/media-policy.md)と[貢献案内](CONTRIBUTING.md)も参照してください。
-
-[EvoLink の動画モデルを見る](https://evolink.ai/models?utm_source=github&utm_medium=footer&utm_campaign=awesome-kling-4-usecases&utm_content=ja_footer)

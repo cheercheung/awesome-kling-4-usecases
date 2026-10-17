@@ -2,10 +2,9 @@
 
 # Kling 4 Use Cases
 
-<a href="https://evolink.ai/models?utm_source=github&utm_medium=banner&utm_campaign=awesome-kling-4-usecases&utm_content=ko_banner"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/images/en.png" alt="Kling 4 활용 사례" width="760"></a>
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/images/en.png" alt="Kling 4 활용 사례" width="760">
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
-[![EvoLink](https://img.shields.io/badge/Explore_video_models-EvoLink-black)](https://evolink.ai/models?utm_source=github&utm_medium=badge&utm_campaign=awesome-kling-4-usecases&utm_content=ko_badge)
 
 [![English](https://img.shields.io/badge/English-111111)](README.md) [![Español](https://img.shields.io/badge/Espa%C3%B1ol-ffb703)](README_es.md) [![Português](https://img.shields.io/badge/Portugu%C3%AAs-2a9d8f)](README_pt.md) [![日本語](https://img.shields.io/badge/%E6%97%A5%E6%9C%AC%E8%AA%9E-52b788)](README_ja.md) [![한국어](https://img.shields.io/badge/%ED%95%9C%EA%B5%AD%EC%96%B4-4ea8de)](README_ko.md) [![Deutsch](https://img.shields.io/badge/Deutsch-f4a261)](README_de.md) [![Français](https://img.shields.io/badge/Fran%C3%A7ais-e76f51)](README_fr.md) [![Türkçe](https://img.shields.io/badge/T%C3%BCrk%C3%A7e-d62828)](README_tr.md) [![繁體中文](https://img.shields.io/badge/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-8338ec)](README_zh-TW.md) [![简体中文](https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-ef476f)](README_zh-CN.md) [![Русский](https://img.shields.io/badge/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-577590)](README_ru.md)
 
@@ -15,115 +14,22 @@
 
 **공개 영상, 제작자의 작업 흐름, 공개된 Prompt로 Kling 4 / 4.0을 살펴보세요.** 영상 제작자, 창의적 개발자, 모델 평가자가 관찰하거나 시험할 구체적인 장면을 고르는 자료집입니다. 각 사례는 원문과 게시 계정으로 연결됩니다.
 
-표지 이미지를 눌러 영상을 보고 근거 설명을 읽으세요. Prompt는 작성자가 실제 공개한 경우에만 복사할 수 있습니다. 게시 계정은 배포자일 수도 있으며 출처 표기가 원작자 확인을 의미하지는 않습니다.
-
-[EvoLink 영상 모델 살펴보기](https://evolink.ai/models?utm_source=github&utm_medium=introduction&utm_campaign=awesome-kling-4-usecases&utm_content=ko_introduction)
-
 ## 📊 개요
 
-**83개 선정 사례 · 10개 사례의 공개 Prompt 11개 · 8개 분류.** 작업 흐름, 광고, 서사, 액션, 게임 콘셉트, 애니메이션, 세계, 비교를 다룹니다. 모든 사례는 출처, 계정, 활용 관점, 미디어, 유형, UTC 출처 날짜를 포함합니다.
-
-> [!NOTE]
-> 출처가 있는 예시이며 독립적으로 검증한 Kling API 호출이나 통제된 벤치마크가 아닙니다. 일부는 같은 영화의 다른 발췌입니다. 게임풍 영상은 플레이 가능한 게임이 아니며 편집된 영화 길이는 네이티브 생성 길이가 아닙니다. 가격과 크레딧은 제작자의 보고로 남습니다.
-
-[사례 데이터](data/use-cases.json)나 [정렬 가능한 CSV](data/use-cases.csv)를 내려받으면 수집 시점 반응 수, Prompt 유무, 출처 관계를 확인할 수 있습니다. [수집 범위](docs/collection-scope.md)는 두 검색 기간과 그 사이의 공백을 설명합니다. 특정 날짜의 자료집이며 완전한 실시간 색인이 아닙니다.
-
-<a id="quick-start"></a>
-## ⚡ 시작하기
-
-1. [EvoLink 영상 모델을 확인](https://evolink.ai/models?utm_source=github&utm_medium=quick_start&utm_campaign=awesome-kling-4-usecases&utm_content=ko_quick_start)하고 계정을 만들거나 로그인하세요
-2. 지원 모델을 사용할 때 [API 키를 생성하거나 조회](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=api_key&utm_campaign=awesome-kling-4-usecases&utm_content=ko_api_key)하세요
-3. 작업 제출 전에 모델 제공 상태를 확인하세요. **2026-10-17 기준 이 자료집에서는 Kling 4 API 경로와 전용 설치형 Skill을 검증하지 않았습니다.** [Codex CLI 설정 가이드 읽기](https://evolink.ai/docs/en/cli/codex?utm_source=github&utm_medium=setup_docs&utm_campaign=awesome-kling-4-usecases&utm_content=ko_setup_docs)는 일반 설정 문서로 연결되며 검증된 Kling 4 첫 호출 예제가 아닙니다
-
-이 저장소는 연구와 창작 참고 자료집입니다. 실행 가능한 API 예제나 모델 설치 프로그램은 포함하지 않습니다. 사례를 재현할 때 다른 Kling 버전으로 바꾸어 같은 모델로 간주하지 마세요.
+**83개 선정 사례 · 10개 사례의 공개 Prompt 11개 · 8개 분류.**
 
 ## 📑 목차
 
-| 사례 | 분류 | 관찰할 내용 | 유형 |
-|---|---|---|---|
-| [SF 영상의 인물 및 환경 참조 시트](#case-1) | 작업 흐름과 참조 | 별도의 인물 시트와 환경 시트가 긴 영상 지시문과 함께 제시되는 방식을 확인하세요. | Demo |
-| [에이전트의 스토리보드에서 애니메이션으로](#case-2) | 작업 흐름과 참조 | 대본, 스토리보드, Prompt를 연결하는 제작 과정을 짧은 애니메이션 계획에 활용하세요. | Tutorial |
-| [웅장한 판타지 장면의 참조 시트](#case-3) | 작업 흐름과 참조 | 인물 시트, 환경 시트, 긴 장면 지시 사이의 관계를 살펴보세요. | Demo |
-| [영상 작업을 추적하는 모바일 채팅](#case-4) | 작업 흐름과 참조 | 제안된 Codex에서 MCP로의 연결을 살펴본 뒤 검증된 도구로 재현하세요. | Tutorial |
-| [숲길을 달리는 기아 SUV 광고](#case-5) | 광고와 상품 스토리 | 공개된 15개 숏 지시로 30초 광고의 차량 연속성을 계획하세요. | Demo |
-| [여러 인물이 등장하는 스킨케어 UGC 광고](#case-6) | 광고와 상품 스토리 | 보이는 광고 형식을 참고해 제작 기록을 남기는 UGC 실험을 계획하세요. | Demo |
-| [작은 용이 디저트를 캐러멜화하는 장면](#case-7) | 광고와 상품 스토리 | 구체적인 음식 동작으로 캐릭터 중심 상품 스토리를 살펴보세요. | Demo |
-| [오렌지주스 팩을 중심으로 한 광고](#case-8) | 광고와 상품 스토리 | 하나의 상품을 둘러싼 포장 가시성, 과일 이미지, 전환을 살펴보세요. | Demo |
-| [파스텔 방 안의 헤드폰 소녀](#case-9) | 인물과 서사 | 클로즈업, 전신 동작, 같은 배경 사이에서 인물 외형을 확인하세요. | Demo |
-| [고전적인 주랑으로 다가가는 남자](#case-10) | 인물과 서사 | 보이는 시퀀스에서 절제된 움직임과 건축 배경의 연속성을 살펴보세요. | Demo |
-| [젖은 머리 여성의 감정 클로즈업](#case-11) | 인물과 서사 | 대사 중심 연기에서 미세한 표정 변화와 구도를 살펴보세요. | Demo |
-| [영화관에서 순간을 나누는 엄마와 아이](#case-12) | 인물과 서사 | 짧은 감정 장면이 구체적인 개인 서사에 연결되는 방식을 살펴보세요. | Demo |
-| [일본어 뉴스를 전하는 두 앵커](#case-13) | 인물과 서사 | 대사, 두 인물 배치, 화면 그래픽에 집중한 평가를 설계하세요. | Demo |
-| [사무실 로비를 달리는 작은 카트](#case-14) | 인물과 서사 | 일상 건축에 뜻밖의 차량을 놓아 코믹한 크기 대비를 살펴보세요. | Demo |
-| [남자친구 시점으로 본 여름 산책](#case-15) | 인물과 서사 | 상세한 공개 지시를 복사해 일상의 몸짓으로 30초 시퀀스를 계획하세요. | Demo |
-| [차량과 군인 및 인물 클로즈업 모음](#case-16) | 인물과 서사 | 몽타주에서 구체적인 작업을 추린 뒤 각각 통제된 시험을 하세요. | Demo |
-| [마술과 도시 비행을 잇는 King Cards](#case-17) | 인물과 서사 | 긴 영화가 무대 마술, 종이 차량, 반복되는 붉은 새를 연결하는 방식을 살펴보세요. | Demo |
-| [트랙터와 함께 폭풍을 맞는 농촌 여성](#case-18) | 인물과 서사 | 인물, 기계, 날씨가 짧은 서사의 전제를 전달하는 방식을 살펴보세요. | Demo |
-| [재사용할 숏 지시가 있는 복고풍 공룡 모험](#case-19) | 인물과 서사 | 완성 영화와 작성자의 7초 액션 및 8초 운전 지시를 함께 살펴보세요. | Demo |
-| [다른 세계로 통하는 엘리베이터를 여는 배달원](#case-20) | 인물과 서사 | 같은 주인공이 익숙한 문 너머 바뀌는 환경에 반응하는 방식을 살펴보세요. | Demo |
-| [지하 코미디에 등장하는 거북 배관공](#case-21) | 인물과 서사 | 제작 과정 설명으로 콘셉트, 캐릭터 디자인, 대본, 대사, 사운드 결정을 구분하세요. | Demo |
-| [차량 반전으로 끝나는 거리 추격](#case-22) | 인물과 서사 | 인물 이동, 프레이밍, 거리 상황 변화로 코믹한 타이밍을 살펴보세요. | Demo |
-| [푸른 용을 발견하는 어린 주인공](#case-23) | 인물과 서사 | 개인적 판타지 구상이 반복 등장인물의 편집 시퀀스로 이어지는 방식을 살펴보세요. | Demo |
-| [종이 차량 여행이 꽃의 도시로 이어지는 장면](#case-24) | 인물과 서사 | King Cards 발췌에서 인물, 차량, 환경 변화를 살펴보세요. | Demo |
-| [종이 마차에서 사람이 되는 돌 승객](#case-25) | 인물과 서사 | 움직이는 차량 안의 인물 위치를 추적하며 짧은 변신을 살펴보세요. | Demo |
-| [원형 극장을 카드로 채우는 마술사](#case-26) | 인물과 서사 | 중앙 공연, 움직이는 소품, 주변 관객을 하나의 장면으로 살펴보세요. | Demo |
-| [안뜰에서 족욕하는 여성](#case-27) | 인물과 서사 | 복잡한 액션보다 일상 몸짓, 의상, 조용한 배경을 살펴보세요. | Demo |
-| [매를 모티프로 삼은 사회 신고 주제 단편](#case-28) | 인물과 서사 | 캐릭터 모티프가 휴대전화 화면을 하나의 주제로 연결하는 방식을 살펴보세요. | Demo |
-| [주방을 살금살금 걷는 주황 고양이](#case-29) | 인물과 서사 | 일상 실내에서 작은 동작과 카메라 거리 변화를 살펴보세요. | Demo |
-| [거리에서 만나 포옹하는 두 남성](#case-30) | 인물과 서사 | 짧은 사회적 교류에서 접근, 신체 접촉, 인물 위치를 확인하세요. | Demo |
-| [달빛 구름 위에서 벌어지는 검술 대결](#case-31) | 액션과 신체 상호작용 | 여러 인물의 동작, 공중 연출, 의상 윤곽의 연속성을 살펴보세요. | Demo |
-| [도장 안의 태권도 대련](#case-32) | 액션과 신체 상호작용 | 대련 중 신체 접촉, 거리 변화, 카메라 위치를 비교하세요. | Demo |
-| [도심을 추격하는 두 스포츠카](#case-33) | 액션과 신체 상호작용 | 빠른 카메라 전환에도 차량 정체성과 진행 방향이 이어지는지 살펴보세요. | Demo |
-| [움직이는 카메라로 본 복싱 공방](#case-34) | 액션과 신체 상호작용 | 한 장면의 미감뿐 아니라 펀치, 방어 이동, 근접 접촉을 확인하세요. | Demo |
-| [폭발하는 거리를 걷는 여성 전사](#case-35) | 액션과 신체 상호작용 | 반복 등장 인물과 차량, 연기, 대규모 배경 효과의 관계를 살펴보세요. | Demo |
-| [도시 괴물과 맞서는 소녀](#case-36) | 액션과 신체 상호작용 | 도시 대결 장면에서 사람과 괴물의 크기 관계를 비교하세요. | Demo |
-| [외계 밀림을 질주하는 기계 포식자](#case-37) | 액션과 신체 상호작용 | 공개 Prompt로 가속, 환경 반응, 뒤로 물러나는 핸드헬드 시점을 살펴보세요. | Demo |
-| [창을 맞대는 기마 전사](#case-38) | 액션과 신체 상호작용 | 넓은 전장에서 기수의 상호작용, 말의 움직임, 무기 접촉을 확인하세요. | Demo |
-| [쿠션 바닥과 상호작용하는 가라테 선수](#case-39) | 액션과 신체 상호작용 | 고립된 자세보다 출연자와 주변 환경의 접촉을 살펴보세요. | Demo |
-| [편의점 직원과 격투자의 대결](#case-40) | 액션과 신체 상호작용 | 일본어 대사가 있는 액션에서 근접 접촉과 장면 연속성을 살펴보세요. | Demo |
-| [돌 무대에서 맞붙는 갑옷 판타지 전사](#case-41) | 액션과 신체 상호작용 | 키프레임 기반 자세를 활용한 양식화된 전투 구성을 확인하세요. | Demo |
-| [밤의 마을을 질주하는 고양이](#case-42) | 액션과 신체 상호작용 | 연속 숏 Prompt를 복사해 연결된 실내외 공간의 빠른 이동을 탐색하세요. | Demo |
-| [비 내리는 숲의 사무라이 결투](#case-43) | 액션과 신체 상호작용 | 강한 비 속에서 의상 안정성과 무기 접촉을 확인하세요. | Demo |
-| [숲에서 싸우는 검은 옷의 여성](#case-44) | 액션과 신체 상호작용 | 같은 숲속 장면의 재인코딩 버전에서 자세와 카메라 움직임을 비교하세요. | Demo |
-| [보라색 문어와 맞서는 붉은 종이새](#case-45) | 액션과 신체 상호작용 | 작은 비행 주체와 거대한 조립형 생물의 상호작용을 확인하세요. | Demo |
-| [날아오르며 덩크하는 농구 선수](#case-46) | 액션과 신체 상호작용 | 몸의 궤적, 공 위치, 림 접촉을 살펴보세요. | Demo |
-| [현상금 사냥꾼을 그린 게임 콘셉트](#case-47) | 게임 및 차량 콘셉트 | 인물 동작과 대사를 결합한 게임 예고편 장면의 참고 자료로 활용하세요. | Demo |
-| [밤의 거대한 경사로를 오르는 비행 자동차](#case-48) | 게임 및 차량 콘셉트 | 작동하는 게임의 증거 대신 영화적인 차량 콘셉트 참고로 활용하세요. | Demo |
-| [해안 도로를 질주하는 스포츠카](#case-49) | 게임 및 차량 콘셉트 | 레이싱 영상 콘셉트에서 추적 카메라, 조명, 계기판 같은 오버레이를 살펴보세요. | Demo |
-| [섬 지형 위를 비행하는 전투기](#case-50) | 게임 및 차량 콘셉트 | 비행 카메라 움직임과 게임 인터페이스 구성을 확인하세요. | Demo |
-| [떠 있는 섬 사이를 활공하는 인물](#case-51) | 게임 및 차량 콘셉트 | 3인칭 영상 콘셉트에서 좁은 공간과 넓은 공중 시야 사이의 전환을 살펴보세요. | Demo |
-| [라이더를 따라가는 오토바이 레이싱 콘셉트](#case-52) | 게임 및 차량 콘셉트 | 오토바이 애니메이션, 추적 거리, 트랙 조명을 확인하세요. | Demo |
-| [1인칭 시점의 항구 총격전](#case-53) | 게임 및 차량 콘셉트 | 시간대별 전술 슈터 지시를 복사해 15초 시각 목표를 정하세요. | Demo |
-| [미래 도시를 나는 자동차](#case-54) | 게임 및 차량 콘셉트 | 도로 주행, 비행, 도시 지표 사이의 전환을 살펴보세요. | Demo |
-| [도시의 비행 자동차를 쫓는 경찰](#case-55) | 게임 및 차량 콘셉트 | 추격 카메라가 지상 교통과 비행 같은 움직임을 연결하는 방식을 확인하세요. | Demo |
-| [해안 주행에서 헬리콥터 비행으로 이어지는 콘셉트](#case-56) | 게임 및 차량 콘셉트 | 차량, 걷는 인물, 공중 시퀀스 사이의 전환을 살펴보세요. | Demo |
-| [일러스트와 실사풍 장면을 섞은 뮤직비디오](#case-57) | 애니메이션과 양식화된 인물 | 완성된 뮤직비디오가 시각적 스타일과 반복되는 감정 모티프를 연결하는 방식을 살펴보세요. | Demo |
-| [주방에서 작은 점토 용을 만나는 할머니](#case-58) | 애니메이션과 양식화된 인물 | 짧은 주방 애니메이션에서 인물 교류와 재질 스타일을 살펴보세요. | Demo |
-| [야시장에서 요리하는 애니메이션 셰프](#case-59) | 애니메이션과 양식화된 인물 | 짧은 요리 장면의 손동작, 소품, 조명을 살펴보세요. | Demo |
-| [스톱모션풍 미니어처 전투](#case-60) | 애니메이션과 양식화된 인물 | 작은 크기와 스톱모션 스타일이 짧은 액션을 만드는 방식을 살펴보세요. | Demo |
-| [빛나는 초승달 위에서 잠든 소녀](#case-61) | 애니메이션과 양식화된 인물 | 장식적인 조명 모티프와 부드러운 인물 동작을 살펴보세요. | Demo |
-| [도시 교차로의 플래시몹에 합류하는 행인](#case-62) | 애니메이션과 양식화된 인물 | 거리 춤의 집단 움직임, 공간 배치, 시점 변화를 확인하세요. | Demo |
-| [먹구름 아래 싸우는 애니메이션 검객](#case-63) | 애니메이션과 양식화된 인물 | 양식화된 격투에서 선명한 인물 윤곽과 칼날의 상호작용을 살펴보세요. | Demo |
-| [흑백 무대에서 춤추는 군무](#case-64) | 애니메이션과 양식화된 인물 | 색을 없앤 조건에서 안무와 조명을 살펴보세요. | Demo |
-| [숲에서 눈을 가지고 노는 다람쥐](#case-65) | 애니메이션과 양식화된 인물 | 표현력 있는 동물 움직임과 일관된 부드러운 애니메이션 스타일을 살펴보세요. | Demo |
-| [사탕 세계를 지나는 붉은 옷의 인물](#case-66) | 애니메이션과 양식화된 인물 | 과자로 이루어진 환경과 양식화된 인물 움직임을 살펴보세요. | Demo |
-| [왕관을 쓴 흰 고양이의 카레 식사](#case-67) | 애니메이션과 양식화된 인물 | 의상, 음식 소품, 표정이 동물 캐릭터의 짧은 이야기를 만드는 방식을 살펴보세요. | Demo |
-| [숲속 여정에서 용의 비행으로](#case-68) | 세계와 생물 | 닫힌 숲에서 넓은 공중 풍경으로 이어지는 시각적 흐름을 살펴보세요. | Demo |
-| [얼굴 없는 형체의 공포 몽타주](#case-69) | 세계와 생물 | 괴물 외형의 일관성과 불길한 시각 모티프 사이의 전환을 살펴보세요. | Demo |
-| [움직이기 시작하는 구형 외계 마을](#case-70) | 세계와 생물 | 공개 Prompt를 복사해 가상 마을에서 환경 움직임이 맞물리는 방식을 탐색하세요. | Demo |
-| [석호를 건너는 거대 외계 동물](#case-71) | 세계와 생물 | 작성자의 Prompt로 무게, 물의 변위, 느린 크레인 움직임을 탐색하세요. | Demo |
-| [갑판에서 이륙하는 거대 메카](#case-72) | 세계와 생물 | 기계 관절, 크기, 지면에 선 자세에서 비행으로의 전환을 확인하세요. | Demo |
-| [혼잡한 현수교로 다가오는 거대 생물](#case-73) | 세계와 생물 | 폭우 속 거대 생물, 차량, 사람의 크기 관계를 확인하세요. | Demo |
-| [종이 도시를 달리는 신문지 차량](#case-74) | 세계와 생물 | 종이접기풍 도시의 재질 일관성과 추적 카메라를 살펴보세요. | Demo |
-| [언덕에서 걸으며 사격하는 중장갑 메카](#case-75) | 세계와 생물 | 기계 움직임, 지면 접촉, 거대한 무기의 관계를 살펴보세요. | Demo |
-| [비 내리는 밤의 고딕 인물들](#case-76) | 세계와 생물 | 분위기, 윤곽, 반복되는 시각적 모티프를 살펴보세요. | Demo |
-| [빛나는 버섯 터널로 들어가는 종이 마차](#case-77) | 세계와 생물 | 제한된 차량 시야에서 발광하는 환경으로 바뀌는 전환을 확인하세요. | Demo |
-| [같은 숲속 격투 Prompt로 비교한 Kling과 Seedance](#case-78) | 비교와 평가 | 작성자가 명시한 설정과 평가 한계를 유지하며 두 출력을 비교하세요. | Evaluation |
-| [고정된 카페 숏에서 대화하는 두 여성](#case-79) | 비교와 평가 | 정확한 공개 대사 Prompt로 발화 교대와 옆얼굴 립싱크를 시험하세요. | Evaluation |
-| [Standard와 Flash의 다섯 인물 대화](#case-80) | 비교와 평가 | 작성자가 보여준 두 출력에서 인물 위치와 장면 구성을 비교하세요. | Evaluation |
-| [호랑이 머리 전사의 근접 액션 시험](#case-81) | 비교와 평가 | 격투 장면에서 접촉이 많은 움직임과 캐릭터 참조의 역할을 확인하세요. | Evaluation |
-| [오디오 드리프트 시험 중 바뀌는 발표자](#case-82) | 비교와 평가 | 직접 동기화를 측정할 때 출발점으로 활용하세요. | Evaluation |
-| [같은 비행 자동차 콘셉트의 Kling과 Seedance 비교](#case-83) | 비교와 평가 | 플랫폼의 비교 구도를 유지하면서 라벨이 붙은 두 영상 트랙을 비교하세요. | Evaluation |
+| 분류 | 사례 수 |
+|---|---|
+| [🛠️ 작업 흐름과 참조](#category-workflow) | 4 |
+| [📦 광고와 상품 스토리](#category-ads) | 4 |
+| [🎬 인물과 서사](#category-story) | 22 |
+| [⚔️ 액션과 신체 상호작용](#category-action) | 16 |
+| [🎮 게임 및 차량 콘셉트](#category-game) | 10 |
+| [🎨 애니메이션과 양식화된 인물](#category-animation) | 11 |
+| [🌍 세계와 생물](#category-world) | 10 |
+| [🔬 비교와 평가](#category-evaluation) | 6 |
 
 <a id="category-workflow"></a>
 ## 🛠️ 작업 흐름과 참조
@@ -133,11 +39,11 @@
 
 **별도의 인물 시트와 환경 시트가 긴 영상 지시문과 함께 제시되는 방식을 확인하세요.**
 
-사막 세계, 참조 이미지, 스크롤되는 Prompt가 보이지만 전체 문구는 전사하지 않았습니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D11/video-c7f71e602146.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D11/poster-c7f71e602146.jpg" alt="SF 영상의 인물 및 환경 참조 시트" height="280"></a>
+</p>
 
-[![SF 영상의 인물 및 환경 참조 시트](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D11/poster-c7f71e602146.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D11/video-c7f71e602146.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -146,11 +52,11 @@ Type: Demo | Date: 2026-10-16
 
 **대본, 스토리보드, Prompt를 연결하는 제작 과정을 짧은 애니메이션 계획에 활용하세요.**
 
-작성자는 Opus 5.5로 집필하고 Claude와 MCP로 생성했다고 설명하지만, 첨부 영상으로 실행 로그를 확인할 수는 없습니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D15/video-a0d7f303f6cf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D15/poster-a0d7f303f6cf.jpg" alt="에이전트의 스토리보드에서 애니메이션으로" height="280"></a>
+</p>
 
-[![에이전트의 스토리보드에서 애니메이션으로](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D15/poster-a0d7f303f6cf.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D15/video-a0d7f303f6cf.mp4)
-
-Type: Tutorial | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -159,24 +65,24 @@ Type: Tutorial | Date: 2026-10-16
 
 **인물 시트, 환경 시트, 긴 장면 지시 사이의 관계를 살펴보세요.**
 
-아치형 공간과 스크롤되는 Prompt가 함께 나오지만 전체 텍스트는 전사하지 않았습니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D19/video-225fcfcd6ec2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D19/poster-225fcfcd6ec2.jpg" alt="웅장한 판타지 장면의 참조 시트" height="280"></a>
+</p>
 
-[![웅장한 판타지 장면의 참조 시트](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D19/poster-225fcfcd6ec2.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D19/video-225fcfcd6ec2.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 <a id="case-4"></a>
 ### 사례 4: [영상 작업을 추적하는 모바일 채팅](https://x.com/agi_aibusi/status/2110941943006118201) (작성자 [@agi_aibusi](https://x.com/agi_aibusi))
 
-**제안된 Codex에서 MCP로의 연결을 살펴본 뒤 검증된 도구로 재현하세요.**
+**모바일 채팅으로 영상 작업을 만들고 추적하는 흐름을 참고하세요.**
 
-녹화에는 대화와 작업 상태가 나오지만 구독 크레딧 설명이 보편적인 API 청구 규칙을 입증하지는 않습니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D28/video-fbf3abad9feb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D28/poster-fbf3abad9feb.jpg" alt="영상 작업을 추적하는 모바일 채팅" height="280"></a>
+</p>
 
-[![영상 작업을 추적하는 모바일 채팅](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D28/poster-fbf3abad9feb.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D28/video-fbf3abad9feb.mp4)
-
-Type: Tutorial | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -189,9 +95,9 @@ Type: Tutorial | Date: 2026-10-16
 
 **공개된 15개 숏 지시로 30초 광고의 차량 연속성을 계획하세요.**
 
-Prompt는 여기 제공되지 않은 차량 참조를 요구하며, 4K 문구는 지시이지 검증된 출력 해상도가 아닙니다.
-
-[![숲길을 달리는 기아 SUV 광고](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D26/poster-cf1e54b34518.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D26/video-cf1e54b34518.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D26/video-cf1e54b34518.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D26/poster-cf1e54b34518.jpg" alt="숲길을 달리는 기아 SUV 광고" height="280"></a>
+</p>
 
 **프롬프트** · [공개 Prompt 출처](https://x.com/Diplomeme/status/2110947179057811727)
 
@@ -199,20 +105,20 @@ Prompt는 여기 제공되지 않은 차량 참조를 요구하며, 4K 문구는
 High-octane, hyper-realistic automotive commercial for the Kia Seltos, shot with the visual intensity of a Christopher Nolan-style cinematic production using actual 70mm IMAX cameras. Fast-paced multi-shot editing with quick, cinematic cuts timed at exactly one shot every 2 seconds across a complete 30-second timeline. The champagne-gold Kia Seltos, matching the exact vehicle design in the provided reference images, charges through a dense forest road surrounded by towering trees and dappled sunlight. High-contrast Nolan-esque color grading with deep shadows, cold teals, warm champagne-gold reflections, and bright highlights. Sunlight pierces through the forest canopy, reflecting across the sculpted bodywork, signature vertical LED daytime running lights, black front grille, muscular wheel arches, and distinctive rear light bar. Rapid sequence of intense cuts:•Shot 1 (0-2s): Ground-level cinematic establishing shot of an empty winding forest road, towering trees casting deep shadows as sunlight breaks through the canopy. The distant engine note of the approaching Kia Seltos builds tension.•Shot 2 (2-4s): Low eye-level tracking shot of the champagne-gold Kia Seltos emerging between the trees, accelerating along the forest road and revealing its bold front grille, distinctive vertical LED lighting signature, and commanding SUV stance.•Shot 3 (4-6s): Tight, detailed close-up of the front fascia, Kia emblem, illuminated LED daytime running lights, glossy black grille elements, and champagne-gold paint reflecting the passing forest.•Shot 4 (6-8s): Dramatic low-angle tracking shot moving alongside the front wheel as the alloy spokes spin rapidly, tires maintain realistic contact with the asphalt, and the SUV’s sculpted bodywork catches streaks of sunlight.•Shot 5 (8-10s): Fast lateral tracking shot revealing the complete side profile, muscular wheel arches, black lower-body cladding, door contours, windows, roofline, and metallic champagne-gold finish as the Kia Seltos sweeps through the forest.•Shot 6 (10-12s): Low-angle handheld-style camera whip-pan from the road surface to the SUV’s front three-quarter profile as it exits a sweeping bend, with realistic suspension movement, controlled body roll, and natural background motion blur.•Shot 7 (12-14s): Extreme close-up of sunlight traveling across the sculpted hood, Kia emblem, sharp body creases, and vertical LED lights, emphasizing precise automotive design and premium paint reflections.•Shot 8 (14-16s): Rear three-quarter tracking shot following the Kia Seltos through the forest, showcasing the distinctive rear light bar, angular vertical taillights, rear spoiler, sculpted tailgate, and authentic model badging.•Shot 9 (16-18s): Dynamic wheel-height tracking shot as the SUV drives across alternating patches of sunlight and shadow, capturing realistic tire rotation, subtle road texture, reflections along the lower doors, and the movement of the suspension over natural road undulations.•Shot 10 (18-20s): High-angle wide shot of the Kia Seltos commanding a sweeping forest road, surrounded by towering trees and atmospheric shafts of sunlight, with the winding asphalt leading the eye toward the moving SUV.•Shot 11 (20-22s): Fast front-facing tracking shot of the Kia Seltos approaching the camera along a straight section of forest road, its LED lights illuminated and grille dominating the frame as the camera smoothly retreats ahead of the vehicle.•Shot 12 (22-24s): Rapid cinematic transition into a close rear tracking angle as the SUV accelerates away through the trees, the rear lighting signature glowing against the darker forest and the road markings sweeping beneath the frame.•Shot 13 (24-26s): Dramatic low-angle front three-quarter hero shot as the Kia Seltos exits the forest bend and enters a naturally illuminated clearing, revealing its full stance, champagne-gold bodywork, alloy wheels, and signature front lighting.•Shot 14 (26-28s): Controlled cinematic orbit around the stationary Kia Seltos at a scenic forest-road pull-off, transitioning from the front three-quarter view toward the side and rear profile while the surrounding trees and golden sunlight create a premium automotive campaign atmosphere.•Shot 15 (28-30s): Hard cut to black with a final sweep of light revealing the KIA emblem followed by the SELTOS model name and the campaign tagline: “OWN EVERY TURN.” End with a powerful, clean, premium automotive advertising finish.Raw automotive documentary-style camera textures, organic lens flares, lifelike vehicle physics, authentic wheel rotation and tire contact, realistic suspension movement, natural road reflections, physically accurate metallic paint reflections, cinematic motion blur, subtle engine vibration, and an immersive forest-road atmosphere. Preserve the exact Kia Seltos identity, champagne-gold exterior color, front grille design, LED lighting signatures, alloy wheels, body proportions, side profile, and rear design from the provided reference images throughout every shot. Maintain consistent vehicle geometry, wheel design, lighting signatures, paint color, and branding across all 15 shots. No vehicle redesign, no morphing, no inconsistent body panels, no incorrect logos, no artificial CGI appearance, no impossible driving maneuvers, no exaggerated visual effects, and no abrupt changes in road geography. Ultra-detailed, 4K resolution, premium global automotive advertising quality.
 ```
 
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 <a id="case-6"></a>
 ### 사례 6: [여러 인물이 등장하는 스킨케어 UGC 광고](https://x.com/ErnestoSOFTWARE/status/2110917624167108665) (작성자 [@ErnestoSOFTWARE](https://x.com/ErnestoSOFTWARE))
 
-**보이는 광고 형식을 참고해 제작 기록을 남기는 UGC 실험을 계획하세요.**
+**여러 인물이 등장하는 UGC 상품 영상 형식을 참고하세요.**
 
-작성자는 Higgsfield MCP와 낮은 비용을 홍보하지만 광고 성과나 청구 증거는 제시하지 않습니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D37/video-4ca47c0af310.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D37/poster-4ca47c0af310.jpg" alt="여러 인물이 등장하는 스킨케어 UGC 광고" height="280"></a>
+</p>
 
-[![여러 인물이 등장하는 스킨케어 UGC 광고](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D37/poster-4ca47c0af310.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D37/video-4ca47c0af310.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -221,11 +127,11 @@ Type: Demo | Date: 2026-10-16
 
 **구체적인 음식 동작으로 캐릭터 중심 상품 스토리를 살펴보세요.**
 
-플랫폼 자체 예시는 작은 용과 크렘 브륄레를 배치하지만 판매 성과를 입증하지 않습니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D76/video-6f401168b0fb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D76/poster-6f401168b0fb.jpg" alt="작은 용이 디저트를 캐러멜화하는 장면" height="280"></a>
+</p>
 
-[![작은 용이 디저트를 캐러멜화하는 장면](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D76/poster-6f401168b0fb.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D76/video-6f401168b0fb.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -234,11 +140,11 @@ Type: Demo | Date: 2026-10-16
 
 **하나의 상품을 둘러싼 포장 가시성, 과일 이미지, 전환을 살펴보세요.**
 
-출처는 주스 팩, 과일, 매장 같은 이미지를 결합하지만 Prompt는 공개하지 않습니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D85/video-af7aa6745461.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D85/poster-af7aa6745461.jpg" alt="오렌지주스 팩을 중심으로 한 광고" height="280"></a>
+</p>
 
-[![오렌지주스 팩을 중심으로 한 광고](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D85/poster-af7aa6745461.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D85/video-af7aa6745461.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -251,11 +157,11 @@ Type: Demo | Date: 2026-10-16
 
 **클로즈업, 전신 동작, 같은 배경 사이에서 인물 외형을 확인하세요.**
 
-초록 머리에 헤드폰을 쓴 인물이 연녹색 실내에서 자세를 바꾸고 구도도 달라집니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D03/video-3305b566e9a1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D03/poster-3305b566e9a1.jpg" alt="파스텔 방 안의 헤드폰 소녀" height="280"></a>
+</p>
 
-[![파스텔 방 안의 헤드폰 소녀](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D03/poster-3305b566e9a1.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D03/video-3305b566e9a1.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -264,11 +170,11 @@ Type: Demo | Date: 2026-10-15
 
 **보이는 시퀀스에서 절제된 움직임과 건축 배경의 연속성을 살펴보세요.**
 
-검토한 프레임은 남자와 주랑을 보여주며, 출처의 포괄적인 CGI 칭찬만으로 복잡한 동작을 입증할 수는 없습니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D09/video-e4099969039c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D09/poster-e4099969039c.jpg" alt="고전적인 주랑으로 다가가는 남자" height="280"></a>
+</p>
 
-[![고전적인 주랑으로 다가가는 남자](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D09/poster-e4099969039c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D09/video-e4099969039c.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -277,11 +183,11 @@ Type: Demo | Date: 2026-10-16
 
 **대사 중심 연기에서 미세한 표정 변화와 구도를 살펴보세요.**
 
-어두운 녹색 조명 아래 여성 얼굴에 집중하며, 오디오 품질은 별도로 평가하지 않았습니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D14/video-bd91c5962388.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D14/poster-bd91c5962388.jpg" alt="젖은 머리 여성의 감정 클로즈업" height="280"></a>
+</p>
 
-[![젖은 머리 여성의 감정 클로즈업](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D14/poster-bd91c5962388.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D14/video-bd91c5962388.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -290,11 +196,11 @@ Type: Demo | Date: 2026-10-15
 
 **짧은 감정 장면이 구체적인 개인 서사에 연결되는 방식을 살펴보세요.**
 
-작성자는 16초 영상을 관계에 대한 기억과 연결하고 Gemini 이미지와 Kling 4.0 영상을 명시합니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D21/video-59193966fd28.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D21/poster-59193966fd28.jpg" alt="영화관에서 순간을 나누는 엄마와 아이" height="280"></a>
+</p>
 
-[![영화관에서 순간을 나누는 엄마와 아이](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D21/poster-59193966fd28.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D21/video-59193966fd28.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -303,11 +209,11 @@ Type: Demo | Date: 2026-10-16
 
 **대사, 두 인물 배치, 화면 그래픽에 집중한 평가를 설계하세요.**
 
-제작자는 일본어 발화를 논하지만, 시각 검토로 확인한 것은 뉴스 형식이며 발음은 별도 검증하지 않았습니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D23/video-6d7a8b12e568.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D23/poster-6d7a8b12e568.jpg" alt="일본어 뉴스를 전하는 두 앵커" height="280"></a>
+</p>
 
-[![일본어 뉴스를 전하는 두 앵커](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D23/poster-6d7a8b12e568.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D23/video-6d7a8b12e568.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -316,11 +222,11 @@ Type: Demo | Date: 2026-10-16
 
 **일상 건축에 뜻밖의 차량을 놓아 코믹한 크기 대비를 살펴보세요.**
 
-제작자는 Kling 4 Flash를 명시하며, 앉은 운전자가 사무실 같은 로비를 주행합니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D27/video-df7aadba33d7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D27/poster-df7aadba33d7.jpg" alt="사무실 로비를 달리는 작은 카트" height="280"></a>
+</p>
 
-[![사무실 로비를 달리는 작은 카트](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D27/poster-df7aadba33d7.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D27/video-df7aadba33d7.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -329,9 +235,9 @@ Type: Demo | Date: 2026-10-16
 
 **상세한 공개 지시를 복사해 일상의 몸짓으로 30초 시퀀스를 계획하세요.**
 
-Prompt는 여성의 외형, 시간이 지정된 여섯 순간, 일반 카메라 동작, 환경음을 정의합니다.
-
-[![남자친구 시점으로 본 여름 산책](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D34/poster-8bef5187ff5c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D34/video-8bef5187ff5c.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D34/video-8bef5187ff5c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D34/poster-8bef5187ff5c.jpg" alt="남자친구 시점으로 본 여름 산책" height="280"></a>
+</p>
 
 **프롬프트** · [공개 Prompt 출처](https://x.com/agi_aibusi/status/2110924176890757483)
 
@@ -430,20 +336,20 @@ Let ordinary pauses remain. Her beauty is something her boyfriend happens to not
 The finished video should feel like a personal memory he would keep because of the way she looked at him that afternoon.
 ```
 
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 <a id="case-16"></a>
 ### 사례 16: [차량과 군인 및 인물 클로즈업 모음](https://x.com/jerrod_lew/status/2110911158156931427) (작성자 [@jerrod_lew](https://x.com/jerrod_lew))
 
-**몽타주에서 구체적인 작업을 추린 뒤 각각 통제된 시험을 하세요.**
+**차량, 전장, 인물 클로즈업을 모음 영상에서 살펴보세요.**
 
-약 63초 첨부물은 모음 영상이며 한 번의 네이티브 생성 길이를 입증하지 않습니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D39/video-7d5e3845dc71.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D39/poster-7d5e3845dc71.jpg" alt="차량과 군인 및 인물 클로즈업 모음" height="280"></a>
+</p>
 
-[![차량과 군인 및 인물 클로즈업 모음](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D39/poster-7d5e3845dc71.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D39/video-7d5e3845dc71.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -452,11 +358,11 @@ Type: Demo | Date: 2026-10-16
 
 **긴 영화가 무대 마술, 종이 차량, 반복되는 붉은 새를 연결하는 방식을 살펴보세요.**
 
-전체 몽타주는 후속 게시물에도 등장하며 관련 발췌를 별도 영화로 세지 않습니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D42/video-cd1175d34d80.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D42/poster-cd1175d34d80.jpg" alt="마술과 도시 비행을 잇는 King Cards" height="280"></a>
+</p>
 
-[![마술과 도시 비행을 잇는 King Cards](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D42/poster-cd1175d34d80.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D42/video-cd1175d34d80.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -465,11 +371,11 @@ Type: Demo | Date: 2026-10-16
 
 **인물, 기계, 날씨가 짧은 서사의 전제를 전달하는 방식을 살펴보세요.**
 
-출처는 국제 농촌 여성의 날과 장면을 연결하며 생성 지침은 공개하지 않습니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D47/video-6a9f1d8d21de.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D47/poster-6a9f1d8d21de.jpg" alt="트랙터와 함께 폭풍을 맞는 농촌 여성" height="280"></a>
+</p>
 
-[![트랙터와 함께 폭풍을 맞는 농촌 여성](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D47/poster-6a9f1d8d21de.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D47/video-6a9f1d8d21de.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -478,19 +384,16 @@ Type: Demo | Date: 2026-10-15
 
 **완성 영화와 작성자의 7초 액션 및 8초 운전 지시를 함께 살펴보세요.**
 
-두 Prompt 카드는 이미지 전사로 보존하며, 내장 참조 썸네일은 별도의 원본 입력 이미지가 아닙니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D50/video-9890fdc58895.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D50/poster-9890fdc58895.jpg" alt="재사용할 숏 지시가 있는 복고풍 공룡 모험" height="280"></a>
+</p>
 
-[![재사용할 숏 지시가 있는 복고풍 공룡 모험](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D50/poster-9890fdc58895.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D50/video-9890fdc58895.mp4)
-
-작성자 답글의 스토리보드, 참조 및 Prompt 카드 이미지입니다. 내장 썸네일은 원본 참조 파일이 아닙니다.
-
-![작성자 답글의 스토리보드, 참조 및 Prompt 카드 이미지입니다. 내장 썸네일은 원본 참조 파일이 아닙니다. 1](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806822957273273-0.jpg)
-
-![작성자 답글의 스토리보드, 참조 및 Prompt 카드 이미지입니다. 내장 썸네일은 원본 참조 파일이 아닙니다. 2](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806822957273273-1.jpg)
-
-![작성자 답글의 스토리보드, 참조 및 Prompt 카드 이미지입니다. 내장 썸네일은 원본 참조 파일이 아닙니다. 3](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806826350412052-0.jpg)
-
-![작성자 답글의 스토리보드, 참조 및 Prompt 카드 이미지입니다. 내장 썸네일은 원본 참조 파일이 아닙니다. 4](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806826350412052-1.jpg)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806822957273273-0.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806822957273273-0.jpg" alt="재사용할 숏 지시가 있는 복고풍 공룡 모험 1" height="280"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806822957273273-1.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806822957273273-1.jpg" alt="재사용할 숏 지시가 있는 복고풍 공룡 모험 2" height="280"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806826350412052-0.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806826350412052-0.jpg" alt="재사용할 숏 지시가 있는 복고풍 공룡 모험 3" height="280"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806826350412052-1.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806826350412052-1.jpg" alt="재사용할 숏 지시가 있는 복고풍 공룡 모험 4" height="280"></a>
+</p>
 
 **프롬프트 1** · [공개 Prompt 출처](https://x.com/techhalla/status/2110806822957273273)
 
@@ -538,7 +441,7 @@ engine starting and revving, tires on gravel.
 + look: 1987 B-movie film stock, practical effects, film grain. No music, only SFX.
 ```
 
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -547,11 +450,11 @@ Type: Demo | Date: 2026-10-15
 
 **같은 주인공이 익숙한 문 너머 바뀌는 환경에 반응하는 방식을 살펴보세요.**
 
-노란 제복의 배달원이 얼음, 물, 불 같은 대비되는 장면과 마주합니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D53/video-c385592b815a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D53/poster-c385592b815a.jpg" alt="다른 세계로 통하는 엘리베이터를 여는 배달원" height="280"></a>
+</p>
 
-[![다른 세계로 통하는 엘리베이터를 여는 배달원](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D53/poster-c385592b815a.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D53/video-c385592b815a.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -560,11 +463,11 @@ Type: Demo | Date: 2026-10-15
 
 **제작 과정 설명으로 콘셉트, 캐릭터 디자인, 대본, 대사, 사운드 결정을 구분하세요.**
 
-스레드는 과정과 모델 기능을 설명하지만 실제 생성 Prompt는 공개하지 않습니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D58/video-80ebae3e19ee.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D58/poster-80ebae3e19ee.jpg" alt="지하 코미디에 등장하는 거북 배관공" height="280"></a>
+</p>
 
-[![지하 코미디에 등장하는 거북 배관공](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D58/poster-80ebae3e19ee.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D58/video-80ebae3e19ee.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -573,11 +476,11 @@ Type: Demo | Date: 2026-10-15
 
 **인물 이동, 프레이밍, 거리 상황 변화로 코믹한 타이밍을 살펴보세요.**
 
-제작자는 텍스트 영상 실험이라고 밝히지만 실제 Prompt를 공개하지 않습니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D59/video-32460fac82cb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D59/poster-32460fac82cb.jpg" alt="차량 반전으로 끝나는 거리 추격" height="280"></a>
+</p>
 
-[![차량 반전으로 끝나는 거리 추격](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D59/poster-32460fac82cb.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D59/video-32460fac82cb.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -586,11 +489,11 @@ Type: Demo | Date: 2026-10-15
 
 **개인적 판타지 구상이 반복 등장인물의 편집 시퀀스로 이어지는 방식을 살펴보세요.**
 
-약 95초 단편 영화이며 한 번의 생성 길이를 뜻하지 않습니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D63/video-e7d8328e9da0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D63/poster-e7d8328e9da0.jpg" alt="푸른 용을 발견하는 어린 주인공" height="280"></a>
+</p>
 
-[![푸른 용을 발견하는 어린 주인공](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D63/poster-e7d8328e9da0.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D63/video-e7d8328e9da0.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -599,11 +502,11 @@ Type: Demo | Date: 2026-10-15
 
 **King Cards 발췌에서 인물, 차량, 환경 변화를 살펴보세요.**
 
-같은 긴 영화에서 공유된 장면이며 또 다른 독립 제작 영화가 아닙니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D66/video-e0abfdd43b76.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D66/poster-e0abfdd43b76.jpg" alt="종이 차량 여행이 꽃의 도시로 이어지는 장면" height="280"></a>
+</p>
 
-[![종이 차량 여행이 꽃의 도시로 이어지는 장면](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D66/poster-e0abfdd43b76.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D66/video-e0abfdd43b76.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -612,11 +515,11 @@ Type: Demo | Date: 2026-10-16
 
 **움직이는 차량 안의 인물 위치를 추적하며 짧은 변신을 살펴보세요.**
 
-같은 King Cards로 귀속되는 발췌이며 출처 귀속과 원작자 확인은 구분합니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D69/video-00ccb9224112.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D69/poster-00ccb9224112.jpg" alt="종이 마차에서 사람이 되는 돌 승객" height="280"></a>
+</p>
 
-[![종이 마차에서 사람이 되는 돌 승객](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D69/poster-00ccb9224112.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D69/video-00ccb9224112.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -625,24 +528,24 @@ Type: Demo | Date: 2026-10-16
 
 **중앙 공연, 움직이는 소품, 주변 관객을 하나의 장면으로 살펴보세요.**
 
-이 King Cards 구간의 서로 다른 인코딩과 짧은 버전을 통합했습니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D70/video-b5d7e24dfed1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D70/poster-b5d7e24dfed1.jpg" alt="원형 극장을 카드로 채우는 마술사" height="280"></a>
+</p>
 
-[![원형 극장을 카드로 채우는 마술사](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D70/poster-b5d7e24dfed1.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D70/video-b5d7e24dfed1.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 <a id="case-27"></a>
 ### 사례 27: [안뜰에서 족욕하는 여성](https://x.com/Naonekozamurai/status/2111231708108575006) (작성자 [@Naonekozamurai](https://x.com/Naonekozamurai))
 
-**복잡한 액션보다 일상 몸짓, 의상, 조용한 배경을 살펴보세요.**
+**일상 몸짓, 의상, 조용한 안뜰을 살펴보세요.**
 
-작성자는 10초 1080p와 크레딧 사용량을 밝히지만 할인 가격인지는 불확실하다고 설명합니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D74/video-c60960ec9979.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D74/poster-c60960ec9979.jpg" alt="안뜰에서 족욕하는 여성" height="280"></a>
+</p>
 
-[![안뜰에서 족욕하는 여성](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D74/poster-c60960ec9979.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D74/video-c60960ec9979.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -651,11 +554,11 @@ Type: Demo | Date: 2026-10-16
 
 **캐릭터 모티프가 휴대전화 화면을 하나의 주제로 연결하는 방식을 살펴보세요.**
 
-제작자는 완성작을 Kling 4.0에 귀속하지만, 그 안의 의혹은 여기서 독립적으로 평가하지 않습니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D79/video-c65afae88005.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D79/poster-c65afae88005.jpg" alt="매를 모티프로 삼은 사회 신고 주제 단편" height="280"></a>
+</p>
 
-[![매를 모티프로 삼은 사회 신고 주제 단편](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D79/poster-c65afae88005.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D79/video-c65afae88005.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -664,11 +567,11 @@ Type: Demo | Date: 2026-10-16
 
 **일상 실내에서 작은 동작과 카메라 거리 변화를 살펴보세요.**
 
-Magnific 예시는 고양이가 조리대를 이동하는 모습을 따라가다가 클로즈업으로 끝납니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D82/video-ff6f8d465033.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D82/poster-ff6f8d465033.jpg" alt="주방을 살금살금 걷는 주황 고양이" height="280"></a>
+</p>
 
-[![주방을 살금살금 걷는 주황 고양이](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D82/poster-ff6f8d465033.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D82/video-ff6f8d465033.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -677,11 +580,11 @@ Type: Demo | Date: 2026-10-16
 
 **짧은 사회적 교류에서 접근, 신체 접촉, 인물 위치를 확인하세요.**
 
-긴 스레드 속 작성자 답글에 붙은 미디어이며 대화 관계를 보존합니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D83/video-57f8a9708fd1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D83/poster-57f8a9708fd1.jpg" alt="거리에서 만나 포옹하는 두 남성" height="280"></a>
+</p>
 
-[![거리에서 만나 포옹하는 두 남성](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D83/poster-57f8a9708fd1.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D83/video-57f8a9708fd1.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -694,11 +597,11 @@ Type: Demo | Date: 2026-10-16
 
 **여러 인물의 동작, 공중 연출, 의상 윤곽의 연속성을 살펴보세요.**
 
-두 검객이 달빛을 받는 구름 위에서 싸우며, 게시 계정은 광고임을 공개합니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D01/video-c67c148695e9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D01/poster-c67c148695e9.jpg" alt="달빛 구름 위에서 벌어지는 검술 대결" height="280"></a>
+</p>
 
-[![달빛 구름 위에서 벌어지는 검술 대결](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D01/poster-c67c148695e9.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D01/video-c67c148695e9.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -707,11 +610,11 @@ Type: Demo | Date: 2026-10-15
 
 **대련 중 신체 접촉, 거리 변화, 카메라 위치를 비교하세요.**
 
-도장 전경과 도복을 입은 두 선수의 근접 동작이 번갈아 나옵니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D02/video-1ef935905f1c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D02/poster-1ef935905f1c.jpg" alt="도장 안의 태권도 대련" height="280"></a>
+</p>
 
-[![도장 안의 태권도 대련](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D02/poster-1ef935905f1c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D02/video-1ef935905f1c.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -720,24 +623,24 @@ Type: Demo | Date: 2026-10-16
 
 **빠른 카메라 전환에도 차량 정체성과 진행 방향이 이어지는지 살펴보세요.**
 
-빨간 차와 검은 차가 도심 도로와 다리를 달립니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D04/video-61e7dd165825.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D04/poster-61e7dd165825.jpg" alt="도심을 추격하는 두 스포츠카" height="280"></a>
+</p>
 
-[![도심을 추격하는 두 스포츠카](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D04/poster-61e7dd165825.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D04/video-61e7dd165825.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 <a id="case-34"></a>
 ### 사례 34: [움직이는 카메라로 본 복싱 공방](https://x.com/SirGlavan_/status/2110785627251704302) (작성자 [@SirGlavan_](https://x.com/SirGlavan_))
 
-**한 장면의 미감뿐 아니라 펀치, 방어 이동, 근접 접촉을 확인하세요.**
+**펀치, 방어 이동, 근접 접촉을 살펴보세요.**
 
-글러브를 낀 두 선수가 링에서 싸우며 카메라 거리와 각도가 바뀝니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D06/video-0a6d9253b137.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D06/poster-0a6d9253b137.jpg" alt="움직이는 카메라로 본 복싱 공방" height="280"></a>
+</p>
 
-[![움직이는 카메라로 본 복싱 공방](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D06/poster-0a6d9253b137.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D06/video-0a6d9253b137.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -746,11 +649,11 @@ Type: Demo | Date: 2026-10-15
 
 **반복 등장 인물과 차량, 연기, 대규모 배경 효과의 관계를 살펴보세요.**
 
-검은 옷의 여성이 파손된 거리를 지나며, 여러 계정이 이 장면의 다른 버전을 공유했습니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D07/video-e910366e89fb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D07/poster-e910366e89fb.jpg" alt="폭발하는 거리를 걷는 여성 전사" height="280"></a>
+</p>
 
-[![폭발하는 거리를 걷는 여성 전사](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D07/poster-e910366e89fb.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D07/video-e910366e89fb.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -759,11 +662,11 @@ Type: Demo | Date: 2026-10-15
 
 **도시 대결 장면에서 사람과 괴물의 크기 관계를 비교하세요.**
 
-밝은 머리의 주인공이 파손된 건물 사이에서 거대한 촉수 생물과 마주합니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D08/video-699eced69da0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D08/poster-699eced69da0.jpg" alt="도시 괴물과 맞서는 소녀" height="280"></a>
+</p>
 
-[![도시 괴물과 맞서는 소녀](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D08/poster-699eced69da0.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D08/video-699eced69da0.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -772,9 +675,9 @@ Type: Demo | Date: 2026-10-16
 
 **공개 Prompt로 가속, 환경 반응, 뒤로 물러나는 핸드헬드 시점을 살펴보세요.**
 
-금속 팔다리와 유기 조직을 결합한 생물이며, 작성자가 직접 답글로 생성 지시를 공개했습니다.
-
-[![외계 밀림을 질주하는 기계 포식자](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D18/poster-e28f30cd8013.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D18/video-e28f30cd8013.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D18/video-e28f30cd8013.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D18/poster-e28f30cd8013.jpg" alt="외계 밀림을 질주하는 기계 포식자" height="280"></a>
+</p>
 
 **프롬프트** · [공개 Prompt 출처](https://x.com/Alin_Reaper05/status/2110996674558530007)
 
@@ -782,7 +685,7 @@ Type: Demo | Date: 2026-10-16
 A living mechanical predator with a glowing orange central eye moves through dense alien jungle vegetation, using long metallic limbs wrapped in pulsing flesh to pull itself between trees, organic tendrils grabbing branches while hydraulic joints extend and retract, the creature suddenly notices the camera and rapidly charges forward, handheld tracking camera retreats through foliage, branches break naturally, mud splashes, vines react realistically, intense acceleration, realistic weight and momentum, dark cinematic lighting, high-end creature VFX.
 ```
 
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -791,24 +694,24 @@ Type: Demo | Date: 2026-10-16
 
 **넓은 전장에서 기수의 상호작용, 말의 움직임, 무기 접촉을 확인하세요.**
 
-첨부물은 기마전이며, 출처의 주먹 공격 설명을 화면의 문자 그대로인 사실로 취급하지 않습니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D22/video-98d16e333c2b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D22/poster-98d16e333c2b.jpg" alt="창을 맞대는 기마 전사" height="280"></a>
+</p>
 
-[![창을 맞대는 기마 전사](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D22/poster-98d16e333c2b.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D22/video-98d16e333c2b.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 <a id="case-39"></a>
 ### 사례 39: [쿠션 바닥과 상호작용하는 가라테 선수](https://x.com/WuxiaRocks/status/2110962012100653419) (작성자 [@WuxiaRocks](https://x.com/WuxiaRocks))
 
-**고립된 자세보다 출연자와 주변 환경의 접촉을 살펴보세요.**
+**격투 인물과 쿠션 바닥 사이의 접촉을 살펴보세요.**
 
-제작자는 발이 매트를 누르는 모습을 강조하며, 이는 출처의 관찰이지 정량적 물리 벤치마크가 아닙니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D24/video-0a576d72f135.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D24/poster-0a576d72f135.jpg" alt="쿠션 바닥과 상호작용하는 가라테 선수" height="280"></a>
+</p>
 
-[![쿠션 바닥과 상호작용하는 가라테 선수](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D24/poster-0a576d72f135.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D24/video-0a576d72f135.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -817,11 +720,11 @@ Type: Demo | Date: 2026-10-16
 
 **일본어 대사가 있는 액션에서 근접 접촉과 장면 연속성을 살펴보세요.**
 
-작성자는 비교에 같은 Prompt를 썼다고 하지만, 참조된 텍스트는 수집한 출처 범위 밖입니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D46/video-1b049353be78.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D46/poster-1b049353be78.jpg" alt="편의점 직원과 격투자의 대결" height="280"></a>
+</p>
 
-[![편의점 직원과 격투자의 대결](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D46/poster-1b049353be78.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D46/video-1b049353be78.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -830,11 +733,11 @@ Type: Demo | Date: 2026-10-15
 
 **키프레임 기반 자세를 활용한 양식화된 전투 구성을 확인하세요.**
 
-작성자는 10개 키프레임을 언급하며, 열린 무대에서 서로 다른 갑옷의 인물이 싸웁니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D48/video-b680150c5bc2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D48/poster-b680150c5bc2.jpg" alt="돌 무대에서 맞붙는 갑옷 판타지 전사" height="280"></a>
+</p>
 
-[![돌 무대에서 맞붙는 갑옷 판타지 전사](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D48/poster-b680150c5bc2.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D48/video-b680150c5bc2.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -843,9 +746,9 @@ Type: Demo | Date: 2026-10-15
 
 **연속 숏 Prompt를 복사해 연결된 실내외 공간의 빠른 이동을 탐색하세요.**
 
-작성자는 나중에 Flash와 비교하려고 20초를 골랐다고 설명하지만 원래 Prompt에는 이를 추가하지 않았습니다.
-
-[![밤의 마을을 질주하는 고양이](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D51/poster-074081e6557c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D51/video-074081e6557c.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D51/video-074081e6557c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D51/poster-074081e6557c.jpg" alt="밤의 마을을 질주하는 고양이" height="280"></a>
+</p>
 
 **프롬프트** · [공개 Prompt 출처](https://x.com/umesh_ai/status/2110797376827035806)
 
@@ -853,7 +756,7 @@ Type: Demo | Date: 2026-10-15
 An amateur handheld recording in third-person perspective rapidly follows a cat through its nighttime adventures in one continuous shot, with no cuts, no stopping, and no pause. The sequence feels like fast-forward, showing all the curious, mischievous, funny, and chaotic things a cat might do while the town, house, garden, and everything around it are half-asleep.The cat races through about ten places a cat would naturally explore at night, each one flowing into the next in a single continuous chase: a quiet bedroom, a dim hallway, a kitchen, a living room, a backyard garden, a fence line, a garage, a rooftop, a tree, and a sleepy street or alley. The camera is shaky and imperfect, always struggling to keep up as it follows close behind. In every location, the cat causes some kind of chaos. In the bedroom it jumps onto furniture and disturbs sleeping people. In the hallway it sends small objects tumbling. In the kitchen it knocks items off the counter. In the living room it darts across shelves and tips things over. In the garden it rustles plants, digs, or startles birds. On the fence it rattles loose objects. In the garage it weaves through clutter and causes things to wobble or fall. On the rooftop it skids across surfaces and startles other animals. In the tree it shakes branches and scatters leaves. In the street or alley it darts through trash, shadows, and unexpected little messes, always leaving brief chaos behind before sprinting onward.The cat behaves like a restless, curious nighttime troublemaker: climbing, leaping, squeezing through gaps, chasing tiny movements, staring at strange things, swatting objects, knocking things over, and vanishing into corners before bursting back out again. Every scene should contain a clear action, reaction, or small disaster caused by the cat.Everything around it feels sleepy and still, with dark houses, quiet gardens, dim windows, silent rooftops, and empty streets. The contrast is that the cat is pure energy, moving so quickly that the world smears into motion blur and fragmented glimpses of chaos. The overall feeling is funny, lively, mischievous, and cinematic, like a whole secret night of cat behavior compressed into one rapid continuous chase.
 ```
 
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -862,11 +765,11 @@ Type: Demo | Date: 2026-10-15
 
 **강한 비 속에서 의상 안정성과 무기 접촉을 확인하세요.**
 
-작성자가 밝힌 15초, 1080p, 202크레딧은 출처 설정이며 현재 API 견적이 아닙니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D52/video-428a2ca3573f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D52/poster-428a2ca3573f.jpg" alt="비 내리는 숲의 사무라이 결투" height="280"></a>
+</p>
 
-[![비 내리는 숲의 사무라이 결투](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D52/poster-428a2ca3573f.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D52/video-428a2ca3573f.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -875,11 +778,11 @@ Type: Demo | Date: 2026-10-15
 
 **같은 숲속 장면의 재인코딩 버전에서 자세와 카메라 움직임을 비교하세요.**
 
-여러 계정이 짧은 컷을 재사용했으며 하나의 소재 그룹으로 통합했습니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D56/video-e86261e950fa.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D56/poster-e86261e950fa.jpg" alt="숲에서 싸우는 검은 옷의 여성" height="280"></a>
+</p>
 
-[![숲에서 싸우는 검은 옷의 여성](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D56/poster-e86261e950fa.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D56/video-e86261e950fa.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -888,11 +791,11 @@ Type: Demo | Date: 2026-10-15
 
 **작은 비행 주체와 거대한 조립형 생물의 상호작용을 확인하세요.**
 
-King Cards의 또 다른 발췌로, 비슷한 모델 출시 문구와 함께 반복 공유됐습니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D67/video-d6f35850335e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D67/poster-d6f35850335e.jpg" alt="보라색 문어와 맞서는 붉은 종이새" height="280"></a>
+</p>
 
-[![보라색 문어와 맞서는 붉은 종이새](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D67/poster-d6f35850335e.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D67/video-d6f35850335e.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -901,11 +804,11 @@ Type: Demo | Date: 2026-10-16
 
 **몸의 궤적, 공 위치, 림 접촉을 살펴보세요.**
 
-작성자 답글의 생성 스포츠 영상이며 실제 신체 능력을 독립적으로 검증한 증거가 아닙니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D84/video-d1fcc959cdd5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D84/poster-d1fcc959cdd5.jpg" alt="날아오르며 덩크하는 농구 선수" height="280"></a>
+</p>
 
-[![날아오르며 덩크하는 농구 선수](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D84/poster-d1fcc959cdd5.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D84/video-d1fcc959cdd5.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -918,24 +821,24 @@ Type: Demo | Date: 2026-10-16
 
 **인물 동작과 대사를 결합한 게임 예고편 장면의 참고 자료로 활용하세요.**
 
-출처는 AAA 스타일 콘셉트라고 설명하지만, 확인되는 결과물은 생성 영상이며 플레이 가능한 게임은 아닙니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D05/video-96e6493c7d87.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D05/poster-96e6493c7d87.jpg" alt="현상금 사냥꾼을 그린 게임 콘셉트" height="280"></a>
+</p>
 
-[![현상금 사냥꾼을 그린 게임 콘셉트](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D05/poster-96e6493c7d87.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D05/video-96e6493c7d87.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 <a id="case-48"></a>
 ### 사례 48: [밤의 거대한 경사로를 오르는 비행 자동차](https://x.com/higgsfield_ai/status/2110937478492479783) (작성자 [@higgsfield_ai](https://x.com/higgsfield_ai))
 
-**작동하는 게임의 증거 대신 영화적인 차량 콘셉트 참고로 활용하세요.**
+**거대한 경사로의 차량 움직임과 카메라 구도를 살펴보세요.**
 
-플랫폼 브랜드 영상이 가파른 경사로를 오르는 차를 따라간 뒤 비행 같은 도약을 보여줍니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D29/video-9f0ea0939850.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D29/poster-9f0ea0939850.jpg" alt="밤의 거대한 경사로를 오르는 비행 자동차" height="280"></a>
+</p>
 
-[![밤의 거대한 경사로를 오르는 비행 자동차](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D29/poster-9f0ea0939850.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D29/video-9f0ea0939850.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -944,11 +847,11 @@ Type: Demo | Date: 2026-10-16
 
 **레이싱 영상 콘셉트에서 추적 카메라, 조명, 계기판 같은 오버레이를 살펴보세요.**
 
-플랫폼 예시는 노을의 해안 레이싱 장면이며 실행 가능한 게임을 제공하지 않습니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D31/video-94729ec66a60.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D31/poster-94729ec66a60.jpg" alt="해안 도로를 질주하는 스포츠카" height="280"></a>
+</p>
 
-[![해안 도로를 질주하는 스포츠카](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D31/poster-94729ec66a60.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D31/video-94729ec66a60.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -957,11 +860,11 @@ Type: Demo | Date: 2026-10-16
 
 **비행 카메라 움직임과 게임 인터페이스 구성을 확인하세요.**
 
-제트기가 밝은 해안을 날며 게임식 프레이밍과 오버레이를 보여줍니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D33/video-06b6b22e3e0e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D33/poster-06b6b22e3e0e.jpg" alt="섬 지형 위를 비행하는 전투기" height="280"></a>
+</p>
 
-[![섬 지형 위를 비행하는 전투기](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D33/poster-06b6b22e3e0e.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D33/video-06b6b22e3e0e.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -970,11 +873,11 @@ Type: Demo | Date: 2026-10-16
 
 **3인칭 영상 콘셉트에서 좁은 공간과 넓은 공중 시야 사이의 전환을 살펴보세요.**
 
-플랫폼은 양식화된 공중 섬을 통과하는 인물을 따라갑니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D35/video-41fca9f81d16.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D35/poster-41fca9f81d16.jpg" alt="떠 있는 섬 사이를 활공하는 인물" height="280"></a>
+</p>
 
-[![떠 있는 섬 사이를 활공하는 인물](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D35/poster-41fca9f81d16.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D35/video-41fca9f81d16.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -983,11 +886,11 @@ Type: Demo | Date: 2026-10-16
 
 **오토바이 애니메이션, 추적 거리, 트랙 조명을 확인하세요.**
 
-플랫폼 예시는 레이싱 게임 형식을 사용하지만 상호작용하는 앱은 아닙니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D38/video-6fbf86005055.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D38/poster-6fbf86005055.jpg" alt="라이더를 따라가는 오토바이 레이싱 콘셉트" height="280"></a>
+</p>
 
-[![라이더를 따라가는 오토바이 레이싱 콘셉트](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D38/poster-6fbf86005055.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D38/video-6fbf86005055.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -996,9 +899,9 @@ Type: Demo | Date: 2026-10-16
 
 **시간대별 전술 슈터 지시를 복사해 15초 시각 목표를 정하세요.**
 
-답글은 15초, 원문은 30초, 첨부물은 약 14.3초이므로 세 출처의 수치를 구분합니다.
-
-[![1인칭 시점의 항구 총격전](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D41/poster-d66668c4a4fe.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D41/video-d66668c4a4fe.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D41/video-d66668c4a4fe.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D41/poster-d66668c4a4fe.jpg" alt="1인칭 시점의 항구 총격전" height="280"></a>
+</p>
 
 **프롬프트** · [공개 Prompt 출처](https://x.com/higgsfield_ai/status/2110906696851955916)
 
@@ -1021,7 +924,7 @@ Style: authentic competitive esports gameplay footage that looks like a real ran
 Audio: competitive shooter sound design, with punchy rifle bursts with echo off the containers, shell casings clinking on concrete and wood, footsteps on concrete and hollow wooden planks, bullet impacts on wood and metal with small water splashes, a smoke grenade hiss, a crisp magazine reload, seagulls, lapping water against the boats, distant harbor horns and a short round-win sting at the end. No dialogue.
 ```
 
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1030,11 +933,11 @@ Type: Demo | Date: 2026-10-16
 
 **도로 주행, 비행, 도시 지표 사이의 전환을 살펴보세요.**
 
-결과물은 미래 교통 영상이며 출처는 플레이 가능한 게임을 제공하지 않습니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D72/video-78d337068f01.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D72/poster-78d337068f01.jpg" alt="미래 도시를 나는 자동차" height="280"></a>
+</p>
 
-[![미래 도시를 나는 자동차](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D72/poster-78d337068f01.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D72/video-78d337068f01.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1043,11 +946,11 @@ Type: Demo | Date: 2026-10-16
 
 **추격 카메라가 지상 교통과 비행 같은 움직임을 연결하는 방식을 확인하세요.**
 
-Higgsfield는 플랫폼의 또 다른 Kling 4.0 게임 콘셉트라고 소개합니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D73/video-d291f74977e7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D73/poster-d291f74977e7.jpg" alt="도시의 비행 자동차를 쫓는 경찰" height="280"></a>
+</p>
 
-[![도시의 비행 자동차를 쫓는 경찰](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D73/poster-d291f74977e7.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D73/video-d291f74977e7.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1056,11 +959,11 @@ Type: Demo | Date: 2026-10-16
 
 **차량, 걷는 인물, 공중 시퀀스 사이의 전환을 살펴보세요.**
 
-Frameo는 게임풍 영상 콘셉트와 연동 예고를 제시하며 실행 가능한 게임은 아닙니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D87/video-31d433ad4429.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D87/poster-31d433ad4429.jpg" alt="해안 주행에서 헬리콥터 비행으로 이어지는 콘셉트" height="280"></a>
+</p>
 
-[![해안 주행에서 헬리콥터 비행으로 이어지는 콘셉트](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D87/poster-31d433ad4429.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D87/video-31d433ad4429.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1073,11 +976,11 @@ Type: Demo | Date: 2026-10-16
 
 **완성된 뮤직비디오가 시각적 스타일과 반복되는 감정 모티프를 연결하는 방식을 살펴보세요.**
 
-제작자는 MCP 지원을 언급하지만, 약 136초 첨부물은 편집된 작품이며 단일 생성 길이의 증거가 아닙니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D10/video-32d9ded7f2d0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D10/poster-32d9ded7f2d0.jpg" alt="일러스트와 실사풍 장면을 섞은 뮤직비디오" height="280"></a>
+</p>
 
-[![일러스트와 실사풍 장면을 섞은 뮤직비디오](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D10/poster-32d9ded7f2d0.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D10/video-32d9ded7f2d0.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1086,11 +989,11 @@ Type: Demo | Date: 2026-10-16
 
 **짧은 주방 애니메이션에서 인물 교류와 재질 스타일을 살펴보세요.**
 
-작은 용, 조리 도구, 점토 같은 시각 표현을 결합합니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D32/video-1098bee49c56.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D32/poster-1098bee49c56.jpg" alt="주방에서 작은 점토 용을 만나는 할머니" height="280"></a>
+</p>
 
-[![주방에서 작은 점토 용을 만나는 할머니](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D32/poster-1098bee49c56.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D32/video-1098bee49c56.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1099,11 +1002,11 @@ Type: Demo | Date: 2026-10-16
 
 **짧은 요리 장면의 손동작, 소품, 조명을 살펴보세요.**
 
-플랫폼 자체 예시는 붐비는 노점에서 일하는 일러스트풍 요리사를 보여줍니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D36/video-a89dc333a50c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D36/poster-a89dc333a50c.jpg" alt="야시장에서 요리하는 애니메이션 셰프" height="280"></a>
+</p>
 
-[![야시장에서 요리하는 애니메이션 셰프](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D36/poster-a89dc333a50c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D36/video-a89dc333a50c.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1112,11 +1015,11 @@ Type: Demo | Date: 2026-10-16
 
 **작은 크기와 스톱모션 스타일이 짧은 액션을 만드는 방식을 살펴보세요.**
 
-작은 전사가 붉은 생물과 싸우며, 생성 시간 주장은 플랫폼의 설명으로 남습니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D40/video-0096a333b2d9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D40/poster-0096a333b2d9.jpg" alt="스톱모션풍 미니어처 전투" height="280"></a>
+</p>
 
-[![스톱모션풍 미니어처 전투](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D40/poster-0096a333b2d9.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D40/video-0096a333b2d9.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1125,11 +1028,11 @@ Type: Demo | Date: 2026-10-16
 
 **장식적인 조명 모티프와 부드러운 인물 동작을 살펴보세요.**
 
-제작자가 올린 취침 이미지가 짧은 달 테마 영상으로 이어집니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D49/video-cadca8a36e4a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D49/poster-cadca8a36e4a.jpg" alt="빛나는 초승달 위에서 잠든 소녀" height="280"></a>
+</p>
 
-[![빛나는 초승달 위에서 잠든 소녀](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D49/poster-cadca8a36e4a.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D49/video-cadca8a36e4a.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -1138,11 +1041,11 @@ Type: Demo | Date: 2026-10-15
 
 **거리 춤의 집단 움직임, 공간 배치, 시점 변화를 확인하세요.**
 
-제작자는 반복적으로 쓰는 플래시몹 설정으로 새 모델을 시험합니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D54/video-0f0e0bc769b1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D54/poster-0f0e0bc769b1.jpg" alt="도시 교차로의 플래시몹에 합류하는 행인" height="280"></a>
+</p>
 
-[![도시 교차로의 플래시몹에 합류하는 행인](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D54/poster-0f0e0bc769b1.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D54/video-0f0e0bc769b1.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -1151,11 +1054,11 @@ Type: Demo | Date: 2026-10-15
 
 **양식화된 격투에서 선명한 인물 윤곽과 칼날의 상호작용을 살펴보세요.**
 
-제작자는 느슨한 Prompt로 한 초기 시험이라고 하지만 원문에 실제 지시를 공개하지 않았습니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D55/video-28acdf9e07a3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D55/poster-28acdf9e07a3.jpg" alt="먹구름 아래 싸우는 애니메이션 검객" height="280"></a>
+</p>
 
-[![먹구름 아래 싸우는 애니메이션 검객](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D55/poster-28acdf9e07a3.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D55/video-28acdf9e07a3.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -1164,11 +1067,11 @@ Type: Demo | Date: 2026-10-15
 
 **색을 없앤 조건에서 안무와 조명을 살펴보세요.**
 
-여러 무용수와 바뀌는 대형을 흑백으로 표현한 공연입니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D57/video-0bf2843739e2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D57/poster-0bf2843739e2.jpg" alt="흑백 무대에서 춤추는 군무" height="280"></a>
+</p>
 
-[![흑백 무대에서 춤추는 군무](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D57/poster-0bf2843739e2.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D57/video-0bf2843739e2.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -1177,11 +1080,11 @@ Type: Demo | Date: 2026-10-15
 
 **표현력 있는 동물 움직임과 일관된 부드러운 애니메이션 스타일을 살펴보세요.**
 
-작은 다람쥐가 눈과 숲속 물체에 반응하는 제작자의 예시입니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D62/video-c2c730ddad9a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D62/poster-c2c730ddad9a.jpg" alt="숲에서 눈을 가지고 노는 다람쥐" height="280"></a>
+</p>
 
-[![숲에서 눈을 가지고 노는 다람쥐](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D62/poster-c2c730ddad9a.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D62/video-c2c730ddad9a.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -1190,11 +1093,11 @@ Type: Demo | Date: 2026-10-15
 
 **과자로 이루어진 환경과 양식화된 인물 움직임을 살펴보세요.**
 
-시각적으로 구별되는 King Cards 장면 연구이며 또 다른 독립 영화가 아닙니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D71/video-f533cc90221d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D71/poster-f533cc90221d.jpg" alt="사탕 세계를 지나는 붉은 옷의 인물" height="280"></a>
+</p>
 
-[![사탕 세계를 지나는 붉은 옷의 인물](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D71/poster-f533cc90221d.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D71/video-f533cc90221d.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1203,11 +1106,11 @@ Type: Demo | Date: 2026-10-16
 
 **의상, 음식 소품, 표정이 동물 캐릭터의 짧은 이야기를 만드는 방식을 살펴보세요.**
 
-제작자는 왕관 고양이와 카레를 결합하고 장식적 제목 화면으로 마무리합니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D77/video-0c65da3cad85.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D77/poster-0c65da3cad85.jpg" alt="왕관을 쓴 흰 고양이의 카레 식사" height="280"></a>
+</p>
 
-[![왕관을 쓴 흰 고양이의 카레 식사](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D77/poster-0c65da3cad85.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D77/video-0c65da3cad85.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1220,11 +1123,11 @@ Type: Demo | Date: 2026-10-16
 
 **닫힌 숲에서 넓은 공중 풍경으로 이어지는 시각적 흐름을 살펴보세요.**
 
-기수와 용이 숲에서 산악 계곡으로 이동하며, 중복 인코딩은 하나로 묶었습니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D13/video-ea2c6c571381.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D13/poster-ea2c6c571381.jpg" alt="숲속 여정에서 용의 비행으로" height="280"></a>
+</p>
 
-[![숲속 여정에서 용의 비행으로](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D13/poster-ea2c6c571381.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D13/video-ea2c6c571381.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1233,11 +1136,11 @@ Type: Demo | Date: 2026-10-16
 
 **괴물 외형의 일관성과 불길한 시각 모티프 사이의 전환을 살펴보세요.**
 
-창백한 형체, 왜곡된 얼굴, 어두운 숲과 함께 생성 사운드 및 별도 믹싱을 설명합니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D16/video-f97b54673926.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D16/poster-f97b54673926.jpg" alt="얼굴 없는 형체의 공포 몽타주" height="280"></a>
+</p>
 
-[![얼굴 없는 형체의 공포 몽타주](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D16/poster-f97b54673926.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D16/video-f97b54673926.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1246,9 +1149,9 @@ Type: Demo | Date: 2026-10-16
 
 **공개 Prompt를 복사해 가상 마을에서 환경 움직임이 맞물리는 방식을 탐색하세요.**
 
-답글은 회전하는 기계 주택, 유기적 배관, 소형 로봇, 얕은 물, 상승 카메라를 지정합니다.
-
-[![움직이기 시작하는 구형 외계 마을](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D17/poster-0727879b80e3.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D17/video-0727879b80e3.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D17/video-0727879b80e3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D17/poster-0727879b80e3.jpg" alt="움직이기 시작하는 구형 외계 마을" height="280"></a>
+</p>
 
 **프롬프트** · [공개 Prompt 출처](https://x.com/Alin_Reaper05/status/2110997691274580344)
 
@@ -1256,7 +1159,7 @@ Type: Demo | Date: 2026-10-16
 A colorful alien settlement filled with enormous spherical buildings and bizarre organic machines comes alive at sunrise, round red mechanical houses rotate their giant lens-like windows, pipes expand and contract like breathing organs, small robotic creatures run through shallow water, flying vehicles weave between towers, camera glides smoothly through the town at ground level before rising above the rooftops, puddles reflecting neon lights and clouds, natural vegetation moving in the wind, playful but believable extraterrestrial world, cinematic photorealism.
 ```
 
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1265,9 +1168,9 @@ Type: Demo | Date: 2026-10-16
 
 **작성자의 Prompt로 무게, 물의 변위, 느린 크레인 움직임을 탐색하세요.**
 
-목이 긴 두 동물이 붉은 식생과 황록색 하늘 아래 청록색 물을 건넙니다.
-
-[![석호를 건너는 거대 외계 동물](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D20/poster-51289a03af36.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D20/video-51289a03af36.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D20/video-51289a03af36.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D20/poster-51289a03af36.jpg" alt="석호를 건너는 거대 외계 동물" height="280"></a>
+</p>
 
 **프롬프트** · [공개 Prompt 출처](https://x.com/Alin_Reaper05/status/2110982744247353611)
 
@@ -1275,7 +1178,7 @@ Type: Demo | Date: 2026-10-16
 Two enormous long-necked alien animals slowly walk through a shallow turquoise lagoon surrounded by bright red grass and exotic palm forests. Their massive bodies create realistic waves and splashes with every step while smaller creatures flee along the shoreline. The camera begins low near the water and smoothly cranes upward, revealing the gigantic animals against a glowing yellow-green sky and distant mountains. Realistic weight and inertia, detailed skin movement, volumetric mist, natural vegetation motion, cinematic alien wildlife documentary, smooth continuous camera movement, highly coherent anatomy.
 ```
 
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1284,11 +1187,11 @@ Type: Demo | Date: 2026-10-16
 
 **기계 관절, 크기, 지면에 선 자세에서 비행으로의 전환을 확인하세요.**
 
-대형 로봇이 작동하고 배 같은 갑판에서 떠오르는 예시입니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D25/video-621b9b81c745.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D25/poster-621b9b81c745.jpg" alt="갑판에서 이륙하는 거대 메카" height="280"></a>
+</p>
 
-[![갑판에서 이륙하는 거대 메카](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D25/poster-621b9b81c745.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D25/video-621b9b81c745.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1297,11 +1200,11 @@ Type: Demo | Date: 2026-10-16
 
 **폭우 속 거대 생물, 차량, 사람의 크기 관계를 확인하세요.**
 
-후속 게시물은 같은 영상을 재사용했으므로 새 사례가 아닌 추가 출처로 보존합니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D60/video-cdf43480c9f5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D60/poster-cdf43480c9f5.jpg" alt="혼잡한 현수교로 다가오는 거대 생물" height="280"></a>
+</p>
 
-[![혼잡한 현수교로 다가오는 거대 생물](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D60/poster-cdf43480c9f5.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D60/video-cdf43480c9f5.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -1310,11 +1213,11 @@ Type: Demo | Date: 2026-10-15
 
 **종이접기풍 도시의 재질 일관성과 추적 카메라를 살펴보세요.**
 
-영상은 공유된 King Cards 작품에 속하며 별도로 검증된 독립 프로젝트가 아닙니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D68/video-692aeb10394f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D68/poster-692aeb10394f.jpg" alt="종이 도시를 달리는 신문지 차량" height="280"></a>
+</p>
 
-[![종이 도시를 달리는 신문지 차량](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D68/poster-692aeb10394f.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D68/video-692aeb10394f.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1323,11 +1226,11 @@ Type: Demo | Date: 2026-10-16
 
 **기계 움직임, 지면 접촉, 거대한 무기의 관계를 살펴보세요.**
 
-제작자의 첫 메카 예시이며 공학 문서로 뒷받침한 시뮬레이션이 아닙니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D75/video-dd1ae88aa463.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D75/poster-dd1ae88aa463.jpg" alt="언덕에서 걸으며 사격하는 중장갑 메카" height="280"></a>
+</p>
 
-[![언덕에서 걸으며 사격하는 중장갑 메카](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D75/poster-dd1ae88aa463.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D75/video-dd1ae88aa463.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1336,11 +1239,11 @@ Type: Demo | Date: 2026-10-16
 
 **분위기, 윤곽, 반복되는 시각적 모티프를 살펴보세요.**
 
-어두운 인물과 성 같은 환경을 담은 양식화된 빗속 야간 작품입니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D78/video-6a014db111fa.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D78/poster-6a014db111fa.jpg" alt="비 내리는 밤의 고딕 인물들" height="280"></a>
+</p>
 
-[![비 내리는 밤의 고딕 인물들](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D78/poster-6a014db111fa.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D78/video-6a014db111fa.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1349,11 +1252,11 @@ Type: Demo | Date: 2026-10-16
 
 **제한된 차량 시야에서 발광하는 환경으로 바뀌는 전환을 확인하세요.**
 
-King Cards의 추가 발췌이며 관련 출처 맥락을 보존합니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D81/video-9d22c4d4055d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D81/poster-9d22c4d4055d.jpg" alt="빛나는 버섯 터널로 들어가는 종이 마차" height="280"></a>
+</p>
 
-[![빛나는 버섯 터널로 들어가는 종이 마차](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D81/poster-9d22c4d4055d.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D81/video-9d22c4d4055d.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1364,11 +1267,11 @@ Type: Demo | Date: 2026-10-16
 <a id="case-78"></a>
 ### 사례 78: [같은 숲속 격투 Prompt로 비교한 Kling과 Seedance](https://x.com/AibeginnerR8/status/2110935157503041672) (작성자 [@AibeginnerR8](https://x.com/AibeginnerR8))
 
-**작성자가 명시한 설정과 평가 한계를 유지하며 두 출력을 비교하세요.**
+**두 모델의 숲속 격투 동작과 카메라 컷을 비교하세요.**
 
-둘 다 720p로 표시하고 Kling 오디오를 사용하며, 작성자는 이 시험에서 컷, 타이밍, 동작 준수 면에서 Seedance를 선호합니다.
-
-[![같은 숲속 격투 Prompt로 비교한 Kling과 Seedance](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D30/poster-a0590043e48c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D30/video-a0590043e48c.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D30/video-a0590043e48c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D30/poster-a0590043e48c.jpg" alt="같은 숲속 격투 Prompt로 비교한 Kling과 Seedance" height="280"></a>
+</p>
 
 **프롬프트** · [공개 Prompt 출처](https://x.com/AibeginnerR8/status/2110935160434610592)
 
@@ -1424,7 +1327,7 @@ Bの低い後方斜めからAを見る。Bは着地の勢いで転がり、片�
 2人の顔、体格、髭、衣服、Bの角兜を維持。髭と衣服は加速に遅れて揺れる。攻撃線から外れた回避、接触による反動、足の支持と蹴りの回収を見せる。マスクカットはSHOT 5→6の1回、それ以外は通常のカット。字幕や画面内文字なし。
 ```
 
-Type: Evaluation | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1433,9 +1336,9 @@ Type: Evaluation | Date: 2026-10-16
 
 **정확한 공개 대사 Prompt로 발화 교대와 옆얼굴 립싱크를 시험하세요.**
 
-작성자는 10초 가격을 인용하지만 첨부물은 약 15초이며 오디오나 청구를 독립 검증하지 않았습니다.
-
-[![고정된 카페 숏에서 대화하는 두 여성](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D44/poster-293ead53e5df.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D44/video-293ead53e5df.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D44/video-293ead53e5df.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D44/poster-293ead53e5df.jpg" alt="고정된 카페 숏에서 대화하는 두 여성" height="280"></a>
+</p>
 
 **프롬프트** · [공개 Prompt 출처](https://x.com/tanabe_fragm/status/2110887676832543125)
 
@@ -1455,7 +1358,7 @@ The camera does not move or cut. Exactly four lines of dialogue, in natural Toky
 Precise lip sync: lips fully close on ま, ぱ, め, ば sounds; mouth shapes follow each vowel. No extra lines, no ad-libs, no narration. Audio is only the two voices and soft café ambience — no background music. No subtitles, no on-screen text. Single continuous horizontal shot, same framing from start to end.
 ```
 
-Type: Evaluation | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1464,11 +1367,11 @@ Type: Evaluation | Date: 2026-10-16
 
 **작성자가 보여준 두 출력에서 인물 위치와 장면 구성을 비교하세요.**
 
-출처는 20초와 180 대 120크레딧을 말하지만, 작성자 계정에 해당하는 보고 수치입니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D45/video-1007d8f82463.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D45/poster-1007d8f82463.jpg" alt="Standard와 Flash의 다섯 인물 대화" height="280"></a>
+</p>
 
-[![Standard와 Flash의 다섯 인물 대화](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D45/poster-1007d8f82463.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D45/video-1007d8f82463.mp4)
-
-Type: Evaluation | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -1477,43 +1380,43 @@ Type: Evaluation | Date: 2026-10-15
 
 **격투 장면에서 접촉이 많은 움직임과 캐릭터 참조의 역할을 확인하세요.**
 
-작성자는 접촉에서는 여전히 Seedance를 선호하고 30초 1080p에 405크레딧을 보고하며 홍보임도 공개합니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D64/video-e99a824137b0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D64/poster-e99a824137b0.jpg" alt="호랑이 머리 전사의 근접 액션 시험" height="280"></a>
+</p>
 
-[![호랑이 머리 전사의 근접 액션 시험](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D64/poster-e99a824137b0.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D64/video-e99a824137b0.mp4)
-
-Type: Evaluation | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
 <a id="case-82"></a>
 ### 사례 82: [오디오 드리프트 시험 중 바뀌는 발표자](https://x.com/plasm0/status/2110763509307064539) (작성자 [@plasm0](https://x.com/plasm0))
 
-**직접 동기화를 측정할 때 출발점으로 활용하세요.**
+**발표자의 외형이 바뀔 때 연속성을 살펴보세요.**
 
-제작자는 시험에 통과했다고 하지만, 검토 프레임이 확인하는 것은 발표자 변화이지 음성 동기화 정확도가 아닙니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D65/video-285b037dd41e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D65/poster-285b037dd41e.jpg" alt="오디오 드리프트 시험 중 바뀌는 발표자" height="280"></a>
+</p>
 
-[![오디오 드리프트 시험 중 바뀌는 발표자](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D65/poster-285b037dd41e.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D65/video-285b037dd41e.mp4)
-
-Type: Evaluation | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
 <a id="case-83"></a>
 ### 사례 83: [같은 비행 자동차 콘셉트의 Kling과 Seedance 비교](https://x.com/itsPolloAI/status/2111097887656726915) (작성자 [@itsPolloAI](https://x.com/itsPolloAI))
 
-**플랫폼의 비교 구도를 유지하면서 라벨이 붙은 두 영상 트랙을 비교하세요.**
+**같은 비행 자동차 장면을 Kling과 Seedance로 비교하세요.**
 
-Pollo AI는 같은 Prompt라고 하지만 실제 텍스트나 반복된 통제 실험을 제공하지 않습니다.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D86/video-f8698ad3f5cb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D86/poster-f8698ad3f5cb.jpg" alt="같은 비행 자동차 콘셉트의 Kling과 Seedance 비교" height="280"></a>
+</p>
 
-[![같은 비행 자동차 콘셉트의 Kling과 Seedance 비교](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D86/poster-f8698ad3f5cb.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D86/video-f8698ad3f5cb.mp4)
-
-Type: Evaluation | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 ## 관련 저장소
 
-현재 모델 경로가 검증되지 않아 전용 Kling 4 API나 Skill 저장소를 연결하지 않습니다. 인접 모델 자료인 [Seedance 2.5 가이드](https://github.com/EvoLinkAI/awesome-seedance-2.5-guide)는 다른 모델을 설명하며 이 Kling 사례를 검증하지 않습니다.
+- [Seedance 2.5 가이드](https://github.com/EvoLinkAI/awesome-seedance-2.5-guide)
 
 <a id="acknowledge"></a>
 ## 🙏 감사의 말
@@ -1523,5 +1426,3 @@ Type: Evaluation | Date: 2026-10-16
 [@_3912657840](https://x.com/_3912657840), [@_lexers](https://x.com/_lexers), [@agi_aibusi](https://x.com/agi_aibusi), [@AI__TSUBAKI](https://x.com/AI__TSUBAKI), [@AibeginnerR8](https://x.com/AibeginnerR8), [@AIWarper](https://x.com/AIWarper), [@AiwithAmeliaa](https://x.com/AiwithAmeliaa), [@Aiwithkami](https://x.com/Aiwithkami), [@AIwithkhan](https://x.com/AIwithkhan), [@AlexM12jx](https://x.com/AlexM12jx), [@alifcoder](https://x.com/alifcoder), [@Alin_Reaper05](https://x.com/Alin_Reaper05), [@Bic_Revelation](https://x.com/Bic_Revelation), [@craftcapitallab](https://x.com/craftcapitallab), [@Dani__oros](https://x.com/Dani__oros), [@Diplomeme](https://x.com/Diplomeme), [@dylannknox](https://x.com/dylannknox), [@ErnestoSOFTWARE](https://x.com/ErnestoSOFTWARE), [@fabulatenebris](https://x.com/fabulatenebris), [@fAIkout](https://x.com/fAIkout), [@fatoomdes](https://x.com/fatoomdes), [@frameo_ai](https://x.com/frameo_ai), [@Gemalpha_88](https://x.com/Gemalpha_88), [@h_ashizawaJP](https://x.com/h_ashizawaJP), [@higgsfield_ai](https://x.com/higgsfield_ai), [@Hope_Ai01](https://x.com/Hope_Ai01), [@iam_mian7](https://x.com/iam_mian7), [@IntLab0000](https://x.com/IntLab0000), [@itsPolloAI](https://x.com/itsPolloAI), [@jerrod_lew](https://x.com/jerrod_lew), [@jji1jj](https://x.com/jji1jj), [@leilamakes](https://x.com/leilamakes), [@lexx_aura](https://x.com/lexx_aura), [@Lianaalane](https://x.com/Lianaalane), [@liluocheng13](https://x.com/liluocheng13), [@Lisa__Rodin](https://x.com/Lisa__Rodin), [@magnific](https://x.com/magnific), [@MelinaVale14](https://x.com/MelinaVale14), [@minuitIA](https://x.com/minuitIA), [@MO_IAI](https://x.com/MO_IAI), [@Naonekozamurai](https://x.com/Naonekozamurai), [@nrqa__](https://x.com/nrqa__), [@NyaiiBubu](https://x.com/NyaiiBubu), [@ojiji2025](https://x.com/ojiji2025), [@onofumi_AI](https://x.com/onofumi_AI), [@OxBairan](https://x.com/OxBairan), [@ozansihay](https://x.com/ozansihay), [@PDyv9gdatT4132](https://x.com/PDyv9gdatT4132), [@plasm0](https://x.com/plasm0), [@PromptSin](https://x.com/PromptSin), [@seisei_ai_1st](https://x.com/seisei_ai_1st), [@SirGlavan_](https://x.com/SirGlavan_), [@sophiaparkerr_](https://x.com/sophiaparkerr_), [@Starjupi](https://x.com/Starjupi), [@Stevemnx3](https://x.com/Stevemnx3), [@tanabe_fragm](https://x.com/tanabe_fragm), [@techhalla](https://x.com/techhalla), [@torotoromoney](https://x.com/torotoromoney), [@tphuang](https://x.com/tphuang), [@umesh_ai](https://x.com/umesh_ai), [@WuxiaRocks](https://x.com/WuxiaRocks), [@YapayZekaSerisi](https://x.com/YapayZekaSerisi), [@z933TfmXkaISSVc](https://x.com/z933TfmXkaISSVc)
 
 제3자 영상, 이미지, Prompt는 각 권리자의 권리를 따릅니다. 편집 글과 저장소 구조에는 [CC BY 4.0](LICENSE)을 적용하지만 제3자 소재를 재허가하지는 않습니다. 출처, 권리, 복제의 수정은 [Issue](https://github.com/cheercheung/awesome-kling-4-usecases/issues)로 요청하세요. [미디어 정책](docs/media-policy.md)과 [기여 안내](CONTRIBUTING.md)를 참고하세요.
-
-[EvoLink 영상 모델 살펴보기](https://evolink.ai/models?utm_source=github&utm_medium=footer&utm_campaign=awesome-kling-4-usecases&utm_content=ko_footer)

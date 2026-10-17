@@ -2,10 +2,9 @@
 
 # Kling 4 Use Cases
 
-<a href="https://evolink.ai/models?utm_source=github&utm_medium=banner&utm_campaign=awesome-kling-4-usecases&utm_content=tr_banner"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/images/en.png" alt="Kling 4 kullanım örnekleri" width="760"></a>
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/images/en.png" alt="Kling 4 kullanım örnekleri" width="760">
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
-[![EvoLink](https://img.shields.io/badge/Explore_video_models-EvoLink-black)](https://evolink.ai/models?utm_source=github&utm_medium=badge&utm_campaign=awesome-kling-4-usecases&utm_content=tr_badge)
 
 [![English](https://img.shields.io/badge/English-111111)](README.md) [![Español](https://img.shields.io/badge/Espa%C3%B1ol-ffb703)](README_es.md) [![Português](https://img.shields.io/badge/Portugu%C3%AAs-2a9d8f)](README_pt.md) [![日本語](https://img.shields.io/badge/%E6%97%A5%E6%9C%AC%E8%AA%9E-52b788)](README_ja.md) [![한국어](https://img.shields.io/badge/%ED%95%9C%EA%B5%AD%EC%96%B4-4ea8de)](README_ko.md) [![Deutsch](https://img.shields.io/badge/Deutsch-f4a261)](README_de.md) [![Français](https://img.shields.io/badge/Fran%C3%A7ais-e76f51)](README_fr.md) [![Türkçe](https://img.shields.io/badge/T%C3%BCrk%C3%A7e-d62828)](README_tr.md) [![繁體中文](https://img.shields.io/badge/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-8338ec)](README_zh-TW.md) [![简体中文](https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-ef476f)](README_zh-CN.md) [![Русский](https://img.shields.io/badge/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-577590)](README_ru.md)
 
@@ -15,115 +14,22 @@
 
 **Kling 4 / 4.0'ı açık videolar, yaratıcı iş akışları ve yayımlanmış Prompt metinleriyle keşfedin.** Koleksiyon, filmcilere, yaratıcı geliştiricilere ve değerlendiricilere inceleme veya test için somut sahneler sunar. Her örnek kaynak gönderiye ve paylaşan hesaba bağlantı verir.
 
-Kapak görselinden videoyu açın, kanıt notlarını okuyun ve yalnız yazarın gerçekten yayımladığı Prompt'u kopyalayın. Paylaşan hesap dağıtıcı olabilir; atıf özgün yazarlığı kanıtlamaz.
-
-[EvoLink video modellerini keşfedin](https://evolink.ai/models?utm_source=github&utm_medium=introduction&utm_campaign=awesome-kling-4-usecases&utm_content=tr_introduction)
-
 ## 📊 Genel bakış
 
-**83 seçilmiş örnek · 10 örnekte 11 açık Prompt · 8 kategori.** İş akışları, reklam, anlatı, aksiyon, oyun konseptleri, animasyon, dünyalar ve karşılaştırmalar kapsanır. Her örnekte kaynak, hesap bağlantısı, kullanım fikri, medya, tür ve UTC kaynak tarihi bulunur.
-
-> [!NOTE]
-> Bunlar kaynaklı örneklerdir; bağımsız doğrulanmış Kling API çağrıları veya kontrollü ölçümler değildir. Bazıları aynı filmin kesitleridir. Oyun benzeri video oynanabilir oyun değildir; montajlı film uzunluğu tek bir üretimin süresi değildir. Fiyat ve krediler yaratıcıların beyanı olarak kalır.
-
-Kaydedilmiş etkileşim, Prompt durumu ve kaynak ilişkileri için [örnek verilerini](data/use-cases.json) veya [sıralanabilir CSV'yi](data/use-cases.csv) indirin. [Toplama kapsamı](docs/collection-scope.md) iki arama penceresini ve aradaki boşluğu açıklar; bu tarihli bir koleksiyondur, eksiksiz canlı indeks değildir.
-
-<a id="quick-start"></a>
-## ⚡ Başlangıç
-
-1. [EvoLink video modellerini keşfedin](https://evolink.ai/models?utm_source=github&utm_medium=quick_start&utm_campaign=awesome-kling-4-usecases&utm_content=tr_quick_start), hesap açın veya giriş yapın
-2. Desteklenen modeli kullanırken [API anahtarı oluşturun ya da alın](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=api_key&utm_campaign=awesome-kling-4-usecases&utm_content=tr_api_key)
-3. Görev göndermeden model kullanılabilirliğini kontrol edin. **2026-10-17 itibarıyla bu koleksiyon için Kling 4 API yolu veya kurulabilir özel Skill doğrulanmamıştır.** Genel ayarlar için [Codex CLI kurulum kılavuzunu okuyun](https://evolink.ai/docs/en/cli/codex?utm_source=github&utm_medium=setup_docs&utm_campaign=awesome-kling-4-usecases&utm_content=tr_setup_docs); bu doğrulanmış Kling 4 ilk çağrı örneği değildir
-
-Bu depo araştırma ve ilham kitaplığıdır. Çalıştırılabilir API örneği veya model kurucusu içermez. Bir örneği yeniden üretirken başka Kling sürümünü aynı model yerine kullanmayın.
+**83 seçilmiş örnek · 10 örnekte 11 açık Prompt · 8 kategori.**
 
 ## 📑 İçindekiler
 
-| Örnek | Kategori | İnceleme odağı | Tür |
-|---|---|---|---|
-| [Bilimkurgu için karakter ve ortam referansları](#case-1) | İş akışları ve referanslar | Ayrı karakter ve ortam sayfalarının uzun video yönergesiyle sunuluşunu inceleyin. | Demo |
-| [Ajanın yazdığı storyboard'dan anime sekansına](#case-2) | İş akışları ve referanslar | Senaryo, storyboard ve Prompt akışını kısa animasyon planlamasında örnek alın. | Tutorial |
-| [Anıtsal fantastik sahne için referans sayfaları](#case-3) | İş akışları ve referanslar | Karakter sayfası, ortam sayfası ve uzun sahne yönergesi arasındaki ilişkiyi inceleyin. | Demo |
-| [Video görevini izleyen mobil sohbet](#case-4) | İş akışları ve referanslar | Önerilen Codex-MCP devrini, kendi doğrulanmış araçlarınızla yinelemeden önce inceleyin. | Tutorial |
-| [Orman yolunda Kia SUV reklamı](#case-5) | Reklam ve ürün hikâyeleri | Otuz saniyelik reklamda araç sürekliliği için yayımlanan on beş planlık yönergeyi kullanın. | Demo |
-| [Birden fazla kişili cilt bakımı UGC montajı](#case-6) | Reklam ve ürün hikâyeleri | Görünen reklam formatıyla açık üretim kayıtları olan bir UGC deneyi planlayın. | Demo |
-| [Tatlıyı karamelize eden minik ejderha](#case-7) | Reklam ve ürün hikâyeleri | Tek somut yemek hareketiyle karakter odaklı ürün hikâyesini inceleyin. | Demo |
-| [Reklam sekansına dönüşen portakal suyu kutusu](#case-8) | Reklam ve ürün hikâyeleri | Tek ürün etrafında ambalaj görünürlüğünü, meyve imgelerini ve geçişleri inceleyin. | Demo |
-| [Pastel odada kulaklıklı bir kız](#case-9) | Karakterler ve anlatı | Yakın plan, tam beden hareketi ve aynı ortam boyunca karakter görünümünü inceleyin. | Demo |
-| [Klasik sütunlu yapıya yaklaşan bir adam](#case-10) | Karakterler ve anlatı | Görünür sekans üzerinden ölçülü hareketi ve mimari sürekliliği inceleyin. | Demo |
-| [Islak saçlı kadının duygusal yakın planı](#case-11) | Karakterler ve anlatı | Diyalog odaklı performansta ince yüz değişimlerini ve kadrajı inceleyin. | Demo |
-| [Sinemada an paylaşan anne ve çocuk](#case-12) | Karakterler ve anlatı | Kısa duygusal sahnenin belirli bir kişisel hikâyeye nasıl bağlandığını inceleyin. | Demo |
-| [Japonca haber sunan iki spiker](#case-13) | Karakterler ve anlatı | Diyalog, iki kişilik düzen ve ekran grafikleri için odaklı değerlendirme planlayın. | Demo |
-| [Ofis lobisinde gezen minik kart aracı](#case-14) | Karakterler ve anlatı | Sıradan mimariye beklenmedik araç yerleştirerek komik ölçek karşıtlığını inceleyin. | Demo |
-| [Erkek arkadaşın gözünden yaz yürüyüşü](#case-15) | Karakterler ve anlatı | Gündelik ortak jestlerden otuz saniyelik sekans planlamak için ayrıntılı yönergeyi kopyalayın. | Demo |
-| [Araçlar, askerler ve yakın planlardan derleme](#case-16) | Karakterler ve anlatı | Montajdan belirli görevler seçerek ayrı kontrollü testler hazırlayın. | Demo |
-| [King Cards'ta sihir ve şehir uçuşu](#case-17) | Karakterler ve anlatı | Uzun filmin sahne sihrini, kâğıt araçları ve tekrarlanan kırmızı kuşu birleştirmesini inceleyin. | Demo |
-| [Traktörle fırtınaya karşı duran kırsal kadın](#case-18) | Karakterler ve anlatı | Karakter, makine ve havanın kısa hikâye öncülünü nasıl ilettiğini inceleyin. | Demo |
-| [Yeniden kullanılabilir plan yönergeli retro dinozor macerası](#case-19) | Karakterler ve anlatı | Bitmiş filmi, yazarın yedi saniyelik aksiyon ve sekiz saniyelik sürüş yönergeleriyle inceleyin. | Demo |
-| [Başka dünyalara açılan asansörde kurye](#case-20) | Karakterler ve anlatı | Tanıdık kapının ardındaki değişen ortamlara aynı kahramanın tepkisini inceleyin. | Demo |
-| [Yeraltı komedisindeki kaplumbağa tesisatçı](#case-21) | Karakterler ve anlatı | Yaratıcının notlarıyla konsept, tasarım, senaryo, diyalog ve ses kararlarını ayırın. | Demo |
-| [Araç sürpriziyle biten sokak kovalamacası](#case-22) | Karakterler ve anlatı | Karakter hareketi, kadraj ve değişen sokak durumuyla komedi zamanlamasını inceleyin. | Demo |
-| [Mavi ejderhayı keşfeden genç kahraman](#case-23) | Karakterler ve anlatı | Kişisel fantastik fikrin tekrarlanan karakterlerle montajlı sekansa dönüşmesini inceleyin. | Demo |
-| [Çiçek şehrine ulaşan kâğıt araç yolculuğu](#case-24) | Karakterler ve anlatı | King Cards kesitinde karakter, araç ve çevre değişimlerini inceleyin. | Demo |
-| [Kâğıt arabada insana dönüşen taş yolcular](#case-25) | Karakterler ve anlatı | Hareketli araçta karakter konumlarını izleyerek kısa dönüşümü inceleyin. | Demo |
-| [Dairesel tiyatroyu kartlarla dolduran sihirbaz](#case-26) | Karakterler ve anlatı | Merkezdeki gösteriyi, hareketli eşyaları ve seyirciyi tek sahne olarak inceleyin. | Demo |
-| [Avluda ayak banyosu yapan kadın](#case-27) | Karakterler ve anlatı | Karmaşık aksiyon yerine gündelik jestleri, kıyafeti ve sakin ortamı inceleyin. | Demo |
-| [Sosyal bildirim temalı kısa filmde şahin](#case-28) | Karakterler ve anlatı | Karakter motifinin telefon arayüzü planlarını tematik mesaja nasıl bağladığını inceleyin. | Demo |
-| [Mutfakta sinsice yürüyen turuncu kedi](#case-29) | Karakterler ve anlatı | Gündelik iç mekânda küçük hareketleri ve değişen kamera mesafesini inceleyin. | Demo |
-| [Sokakta buluşup sarılan iki adam](#case-30) | Karakterler ve anlatı | Kısa sosyal etkileşimde yaklaşmayı, fiziksel teması ve karakter konumlarını inceleyin. | Demo |
-| [Ay ışığında bulutların üzerinde kılıç düellosu](#case-31) | Aksiyon ve fiziksel etkileşim | Çok karakterli hareketi, havadaki sahne düzenini ve kostüm siluetlerinin sürekliliğini inceleyin. | Demo |
-| [Antrenman salonunda tekvando karşılaşması](#case-32) | Aksiyon ve fiziksel etkileşim | Dövüş boyunca beden temasını, değişen mesafeyi ve kamera konumunu karşılaştırın. | Demo |
-| [Şehirde kovalamaca yapan iki spor otomobil](#case-33) | Aksiyon ve fiziksel etkileşim | Hızlı kamera değişimlerinde araç kimliğinin ve hareket yönünün nasıl korunduğunu inceleyin. | Demo |
-| [Hareketli kamerayla boks karşılaşması](#case-34) | Aksiyon ve fiziksel etkileşim | Tek güzel kareyle yetinmeden yumrukları, savunma hareketlerini ve yakın teması inceleyin. | Demo |
-| [Patlayan sokakta yürüyen kadın kahraman](#case-35) | Aksiyon ve fiziksel etkileşim | Tekrarlanan karakteri, araçları, dumanı ve büyük arka plan efektlerini birlikte inceleyin. | Demo |
-| [Şehir yaratığıyla yüzleşen genç kahraman](#case-36) | Aksiyon ve fiziksel etkileşim | Şehirdeki karşılaşma boyunca insan ve yaratık ölçeğini karşılaştırın. | Demo |
-| [Uzaylı ormanında koşan mekanik yırtıcı](#case-37) | Aksiyon ve fiziksel etkileşim | Açık Prompt ile hızlanmayı, çevre tepkilerini ve gerileyen el kamerası bakışını inceleyin. | Demo |
-| [Mızraklarla çarpışan atlı savaşçılar](#case-38) | Aksiyon ve fiziksel etkileşim | Açık savaş alanında binici etkileşimini, at hareketini ve silah temasını inceleyin. | Demo |
-| [Minderli zeminle etkileşen karateciler](#case-39) | Aksiyon ve fiziksel etkileşim | Hareketleri yalnız pozlar olarak değil, oyuncuların çevreyle teması olarak inceleyin. | Demo |
-| [Dövüşçüyle karşılaşan market çalışanı](#case-40) | Aksiyon ve fiziksel etkileşim | Japonca diyaloglu aksiyonda yakın teması ve sahne sürekliliğini inceleyin. | Demo |
-| [Taş platformda zırhlı fantastik savaşçılar](#case-41) | Aksiyon ve fiziksel etkileşim | Anahtar kareli pozlarla yönetilen stilize dövüş düzenini inceleyin. | Demo |
-| [Gece kasabada koşan kedi](#case-42) | Aksiyon ve fiziksel etkileşim | Bağlantılı ev ve dış mekânlarda hızlı hareket için kesintisiz çekim Prompt'unu kopyalayın. | Demo |
-| [Yağmurlu ormanda samuray düellosu](#case-43) | Aksiyon ve fiziksel etkileşim | Yoğun yağmurlu dövüşte kostüm kararlılığını ve silah temasını inceleyin. | Demo |
-| [Ormanda dövüşen koyu giyimli kadın](#case-44) | Aksiyon ve fiziksel etkileşim | Aynı orman sekansının yeniden kodlanan sürümlerinde pozları ve kamerayı inceleyin. | Demo |
-| [Mor ahtapotla karşılaşan kırmızı kâğıt kuş](#case-45) | Aksiyon ve fiziksel etkileşim | Küçük uçan özne ile büyük inşa edilmiş yaratığın etkileşimini inceleyin. | Demo |
-| [Uçarak smaç yapan basketbolcu](#case-46) | Aksiyon ve fiziksel etkileşim | Beden yörüngesini, top konumunu ve çember temasını inceleyin. | Demo |
-| [Ödül avcılı stilize oyun konsepti](#case-47) | Oyun ve araç konseptleri | Klibi, karakter hareketi ve diyaloğu birleştiren oyun fragmanı sahnesi için referans alın. | Demo |
-| [Gece dev rampayı tırmanan uçan otomobil](#case-48) | Oyun ve araç konseptleri | Klibi çalışan oyun kanıtı yerine sinematik araç konsepti referansı olarak kullanın. | Demo |
-| [Sahil yolunda yarışan spor otomobil](#case-49) | Oyun ve araç konseptleri | Yarış videosu konseptinde takip kamerasını, ışığı ve gösterge benzeri katmanları inceleyin. | Demo |
-| [Ada ortamında uçan savaş jeti](#case-50) | Oyun ve araç konseptleri | Uçuş kamerasının hareketini ve oyun arayüzü düzenini inceleyin. | Demo |
-| [Yüzen adalar arasında süzülen karakter](#case-51) | Oyun ve araç konseptleri | Üçüncü şahıs video konseptinde dar alanlardan geniş hava görüntülerine geçişleri inceleyin. | Demo |
-| [Sürücüyü izleyen motosiklet yarışı konsepti](#case-52) | Oyun ve araç konseptleri | Motosiklet animasyonunu, takip mesafesini ve pist aydınlatmasını inceleyin. | Demo |
-| [Birinci şahıs bakışıyla liman çatışması](#case-53) | Oyun ve araç konseptleri | On beş saniyelik görsel hedef için yazarın zamanlanmış taktik nişancı yönergesini kopyalayın. | Demo |
-| [Gelecek şehrinde uçan otomobiller](#case-54) | Oyun ve araç konseptleri | Sokak sürüşü, uçuş ve şehir simgeleri arasındaki geçişleri inceleyin. | Demo |
-| [Şehirde uçan otomobili kovalayan polis](#case-55) | Oyun ve araç konseptleri | Takip kamerasının kara trafiğini ve uçuş hareketini birleştirmesini inceleyin. | Demo |
-| [Sahil sürüşünden helikopter uçuşuna uzanan konsept](#case-56) | Oyun ve araç konseptleri | Araç, yürüyen karakter ve hava sekansı arasındaki geçişleri inceleyin. | Demo |
-| [Gerçek çekim benzeri bölümler içeren resimli müzik videosu](#case-57) | Animasyon ve stilize karakterler | Bitmiş klibin görsel stilleri ve tekrarlanan duygusal motifleri nasıl birleştirdiğini inceleyin. | Demo |
-| [Mutfakta minik kil ejderhayla tanışan büyükanne](#case-58) | Animasyon ve stilize karakterler | Kısa mutfak animasyonunda karakter etkileşimini ve malzeme stilini inceleyin. | Demo |
-| [Gece pazarında yemek hazırlayan anime aşçı](#case-59) | Animasyon ve stilize karakterler | Kısa stilize pişirme sekansında el hareketlerini, eşyaları ve aydınlatmayı inceleyin. | Demo |
-| [Stop-motion savaşındaki minyatür dövüşçüler](#case-60) | Animasyon ve stilize karakterler | Minyatür ölçeğin ve stop-motion stilinin kısa aksiyonu nasıl şekillendirdiğini inceleyin. | Demo |
-| [Parlayan hilal üzerinde uyuyan kız](#case-61) | Animasyon ve stilize karakterler | Dekoratif ışık motifini ve yumuşak karakter hareketini inceleyin. | Demo |
-| [Şehir kavşağında flash mob'a katılan yayalar](#case-62) | Animasyon ve stilize karakterler | Sokak dansında grup hareketini, mekânsal dizilimi ve bakış değişimlerini inceleyin. | Demo |
-| [Fırtına bulutları altında anime kılıç ustaları](#case-63) | Animasyon ve stilize karakterler | Stilize dövüşte okunaklı karakter siluetlerini ve kılıç etkileşimini inceleyin. | Demo |
-| [Siyah beyaz sahnede dans eden topluluk](#case-64) | Animasyon ve stilize karakterler | Renk kaldırıldığında koreografiyi ve ışığı inceleyin. | Demo |
-| [Ormanda karla oynayan sincap](#case-65) | Animasyon ve stilize karakterler | İfadeli hayvan hareketini ve tutarlı yumuşak animasyon stilini inceleyin. | Demo |
-| [Şeker dünyasından geçen kırmızı cüppeli figür](#case-66) | Animasyon ve stilize karakterler | Şekerleme biçimli ortam önündeki stilize karakter hareketini inceleyin. | Demo |
-| [Köri yiyen taçlı beyaz kedi](#case-67) | Animasyon ve stilize karakterler | Kostüm, yiyecek ve ifadenin hayvan karakter anlatısını desteklemesini inceleyin. | Demo |
-| [Orman yolculuğundan ejderha uçuşuna](#case-68) | Dünyalar ve yaratıklar | Kapalı ormandan geniş hava manzarasına kesintisiz görsel ilerlemeyi inceleyin. | Demo |
-| [Korku montajında yüzsüz figürler](#case-69) | Dünyalar ve yaratıklar | Yaratık tutarlılığını ve tekinsiz motifler arasındaki geçişleri inceleyin. | Demo |
-| [Canlanan küresel uzaylı yerleşimi](#case-70) | Dünyalar ve yaratıklar | Yazarın açık Prompt metnini kopyalayarak kurgusal kasabada eşgüdümlü çevre hareketlerini araştırın. | Demo |
-| [Lagünden geçen dev uzaylı hayvanlar](#case-71) | Dünyalar ve yaratıklar | Yazarın Prompt metniyle ağırlığı, suyun yer değiştirmesini ve yavaş vinç hareketini araştırın. | Demo |
-| [Güverteden havalanan büyük meka](#case-72) | Dünyalar ve yaratıklar | Mekanik eklemleri, ölçeği ve sabit duruştan uçuşa geçişi inceleyin. | Demo |
-| [Kalabalık asma köprüye yaklaşan dev yaratık](#case-73) | Dünyalar ve yaratıklar | Sağanakta yaratık, araç ve insan ölçeklerini inceleyin. | Demo |
-| [Kâğıt şehirde gazete araçları](#case-74) | Dünyalar ve yaratıklar | Origami benzeri şehirde malzeme tutarlılığını ve takip kamerasını inceleyin. | Demo |
-| [Yamaçta yürüyüp ateş eden ağır meka](#case-75) | Dünyalar ve yaratıklar | Mekanik hareketin, zemin temasının ve dev silahın ilişkisini inceleyin. | Demo |
-| [Yağmurlu gecedeki gotik figürler](#case-76) | Dünyalar ve yaratıklar | Atmosferi, silueti ve tekrarlanan görsel motifleri inceleyin. | Demo |
-| [Parlayan mantar tüneline giren kâğıt araba](#case-77) | Dünyalar ve yaratıklar | Sınırlı araç görüntüsünden aydınlık ortama geçişi inceleyin. | Demo |
-| [Kling ve Seedance için aynı orman dövüşü Prompt'u](#case-78) | Karşılaştırmalar ve değerlendirme | Belirtilen ayarları ve değerlendirme sınırlarını koruyarak iki çıktıyı karşılaştırın. | Evaluation |
-| [Sabit kafe planında konuşan iki kadın](#case-79) | Karşılaştırmalar ve değerlendirme | Konuşma sırasını ve profilden dudak eşleşmesini sınamak için gerçek diyalog Prompt'unu kullanın. | Evaluation |
-| [Standard ve Flash ile beş kişilik diyalog](#case-80) | Karşılaştırmalar ve değerlendirme | Gösterilen iki çıktıda karakter konumlarını ve sahne düzenini karşılaştırın. | Evaluation |
-| [Yakın teması test eden kaplan başlı dövüşçü](#case-81) | Karşılaştırmalar ve değerlendirme | Yaratıcının dövüşüyle yoğun temas hareketini ve karakter referansını inceleyin. | Evaluation |
-| [Ses kayması testinde değişen sunucu](#case-82) | Karşılaştırmalar ve değerlendirme | Örneği kendi ölçümlü eşzamanlama testinizin başlangıcı olarak kullanın. | Evaluation |
-| [Aynı uçan otomobil konseptinde Kling ve Seedance](#case-83) | Karşılaştırmalar ve değerlendirme | Platformun karşılaştırma çerçevesini koruyarak iki etiketli video akışını karşılaştırın. | Evaluation |
+| Kategori | Örnekler |
+|---|---|
+| [🛠️ İş akışları ve referanslar](#category-workflow) | 4 |
+| [📦 Reklam ve ürün hikâyeleri](#category-ads) | 4 |
+| [🎬 Karakterler ve anlatı](#category-story) | 22 |
+| [⚔️ Aksiyon ve fiziksel etkileşim](#category-action) | 16 |
+| [🎮 Oyun ve araç konseptleri](#category-game) | 10 |
+| [🎨 Animasyon ve stilize karakterler](#category-animation) | 11 |
+| [🌍 Dünyalar ve yaratıklar](#category-world) | 10 |
+| [🔬 Karşılaştırmalar ve değerlendirme](#category-evaluation) | 6 |
 
 <a id="category-workflow"></a>
 ## 🛠️ İş akışları ve referanslar
@@ -133,11 +39,11 @@ Bu depo araştırma ve ilham kitaplığıdır. Çalıştırılabilir API örneğ
 
 **Ayrı karakter ve ortam sayfalarının uzun video yönergesiyle sunuluşunu inceleyin.**
 
-Videoda çöl dünyası, referans görselleri ve kayan Prompt metni bulunur; metnin tamamı aktarılmamıştır.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D11/video-c7f71e602146.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D11/poster-c7f71e602146.jpg" alt="Bilimkurgu için karakter ve ortam referansları" height="280"></a>
+</p>
 
-[![Bilimkurgu için karakter ve ortam referansları](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D11/poster-c7f71e602146.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D11/video-c7f71e602146.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -146,11 +52,11 @@ Type: Demo | Date: 2026-10-16
 
 **Senaryo, storyboard ve Prompt akışını kısa animasyon planlamasında örnek alın.**
 
-Yazar, yazımda Opus 5.5 ve üretimde Claude ile MCP kullandığını söyler; animasyon araç çalıştırma kayıtlarını doğrulamaz.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D15/video-a0d7f303f6cf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D15/poster-a0d7f303f6cf.jpg" alt="Ajanın yazdığı storyboard&#x27;dan anime sekansına" height="280"></a>
+</p>
 
-[![Ajanın yazdığı storyboard'dan anime sekansına](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D15/poster-a0d7f303f6cf.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D15/video-a0d7f303f6cf.mp4)
-
-Type: Tutorial | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -159,24 +65,24 @@ Type: Tutorial | Date: 2026-10-16
 
 **Karakter sayfası, ortam sayfası ve uzun sahne yönergesi arasındaki ilişkiyi inceleyin.**
 
-Birleşik sunum tonozlu ortam ve kayan Prompt içerir; metnin tamamı aktarılmamıştır.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D19/video-225fcfcd6ec2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D19/poster-225fcfcd6ec2.jpg" alt="Anıtsal fantastik sahne için referans sayfaları" height="280"></a>
+</p>
 
-[![Anıtsal fantastik sahne için referans sayfaları](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D19/poster-225fcfcd6ec2.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D19/video-225fcfcd6ec2.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 <a id="case-4"></a>
 ### Örnek 4: [Video görevini izleyen mobil sohbet](https://x.com/agi_aibusi/status/2110941943006118201) (yazan [@agi_aibusi](https://x.com/agi_aibusi))
 
-**Önerilen Codex-MCP devrini, kendi doğrulanmış araçlarınızla yinelemeden önce inceleyin.**
+**Video görevlerini oluşturup izlemek için mobil sohbet akışını keşfedin.**
 
-Kayıt sohbet ve görev durumu gösterir; abonelik kredisi açıklamaları evrensel API faturalandırma kuralı oluşturmaz.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D28/video-fbf3abad9feb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D28/poster-fbf3abad9feb.jpg" alt="Video görevini izleyen mobil sohbet" height="280"></a>
+</p>
 
-[![Video görevini izleyen mobil sohbet](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D28/poster-fbf3abad9feb.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D28/video-fbf3abad9feb.mp4)
-
-Type: Tutorial | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -189,9 +95,9 @@ Type: Tutorial | Date: 2026-10-16
 
 **Otuz saniyelik reklamda araç sürekliliği için yayımlanan on beş planlık yönergeyi kullanın.**
 
-Prompt burada sunulmayan araç referansları ister; 4K ifadesi talimattır, doğrulanmış çıktı çözünürlüğü değildir.
-
-[![Orman yolunda Kia SUV reklamı](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D26/poster-cf1e54b34518.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D26/video-cf1e54b34518.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D26/video-cf1e54b34518.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D26/poster-cf1e54b34518.jpg" alt="Orman yolunda Kia SUV reklamı" height="280"></a>
+</p>
 
 **İstem** · [Açık Prompt kaynağı](https://x.com/Diplomeme/status/2110947179057811727)
 
@@ -199,20 +105,20 @@ Prompt burada sunulmayan araç referansları ister; 4K ifadesi talimattır, doğ
 High-octane, hyper-realistic automotive commercial for the Kia Seltos, shot with the visual intensity of a Christopher Nolan-style cinematic production using actual 70mm IMAX cameras. Fast-paced multi-shot editing with quick, cinematic cuts timed at exactly one shot every 2 seconds across a complete 30-second timeline. The champagne-gold Kia Seltos, matching the exact vehicle design in the provided reference images, charges through a dense forest road surrounded by towering trees and dappled sunlight. High-contrast Nolan-esque color grading with deep shadows, cold teals, warm champagne-gold reflections, and bright highlights. Sunlight pierces through the forest canopy, reflecting across the sculpted bodywork, signature vertical LED daytime running lights, black front grille, muscular wheel arches, and distinctive rear light bar. Rapid sequence of intense cuts:•Shot 1 (0-2s): Ground-level cinematic establishing shot of an empty winding forest road, towering trees casting deep shadows as sunlight breaks through the canopy. The distant engine note of the approaching Kia Seltos builds tension.•Shot 2 (2-4s): Low eye-level tracking shot of the champagne-gold Kia Seltos emerging between the trees, accelerating along the forest road and revealing its bold front grille, distinctive vertical LED lighting signature, and commanding SUV stance.•Shot 3 (4-6s): Tight, detailed close-up of the front fascia, Kia emblem, illuminated LED daytime running lights, glossy black grille elements, and champagne-gold paint reflecting the passing forest.•Shot 4 (6-8s): Dramatic low-angle tracking shot moving alongside the front wheel as the alloy spokes spin rapidly, tires maintain realistic contact with the asphalt, and the SUV’s sculpted bodywork catches streaks of sunlight.•Shot 5 (8-10s): Fast lateral tracking shot revealing the complete side profile, muscular wheel arches, black lower-body cladding, door contours, windows, roofline, and metallic champagne-gold finish as the Kia Seltos sweeps through the forest.•Shot 6 (10-12s): Low-angle handheld-style camera whip-pan from the road surface to the SUV’s front three-quarter profile as it exits a sweeping bend, with realistic suspension movement, controlled body roll, and natural background motion blur.•Shot 7 (12-14s): Extreme close-up of sunlight traveling across the sculpted hood, Kia emblem, sharp body creases, and vertical LED lights, emphasizing precise automotive design and premium paint reflections.•Shot 8 (14-16s): Rear three-quarter tracking shot following the Kia Seltos through the forest, showcasing the distinctive rear light bar, angular vertical taillights, rear spoiler, sculpted tailgate, and authentic model badging.•Shot 9 (16-18s): Dynamic wheel-height tracking shot as the SUV drives across alternating patches of sunlight and shadow, capturing realistic tire rotation, subtle road texture, reflections along the lower doors, and the movement of the suspension over natural road undulations.•Shot 10 (18-20s): High-angle wide shot of the Kia Seltos commanding a sweeping forest road, surrounded by towering trees and atmospheric shafts of sunlight, with the winding asphalt leading the eye toward the moving SUV.•Shot 11 (20-22s): Fast front-facing tracking shot of the Kia Seltos approaching the camera along a straight section of forest road, its LED lights illuminated and grille dominating the frame as the camera smoothly retreats ahead of the vehicle.•Shot 12 (22-24s): Rapid cinematic transition into a close rear tracking angle as the SUV accelerates away through the trees, the rear lighting signature glowing against the darker forest and the road markings sweeping beneath the frame.•Shot 13 (24-26s): Dramatic low-angle front three-quarter hero shot as the Kia Seltos exits the forest bend and enters a naturally illuminated clearing, revealing its full stance, champagne-gold bodywork, alloy wheels, and signature front lighting.•Shot 14 (26-28s): Controlled cinematic orbit around the stationary Kia Seltos at a scenic forest-road pull-off, transitioning from the front three-quarter view toward the side and rear profile while the surrounding trees and golden sunlight create a premium automotive campaign atmosphere.•Shot 15 (28-30s): Hard cut to black with a final sweep of light revealing the KIA emblem followed by the SELTOS model name and the campaign tagline: “OWN EVERY TURN.” End with a powerful, clean, premium automotive advertising finish.Raw automotive documentary-style camera textures, organic lens flares, lifelike vehicle physics, authentic wheel rotation and tire contact, realistic suspension movement, natural road reflections, physically accurate metallic paint reflections, cinematic motion blur, subtle engine vibration, and an immersive forest-road atmosphere. Preserve the exact Kia Seltos identity, champagne-gold exterior color, front grille design, LED lighting signatures, alloy wheels, body proportions, side profile, and rear design from the provided reference images throughout every shot. Maintain consistent vehicle geometry, wheel design, lighting signatures, paint color, and branding across all 15 shots. No vehicle redesign, no morphing, no inconsistent body panels, no incorrect logos, no artificial CGI appearance, no impossible driving maneuvers, no exaggerated visual effects, and no abrupt changes in road geography. Ultra-detailed, 4K resolution, premium global automotive advertising quality.
 ```
 
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 <a id="case-6"></a>
 ### Örnek 6: [Birden fazla kişili cilt bakımı UGC montajı](https://x.com/ErnestoSOFTWARE/status/2110917624167108665) (yazan [@ErnestoSOFTWARE](https://x.com/ErnestoSOFTWARE))
 
-**Görünen reklam formatıyla açık üretim kayıtları olan bir UGC deneyi planlayın.**
+**Birden fazla kişili UGC ürün videosu biçimlerini keşfedin.**
 
-Yazar Higgsfield MCP'yi tanıtır ve düşük maliyet bildirir; reklam performansı veya fatura kanıtı sunmaz.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D37/video-4ca47c0af310.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D37/poster-4ca47c0af310.jpg" alt="Birden fazla kişili cilt bakımı UGC montajı" height="280"></a>
+</p>
 
-[![Birden fazla kişili cilt bakımı UGC montajı](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D37/poster-4ca47c0af310.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D37/video-4ca47c0af310.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -221,11 +127,11 @@ Type: Demo | Date: 2026-10-16
 
 **Tek somut yemek hareketiyle karakter odaklı ürün hikâyesini inceleyin.**
 
-Platform örneği minik ejderhayı crème brûlée yanına koyar; satış performansı kanıtlamaz.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D76/video-6f401168b0fb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D76/poster-6f401168b0fb.jpg" alt="Tatlıyı karamelize eden minik ejderha" height="280"></a>
+</p>
 
-[![Tatlıyı karamelize eden minik ejderha](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D76/poster-6f401168b0fb.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D76/video-6f401168b0fb.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -234,11 +140,11 @@ Type: Demo | Date: 2026-10-16
 
 **Tek ürün etrafında ambalaj görünürlüğünü, meyve imgelerini ve geçişleri inceleyin.**
 
-Kaynak kutu, meyve ve perakende görüntülerini birleştirir, Prompt yayımlamaz.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D85/video-af7aa6745461.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D85/poster-af7aa6745461.jpg" alt="Reklam sekansına dönüşen portakal suyu kutusu" height="280"></a>
+</p>
 
-[![Reklam sekansına dönüşen portakal suyu kutusu](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D85/poster-af7aa6745461.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D85/video-af7aa6745461.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -251,11 +157,11 @@ Type: Demo | Date: 2026-10-16
 
 **Yakın plan, tam beden hareketi ve aynı ortam boyunca karakter görünümünü inceleyin.**
 
-Yeşil saçlı, kulaklıklı karakter açık yeşil odada poz değiştirirken kadraj da değişir.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D03/video-3305b566e9a1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D03/poster-3305b566e9a1.jpg" alt="Pastel odada kulaklıklı bir kız" height="280"></a>
+</p>
 
-[![Pastel odada kulaklıklı bir kız](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D03/poster-3305b566e9a1.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D03/video-3305b566e9a1.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -264,11 +170,11 @@ Type: Demo | Date: 2026-10-15
 
 **Görünür sekans üzerinden ölçülü hareketi ve mimari sürekliliği inceleyin.**
 
-İncelenen kareler adamı ve sütunları gösterir; kaynağın genel CGI övgüsü karmaşık hareketi kanıtlamaz.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D09/video-e4099969039c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D09/poster-e4099969039c.jpg" alt="Klasik sütunlu yapıya yaklaşan bir adam" height="280"></a>
+</p>
 
-[![Klasik sütunlu yapıya yaklaşan bir adam](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D09/poster-e4099969039c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D09/video-e4099969039c.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -277,11 +183,11 @@ Type: Demo | Date: 2026-10-16
 
 **Diyalog odaklı performansta ince yüz değişimlerini ve kadrajı inceleyin.**
 
-Sekans loş yeşil ortamda kadının yüzüne odaklanır; ses kalitesi bağımsız puanlanmamıştır.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D14/video-bd91c5962388.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D14/poster-bd91c5962388.jpg" alt="Islak saçlı kadının duygusal yakın planı" height="280"></a>
+</p>
 
-[![Islak saçlı kadının duygusal yakın planı](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D14/poster-bd91c5962388.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D14/video-bd91c5962388.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -290,11 +196,11 @@ Type: Demo | Date: 2026-10-15
 
 **Kısa duygusal sahnenin belirli bir kişisel hikâyeye nasıl bağlandığını inceleyin.**
 
-Yazar 16 saniyelik klibi bir ilişki anısıyla bağlar; görüntüleri Gemini, videoyu Kling 4.0 olarak belirtir.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D21/video-59193966fd28.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D21/poster-59193966fd28.jpg" alt="Sinemada an paylaşan anne ve çocuk" height="280"></a>
+</p>
 
-[![Sinemada an paylaşan anne ve çocuk](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D21/poster-59193966fd28.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D21/video-59193966fd28.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -303,11 +209,11 @@ Type: Demo | Date: 2026-10-16
 
 **Diyalog, iki kişilik düzen ve ekran grafikleri için odaklı değerlendirme planlayın.**
 
-Yaratıcı Japonca konuşmayı tartışır; görsel inceleme haber formatını doğrular, telaffuzu bağımsız doğrulamaz.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D23/video-6d7a8b12e568.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D23/poster-6d7a8b12e568.jpg" alt="Japonca haber sunan iki spiker" height="280"></a>
+</p>
 
-[![Japonca haber sunan iki spiker](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D23/poster-6d7a8b12e568.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D23/video-6d7a8b12e568.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -316,11 +222,11 @@ Type: Demo | Date: 2026-10-16
 
 **Sıradan mimariye beklenmedik araç yerleştirerek komik ölçek karşıtlığını inceleyin.**
 
-Yaratıcı Kling 4 Flash belirtir; klipte oturan sürücü ofis benzeri lobide ilerler.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D27/video-df7aadba33d7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D27/poster-df7aadba33d7.jpg" alt="Ofis lobisinde gezen minik kart aracı" height="280"></a>
+</p>
 
-[![Ofis lobisinde gezen minik kart aracı](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D27/poster-df7aadba33d7.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D27/video-df7aadba33d7.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -329,9 +235,9 @@ Type: Demo | Date: 2026-10-16
 
 **Gündelik ortak jestlerden otuz saniyelik sekans planlamak için ayrıntılı yönergeyi kopyalayın.**
 
-Prompt kadının görünümünü, altı zamanlanmış anı, tüketici kamerası davranışını ve ortam sesini belirler.
-
-[![Erkek arkadaşın gözünden yaz yürüyüşü](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D34/poster-8bef5187ff5c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D34/video-8bef5187ff5c.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D34/video-8bef5187ff5c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D34/poster-8bef5187ff5c.jpg" alt="Erkek arkadaşın gözünden yaz yürüyüşü" height="280"></a>
+</p>
 
 **İstem** · [Açık Prompt kaynağı](https://x.com/agi_aibusi/status/2110924176890757483)
 
@@ -430,20 +336,20 @@ Let ordinary pauses remain. Her beauty is something her boyfriend happens to not
 The finished video should feel like a personal memory he would keep because of the way she looked at him that afternoon.
 ```
 
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 <a id="case-16"></a>
 ### Örnek 16: [Araçlar, askerler ve yakın planlardan derleme](https://x.com/jerrod_lew/status/2110911158156931427) (yazan [@jerrod_lew](https://x.com/jerrod_lew))
 
-**Montajdan belirli görevler seçerek ayrı kontrollü testler hazırlayın.**
+**Bir derlemede araçları, savaş alanlarını ve karakter yakın planlarını inceleyin.**
 
-Yaklaşık 63 saniyelik ek derlemedir; tek seferlik model üretim uzunluğunu kanıtlamaz.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D39/video-7d5e3845dc71.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D39/poster-7d5e3845dc71.jpg" alt="Araçlar, askerler ve yakın planlardan derleme" height="280"></a>
+</p>
 
-[![Araçlar, askerler ve yakın planlardan derleme](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D39/poster-7d5e3845dc71.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D39/video-7d5e3845dc71.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -452,11 +358,11 @@ Type: Demo | Date: 2026-10-16
 
 **Uzun filmin sahne sihrini, kâğıt araçları ve tekrarlanan kırmızı kuşu birleştirmesini inceleyin.**
 
-Tam film montajı sonraki gönderilerde de görünür; kesitleri ayrı filmler değil ilişkili materyaldir.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D42/video-cd1175d34d80.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D42/poster-cd1175d34d80.jpg" alt="King Cards&#x27;ta sihir ve şehir uçuşu" height="280"></a>
+</p>
 
-[![King Cards'ta sihir ve şehir uçuşu](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D42/poster-cd1175d34d80.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D42/video-cd1175d34d80.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -465,11 +371,11 @@ Type: Demo | Date: 2026-10-16
 
 **Karakter, makine ve havanın kısa hikâye öncülünü nasıl ilettiğini inceleyin.**
 
-Kaynak sahneyi Dünya Kırsal Kadınlar Günü ile bağlar, üretim tarifi yayımlamaz.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D47/video-6a9f1d8d21de.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D47/poster-6a9f1d8d21de.jpg" alt="Traktörle fırtınaya karşı duran kırsal kadın" height="280"></a>
+</p>
 
-[![Traktörle fırtınaya karşı duran kırsal kadın](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D47/poster-6a9f1d8d21de.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D47/video-6a9f1d8d21de.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -478,19 +384,16 @@ Type: Demo | Date: 2026-10-15
 
 **Bitmiş filmi, yazarın yedi saniyelik aksiyon ve sekiz saniyelik sürüş yönergeleriyle inceleyin.**
 
-İki Prompt kartı görselden aktarım olarak korunur; içlerindeki küçük referanslar ayrı özgün girdi dosyaları değildir.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D50/video-9890fdc58895.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D50/poster-9890fdc58895.jpg" alt="Yeniden kullanılabilir plan yönergeli retro dinozor macerası" height="280"></a>
+</p>
 
-[![Yeniden kullanılabilir plan yönergeli retro dinozor macerası](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D50/poster-9890fdc58895.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D50/video-9890fdc58895.mp4)
-
-Yazar yanıtlarındaki storyboard, referans ve Prompt kartları. Gömülü küçük görseller özgün referans dosyaları değildir.
-
-![Yazar yanıtlarındaki storyboard, referans ve Prompt kartları. Gömülü küçük görseller özgün referans dosyaları değildir. 1](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806822957273273-0.jpg)
-
-![Yazar yanıtlarındaki storyboard, referans ve Prompt kartları. Gömülü küçük görseller özgün referans dosyaları değildir. 2](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806822957273273-1.jpg)
-
-![Yazar yanıtlarındaki storyboard, referans ve Prompt kartları. Gömülü küçük görseller özgün referans dosyaları değildir. 3](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806826350412052-0.jpg)
-
-![Yazar yanıtlarındaki storyboard, referans ve Prompt kartları. Gömülü küçük görseller özgün referans dosyaları değildir. 4](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806826350412052-1.jpg)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806822957273273-0.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806822957273273-0.jpg" alt="Yeniden kullanılabilir plan yönergeli retro dinozor macerası 1" height="280"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806822957273273-1.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806822957273273-1.jpg" alt="Yeniden kullanılabilir plan yönergeli retro dinozor macerası 2" height="280"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806826350412052-0.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806826350412052-0.jpg" alt="Yeniden kullanılabilir plan yönergeli retro dinozor macerası 3" height="280"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806826350412052-1.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/source-prompts/2110806826350412052-1.jpg" alt="Yeniden kullanılabilir plan yönergeli retro dinozor macerası 4" height="280"></a>
+</p>
 
 **İstem 1** · [Açık Prompt kaynağı](https://x.com/techhalla/status/2110806822957273273)
 
@@ -538,7 +441,7 @@ engine starting and revving, tires on gravel.
 + look: 1987 B-movie film stock, practical effects, film grain. No music, only SFX.
 ```
 
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -547,11 +450,11 @@ Type: Demo | Date: 2026-10-15
 
 **Tanıdık kapının ardındaki değişen ortamlara aynı kahramanın tepkisini inceleyin.**
 
-Sarı üniformalı kurye buz, su ve ateş benzeri karşıt sahnelerle karşılaşır.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D53/video-c385592b815a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D53/poster-c385592b815a.jpg" alt="Başka dünyalara açılan asansörde kurye" height="280"></a>
+</p>
 
-[![Başka dünyalara açılan asansörde kurye](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D53/poster-c385592b815a.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D53/video-c385592b815a.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -560,11 +463,11 @@ Type: Demo | Date: 2026-10-15
 
 **Yaratıcının notlarıyla konsept, tasarım, senaryo, diyalog ve ses kararlarını ayırın.**
 
-Dizi iş akışını ve model özelliklerini anlatır, gerçek üretim Prompt'unu yayımlamaz.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D58/video-80ebae3e19ee.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D58/poster-80ebae3e19ee.jpg" alt="Yeraltı komedisindeki kaplumbağa tesisatçı" height="280"></a>
+</p>
 
-[![Yeraltı komedisindeki kaplumbağa tesisatçı](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D58/poster-80ebae3e19ee.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D58/video-80ebae3e19ee.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -573,11 +476,11 @@ Type: Demo | Date: 2026-10-15
 
 **Karakter hareketi, kadraj ve değişen sokak durumuyla komedi zamanlamasını inceleyin.**
 
-Yaratıcı metinden videoya deneme olduğunu belirtir; gerçek Prompt açıklanmaz.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D59/video-32460fac82cb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D59/poster-32460fac82cb.jpg" alt="Araç sürpriziyle biten sokak kovalamacası" height="280"></a>
+</p>
 
-[![Araç sürpriziyle biten sokak kovalamacası](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D59/poster-32460fac82cb.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D59/video-32460fac82cb.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -586,11 +489,11 @@ Type: Demo | Date: 2026-10-15
 
 **Kişisel fantastik fikrin tekrarlanan karakterlerle montajlı sekansa dönüşmesini inceleyin.**
 
-Kaynak yaklaşık 95 saniyelik kısa film sunar; bu tek üretim süresi iddiası değildir.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D63/video-e7d8328e9da0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D63/poster-e7d8328e9da0.jpg" alt="Mavi ejderhayı keşfeden genç kahraman" height="280"></a>
+</p>
 
-[![Mavi ejderhayı keşfeden genç kahraman](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D63/poster-e7d8328e9da0.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D63/video-e7d8328e9da0.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -599,11 +502,11 @@ Type: Demo | Date: 2026-10-15
 
 **King Cards kesitinde karakter, araç ve çevre değişimlerini inceleyin.**
 
-Bu aynı uzun filmden paylaşılan sahnedir, ayrı bağımsız yapım değildir.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D66/video-e0abfdd43b76.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D66/poster-e0abfdd43b76.jpg" alt="Çiçek şehrine ulaşan kâğıt araç yolculuğu" height="280"></a>
+</p>
 
-[![Çiçek şehrine ulaşan kâğıt araç yolculuğu](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D66/poster-e0abfdd43b76.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D66/video-e0abfdd43b76.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -612,11 +515,11 @@ Type: Demo | Date: 2026-10-16
 
 **Hareketli araçta karakter konumlarını izleyerek kısa dönüşümü inceleyin.**
 
-Kesit aynı King Cards filmine bağlanır; bu kaynak atfı özgün yazarlık kanıtından ayrıdır.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D69/video-00ccb9224112.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D69/poster-00ccb9224112.jpg" alt="Kâğıt arabada insana dönüşen taş yolcular" height="280"></a>
+</p>
 
-[![Kâğıt arabada insana dönüşen taş yolcular](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D69/poster-00ccb9224112.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D69/video-00ccb9224112.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -625,24 +528,24 @@ Type: Demo | Date: 2026-10-16
 
 **Merkezdeki gösteriyi, hareketli eşyaları ve seyirciyi tek sahne olarak inceleyin.**
 
-Bu King Cards bölümünün farklı kodlamaları ve kısa sürümleri birleştirilmiştir.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D70/video-b5d7e24dfed1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D70/poster-b5d7e24dfed1.jpg" alt="Dairesel tiyatroyu kartlarla dolduran sihirbaz" height="280"></a>
+</p>
 
-[![Dairesel tiyatroyu kartlarla dolduran sihirbaz](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D70/poster-b5d7e24dfed1.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D70/video-b5d7e24dfed1.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 <a id="case-27"></a>
 ### Örnek 27: [Avluda ayak banyosu yapan kadın](https://x.com/Naonekozamurai/status/2111231708108575006) (yazan [@Naonekozamurai](https://x.com/Naonekozamurai))
 
-**Karmaşık aksiyon yerine gündelik jestleri, kıyafeti ve sakin ortamı inceleyin.**
+**Gündelik jestleri, kıyafetleri ve sakin avlu ortamını inceleyin.**
 
-Yaratıcı on saniye 1080p ve kredi tutarı bildirir; promosyon fiyatı olup olmadığından emin değildir.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D74/video-c60960ec9979.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D74/poster-c60960ec9979.jpg" alt="Avluda ayak banyosu yapan kadın" height="280"></a>
+</p>
 
-[![Avluda ayak banyosu yapan kadın](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D74/poster-c60960ec9979.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D74/video-c60960ec9979.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -651,11 +554,11 @@ Type: Demo | Date: 2026-10-16
 
 **Karakter motifinin telefon arayüzü planlarını tematik mesaja nasıl bağladığını inceleyin.**
 
-Yaratıcı filmi Kling 4.0'a bağlar; alttaki suçlamalar burada bağımsız değerlendirilmez.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D79/video-c65afae88005.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D79/poster-c65afae88005.jpg" alt="Sosyal bildirim temalı kısa filmde şahin" height="280"></a>
+</p>
 
-[![Sosyal bildirim temalı kısa filmde şahin](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D79/poster-c65afae88005.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D79/video-c65afae88005.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -664,11 +567,11 @@ Type: Demo | Date: 2026-10-16
 
 **Gündelik iç mekânda küçük hareketleri ve değişen kamera mesafesini inceleyin.**
 
-Magnific örneği kediyi tezgâhlar boyunca izler ve yakın planla biter.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D82/video-ff6f8d465033.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D82/poster-ff6f8d465033.jpg" alt="Mutfakta sinsice yürüyen turuncu kedi" height="280"></a>
+</p>
 
-[![Mutfakta sinsice yürüyen turuncu kedi](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D82/poster-ff6f8d465033.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D82/video-ff6f8d465033.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -677,11 +580,11 @@ Type: Demo | Date: 2026-10-16
 
 **Kısa sosyal etkileşimde yaklaşmayı, fiziksel teması ve karakter konumlarını inceleyin.**
 
-Medya daha büyük bir dizideki yazar yanıtıdır; konuşma ilişkisi korunur.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D83/video-57f8a9708fd1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D83/poster-57f8a9708fd1.jpg" alt="Sokakta buluşup sarılan iki adam" height="280"></a>
+</p>
 
-[![Sokakta buluşup sarılan iki adam](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D83/poster-57f8a9708fd1.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D83/video-57f8a9708fd1.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -694,11 +597,11 @@ Type: Demo | Date: 2026-10-16
 
 **Çok karakterli hareketi, havadaki sahne düzenini ve kostüm siluetlerinin sürekliliğini inceleyin.**
 
-İki kılıç ustası ay ışığındaki bulutlarda dövüşür; paylaşan hesap bunun reklam olduğunu belirtir.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D01/video-c67c148695e9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D01/poster-c67c148695e9.jpg" alt="Ay ışığında bulutların üzerinde kılıç düellosu" height="280"></a>
+</p>
 
-[![Ay ışığında bulutların üzerinde kılıç düellosu](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D01/poster-c67c148695e9.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D01/video-c67c148695e9.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -707,11 +610,11 @@ Type: Demo | Date: 2026-10-15
 
 **Dövüş boyunca beden temasını, değişen mesafeyi ve kamera konumunu karşılaştırın.**
 
-Görüntü, salonun geniş planları ile üniformalı iki dövüşçünün yakın temasları arasında geçer.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D02/video-1ef935905f1c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D02/poster-1ef935905f1c.jpg" alt="Antrenman salonunda tekvando karşılaşması" height="280"></a>
+</p>
 
-[![Antrenman salonunda tekvando karşılaşması](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D02/poster-1ef935905f1c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D02/video-1ef935905f1c.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -720,24 +623,24 @@ Type: Demo | Date: 2026-10-16
 
 **Hızlı kamera değişimlerinde araç kimliğinin ve hareket yönünün nasıl korunduğunu inceleyin.**
 
-Kırmızı ve siyah spor otomobiller şehir sokaklarında ve bir köprüde yarışır.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D04/video-61e7dd165825.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D04/poster-61e7dd165825.jpg" alt="Şehirde kovalamaca yapan iki spor otomobil" height="280"></a>
+</p>
 
-[![Şehirde kovalamaca yapan iki spor otomobil](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D04/poster-61e7dd165825.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D04/video-61e7dd165825.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 <a id="case-34"></a>
 ### Örnek 34: [Hareketli kamerayla boks karşılaşması](https://x.com/SirGlavan_/status/2110785627251704302) (yazan [@SirGlavan_](https://x.com/SirGlavan_))
 
-**Tek güzel kareyle yetinmeden yumrukları, savunma hareketlerini ve yakın teması inceleyin.**
+**Yumrukları, savunma hareketlerini ve yakın teması inceleyin.**
 
-Eldivenli iki boksör ringde dövüşürken kamera mesafesi ve açısı değişir.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D06/video-0a6d9253b137.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D06/poster-0a6d9253b137.jpg" alt="Hareketli kamerayla boks karşılaşması" height="280"></a>
+</p>
 
-[![Hareketli kamerayla boks karşılaşması](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D06/poster-0a6d9253b137.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D06/video-0a6d9253b137.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -746,11 +649,11 @@ Type: Demo | Date: 2026-10-15
 
 **Tekrarlanan karakteri, araçları, dumanı ve büyük arka plan efektlerini birlikte inceleyin.**
 
-Siyah giyimli kadın hasarlı sokakta ilerler; farklı hesaplar bu sahnenin sürümlerini paylaşmıştır.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D07/video-e910366e89fb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D07/poster-e910366e89fb.jpg" alt="Patlayan sokakta yürüyen kadın kahraman" height="280"></a>
+</p>
 
-[![Patlayan sokakta yürüyen kadın kahraman](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D07/poster-e910366e89fb.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D07/video-e910366e89fb.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -759,11 +662,11 @@ Type: Demo | Date: 2026-10-15
 
 **Şehirdeki karşılaşma boyunca insan ve yaratık ölçeğini karşılaştırın.**
 
-Açık saçlı kahraman, hasarlı binalar arasında dev dokunaçlı bir yaratıkla karşılaşır.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D08/video-699eced69da0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D08/poster-699eced69da0.jpg" alt="Şehir yaratığıyla yüzleşen genç kahraman" height="280"></a>
+</p>
 
-[![Şehir yaratığıyla yüzleşen genç kahraman](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D08/poster-699eced69da0.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D08/video-699eced69da0.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -772,9 +675,9 @@ Type: Demo | Date: 2026-10-16
 
 **Açık Prompt ile hızlanmayı, çevre tepkilerini ve gerileyen el kamerası bakışını inceleyin.**
 
-Yaratık metal uzuvlarla organik dokuyu birleştirir; yazar üretim talimatını doğrudan yanıtta paylaşır.
-
-[![Uzaylı ormanında koşan mekanik yırtıcı](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D18/poster-e28f30cd8013.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D18/video-e28f30cd8013.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D18/video-e28f30cd8013.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D18/poster-e28f30cd8013.jpg" alt="Uzaylı ormanında koşan mekanik yırtıcı" height="280"></a>
+</p>
 
 **İstem** · [Açık Prompt kaynağı](https://x.com/Alin_Reaper05/status/2110996674558530007)
 
@@ -782,7 +685,7 @@ Yaratık metal uzuvlarla organik dokuyu birleştirir; yazar üretim talimatını
 A living mechanical predator with a glowing orange central eye moves through dense alien jungle vegetation, using long metallic limbs wrapped in pulsing flesh to pull itself between trees, organic tendrils grabbing branches while hydraulic joints extend and retract, the creature suddenly notices the camera and rapidly charges forward, handheld tracking camera retreats through foliage, branches break naturally, mud splashes, vines react realistically, intense acceleration, realistic weight and momentum, dark cinematic lighting, high-end creature VFX.
 ```
 
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -791,24 +694,24 @@ Type: Demo | Date: 2026-10-16
 
 **Açık savaş alanında binici etkileşimini, at hareketini ve silah temasını inceleyin.**
 
-Görüntü atlı dövüş gösterir; kaynağın yumruk açıklaması bu karelerin birebir tarifi sayılmaz.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D22/video-98d16e333c2b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D22/poster-98d16e333c2b.jpg" alt="Mızraklarla çarpışan atlı savaşçılar" height="280"></a>
+</p>
 
-[![Mızraklarla çarpışan atlı savaşçılar](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D22/poster-98d16e333c2b.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D22/video-98d16e333c2b.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 <a id="case-39"></a>
 ### Örnek 39: [Minderli zeminle etkileşen karateciler](https://x.com/WuxiaRocks/status/2110962012100653419) (yazan [@WuxiaRocks](https://x.com/WuxiaRocks))
 
-**Hareketleri yalnız pozlar olarak değil, oyuncuların çevreyle teması olarak inceleyin.**
+**Dövüşçüler ile minderli zemin arasındaki teması inceleyin.**
 
-Yaratıcı ayağın mindere basmasını vurgular; bu kaynak gözlemidir, ölçülmüş fizik testi değildir.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D24/video-0a576d72f135.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D24/poster-0a576d72f135.jpg" alt="Minderli zeminle etkileşen karateciler" height="280"></a>
+</p>
 
-[![Minderli zeminle etkileşen karateciler](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D24/poster-0a576d72f135.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D24/video-0a576d72f135.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -817,11 +720,11 @@ Type: Demo | Date: 2026-10-16
 
 **Japonca diyaloglu aksiyonda yakın teması ve sahne sürekliliğini inceleyin.**
 
-Yazar karşılaştırmada aynı Prompt'u kullandığını söyler; atıf yapılan metin toplanan kaynaklar dışındadır.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D46/video-1b049353be78.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D46/poster-1b049353be78.jpg" alt="Dövüşçüyle karşılaşan market çalışanı" height="280"></a>
+</p>
 
-[![Dövüşçüyle karşılaşan market çalışanı](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D46/poster-1b049353be78.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D46/video-1b049353be78.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -830,11 +733,11 @@ Type: Demo | Date: 2026-10-15
 
 **Anahtar kareli pozlarla yönetilen stilize dövüş düzenini inceleyin.**
 
-Yazar on anahtar kare bildirir; klip açık platformdaki farklı zırhlı figürleri gösterir.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D48/video-b680150c5bc2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D48/poster-b680150c5bc2.jpg" alt="Taş platformda zırhlı fantastik savaşçılar" height="280"></a>
+</p>
 
-[![Taş platformda zırhlı fantastik savaşçılar](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D48/poster-b680150c5bc2.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D48/video-b680150c5bc2.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -843,9 +746,9 @@ Type: Demo | Date: 2026-10-15
 
 **Bağlantılı ev ve dış mekânlarda hızlı hareket için kesintisiz çekim Prompt'unu kopyalayın.**
 
-Yazar sonradan Flash karşılaştırması için yirmi saniye seçtiğini açıklar; bu parametre özgün Prompt'a eklenmez.
-
-[![Gece kasabada koşan kedi](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D51/poster-074081e6557c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D51/video-074081e6557c.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D51/video-074081e6557c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D51/poster-074081e6557c.jpg" alt="Gece kasabada koşan kedi" height="280"></a>
+</p>
 
 **İstem** · [Açık Prompt kaynağı](https://x.com/umesh_ai/status/2110797376827035806)
 
@@ -853,7 +756,7 @@ Yazar sonradan Flash karşılaştırması için yirmi saniye seçtiğini açıkl
 An amateur handheld recording in third-person perspective rapidly follows a cat through its nighttime adventures in one continuous shot, with no cuts, no stopping, and no pause. The sequence feels like fast-forward, showing all the curious, mischievous, funny, and chaotic things a cat might do while the town, house, garden, and everything around it are half-asleep.The cat races through about ten places a cat would naturally explore at night, each one flowing into the next in a single continuous chase: a quiet bedroom, a dim hallway, a kitchen, a living room, a backyard garden, a fence line, a garage, a rooftop, a tree, and a sleepy street or alley. The camera is shaky and imperfect, always struggling to keep up as it follows close behind. In every location, the cat causes some kind of chaos. In the bedroom it jumps onto furniture and disturbs sleeping people. In the hallway it sends small objects tumbling. In the kitchen it knocks items off the counter. In the living room it darts across shelves and tips things over. In the garden it rustles plants, digs, or startles birds. On the fence it rattles loose objects. In the garage it weaves through clutter and causes things to wobble or fall. On the rooftop it skids across surfaces and startles other animals. In the tree it shakes branches and scatters leaves. In the street or alley it darts through trash, shadows, and unexpected little messes, always leaving brief chaos behind before sprinting onward.The cat behaves like a restless, curious nighttime troublemaker: climbing, leaping, squeezing through gaps, chasing tiny movements, staring at strange things, swatting objects, knocking things over, and vanishing into corners before bursting back out again. Every scene should contain a clear action, reaction, or small disaster caused by the cat.Everything around it feels sleepy and still, with dark houses, quiet gardens, dim windows, silent rooftops, and empty streets. The contrast is that the cat is pure energy, moving so quickly that the world smears into motion blur and fragmented glimpses of chaos. The overall feeling is funny, lively, mischievous, and cinematic, like a whole secret night of cat behavior compressed into one rapid continuous chase.
 ```
 
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -862,11 +765,11 @@ Type: Demo | Date: 2026-10-15
 
 **Yoğun yağmurlu dövüşte kostüm kararlılığını ve silah temasını inceleyin.**
 
-Yaratıcı on beş saniye, 1080p ve 202 kredi bildirir; bunlar kaynak ayarlarıdır, güncel API fiyatı değildir.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D52/video-428a2ca3573f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D52/poster-428a2ca3573f.jpg" alt="Yağmurlu ormanda samuray düellosu" height="280"></a>
+</p>
 
-[![Yağmurlu ormanda samuray düellosu](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D52/poster-428a2ca3573f.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D52/video-428a2ca3573f.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -875,11 +778,11 @@ Type: Demo | Date: 2026-10-15
 
 **Aynı orman sekansının yeniden kodlanan sürümlerinde pozları ve kamerayı inceleyin.**
 
-Çeşitli hesapların kısa kesitleri tek materyal grubunda birleştirilmiştir.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D56/video-e86261e950fa.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D56/poster-e86261e950fa.jpg" alt="Ormanda dövüşen koyu giyimli kadın" height="280"></a>
+</p>
 
-[![Ormanda dövüşen koyu giyimli kadın](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D56/poster-e86261e950fa.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D56/video-e86261e950fa.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -888,11 +791,11 @@ Type: Demo | Date: 2026-10-15
 
 **Küçük uçan özne ile büyük inşa edilmiş yaratığın etkileşimini inceleyin.**
 
-Başka bir King Cards kesiti, benzer model lansman mesajlarıyla tekrar paylaşılmıştır.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D67/video-d6f35850335e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D67/poster-d6f35850335e.jpg" alt="Mor ahtapotla karşılaşan kırmızı kâğıt kuş" height="280"></a>
+</p>
 
-[![Mor ahtapotla karşılaşan kırmızı kâğıt kuş](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D67/poster-d6f35850335e.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D67/video-d6f35850335e.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -901,11 +804,11 @@ Type: Demo | Date: 2026-10-16
 
 **Beden yörüngesini, top konumunu ve çember temasını inceleyin.**
 
-Üretilmiş spor klibi yazar yanıtıdır, bağımsız doğrulanmış fiziksel performans değildir.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D84/video-d1fcc959cdd5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D84/poster-d1fcc959cdd5.jpg" alt="Uçarak smaç yapan basketbolcu" height="280"></a>
+</p>
 
-[![Uçarak smaç yapan basketbolcu](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D84/poster-d1fcc959cdd5.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D84/video-d1fcc959cdd5.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -918,24 +821,24 @@ Type: Demo | Date: 2026-10-16
 
 **Klibi, karakter hareketi ve diyaloğu birleştiren oyun fragmanı sahnesi için referans alın.**
 
-Kaynak bunu AAA tarzı konsept olarak tanımlar; görünen çıktı üretilmiş videodur, oynanabilir oyun değildir.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D05/video-96e6493c7d87.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D05/poster-96e6493c7d87.jpg" alt="Ödül avcılı stilize oyun konsepti" height="280"></a>
+</p>
 
-[![Ödül avcılı stilize oyun konsepti](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D05/poster-96e6493c7d87.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D05/video-96e6493c7d87.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 <a id="case-48"></a>
 ### Örnek 48: [Gece dev rampayı tırmanan uçan otomobil](https://x.com/higgsfield_ai/status/2110937478492479783) (yazan [@higgsfield_ai](https://x.com/higgsfield_ai))
 
-**Klibi çalışan oyun kanıtı yerine sinematik araç konsepti referansı olarak kullanın.**
+**Dev rampada araç hareketini ve kamera kadrajını inceleyin.**
 
-Platform markalı örnek, aracı dik rampadan uçuş benzeri sıçramaya kadar izler.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D29/video-9f0ea0939850.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D29/poster-9f0ea0939850.jpg" alt="Gece dev rampayı tırmanan uçan otomobil" height="280"></a>
+</p>
 
-[![Gece dev rampayı tırmanan uçan otomobil](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D29/poster-9f0ea0939850.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D29/video-9f0ea0939850.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -944,11 +847,11 @@ Type: Demo | Date: 2026-10-16
 
 **Yarış videosu konseptinde takip kamerasını, ışığı ve gösterge benzeri katmanları inceleyin.**
 
-Platform örneği gün batımında sahil yarışı sunar; çalıştırılabilir oyun sağlamaz.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D31/video-94729ec66a60.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D31/poster-94729ec66a60.jpg" alt="Sahil yolunda yarışan spor otomobil" height="280"></a>
+</p>
 
-[![Sahil yolunda yarışan spor otomobil](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D31/poster-94729ec66a60.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D31/video-94729ec66a60.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -957,11 +860,11 @@ Type: Demo | Date: 2026-10-16
 
 **Uçuş kamerasının hareketini ve oyun arayüzü düzenini inceleyin.**
 
-Jet parlak kıyı üzerinde oyun benzeri kadraj ve katmanlarla uçar.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D33/video-06b6b22e3e0e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D33/poster-06b6b22e3e0e.jpg" alt="Ada ortamında uçan savaş jeti" height="280"></a>
+</p>
 
-[![Ada ortamında uçan savaş jeti](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D33/poster-06b6b22e3e0e.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D33/video-06b6b22e3e0e.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -970,11 +873,11 @@ Type: Demo | Date: 2026-10-16
 
 **Üçüncü şahıs video konseptinde dar alanlardan geniş hava görüntülerine geçişleri inceleyin.**
 
-Platform stilize yüzen adalarda hareket eden karakteri izleyen görüntü sunar.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D35/video-41fca9f81d16.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D35/poster-41fca9f81d16.jpg" alt="Yüzen adalar arasında süzülen karakter" height="280"></a>
+</p>
 
-[![Yüzen adalar arasında süzülen karakter](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D35/poster-41fca9f81d16.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D35/video-41fca9f81d16.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -983,11 +886,11 @@ Type: Demo | Date: 2026-10-16
 
 **Motosiklet animasyonunu, takip mesafesini ve pist aydınlatmasını inceleyin.**
 
-Platform örneği yarış oyunu sunumu kullanır, etkileşimli uygulama değildir.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D38/video-6fbf86005055.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D38/poster-6fbf86005055.jpg" alt="Sürücüyü izleyen motosiklet yarışı konsepti" height="280"></a>
+</p>
 
-[![Sürücüyü izleyen motosiklet yarışı konsepti](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D38/poster-6fbf86005055.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D38/video-6fbf86005055.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -996,9 +899,9 @@ Type: Demo | Date: 2026-10-16
 
 **On beş saniyelik görsel hedef için yazarın zamanlanmış taktik nişancı yönergesini kopyalayın.**
 
-Yanıt 15, kök açıklama 30 saniye der; ek yaklaşık 14,3 saniyedir ve bu kaynaklar ayrı tutulur.
-
-[![Birinci şahıs bakışıyla liman çatışması](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D41/poster-d66668c4a4fe.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D41/video-d66668c4a4fe.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D41/video-d66668c4a4fe.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D41/poster-d66668c4a4fe.jpg" alt="Birinci şahıs bakışıyla liman çatışması" height="280"></a>
+</p>
 
 **İstem** · [Açık Prompt kaynağı](https://x.com/higgsfield_ai/status/2110906696851955916)
 
@@ -1021,7 +924,7 @@ Style: authentic competitive esports gameplay footage that looks like a real ran
 Audio: competitive shooter sound design, with punchy rifle bursts with echo off the containers, shell casings clinking on concrete and wood, footsteps on concrete and hollow wooden planks, bullet impacts on wood and metal with small water splashes, a smoke grenade hiss, a crisp magazine reload, seagulls, lapping water against the boats, distant harbor horns and a short round-win sting at the end. No dialogue.
 ```
 
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1030,11 +933,11 @@ Type: Demo | Date: 2026-10-16
 
 **Sokak sürüşü, uçuş ve şehir simgeleri arasındaki geçişleri inceleyin.**
 
-Görünen çıktı geleceğin ulaşım videosudur; kaynak oynanabilir oyun sağlamaz.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D72/video-78d337068f01.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D72/poster-78d337068f01.jpg" alt="Gelecek şehrinde uçan otomobiller" height="280"></a>
+</p>
 
-[![Gelecek şehrinde uçan otomobiller](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D72/poster-78d337068f01.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D72/video-78d337068f01.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1043,11 +946,11 @@ Type: Demo | Date: 2026-10-16
 
 **Takip kamerasının kara trafiğini ve uçuş hareketini birleştirmesini inceleyin.**
 
-Higgsfield bunu platformundaki başka Kling 4.0 oyun konsepti olarak sunar.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D73/video-d291f74977e7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D73/poster-d291f74977e7.jpg" alt="Şehirde uçan otomobili kovalayan polis" height="280"></a>
+</p>
 
-[![Şehirde uçan otomobili kovalayan polis](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D73/poster-d291f74977e7.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D73/video-d291f74977e7.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1056,11 +959,11 @@ Type: Demo | Date: 2026-10-16
 
 **Araç, yürüyen karakter ve hava sekansı arasındaki geçişleri inceleyin.**
 
-Frameo oyun benzeri video konsepti ve entegrasyon önizlemesi sunar, çalıştırılabilir oyun değil.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D87/video-31d433ad4429.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D87/poster-31d433ad4429.jpg" alt="Sahil sürüşünden helikopter uçuşuna uzanan konsept" height="280"></a>
+</p>
 
-[![Sahil sürüşünden helikopter uçuşuna uzanan konsept](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D87/poster-31d433ad4429.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D87/video-31d433ad4429.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1073,11 +976,11 @@ Type: Demo | Date: 2026-10-16
 
 **Bitmiş klibin görsel stilleri ve tekrarlanan duygusal motifleri nasıl birleştirdiğini inceleyin.**
 
-Yaratıcı MCP destekli üretim bildirmiştir; yaklaşık 136 saniyelik ek montajlanmış eserdir, tek üretim süresi değildir.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D10/video-32d9ded7f2d0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D10/poster-32d9ded7f2d0.jpg" alt="Gerçek çekim benzeri bölümler içeren resimli müzik videosu" height="280"></a>
+</p>
 
-[![Gerçek çekim benzeri bölümler içeren resimli müzik videosu](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D10/poster-32d9ded7f2d0.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D10/video-32d9ded7f2d0.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1086,11 +989,11 @@ Type: Demo | Date: 2026-10-16
 
 **Kısa mutfak animasyonunda karakter etkileşimini ve malzeme stilini inceleyin.**
 
-Sahne minyatür ejderhayı, mutfak eşyalarını ve kil benzeri görsel uygulamayı birleştirir.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D32/video-1098bee49c56.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D32/poster-1098bee49c56.jpg" alt="Mutfakta minik kil ejderhayla tanışan büyükanne" height="280"></a>
+</p>
 
-[![Mutfakta minik kil ejderhayla tanışan büyükanne](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D32/poster-1098bee49c56.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D32/video-1098bee49c56.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1099,11 +1002,11 @@ Type: Demo | Date: 2026-10-16
 
 **Kısa stilize pişirme sekansında el hareketlerini, eşyaları ve aydınlatmayı inceleyin.**
 
-Platformun kendi örneği yoğun tezgahta çalışan resim tarzı şef gösterir.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D36/video-a89dc333a50c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D36/poster-a89dc333a50c.jpg" alt="Gece pazarında yemek hazırlayan anime aşçı" height="280"></a>
+</p>
 
-[![Gece pazarında yemek hazırlayan anime aşçı](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D36/poster-a89dc333a50c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D36/video-a89dc333a50c.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1112,11 +1015,11 @@ Type: Demo | Date: 2026-10-16
 
 **Minyatür ölçeğin ve stop-motion stilinin kısa aksiyonu nasıl şekillendirdiğini inceleyin.**
 
-Küçük savaşçı kırmızı yaratıkla karşılaşır; üretim süresi iddiaları platformun kendi açıklamasıdır.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D40/video-0096a333b2d9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D40/poster-0096a333b2d9.jpg" alt="Stop-motion savaşındaki minyatür dövüşçüler" height="280"></a>
+</p>
 
-[![Stop-motion savaşındaki minyatür dövüşçüler](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D40/poster-0096a333b2d9.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D40/video-0096a333b2d9.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1125,11 +1028,11 @@ Type: Demo | Date: 2026-10-16
 
 **Dekoratif ışık motifini ve yumuşak karakter hareketini inceleyin.**
 
-Yaratıcının uyku temalı görseli kısa ay sekansına dönüşür.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D49/video-cadca8a36e4a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D49/poster-cadca8a36e4a.jpg" alt="Parlayan hilal üzerinde uyuyan kız" height="280"></a>
+</p>
 
-[![Parlayan hilal üzerinde uyuyan kız](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D49/poster-cadca8a36e4a.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D49/video-cadca8a36e4a.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -1138,11 +1041,11 @@ Type: Demo | Date: 2026-10-15
 
 **Sokak dansında grup hareketini, mekânsal dizilimi ve bakış değişimlerini inceleyin.**
 
-Yaratıcı yeni modeli tekrar kullandığı flash mob düzeniyle test eder.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D54/video-0f0e0bc769b1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D54/poster-0f0e0bc769b1.jpg" alt="Şehir kavşağında flash mob&#x27;a katılan yayalar" height="280"></a>
+</p>
 
-[![Şehir kavşağında flash mob'a katılan yayalar](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D54/poster-0f0e0bc769b1.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D54/video-0f0e0bc769b1.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -1151,11 +1054,11 @@ Type: Demo | Date: 2026-10-15
 
 **Stilize dövüşte okunaklı karakter siluetlerini ve kılıç etkileşimini inceleyin.**
 
-Yaratıcı bunu gevşek tanımlı Prompt ile erken test sayar, fakat metni kök gönderide yayımlamaz.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D55/video-28acdf9e07a3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D55/poster-28acdf9e07a3.jpg" alt="Fırtına bulutları altında anime kılıç ustaları" height="280"></a>
+</p>
 
-[![Fırtına bulutları altında anime kılıç ustaları](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D55/poster-28acdf9e07a3.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D55/video-28acdf9e07a3.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -1164,11 +1067,11 @@ Type: Demo | Date: 2026-10-15
 
 **Renk kaldırıldığında koreografiyi ve ışığı inceleyin.**
 
-Kaynak çok sayıda dansçı ve değişen dizilimlerle tek renkli performans gösterir.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D57/video-0bf2843739e2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D57/poster-0bf2843739e2.jpg" alt="Siyah beyaz sahnede dans eden topluluk" height="280"></a>
+</p>
 
-[![Siyah beyaz sahnede dans eden topluluk](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D57/poster-0bf2843739e2.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D57/video-0bf2843739e2.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -1177,11 +1080,11 @@ Type: Demo | Date: 2026-10-15
 
 **İfadeli hayvan hareketini ve tutarlı yumuşak animasyon stilini inceleyin.**
 
-Örnek küçük sincabı kar ve orman nesneleriyle etkileşirken izler.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D62/video-c2c730ddad9a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D62/poster-c2c730ddad9a.jpg" alt="Ormanda karla oynayan sincap" height="280"></a>
+</p>
 
-[![Ormanda karla oynayan sincap](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D62/poster-c2c730ddad9a.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D62/video-c2c730ddad9a.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -1190,11 +1093,11 @@ Type: Demo | Date: 2026-10-15
 
 **Şekerleme biçimli ortam önündeki stilize karakter hareketini inceleyin.**
 
-Görsel olarak farklı bu King Cards kesiti sahne çalışmasıdır, ayrı bağımsız film değildir.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D71/video-f533cc90221d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D71/poster-f533cc90221d.jpg" alt="Şeker dünyasından geçen kırmızı cüppeli figür" height="280"></a>
+</p>
 
-[![Şeker dünyasından geçen kırmızı cüppeli figür](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D71/poster-f533cc90221d.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D71/video-f533cc90221d.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1203,11 +1106,11 @@ Type: Demo | Date: 2026-10-16
 
 **Kostüm, yiyecek ve ifadenin hayvan karakter anlatısını desteklemesini inceleyin.**
 
-Yaratıcı taçlı kediyle köriyi birleştirir, dekoratif başlıkla bitirir.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D77/video-0c65da3cad85.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D77/poster-0c65da3cad85.jpg" alt="Köri yiyen taçlı beyaz kedi" height="280"></a>
+</p>
 
-[![Köri yiyen taçlı beyaz kedi](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D77/poster-0c65da3cad85.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D77/video-0c65da3cad85.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1220,11 +1123,11 @@ Type: Demo | Date: 2026-10-16
 
 **Kapalı ormandan geniş hava manzarasına kesintisiz görsel ilerlemeyi inceleyin.**
 
-Binici ve ejderha ormandan dağ vadilerine geçer; tekrarlanan kodlamalar birleştirilmiştir.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D13/video-ea2c6c571381.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D13/poster-ea2c6c571381.jpg" alt="Orman yolculuğundan ejderha uçuşuna" height="280"></a>
+</p>
 
-[![Orman yolculuğundan ejderha uçuşuna](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D13/poster-ea2c6c571381.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D13/video-ea2c6c571381.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1233,11 +1136,11 @@ Type: Demo | Date: 2026-10-16
 
 **Yaratık tutarlılığını ve tekinsiz motifler arasındaki geçişleri inceleyin.**
 
-Soluk figürler, bozulmuş yüzler ve karanlık orman görüntülerine üretilmiş ses ve ayrı miksaj açıklamaları eşlik eder.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D16/video-f97b54673926.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D16/poster-f97b54673926.jpg" alt="Korku montajında yüzsüz figürler" height="280"></a>
+</p>
 
-[![Korku montajında yüzsüz figürler](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D16/poster-f97b54673926.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D16/video-f97b54673926.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1246,9 +1149,9 @@ Type: Demo | Date: 2026-10-16
 
 **Yazarın açık Prompt metnini kopyalayarak kurgusal kasabada eşgüdümlü çevre hareketlerini araştırın.**
 
-Yanıt; dönen mekanik evler, organik borular, küçük robotlar, sığ su ve yükselen kamera belirtir.
-
-[![Canlanan küresel uzaylı yerleşimi](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D17/poster-0727879b80e3.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D17/video-0727879b80e3.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D17/video-0727879b80e3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D17/poster-0727879b80e3.jpg" alt="Canlanan küresel uzaylı yerleşimi" height="280"></a>
+</p>
 
 **İstem** · [Açık Prompt kaynağı](https://x.com/Alin_Reaper05/status/2110997691274580344)
 
@@ -1256,7 +1159,7 @@ Yanıt; dönen mekanik evler, organik borular, küçük robotlar, sığ su ve y�
 A colorful alien settlement filled with enormous spherical buildings and bizarre organic machines comes alive at sunrise, round red mechanical houses rotate their giant lens-like windows, pipes expand and contract like breathing organs, small robotic creatures run through shallow water, flying vehicles weave between towers, camera glides smoothly through the town at ground level before rising above the rooftops, puddles reflecting neon lights and clouds, natural vegetation moving in the wind, playful but believable extraterrestrial world, cinematic photorealism.
 ```
 
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1265,9 +1168,9 @@ Type: Demo | Date: 2026-10-16
 
 **Yazarın Prompt metniyle ağırlığı, suyun yer değiştirmesini ve yavaş vinç hareketini araştırın.**
 
-İki uzun boyunlu hayvan, kırmızı bitkiler ve sarı-yeşil gökyüzü arasında turkuaz sudan geçer.
-
-[![Lagünden geçen dev uzaylı hayvanlar](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D20/poster-51289a03af36.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D20/video-51289a03af36.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D20/video-51289a03af36.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D20/poster-51289a03af36.jpg" alt="Lagünden geçen dev uzaylı hayvanlar" height="280"></a>
+</p>
 
 **İstem** · [Açık Prompt kaynağı](https://x.com/Alin_Reaper05/status/2110982744247353611)
 
@@ -1275,7 +1178,7 @@ Type: Demo | Date: 2026-10-16
 Two enormous long-necked alien animals slowly walk through a shallow turquoise lagoon surrounded by bright red grass and exotic palm forests. Their massive bodies create realistic waves and splashes with every step while smaller creatures flee along the shoreline. The camera begins low near the water and smoothly cranes upward, revealing the gigantic animals against a glowing yellow-green sky and distant mountains. Realistic weight and inertia, detailed skin movement, volumetric mist, natural vegetation motion, cinematic alien wildlife documentary, smooth continuous camera movement, highly coherent anatomy.
 ```
 
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1284,11 +1187,11 @@ Type: Demo | Date: 2026-10-16
 
 **Mekanik eklemleri, ölçeği ve sabit duruştan uçuşa geçişi inceleyin.**
 
-Örnek, büyük robotun etkinleşerek gemi benzeri güverteden yükselmesini gösterir.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D25/video-621b9b81c745.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D25/poster-621b9b81c745.jpg" alt="Güverteden havalanan büyük meka" height="280"></a>
+</p>
 
-[![Güverteden havalanan büyük meka](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D25/poster-621b9b81c745.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D25/video-621b9b81c745.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1297,11 +1200,11 @@ Type: Demo | Date: 2026-10-16
 
 **Sağanakta yaratık, araç ve insan ölçeklerini inceleyin.**
 
-Sonraki paylaşım aynı görüntüyü kullanır ve yeni örnek yerine ek kaynak olarak korunur.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D60/video-cdf43480c9f5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D60/poster-cdf43480c9f5.jpg" alt="Kalabalık asma köprüye yaklaşan dev yaratık" height="280"></a>
+</p>
 
-[![Kalabalık asma köprüye yaklaşan dev yaratık](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D60/poster-cdf43480c9f5.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D60/video-cdf43480c9f5.mp4)
-
-Type: Demo | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -1310,11 +1213,11 @@ Type: Demo | Date: 2026-10-15
 
 **Origami benzeri şehirde malzeme tutarlılığını ve takip kamerasını inceleyin.**
 
-Görüntü ortak King Cards filmine aittir, ayrı doğrulanmış proje değildir.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D68/video-692aeb10394f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D68/poster-692aeb10394f.jpg" alt="Kâğıt şehirde gazete araçları" height="280"></a>
+</p>
 
-[![Kâğıt şehirde gazete araçları](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D68/poster-692aeb10394f.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D68/video-692aeb10394f.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1323,11 +1226,11 @@ Type: Demo | Date: 2026-10-16
 
 **Mekanik hareketin, zemin temasının ve dev silahın ilişkisini inceleyin.**
 
-Yaratıcının ilk meka örneğidir, mühendislik belgeli simülasyon değildir.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D75/video-dd1ae88aa463.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D75/poster-dd1ae88aa463.jpg" alt="Yamaçta yürüyüp ateş eden ağır meka" height="280"></a>
+</p>
 
-[![Yamaçta yürüyüp ateş eden ağır meka](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D75/poster-dd1ae88aa463.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D75/video-dd1ae88aa463.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1336,11 +1239,11 @@ Type: Demo | Date: 2026-10-16
 
 **Atmosferi, silueti ve tekrarlanan görsel motifleri inceleyin.**
 
-Kaynak karanlık figürler ve kale benzeri ortam içeren stilize yağmurlu gece eseri sunar.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D78/video-6a014db111fa.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D78/poster-6a014db111fa.jpg" alt="Yağmurlu gecedeki gotik figürler" height="280"></a>
+</p>
 
-[![Yağmurlu gecedeki gotik figürler](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D78/poster-6a014db111fa.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D78/video-6a014db111fa.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1349,11 +1252,11 @@ Type: Demo | Date: 2026-10-16
 
 **Sınırlı araç görüntüsünden aydınlık ortama geçişi inceleyin.**
 
-Bu da King Cards kesitidir; ilişkili kaynak bağlamı korunmuştur.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D81/video-9d22c4d4055d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D81/poster-9d22c4d4055d.jpg" alt="Parlayan mantar tüneline giren kâğıt araba" height="280"></a>
+</p>
 
-[![Parlayan mantar tüneline giren kâğıt araba](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D81/poster-9d22c4d4055d.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D81/video-9d22c4d4055d.mp4)
-
-Type: Demo | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1364,11 +1267,11 @@ Type: Demo | Date: 2026-10-16
 <a id="case-78"></a>
 ### Örnek 78: [Kling ve Seedance için aynı orman dövüşü Prompt'u](https://x.com/AibeginnerR8/status/2110935157503041672) (yazan [@AibeginnerR8](https://x.com/AibeginnerR8))
 
-**Belirtilen ayarları ve değerlendirme sınırlarını koruyarak iki çıktıyı karşılaştırın.**
+**İki modelin orman dövüşü koreografisini ve kamera kesmelerini karşılaştırın.**
 
-İkisi de 720p etiketlidir ve Kling sesi kullanılır; yaratıcı bu testte kesme, zamanlama ve hareket uyumunda Seedance'i tercih eder.
-
-[![Kling ve Seedance için aynı orman dövüşü Prompt'u](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D30/poster-a0590043e48c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D30/video-a0590043e48c.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D30/video-a0590043e48c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D30/poster-a0590043e48c.jpg" alt="Kling ve Seedance için aynı orman dövüşü Prompt&#x27;u" height="280"></a>
+</p>
 
 **İstem** · [Açık Prompt kaynağı](https://x.com/AibeginnerR8/status/2110935160434610592)
 
@@ -1424,7 +1327,7 @@ Bの低い後方斜めからAを見る。Bは着地の勢いで転がり、片�
 2人の顔、体格、髭、衣服、Bの角兜を維持。髭と衣服は加速に遅れて揺れる。攻撃線から外れた回避、接触による反動、足の支持と蹴りの回収を見せる。マスクカットはSHOT 5→6の1回、それ以外は通常のカット。字幕や画面内文字なし。
 ```
 
-Type: Evaluation | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1433,9 +1336,9 @@ Type: Evaluation | Date: 2026-10-16
 
 **Konuşma sırasını ve profilden dudak eşleşmesini sınamak için gerçek diyalog Prompt'unu kullanın.**
 
-Yazar on saniyelik fiyat verirken ek yaklaşık on beş saniyedir; ses ve fatura bağımsız doğrulanmamıştır.
-
-[![Sabit kafe planında konuşan iki kadın](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D44/poster-293ead53e5df.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D44/video-293ead53e5df.mp4)
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D44/video-293ead53e5df.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D44/poster-293ead53e5df.jpg" alt="Sabit kafe planında konuşan iki kadın" height="280"></a>
+</p>
 
 **İstem** · [Açık Prompt kaynağı](https://x.com/tanabe_fragm/status/2110887676832543125)
 
@@ -1455,7 +1358,7 @@ The camera does not move or cut. Exactly four lines of dialogue, in natural Toky
 Precise lip sync: lips fully close on ま, ぱ, め, ば sounds; mouth shapes follow each vowel. No extra lines, no ad-libs, no narration. Audio is only the two voices and soft café ambience — no background music. No subtitles, no on-screen text. Single continuous horizontal shot, same framing from start to end.
 ```
 
-Type: Evaluation | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
@@ -1464,11 +1367,11 @@ Type: Evaluation | Date: 2026-10-16
 
 **Gösterilen iki çıktıda karakter konumlarını ve sahne düzenini karşılaştırın.**
 
-Kaynak yirmi saniye ve 180'e karşı 120 kredi bildirir; rakamlar yazara ve hesabına özgüdür.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D45/video-1007d8f82463.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D45/poster-1007d8f82463.jpg" alt="Standard ve Flash ile beş kişilik diyalog" height="280"></a>
+</p>
 
-[![Standard ve Flash ile beş kişilik diyalog](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D45/poster-1007d8f82463.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D45/video-1007d8f82463.mp4)
-
-Type: Evaluation | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
@@ -1477,43 +1380,43 @@ Type: Evaluation | Date: 2026-10-15
 
 **Yaratıcının dövüşüyle yoğun temas hareketini ve karakter referansını inceleyin.**
 
-Yazar temas için Seedance'i tercih eder, otuz saniye 1080p için 405 kredi bildirir ve tanıtımı açıklar.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D64/video-e99a824137b0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D64/poster-e99a824137b0.jpg" alt="Yakın teması test eden kaplan başlı dövüşçü" height="280"></a>
+</p>
 
-[![Yakın teması test eden kaplan başlı dövüşçü](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D64/poster-e99a824137b0.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D64/video-e99a824137b0.mp4)
-
-Type: Evaluation | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
 <a id="case-82"></a>
 ### Örnek 82: [Ses kayması testinde değişen sunucu](https://x.com/plasm0/status/2110763509307064539) (yazan [@plasm0](https://x.com/plasm0))
 
-**Örneği kendi ölçümlü eşzamanlama testinizin başlangıcı olarak kullanın.**
+**Sunucunun görünümü değişirken sürekliliği inceleyin.**
 
-Yaratıcı testi geçtiğini söyler; kareler değişen sunucuyu doğrular, konuşma eşzamanlama doğruluğunu değil.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D65/video-285b037dd41e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D65/poster-285b037dd41e.jpg" alt="Ses kayması testinde değişen sunucu" height="280"></a>
+</p>
 
-[![Ses kayması testinde değişen sunucu](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D65/poster-285b037dd41e.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D65/video-285b037dd41e.mp4)
-
-Type: Evaluation | Date: 2026-10-15
+<sub>2026-10-15</sub>
 
 ---
 
 <a id="case-83"></a>
 ### Örnek 83: [Aynı uçan otomobil konseptinde Kling ve Seedance](https://x.com/itsPolloAI/status/2111097887656726915) (yazan [@itsPolloAI](https://x.com/itsPolloAI))
 
-**Platformun karşılaştırma çerçevesini koruyarak iki etiketli video akışını karşılaştırın.**
+**Aynı uçan otomobil sahnesinde Kling ile Seedance’i karşılaştırın.**
 
-Pollo AI aynı Prompt'u kullandığını söyler; gerçek metin ve tekrarlı kontrollü deneyler sağlanmaz.
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D86/video-f8698ad3f5cb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D86/poster-f8698ad3f5cb.jpg" alt="Aynı uçan otomobil konseptinde Kling ve Seedance" height="280"></a>
+</p>
 
-[![Aynı uçan otomobil konseptinde Kling ve Seedance](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D86/poster-f8698ad3f5cb.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/D86/video-f8698ad3f5cb.mp4)
-
-Type: Evaluation | Date: 2026-10-16
+<sub>2026-10-16</sub>
 
 ---
 
 ## İlgili depolar
 
-Güncel model yolu doğrulanmadığı için özel Kling 4 API veya Skill deposu bağlanmaz. Komşu model örneği için [Seedance 2.5 kılavuzuna](https://github.com/EvoLinkAI/awesome-seedance-2.5-guide) bakın; farklı modeli anlatır, bu Kling örneklerini doğrulamaz.
+- [Seedance 2.5 kılavuzuna](https://github.com/EvoLinkAI/awesome-seedance-2.5-guide)
 
 <a id="acknowledge"></a>
 ## 🙏 Teşekkürler
@@ -1523,5 +1426,3 @@ Bu koleksiyondaki materyali açıkça paylaşan hesaplara teşekkürler:
 [@_3912657840](https://x.com/_3912657840), [@_lexers](https://x.com/_lexers), [@agi_aibusi](https://x.com/agi_aibusi), [@AI__TSUBAKI](https://x.com/AI__TSUBAKI), [@AibeginnerR8](https://x.com/AibeginnerR8), [@AIWarper](https://x.com/AIWarper), [@AiwithAmeliaa](https://x.com/AiwithAmeliaa), [@Aiwithkami](https://x.com/Aiwithkami), [@AIwithkhan](https://x.com/AIwithkhan), [@AlexM12jx](https://x.com/AlexM12jx), [@alifcoder](https://x.com/alifcoder), [@Alin_Reaper05](https://x.com/Alin_Reaper05), [@Bic_Revelation](https://x.com/Bic_Revelation), [@craftcapitallab](https://x.com/craftcapitallab), [@Dani__oros](https://x.com/Dani__oros), [@Diplomeme](https://x.com/Diplomeme), [@dylannknox](https://x.com/dylannknox), [@ErnestoSOFTWARE](https://x.com/ErnestoSOFTWARE), [@fabulatenebris](https://x.com/fabulatenebris), [@fAIkout](https://x.com/fAIkout), [@fatoomdes](https://x.com/fatoomdes), [@frameo_ai](https://x.com/frameo_ai), [@Gemalpha_88](https://x.com/Gemalpha_88), [@h_ashizawaJP](https://x.com/h_ashizawaJP), [@higgsfield_ai](https://x.com/higgsfield_ai), [@Hope_Ai01](https://x.com/Hope_Ai01), [@iam_mian7](https://x.com/iam_mian7), [@IntLab0000](https://x.com/IntLab0000), [@itsPolloAI](https://x.com/itsPolloAI), [@jerrod_lew](https://x.com/jerrod_lew), [@jji1jj](https://x.com/jji1jj), [@leilamakes](https://x.com/leilamakes), [@lexx_aura](https://x.com/lexx_aura), [@Lianaalane](https://x.com/Lianaalane), [@liluocheng13](https://x.com/liluocheng13), [@Lisa__Rodin](https://x.com/Lisa__Rodin), [@magnific](https://x.com/magnific), [@MelinaVale14](https://x.com/MelinaVale14), [@minuitIA](https://x.com/minuitIA), [@MO_IAI](https://x.com/MO_IAI), [@Naonekozamurai](https://x.com/Naonekozamurai), [@nrqa__](https://x.com/nrqa__), [@NyaiiBubu](https://x.com/NyaiiBubu), [@ojiji2025](https://x.com/ojiji2025), [@onofumi_AI](https://x.com/onofumi_AI), [@OxBairan](https://x.com/OxBairan), [@ozansihay](https://x.com/ozansihay), [@PDyv9gdatT4132](https://x.com/PDyv9gdatT4132), [@plasm0](https://x.com/plasm0), [@PromptSin](https://x.com/PromptSin), [@seisei_ai_1st](https://x.com/seisei_ai_1st), [@SirGlavan_](https://x.com/SirGlavan_), [@sophiaparkerr_](https://x.com/sophiaparkerr_), [@Starjupi](https://x.com/Starjupi), [@Stevemnx3](https://x.com/Stevemnx3), [@tanabe_fragm](https://x.com/tanabe_fragm), [@techhalla](https://x.com/techhalla), [@torotoromoney](https://x.com/torotoromoney), [@tphuang](https://x.com/tphuang), [@umesh_ai](https://x.com/umesh_ai), [@WuxiaRocks](https://x.com/WuxiaRocks), [@YapayZekaSerisi](https://x.com/YapayZekaSerisi), [@z933TfmXkaISSVc](https://x.com/z933TfmXkaISSVc)
 
 Üçüncü taraf video, görsel ve Prompt metinleri kendi haklarına tabidir. Editoryal metin ve depo yapısı [CC BY 4.0](LICENSE) kapsamındadır; bu üçüncü taraf varlıkları yeniden lisanslamaz. Atıf, sahiplik veya çoğaltma düzeltmeleri için [issue açın](https://github.com/cheercheung/awesome-kling-4-usecases/issues). [Medya politikasına](docs/media-policy.md) ve [katkı rehberine](CONTRIBUTING.md) bakın.
-
-[EvoLink video modellerini keşfedin](https://evolink.ai/models?utm_source=github&utm_medium=footer&utm_campaign=awesome-kling-4-usecases&utm_content=tr_footer)
