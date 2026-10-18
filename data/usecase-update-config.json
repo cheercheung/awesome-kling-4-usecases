@@ -2,7 +2,7 @@
   "namespace": {
     "heading_prefix": "Case",
     "anchor_prefix": "case",
-    "numbering_order": "document",
+    "numbering_order": "set-contiguous",
     "menu_policy": "category-menu",
     "category_anchors": [
       "category-workflow",

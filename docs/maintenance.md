@@ -2,13 +2,15 @@
 
 ## Source of truth
 
-`data/use-cases.json` is the public curated case dataset. `README.md` is the English editorial presentation; the ten localized READMEs must match its case identities, order, source links, authors, metadata, media and exact Prompt blocks. `data/use-cases.csv` exposes the same 83 cases for sorting in spreadsheet tools. `data/use-cases.md` is the compact source index.
+`data/use-cases.json` is the public curated case dataset. `README.md` is the English editorial presentation; the ten localized READMEs must match its case identities, order, source links, authors, metadata, media and exact Prompt blocks. `data/use-cases.csv` exposes the same cases for sorting in spreadsheet tools. `data/use-cases.md` is the compact source index.
 
 The initial [collection scope](collection-scope.md) records search windows, gaps and inclusion rules. Research snapshots and execution evidence stay outside the public repository. Public verification must work without private snapshots, credentials, local downloads or access to the original collector's filesystem.
 
 ## Case format
 
 Use a stable `case-N` HTML anchor immediately before the third-level linked case heading, followed by a short bold takeaway, a centered linked R2 poster and optional exact public Prompt blocks. End with the source date in a subtle `<sub>` line and a separator.
+
+Case numbers remain stable across updates. Assign new numbers after the current maximum, then order the dataset and README by category and case number; validate that the complete number set has no gaps or duplicates.
 
 The reader-facing presentation is category-based. The Menu contains one category/count link for each populated section. Case images, including supplementary cards, use `height="280"` without a fixed width. The original owner banner remains a separate cover image.
 

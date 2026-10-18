@@ -16,20 +16,20 @@
 
 ## 📊 Überblick
 
-**83 ausgewählte Fälle · 11 öffentliche Prompts in 10 Fällen · 8 Kategorien.**
+**93 ausgewählte Fälle · 15 öffentliche Prompts in 14 Fällen · 8 Kategorien.**
 
 ## 📑 Inhaltsverzeichnis
 
 | Kategorie | Fälle |
 |---|---|
-| [🛠️ Arbeitsabläufe und Referenzen](#category-workflow) | 4 |
-| [📦 Werbung und Produktgeschichten](#category-ads) | 4 |
-| [🎬 Figuren und Erzählung](#category-story) | 22 |
-| [⚔️ Action und körperliche Interaktion](#category-action) | 16 |
-| [🎮 Spiel- und Fahrzeugkonzepte](#category-game) | 10 |
-| [🎨 Animation und stilisierte Figuren](#category-animation) | 11 |
-| [🌍 Welten und Kreaturen](#category-world) | 10 |
-| [🔬 Vergleiche und Bewertung](#category-evaluation) | 6 |
+| [🛠️ Arbeitsabläufe und Referenzen](#category-workflow) | 5 |
+| [📦 Werbung und Produktgeschichten](#category-ads) | 6 |
+| [🎬 Figuren und Erzählung](#category-story) | 23 |
+| [⚔️ Action und körperliche Interaktion](#category-action) | 17 |
+| [🎮 Spiel- und Fahrzeugkonzepte](#category-game) | 11 |
+| [🎨 Animation und stilisierte Figuren](#category-animation) | 13 |
+| [🌍 Welten und Kreaturen](#category-world) | 11 |
+| [🔬 Vergleiche und Bewertung](#category-evaluation) | 7 |
 
 <a id="category-workflow"></a>
 ## 🛠️ Arbeitsabläufe und Referenzen
@@ -83,6 +83,19 @@
 </p>
 
 <sub>2026-10-16</sub>
+
+---
+
+<a id="case-88"></a>
+### Fall 88: [Vom bewegten Remotion-Storyboard zur Skateboard-Sequenz](https://x.com/Naonekozamurai/status/2111645944651633120) (von [@Naonekozamurai](https://x.com/Naonekozamurai))
+
+**Vergleiche ein bewegtes Remotion-Storyboard mit der generierten Skateboard-Sequenz, um die Vorgaben für Kamera und Bewegung zu untersuchen.**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/20261018/2111645944651633120/video-1aa8c4dd2bf1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/20261018/2111645944651633120/poster-1aa8c4dd2bf1.jpg" alt="Vom bewegten Remotion-Storyboard zur Skateboard-Sequenz" height="280"></a>
+</p>
+
+<sub>2026-10-18</sub>
 
 ---
 
@@ -145,6 +158,38 @@ High-octane, hyper-realistic automotive commercial for the Kia Seltos, shot with
 </p>
 
 <sub>2026-10-16</sub>
+
+---
+
+<a id="case-85"></a>
+### Fall 85: [Ein Brunch-Selfie mit gezielten Unterbrechungen](https://x.com/minchoi/status/2111471573395755295) (von [@minchoi](https://x.com/minchoi))
+
+**Gestalte eine lockere Brunch-Szene: Das Essen kommt, das Handy verrutscht und die Schwester stibitzt einen Bissen.**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/20261018/2111471573395755295/video-04a5ea378b49.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/20261018/2111471573395755295/poster-04a5ea378b49.jpg" alt="Ein Brunch-Selfie mit gezielten Unterbrechungen" height="280"></a>
+</p>
+
+**Prompt** · [Öffentliche Prompt-Quelle](https://x.com/minchoi/status/2111471573395755295)
+
+```
+Raw vertical 9:16 video recorded on a phone's front camera (not on screen), one continuous 30-second take with no cuts. It looks like an ordinary unedited phone clip, not a film: slightly soft image, a little digital noise and compression, deep focus with the café behind her as sharp as her face, auto-exposure brightening and dimming as people pass the sunny window behind her, no colour grading. The phone sits close and a little low, looking slightly up at her; around 9 s a waiter's arm bumps the table, the phone slides and tilts, and she catches it and props it back up. Sadie, a young woman in her early 20s with long honey-blonde waves, light natural makeup, small gold hoop earrings and a cropped cream knit top, sits at a small marble table by a big sunny window in a busy brunch café. Her sister sits across from her, out of frame except for her arm and a hand with a silver ring. Behind Sadie: other tables of people talking, a counter with a glass pastry case, plants, staff moving about, chalkboards too far away to read. Around 9 s a waiter sets down two plates, a lemon ricotta pancakes and a plate of eggs on toast, plus two iced coffees in plain glasses. Around 15 s she turns the pancake plate toward the camera; around 20 s she cuts a bite, eats it and closes her eyes; around 26 s her sister's hand reaches in with a fork and steals a piece of pancake, and Sadie swats at it, laughing. [Sadie: casual young woman's voice, warm and a bit giggly, recorded on the phone's built-in mic from half a metre away]: "Okay, I promised I'd show you what we get. ... We get the same thing every single time. ... Oh, here it is! Thank you! ... Look at this. Lemon ricotta pancakes. ... Mmm. Okay. Yeah. Still the best. ... Hey! Get your own!" [Her sister, off camera: a young woman's voice, dry and amused]: "That's the tax." [Sadie, laughing]: "She does this every time." Audio as captured by the phone mic in a busy café, not studio clean: her voice close but with the room around it, the hiss and grind of an espresso machine, cups and cutlery clinking, overlapping chatter and laughter from other tables, a door bell jingling, a chair scraping, faint music in the background. No subtitles, no captions, no on-screen text.
+```
+
+<sub>2026-10-17</sub>
+
+---
+
+<a id="case-92"></a>
+### Fall 92: [Radsportaufnahmen auf nasser Strecke](https://x.com/roco_kn_roco/status/2111422006726201675) (von [@roco_kn_roco](https://x.com/roco_kn_roco))
+
+**Gestalte eine Sportsequenz, in der Fahrer, Fahrrad und nasse Straßenkulisse konsistent bleiben.**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/20261018/2111422006726201675/video-8326fcf8f538.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/20261018/2111422006726201675/poster-8326fcf8f538.jpg" alt="Radsportaufnahmen auf nasser Strecke" height="280"></a>
+</p>
+
+<sub>2026-10-17</sub>
 
 ---
 
@@ -588,6 +633,68 @@ engine starting and revving, tires on gravel.
 
 ---
 
+<a id="case-86"></a>
+### Fall 86: [Ein Geständnis in der Küche in acht Einstellungen](https://x.com/MayorKingAI/status/2111427300533432812) (von [@MayorKingAI](https://x.com/MayorKingAI))
+
+**Plane eine intime Zweierszene mit Schuss und Gegenschuss, präzisen Blickrichtungen und wechselnden Emotionen.**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/20261018/2111427300533432812/video-72d0b5366d83.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/20261018/2111427300533432812/poster-72d0b5366d83.jpg" alt="Ein Geständnis in der Küche in acht Einstellungen" height="280"></a>
+</p>
+
+**Prompt** · [Öffentliche Prompt-Quelle](https://x.com/MayorKingAI/status/2111427314248774100)
+
+```
+SCENE CONTEXT
+EXACTLY 2 HUMAN CHARACTERS — NO DUPLICATES, NO EXTRAS. Interior, a small lived-in apartment kitchen, late at night. A husband confesses to his wife that he was fired in June and has been pretending to go to work every day. She did not know; her disbelief turns to hurt, then to unconditional support. Intimate two-person drama, real time. The emotion lives equally in their faces, their words and their voices.
+
+CHARACTERS
+DANIEL: lean man, short dark hair greying at the temples, two days of stubble, deep shadows under the eyes, a small healed nick on his chin. Pale blue cotton office shirt, top button undone, sleeves rolled to the forearm, a loosened dark navy tie, a faint coffee stain on the left cuff. Plain gold wedding ring on his left hand. 180 cm.
+LUCÍA: shoulder-length chestnut hair loosely tied, strands falling over her face, natural skin with faint freckles and slight redness around the nose, no makeup. Oversized oatmeal wool cardigan with a pulled thread at one cuff, over a grey cotton t-shirt. Plain gold wedding ring on her left hand. 165 cm.
+
+LOCATION MAP
+A small square kitchen table with a worn wooden top sits at the center. Daniel sits on the right side of the table (screen-right), facing left. The doorway to a dark hallway is screen-left. On the table: a half-full glass of water between Daniel's hands and a folded, unopened envelope. His laptop bag rests on the chair beside him. The window blind is fully closed. Behind Daniel: a kitchen counter and an old wall clock. The eyeline axis runs left–right across the table; the camera always stays on the same side of it.
+
+FORMAT
+One scene, 8 shots joined by clean hard cuts, classic shot–reverse-shot coverage. Cuts follow the dialogue and also land on the listener's reaction. No fades, no dissolves, no split screens.
+
+SHOTS
+Shot 1 — Wide shot, locked-off, from the corner behind the counter, 63° FOV. Daniel sits alone in the pool of lamplight, both hands around the glass, not drinking, staring at nothing. Lucía walks in through the dark doorway, relaxed and unaware, about to cross the kitchen.
+
+Shot 2 — Medium close-up on Daniel, 47° FOV, eye level, very slow push-in ending on his face. He lifts his eyes to her; his jaw tightens, his nostrils flare with one deep breath, his lips part twice before any sound comes out. Low, slow and hesitant, with a heavy pause before the last three words: "Lucía… I need to tell you something. I got fired. In June."
+
+Shot 3 — Reverse: medium shot of Lucía over Daniel's out-of-focus right shoulder, 47° FOV. She freezes mid-step. Her brow furrows, her mouth falls slightly open, a short incredulous breath escapes her. Quick and confused, almost a half-laugh of disbelief: "What? What do you mean, you got fired?" She walks to the table and grips the back of the chair opposite him, standing, looking down at him, knuckles whitening. Her voice rises with hurt, sharp but never shouting, stressing "hiding" and "nothing": "And you've been hiding it from me this whole time, like nothing happened?"
+
+Shot 4 — Close-up on Daniel, 29° FOV, slightly high angle matching her standing eyeline, handheld with an extremely subtle breath-like float. He looks up at her, then his eyes drop to the glass; his thumb rubs its rim; his eyes turn glassy. Quiet, ashamed, his voice thinning, with a long pause in the middle and a crack on the last word: "I wasn't trying to hide it. Every morning I pretended I was going to work… and I spent the whole day looking for a job."
+
+Shot 5 — Reverse close-up on Lucía, 29° FOV, slightly low angle. No words. Her grip on the chair loosens; her furrowed brow slowly relaxes; her lips press together and tremble; her eyes fill with water. The anger drains from her face and becomes pain. The clock ticks.
+
+Shot 6 — Medium shot of Lucía, 47° FOV. She pulls out the chair and sits down opposite him, now at his eye level, leaning slightly toward him. Softer and wounded, her voice breaking on "trust": "Why didn't you tell me? Don't you trust me?"
+
+Shot 7 — Close-up on Daniel, static, eye level. He opens his mouth to answer but no words come. His chin trembles, his eyes go red, a tear gathers on his lower lid, he swallows hard and gives one small shake of the head. Silence.
+
+Shot 8 — Two-shot in profile across the table, 47° FOV, slow lateral drift of less than half a meter to the right, ending with both faces and the table between them in frame. Lucía reaches across and places her hand over his. A single tear runs down her cheek; she does not wipe it. Quiet, warm and absolutely firm, each word deliberate, stressing "always": "I'm always going to be there for you." Daniel turns his hand over and holds hers tightly, closes his eyes, and lets out a long, shaking exhale. Hold on the two of them in silence.
+
+CHARACTER ACTING
+Restrained, naturalistic film acting; every emotion is visible on the face in close-up. Daniel: guilt and shame — avoids her eyes, then forces himself to hold them; jaw clenched, breath short through the nose, hands restless on the glass; relief only arrives in the final exhale. Lucía: disbelief (frozen, brow furrowed, mouth open) → hurt (knuckles white on the chair, voice rising) → softening (grip loosens, eyes fill) → steady support (still, firm gaze, gentle half-smile through tears in the final shot). Faces show living micro-expressions: trembling chins, glistening eyes, swallowing, natural irregular blinks.
+
+LIGHTING
+One warm 3200K pendant lamp hanging low over the table is the key source: light from above-front, fast falloff, deep shadows in the corners of the room, catchlights visible in both characters' eyes. A faint cold 5600K spill from the hallway behind Lucía outlines her hair. Light direction and color stay identical after every cut.
+
+AUDIO
+All dialogue in natural, clear English with a neutral American accent. Daniel: low, tired baritone, slow, hesitant, with long pauses and an audible tremor when emotion rises. Lucía: warm mid-range voice that moves from confused and fast, to sharp and hurt, to soft and breaking, to quiet and firm. Each has a distinct voice. Only one person speaks at a time, no interruptions or overlapping, about one second of silence between lines. Breaths, swallows and small catches in the voice are audible. Lip movements synchronized with the English dialogue. Ambience: wall clock ticking, refrigerator hum, chair legs scraping on floor tiles, glass touching wood, cardigan rustle. Ambience stays below the dialogue. No background music. No subtitles.
+
+STYLE
+Intimate auteur drama. 35mm film texture with organic grain, shallow depth of field, soft halation around the lamp, no digital sharpening. Palette: 60% warm amber and wood brown, 30% deep shadow, 10% cold blue spill from the hallway.
+
+POSITIVE CONSTRAINTS
+Exactly two people for the entire scene. Same faces, hair, clothing and wedding rings in every shot. Daniel always screen-right looking left; Lucía always screen-left looking right. Exactly 4 dialogue turns: 2 by Daniel, 2 by Lucía. Lucía stands in Shots 3–5 and sits from Shot 6 onward. Hands and fingers anatomically correct when they hold hands. Faces stable. The scene ends in silence with their hands joined on the table; they stay seated.
+```
+
+<sub>2026-10-17</sub>
+
+---
+
 
 <a id="category-action"></a>
 ## ⚔️ Action und körperliche Interaktion
@@ -812,6 +919,25 @@ An amateur handheld recording in third-person perspective rapidly follows a cat 
 
 ---
 
+<a id="case-84"></a>
+### Fall 84: [Telekinetischer Flurkampf mit Kling 4.0 Flash](https://x.com/AiwithBloodline/status/2111701480545878026) (von [@AiwithBloodline](https://x.com/AiwithBloodline))
+
+**Inszeniere einen Flurkampf mit schwebenden Requisiten, einer ringförmigen Schockwelle und einer ruhigen Figur im Zentrum.**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/20261018/2111701480545878026/video-3bfa8f39828b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/20261018/2111701480545878026/poster-3bfa8f39828b.jpg" alt="Telekinetischer Flurkampf mit Kling 4.0 Flash" height="280"></a>
+</p>
+
+**Prompt** · [Öffentliche Prompt-Quelle](https://x.com/AiwithBloodline/status/2111701480545878026)
+
+```
+In a telekinetic action scene, a 17-year-old South Korean high school boy wearing a white short-sleeved school shirt, a loosely fitted dark tie, and gray school trousers stands calmly in the middle of a corridor. He is being attacked from both sides; some attackers, wearing brown school uniform jackets, wield short sticks, while others are dressed as black ninjas, creating a tense standoff in the corridor. As the enemies rush towards him, the boy unleashes a powerful telekinetic attack. Suddenly, everything around him enters a state of weightlessness and time freezes. Dozens of items—open textbooks, notebooks, a red soda can, and a wooden school chair—leave the ground, perfectly suspended in mid-air. The attackers, caught in their lunging movements, are frozen in mid-air by an invisible force. Paper pages, scraps of paper, and dust float and swirl around him weightlessly. The camera slowly zooms in on the boy, perfectly freezing the chaotic corridor in the telekinetic-induced state of stillness and suspension. In the extreme stillness of the slowly zooming-in, frozen image, the boy's calm eyes narrow slightly. Immediately afterward, he calmly raises his right hand, his fingers loosely clenched, and then makes a light yet decisive flick of his sleeve to either side of his body. In an instant, frozen time and gravity seem to explode with this subtle gesture. A low rumble echoes in the air, and dozens of objects that had been suspended in mid-air—a heavy wooden school chair, scattered textbooks, and even the red soda can—transform into a dense projection, carrying powerful air currents, and are precisely launched towards the enemies attacking from both sides. At the same time, an invisible circular psychic shockwave violently spreads out from the boy. The brown-uniformed attackers and black-clad ninjas, who had been frozen in mid-air, are instantly struck by this immense force, their bodies jolted violently, and they are sent flying backward like kites with broken strings to either end of the corridor. As gravity instantly returns, the wooden chairs shatter upon impact, textbooks scatter into a flurry of pages, and with the dull thud of heavy objects hitting the ground, the attackers collapse onto the corridor floor, incapacitated. Silence returns to the corridor, broken only by countless tattered papers and fine dust drifting slowly in the air. The aftershocks of the shockwave ruffle the boy's bangs and black hair. He remains composed, not even glancing at his fallen opponents. The boy slowly lowers his right hand, raises his slender left hand, and gracefully and calmly tucks a strand of black hair behind his ear, revealing his sharp, youthful, and serene profile. The camera freezes on this moment, with white papers falling around him like snowflakes, highlighting his still figure in a white short-sleeved school shirt, dark tie, and gray school trousers. Then, the image slowly fades out.
+```
+
+<sub>2026-10-18</sub>
+
+---
+
 
 <a id="category-game"></a>
 ## 🎮 Spiel- und Fahrzeugkonzepte
@@ -967,6 +1093,19 @@ Audio: competitive shooter sound design, with punchy rifle bursts with echo off 
 
 ---
 
+<a id="case-91"></a>
+### Fall 91: [Eine Formel-Rennszene im LEGO-Stil](https://x.com/YaseenK7212/status/2111543022001279047) (von [@YaseenK7212](https://x.com/YaseenK7212))
+
+**Untersuche Rennaufnahmen mit einer Minifigur am Steuer, Kamerawinkeln am Streckenrand und Nahaufnahmen des Wagens.**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/20261018/2111543022001279047/video-a4735e7348c9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/20261018/2111543022001279047/poster-a4735e7348c9.jpg" alt="Eine Formel-Rennszene im LEGO-Stil" height="280"></a>
+</p>
+
+<sub>2026-10-17</sub>
+
+---
+
 
 <a id="category-animation"></a>
 ## 🎨 Animation und stilisierte Figuren
@@ -1114,6 +1253,32 @@ Audio: competitive shooter sound design, with punchy rifle bursts with echo off 
 
 ---
 
+<a id="case-89"></a>
+### Fall 89: [Ein roter Schirm in einer animierten Regenszene](https://x.com/mito_ai_la/status/2111725893022572806) (von [@mito_ai_la](https://x.com/mito_ai_la))
+
+**Begleite eine animierte Figur durch Schirmbewegungen und Pfützen bis zum Erscheinen eines Regenbogens.**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/20261018/2111725893022572806/video-ad1e13af43ce.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/20261018/2111725893022572806/poster-ad1e13af43ce.jpg" alt="Ein roter Schirm in einer animierten Regenszene" height="280"></a>
+</p>
+
+<sub>2026-10-18</sub>
+
+---
+
+<a id="case-90"></a>
+### Fall 90: [Ein Kind mit einem Stern in einer gemalten Nacht](https://x.com/soulful__ai/status/2111402558329880874) (von [@soulful__ai](https://x.com/soulful__ai))
+
+**Erkunde eine stilisierte Figurenszene rund um einen leuchtenden Stern und wirbelnde Nachthimmel-Texturen.**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/20261018/2111402558329880874/video-4d7f692d1753.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/20261018/2111402558329880874/poster-4d7f692d1753.jpg" alt="Ein Kind mit einem Stern in einer gemalten Nacht" height="280"></a>
+</p>
+
+<sub>2026-10-17</sub>
+
+---
+
 
 <a id="category-world"></a>
 ## 🌍 Welten und Kreaturen
@@ -1257,6 +1422,43 @@ Two enormous long-necked alien animals slowly walk through a shallow turquoise l
 </p>
 
 <sub>2026-10-16</sub>
+
+---
+
+<a id="case-87"></a>
+### Fall 87: [Vom Wohnzimmer durch ein Portal in Fantasiewelten](https://x.com/TheRogueA1/status/2111424869430648844) (von [@TheRogueA1](https://x.com/TheRogueA1))
+
+**Verbinde ein Gespräch im Wohnzimmer durch Verwandlungen mit Fantasy-Action und kehre am Ende zur Ausgangsszene zurück.**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/20261018/2111424869430648844/video-68d0474926fd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/20261018/2111424869430648844/poster-68d0474926fd.jpg" alt="Vom Wohnzimmer durch ein Portal in Fantasiewelten" height="280"></a>
+</p>
+
+**Prompt** · [Öffentliche Prompt-Quelle](https://x.com/TheRogueA1/status/2111424984631460196)
+
+```
+26-second continuous cinematic sequence, photoreal, film grain, dynamic camera, seamless magical transitions between worlds. Dialogue in English, lip-synced.
+
+CHARACTERS: Eve @Image1, dark brown shoulder-length hair, mustard cable-knit jumper, blue jeans, brown Chelsea boots. Demon Eve @Image2, red-skinned demon with black curved horns, leathery wings folded behind her, spiked tail, black leather armour. Eve's voice: low, dry, deadpan female voice with a natural British accent. Demon Eve's voice: husky, gravelly, slightly resonant female voice, unimpressed.
+
+0-6s: LIVING ROOM @Image3, cosy late-afternoon lamplight, Halloween pumpkin glowing on the windowsill. Medium-wide shot facing the sofa. Eve sits on the left of the sofa with a silver MacBook Pro on her lap, typing. Demon Eve sits on the right, wings tucked, tail curled over the armrest, staring blankly ahead at a TV just off camera, its flicker on her face. Eve suddenly stops typing, gasps, eyes wide at the screen, and says: "Eve, Kling 4.0 just came out." Demon Eve slowly turns her head towards her, deadpan, and says: "Do it."
+
+6-8s: Close on Eve's hands typing fast and hitting enter. The laptop screen erupts with bright light, a swirling vortex pulls Eve forward, her hair whipping, and she is sucked headfirst into the screen. Camera pushes through the screen after her.
+
+8-13s: DARK FANTASY BATTLEFIELD, ash and embers, stormy sky. Eve is now the necromancer @Image4: black hooded cloak, dark plate armour with bone details and skulls, holding a staff topped with a skull with glowing blue eyes. Horned demon monsters charge in. She slams the staff into the ground, releasing a huge circular shockwave of blue spectral energy that blasts the demons off their feet. Beside her, her skeleton minion @Image5, bronze skeleton in a tattered coat and boots, swings a rusty sword and cuts down demons one after another. The last demon collapses into ash.
+
+13-18s: A beam of light yanks Eve straight up into the sky; mid-air she transforms in a burst of light into the caped hero suit from @Image6, long blonde hair, blue suit, red cape, red skirt, red boots. She flies fast above a modern high-rise city at golden hour, banking left and right between glass skyscrapers, cape snapping, camera chasing behind her. She pitches downward and dives towards the ground.
+
+18-22s: She slams down in a ruined war zone, dust and debris blasting outward, and in the impact flash transforms into the futuristic soldier @Image7: white-silver ponytail, dark tactical armour, cargo trousers, combat boots. She raises a futuristic rifle and fires bright bursts at armoured enemy soldiers advancing through smoke, dropping them one by one. Behind her, on a crumbling window ledge, a tiny potted cactus sits untouched in the chaos.
+
+22-23s: The last enemy falls. The light vortex grabs her again and pulls her up and away, blur of colour.
+
+23-26s: BACK IN THE LIVING ROOM @Image3. Eve @Image1, back in her mustard jumper, is shot out of the laptop screen and thumps back onto the sofa, hair messy, laptop on her lap. She stares straight ahead, completely stunned, eyes wide, mouth slightly open. Demon Eve looks at her with a raised eyebrow and says: "So?" Eve slowly turns her head to Demon Eve and says: "That was fucking awesome." Hold on the two of them.
+
+NEGATIVE: extra limbs, morphing faces, identity drift between characters, Demon Eve losing horns or wings, logos or text on screen, subtitles, watermark, blurry faces, duplicate characters, laptop disappearing, cartoon style
+```
+
+<sub>2026-10-17</sub>
 
 ---
 
@@ -1414,6 +1616,19 @@ Precise lip sync: lips fully close on ま, ぱ, め, ば sounds; mouth shapes fo
 
 ---
 
+<a id="case-93"></a>
+### Fall 93: [Figurenreferenzen in Kling 4.0 und Kling 4.0 Flash](https://x.com/HBCoop_/status/2111547077050372466) (von [@HBCoop_](https://x.com/HBCoop_))
+
+**Vergleiche beide Varianten mit denselben Figurenelementen, derselben Weltreferenz und zeitlich festgelegten Einstellungen.**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/20261018/2111547077050372466/video-0aeb1ce77732.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/assets/cases/20261018/2111547077050372466/poster-0aeb1ce77732.jpg" alt="Figurenreferenzen in Kling 4.0 und Kling 4.0 Flash" height="280"></a>
+</p>
+
+<sub>2026-10-17</sub>
+
+---
+
 ## Verwandte Repositories
 
 - [Seedance-2-Leitfaden](https://github.com/EvoLinkAI/awesome-seedance-2.5-guide)
@@ -1423,6 +1638,6 @@ Precise lip sync: lips fully close on ま, ぱ, め, ば sounds; mouth shapes fo
 
 Vielen Dank an die veröffentlichenden Konten, deren Material diese Sammlung enthält:
 
-[@_3912657840](https://x.com/_3912657840), [@_lexers](https://x.com/_lexers), [@agi_aibusi](https://x.com/agi_aibusi), [@AI__TSUBAKI](https://x.com/AI__TSUBAKI), [@AibeginnerR8](https://x.com/AibeginnerR8), [@AIWarper](https://x.com/AIWarper), [@AiwithAmeliaa](https://x.com/AiwithAmeliaa), [@Aiwithkami](https://x.com/Aiwithkami), [@AIwithkhan](https://x.com/AIwithkhan), [@AlexM12jx](https://x.com/AlexM12jx), [@alifcoder](https://x.com/alifcoder), [@Alin_Reaper05](https://x.com/Alin_Reaper05), [@Bic_Revelation](https://x.com/Bic_Revelation), [@craftcapitallab](https://x.com/craftcapitallab), [@Dani__oros](https://x.com/Dani__oros), [@Diplomeme](https://x.com/Diplomeme), [@dylannknox](https://x.com/dylannknox), [@ErnestoSOFTWARE](https://x.com/ErnestoSOFTWARE), [@fabulatenebris](https://x.com/fabulatenebris), [@fAIkout](https://x.com/fAIkout), [@fatoomdes](https://x.com/fatoomdes), [@frameo_ai](https://x.com/frameo_ai), [@Gemalpha_88](https://x.com/Gemalpha_88), [@h_ashizawaJP](https://x.com/h_ashizawaJP), [@higgsfield_ai](https://x.com/higgsfield_ai), [@Hope_Ai01](https://x.com/Hope_Ai01), [@iam_mian7](https://x.com/iam_mian7), [@IntLab0000](https://x.com/IntLab0000), [@itsPolloAI](https://x.com/itsPolloAI), [@jerrod_lew](https://x.com/jerrod_lew), [@jji1jj](https://x.com/jji1jj), [@leilamakes](https://x.com/leilamakes), [@lexx_aura](https://x.com/lexx_aura), [@Lianaalane](https://x.com/Lianaalane), [@liluocheng13](https://x.com/liluocheng13), [@Lisa__Rodin](https://x.com/Lisa__Rodin), [@magnific](https://x.com/magnific), [@MelinaVale14](https://x.com/MelinaVale14), [@minuitIA](https://x.com/minuitIA), [@MO_IAI](https://x.com/MO_IAI), [@Naonekozamurai](https://x.com/Naonekozamurai), [@nrqa__](https://x.com/nrqa__), [@NyaiiBubu](https://x.com/NyaiiBubu), [@ojiji2025](https://x.com/ojiji2025), [@onofumi_AI](https://x.com/onofumi_AI), [@OxBairan](https://x.com/OxBairan), [@ozansihay](https://x.com/ozansihay), [@PDyv9gdatT4132](https://x.com/PDyv9gdatT4132), [@plasm0](https://x.com/plasm0), [@PromptSin](https://x.com/PromptSin), [@seisei_ai_1st](https://x.com/seisei_ai_1st), [@SirGlavan_](https://x.com/SirGlavan_), [@sophiaparkerr_](https://x.com/sophiaparkerr_), [@Starjupi](https://x.com/Starjupi), [@Stevemnx3](https://x.com/Stevemnx3), [@tanabe_fragm](https://x.com/tanabe_fragm), [@techhalla](https://x.com/techhalla), [@torotoromoney](https://x.com/torotoromoney), [@tphuang](https://x.com/tphuang), [@umesh_ai](https://x.com/umesh_ai), [@WuxiaRocks](https://x.com/WuxiaRocks), [@YapayZekaSerisi](https://x.com/YapayZekaSerisi), [@z933TfmXkaISSVc](https://x.com/z933TfmXkaISSVc)
+[@_3912657840](https://x.com/_3912657840), [@_lexers](https://x.com/_lexers), [@agi_aibusi](https://x.com/agi_aibusi), [@AI__TSUBAKI](https://x.com/AI__TSUBAKI), [@AibeginnerR8](https://x.com/AibeginnerR8), [@AIWarper](https://x.com/AIWarper), [@AiwithAmeliaa](https://x.com/AiwithAmeliaa), [@AiwithBloodline](https://x.com/AiwithBloodline), [@Aiwithkami](https://x.com/Aiwithkami), [@AIwithkhan](https://x.com/AIwithkhan), [@AlexM12jx](https://x.com/AlexM12jx), [@alifcoder](https://x.com/alifcoder), [@Alin_Reaper05](https://x.com/Alin_Reaper05), [@Bic_Revelation](https://x.com/Bic_Revelation), [@craftcapitallab](https://x.com/craftcapitallab), [@Dani__oros](https://x.com/Dani__oros), [@Diplomeme](https://x.com/Diplomeme), [@dylannknox](https://x.com/dylannknox), [@ErnestoSOFTWARE](https://x.com/ErnestoSOFTWARE), [@fabulatenebris](https://x.com/fabulatenebris), [@fAIkout](https://x.com/fAIkout), [@fatoomdes](https://x.com/fatoomdes), [@frameo_ai](https://x.com/frameo_ai), [@Gemalpha_88](https://x.com/Gemalpha_88), [@h_ashizawaJP](https://x.com/h_ashizawaJP), [@HBCoop_](https://x.com/HBCoop_), [@higgsfield_ai](https://x.com/higgsfield_ai), [@Hope_Ai01](https://x.com/Hope_Ai01), [@iam_mian7](https://x.com/iam_mian7), [@IntLab0000](https://x.com/IntLab0000), [@itsPolloAI](https://x.com/itsPolloAI), [@jerrod_lew](https://x.com/jerrod_lew), [@jji1jj](https://x.com/jji1jj), [@leilamakes](https://x.com/leilamakes), [@lexx_aura](https://x.com/lexx_aura), [@Lianaalane](https://x.com/Lianaalane), [@liluocheng13](https://x.com/liluocheng13), [@Lisa__Rodin](https://x.com/Lisa__Rodin), [@magnific](https://x.com/magnific), [@MayorKingAI](https://x.com/MayorKingAI), [@MelinaVale14](https://x.com/MelinaVale14), [@minchoi](https://x.com/minchoi), [@minuitIA](https://x.com/minuitIA), [@mito_ai_la](https://x.com/mito_ai_la), [@MO_IAI](https://x.com/MO_IAI), [@Naonekozamurai](https://x.com/Naonekozamurai), [@nrqa__](https://x.com/nrqa__), [@NyaiiBubu](https://x.com/NyaiiBubu), [@ojiji2025](https://x.com/ojiji2025), [@onofumi_AI](https://x.com/onofumi_AI), [@OxBairan](https://x.com/OxBairan), [@ozansihay](https://x.com/ozansihay), [@PDyv9gdatT4132](https://x.com/PDyv9gdatT4132), [@plasm0](https://x.com/plasm0), [@PromptSin](https://x.com/PromptSin), [@roco_kn_roco](https://x.com/roco_kn_roco), [@seisei_ai_1st](https://x.com/seisei_ai_1st), [@SirGlavan_](https://x.com/SirGlavan_), [@sophiaparkerr_](https://x.com/sophiaparkerr_), [@soulful__ai](https://x.com/soulful__ai), [@Starjupi](https://x.com/Starjupi), [@Stevemnx3](https://x.com/Stevemnx3), [@tanabe_fragm](https://x.com/tanabe_fragm), [@techhalla](https://x.com/techhalla), [@TheRogueA1](https://x.com/TheRogueA1), [@torotoromoney](https://x.com/torotoromoney), [@tphuang](https://x.com/tphuang), [@umesh_ai](https://x.com/umesh_ai), [@WuxiaRocks](https://x.com/WuxiaRocks), [@YapayZekaSerisi](https://x.com/YapayZekaSerisi), [@YaseenK7212](https://x.com/YaseenK7212), [@z933TfmXkaISSVc](https://x.com/z933TfmXkaISSVc)
 
 Videos, Bilder und Prompts Dritter unterliegen weiterhin ihren jeweiligen Rechten. Redaktionstext und Repository-Struktur stehen unter [CC BY 4.0](LICENSE); Medien Dritter werden dadurch nicht neu lizenziert. Für Korrekturen zu Zuordnung, Eigentum oder Wiedergabe [ein Issue öffnen](https://github.com/cheercheung/awesome-kling-4-usecases/issues). Siehe [Medienrichtlinie](docs/media-policy.md) und [Beitragshinweise](CONTRIBUTING.md).

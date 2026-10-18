@@ -52,8 +52,10 @@ def main():
     presentation=config['presentation'];height=str(presentation['case_image_height'])
     items=data['items']; english=(ROOT/'README.md').read_text(); enblocks=blocks(english)
     expect(len(items)>0,'empty curated dataset')
-    expect([c['public_number'] for c in items]==list(range(1,len(items)+1)),'dataset public numbering is not contiguous')
+    expect(sorted(c['public_number'] for c in items)==list(range(1,len(items)+1)),'dataset public numbering has a gap or duplicate')
     expect(len({c['source_url'] for c in items})==len(items),'duplicate dataset source URL')
+    category_order=config['namespace']['category_anchors']
+    expect(items==sorted(items,key=lambda c:(category_order.index('category-'+c['category']),c['public_number'])),'dataset order differs from category and stable number order')
     expect(sum(c['expected_public_visual_count'] for c in items)==data['expected_public_visual_count'],'dataset visual denominator differs from manifest')
     expect(len(enblocks)==len(items),'English case count differs from curated dataset')
     expected_codes=[]
