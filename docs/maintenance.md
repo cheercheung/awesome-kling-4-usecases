@@ -45,6 +45,6 @@ Release operators also run the `model-repo-pipeline` canonical handoff, English,
 
 ## Hosting and links
 
-Case posters link to playable R2 MP4s. Original X media URLs are provenance in structured data, not display fallbacks. Keep all case visuals across languages equal to the frozen expected set. No promotional links belong in the current README profile.
+Case posters link to playable R2 MP4s. Original X media URLs are provenance in structured data, not display fallbacks. Keep all case visuals across languages equal to the frozen expected set. Link the top README banner to the model detail page specified by `presentation.banner_link` in `data/usecase-update-config.json`. Keep its four GitHub UTM parameters in every language.
 
 Star History must remain absent below ten live GitHub stars; add it only after reading the live count, then keep it as the final README element.

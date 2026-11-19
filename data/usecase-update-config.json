@@ -37,6 +37,7 @@
     "show_type_labels": false,
     "show_quick_start": false,
     "show_promotion": false,
+    "banner_link": "https://evolink.ai/kling-4?utm_source=github&utm_medium=banner&utm_campaign=awesome-kling-4-usecases&utm_content=readme_banner",
     "menu_layout": "category-counts"
   }
 }

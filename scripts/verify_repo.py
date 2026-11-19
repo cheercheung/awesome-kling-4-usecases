@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Check complete case/data/CSV/localization/media parity from a clean checkout."""
 import argparse
+import html
 import csv
 import hashlib
 import json
@@ -8,7 +9,7 @@ import re
 import sys
 from pathlib import Path
 from html.parser import HTMLParser
-from urllib.parse import unquote, urlsplit
+from urllib.parse import parse_qs, unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 LOCALES = {'es':('Caso','por'),'pt':('Caso','por'),'ja':('ケース','投稿者'),'ko':('사례','작성자'),'de':('Fall','von'),'fr':('Cas','par'),'tr':('Örnek','yazan'),'zh-TW':('案例','作者'),'zh-CN':('案例','作者'),'ru':('Пример','автор')}
@@ -110,10 +111,18 @@ def main():
                 expect(f'<sub>{c["date"]}</sub>' in body,prefix+': source date differs')
     readmes=[ROOT/'README.md'] if args.english_only else sorted(ROOT.glob('README*.md'))
     categories=list(dict.fromkeys(c['category'] for c in items))
+    settings = json.loads((ROOT/'data/usecase-update-config.json').read_text())
+    banner_url = settings['presentation']['banner_link']
+    tracked_href = html.escape(banner_url)
+    parsed_banner_url = urlsplit(banner_url)
+    query = parse_qs(parsed_banner_url.query)
+    expect(parsed_banner_url.scheme == 'https' and parsed_banner_url.hostname == 'evolink.ai' and parsed_banner_url.path == '/kling-4', 'incorrect model banner destination')
+    expect(query == {'utm_source': ['github'], 'utm_medium': ['banner'], 'utm_campaign': ['awesome-kling-4-usecases'], 'utm_content': ['readme_banner']}, 'incorrect model banner attribution')
     for path in readmes:
         text=path.read_text()
         expect(not re.search(r'^Type:',text,re.M),f'{path.name}: unwanted type label')
-        expect('https://evolink.ai' not in text,f'{path.name}: unwanted promotion')
+        banner = re.search(r'<a href="' + re.escape(tracked_href) + r'"><img[^\n]*width="760"[^\n]*></a>', text[:1000])
+        expect(banner is not None and text.count('https://evolink.ai') == 1, f'{path.name}: expected one tracked model banner')
         expect('<a id="quick-start">' not in text,f'{path.name}: unwanted Quick Start')
         expect('docs/collection-scope.md' not in text and 'data/use-cases.csv' not in text,f'{path.name}: unwanted research/download paragraph')
         nav=re.findall(r'\]\(#category-([^)]+)\)\s*\|\s*(\d+)',text)

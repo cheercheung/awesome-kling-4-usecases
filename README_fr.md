@@ -2,7 +2,7 @@
 
 # Kling 4 Use Cases
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/images/en.png" alt="Cas d'utilisation de Kling 4" width="760">
+<a href="https://evolink.ai/kling-4?utm_source=github&amp;utm_medium=banner&amp;utm_campaign=awesome-kling-4-usecases&amp;utm_content=readme_banner"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-kling-4-usecases/images/en.png" alt="Cas d'utilisation de Kling 4" width="760"></a>
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
 
